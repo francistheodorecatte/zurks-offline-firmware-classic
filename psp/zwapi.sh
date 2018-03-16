@@ -62,16 +62,16 @@ rm -f /tmp/x
 rm -f /tmp/anim.gif
 sync
 # MODIFY THE LINES BELOW FOR THE WEATHER ONLY. DO NOT MODIFY ANY OF THE REST OF THE FILE. ENSURE THE URLS WORK BY GOING TO YOUR WEB BROWSER AND LOADING THEM.
-wget -q --output-document=/tmp/zwapi.html "http://m.wund.com/cgi-bin/findweather/getForecast?brand=mobile&query=Pitt+Meadows+BC"
-wget -q --output-document=/tmp/x "http://rss.wunderground.com/auto/rss_full/global/stations/71775.xml?units=both"
-wget -q --output-document=/tmp/0.png "http://radar.weather.gov/ridge/lite/N0R/ATX_7.png"
-wget -q --output-document=/tmp/1.png "http://radar.weather.gov/ridge/lite/N0R/ATX_6.png"
-wget -q --output-document=/tmp/2.png "http://radar.weather.gov/ridge/lite/N0R/ATX_5.png"
-wget -q --output-document=/tmp/3.png "http://radar.weather.gov/ridge/lite/N0R/ATX_4.png"
-wget -q --output-document=/tmp/4.png "http://radar.weather.gov/ridge/lite/N0R/ATX_3.png"
-wget -q --output-document=/tmp/5.png "http://radar.weather.gov/ridge/lite/N0R/ATX_2.png"
-wget -q --output-document=/tmp/6.png "http://radar.weather.gov/ridge/lite/N0R/ATX_1.png"
-wget -q --output-document=/tmp/7.png "http://radar.weather.gov/ridge/lite/N0R/ATX_0.png"
+curl --silent --output /tmp/zwapi.html "http://m.wund.com/cgi-bin/findweather/getForecast?brand=mobile&query=Pitt+Meadows+BC"
+curl --silent --output /tmp/x "http://rss.wunderground.com/auto/rss_full/global/stations/71775.xml?units=both"
+curl --silent --output /tmp/0.png "https://radar.weather.gov/ridge/lite/N0R/ATX_7.png"
+curl --silent --output /tmp/1.png "https://radar.weather.gov/ridge/lite/N0R/ATX_6.png"
+curl --silent --output /tmp/2.png "https://radar.weather.gov/ridge/lite/N0R/ATX_5.png"
+curl --silent --output /tmp/3.png "https://radar.weather.gov/ridge/lite/N0R/ATX_4.png"
+curl --silent --output /tmp/4.png "http://radar.weather.gov/ridge/lite/N0R/ATX_3.png"
+curl --silent --output /tmp/5.png "https://radar.weather.gov/ridge/lite/N0R/ATX_2.png"
+curl --silent --output /tmp/6.png "https://radar.weather.gov/ridge/lite/N0R/ATX_1.png"
+curl --silent --output /tmp/7.png "https://radar.weather.gov/ridge/lite/N0R/ATX_0.png"
 # STOP MODIFYING BELOW THIS LINE. DO NOT MODIFY ANY OF THE REST OF THE FILE.
 #wget -q --output-document=/tmp/anim.gif "http://radar.weather.gov/ridge/lite/N0R/ATX_loop.gif"
 #sed 's!<link>.*</link>!!g' /tmp/x > /tmp/x2
