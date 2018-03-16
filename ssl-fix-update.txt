@@ -1,0 +1,7 @@
+To install the SSL Fix on your Chumby Classic (NOTE: THIS WILL FACTORY RESET YOUR CHUMBY!):
+
+-Unzip update.zip to a FAT32 formatted USB flashdrive.
+-Insert the flashdrive into your Chumby.
+-Power on your Chumby while holding the screen to get into 'Special Options' mode.
+-Select install updates -> from USB.
+

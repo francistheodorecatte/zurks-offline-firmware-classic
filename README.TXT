@@ -23,6 +23,8 @@ http://sourceforge.net/projects/zurk/files/zurk_chumby_classic.zip/download
 Usage
 -----
 
+NOTE: If you have NOT updated your Chumby using my custom firmware with fpalab's Chumby SSL Fix v3, see ssl-fix-update.txt FIRST!! 
+
 Unzip to a blank USB thumbdrive (FAT32 formatted, 512MB or greater, root folder, make sure you keep directory structure) - power off your activated, networked, functional chumby - insert thumbdrive - power on.
 You will need to change the control panel time to your correct location after bootup. Also change the brightness and sound to your preference. 
 Ensure your chumby is activated, on the network and fully operational with the latest firmware (classic - v1.7.1 or c1/i3.5 - v1.0.7 or c8/i8 - v1.8.2) prior to using the offline firmware. 
