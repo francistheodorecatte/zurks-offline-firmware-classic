@@ -51,5 +51,34 @@ else
 sync
 fi
 cp /mnt/usb/www/gif.swf /tmp
+
 /usr/chumby/scripts/fb_cgi.sh
+SRC_BASE=/mnt/usb
+LOG="${SRC_BASE}/install.log"
+INSTALL="install.flg"
+RESTORE="restore.flg"
+
+echo -e "\n\n---------------------\n">>$LOG
+if [ -e "${SRC_BASE}/${INSTALL}" ] ; then 
+  echo "Starting install" >>$LOG
+  if ( mount -o remount,rw / ) && \
+     ( "${SRC_BASE}/ssl-install.sh" -i >>${LOG} )
+  then
+     mv "${SRC_BASE}/${INSTALL}" "${SRC_BASE}/_${INSTALL}"
+  else
+     mv "${SRC_BASE}/${INSTALL}" "${SRC_BASE}/_${INSTALL}"
+	 mv "${SRC_BASE}/_${RESTORE}" "${SRC_BASE}/${RESTORE}"
+  fi
+  ( mount -o remount,ro / )
+
+elif [ -e "${SRC_BASE}/${RESTORE}" ] ; then 
+  echo "Starting restore"  >>$LOG
+  if ( mount -o remount,rw / ) && \
+     ( "${SRC_BASE}/ssl-install.sh" -r >>${LOG} )
+  then
+     mv "${SRC_BASE}/${RESTORE}" "${SRC_BASE}/_${RESTORE}"
+  fi
+  ( mount -o remount,ro / )
+fi
+echo "Installer finished" >>${LOG}
 
