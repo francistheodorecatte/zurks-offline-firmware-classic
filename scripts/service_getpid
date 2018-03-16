@@ -1,0 +1,17 @@
+#!/bin/sh
+# $Id$
+# Get process id(s) of running service
+#
+
+if [ "$1" = "" ]
+then
+	echo "No service specified"
+	echo "Syntax: $0 servicename"
+	exit 1
+fi
+
+. script_locations.sh
+. ${ETC_INIT_DIR}/daemon-utils.sh
+
+getServicePIDs $1
+

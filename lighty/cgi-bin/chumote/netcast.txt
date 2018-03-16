@@ -1,0 +1,8 @@
+http://www.amnh.org/podcast/rss.xml
+http://downloads.bbc.co.uk/podcasts/worldservice/docarchive/rss.xml
+http://www.hesiod.org/show/show.rss
+http://www.cbc.ca/podcasting/includes/quirksaio.xml
+http://www.npr.org/rss/podcast.php?id=510221
+http://downloads.bbc.co.uk/podcasts/radio4/r4shakespeare/rss.xml
+http://tomwsmf.com/podcasts/shepaday.rss
+http://feeds.feedburner.com/TheHistoryOfRome

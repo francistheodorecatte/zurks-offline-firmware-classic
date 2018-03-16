@@ -1,0 +1,1 @@
+<configuration gateway="127.0.0.1" ip="192.168.2.2" nameserver1="127.0.0.1" encryption="NONE" key="" hwaddr="00:22:75:F1:41:17" nameserver2="127.0.0.1" auth="OPEN" netmask="255.255.255.0" type="wlan" ssid="xxxxx" allocation="static" encoding="" />

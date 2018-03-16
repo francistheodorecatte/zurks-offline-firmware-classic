@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stations offset="0" total="17" limit="2000">
+<station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=icom-fl&market=NATIONAL&format=AAA&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>ICOM-FL</callletters> 
+                <call_letters>ICOM-FL</call_letters> 
+                <description><![CDATA[Funny. HAHA]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/14564/2010/11/default/IHR_icom-fl_1290554649.png</logo_url> 
+                <name><![CDATA[24/7 Comedy Radio]]></name> 
+                <stationid>14564</stationid> 
+                <station_id>14564</station_id> 
+                <station_url>ICOM-FL.clearchannel.com</station_url> 
+                <stream_url_v2>http://icom-fl.akacast.akamaistream.net/7/468/106734/v1/auth.akacast.akamaistream.net/icom-fl</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=FAYETTEVILLE-AR&affiliate=kigl-fm&market=FAYETTEVILLE-AR&format=ROCKCLASSIC&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KIGL-FM</callletters> 
+                <call_letters>KIGL-FM</call_letters> 
+                <description><![CDATA[Classic Rock]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/840/2010/11/default/IHR_kigl_1290554654.png</logo_url> 
+                <name><![CDATA[93.3 The Eagle]]></name> 
+                <stationid>840</stationid> 
+                <station_id>840</station_id> 
+                <station_url>www.933theeagle.com</station_url> 
+                <stream_url_v2>http://kigl-fm.akacast.akamaistream.net/7/131/36595/v1/auth.akacast.akamaistream.net/kigl-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=iair-fl&market=NATIONAL&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IAIR-FL</callletters> 
+                <call_letters>IAIR-FL</call_letters> 
+                <description><![CDATA[Christian Pop/Rock Air 1]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/iair_logo_1_1318619036.png</logo_url> 
+                <name><![CDATA[Air1 Radio]]></name> 
+                <stationid>14898</stationid> 
+                <station_id>14898</station_id> 
+                <station_url></station_url> 
+                <stream_url_v2>http://iair-fl.akacast.akamaistream.net/7/984/137298/v1/auth.akacast.akamaistream.net/iair-fl</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=iuac-fl&market=NATIONAL&format=ACURBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IUAC-FL</callletters> 
+                <call_letters>IUAC-FL</call_letters> 
+                <description><![CDATA[Today's R&B and The Best Old School]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/12049/2010/11/default/IHR_iuac-fl_1290554649.png</logo_url> 
+                <name><![CDATA[All My Jams]]></name> 
+                <stationid>12049</stationid> 
+                <station_id>12049</station_id> 
+                <station_url>iuac-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://allmyjams.akacast.akamaistream.net/7/425/73700/v1/auth.akacast.akamaistream.net/allmyjams</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a348.l7370058347.c73700.n.lq.akamaistream.net:554/D/348/73700/v0001/reflector:58347.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LOSANGELES-CA&affiliate=at40-pr&market=LOSANGELES-CA&format=CHRPOP&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>AT40-PR</callletters> 
+                <call_letters>AT40-PR</call_letters> 
+                <description><![CDATA[AT40 with Ryan Seacrest]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/06/default/at40_mobile_logo_0_1307382948.png</logo_url> 
+                <name><![CDATA[American Top 40]]></name> 
+                <stationid>14196</stationid> 
+                <station_id>14196</station_id> 
+                <station_url>at40-pr.clearchannel.com</station_url> 
+                <stream_url_v2>http://americantop40.akacast.akamaistream.net/7/785/58084/v1/auth.akacast.akamaistream.net/americantop40</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a741.l5808438740.c58084.n.lq.akamaistream.net:554/D/741/58084/v0001/reflector:38740.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=icla-fl&market=NATIONAL&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>ICLA-FL</callletters> 
+                <call_letters>ICLA-FL</call_letters> 
+                <description><![CDATA[All Classical Music - All The Time]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/13425/2010/11/default/IHR_icla-fl_1290554650.png</logo_url> 
+                <name><![CDATA[Classica]]></name> 
+                <stationid>13425</stationid> 
+                <station_id>13425</station_id> 
+                <station_url>icla-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://icla-fl.akacast.akamaistream.net/7/936/83441/v1/auth.akacast.akamaistream.net/icla-fl</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=iphu-fl&market=NATIONAL&format=CHRRHYTHMIC&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IPHU-FL</callletters> 
+                <call_letters>IPHU-FL</call_letters> 
+                <description><![CDATA[Your dance music, 24/7]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/14482/2010/11/default/IHR_iphu-fl_1290554650.png</logo_url> 
+                <name><![CDATA[Club Phusion]]></name> 
+                <stationid>14482</stationid> 
+                <station_id>14482</station_id> 
+                <station_url>IPHU-FL.clearchannel.com</station_url> 
+                <stream_url_v2>http://iphu-fl.akacast.akamaistream.net/7/724/99570/v1/auth.akacast.akamaistream.net/iphu-fl</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NEWYORK-NY&affiliate=edur-ip&market=NEWYORK-NY&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>EDUR-IP</callletters> 
+                <call_letters>EDUR-IP</call_letters> 
+                <description><![CDATA[Your Favorite Show is Always On]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/3831/2010/11/default/IHR_edur-ip_1290554750.png</logo_url> 
+                <name><![CDATA[Elvis Duran Replay Channel]]></name> 
+                <stationid>3831</stationid> 
+                <station_id>3831</station_id> 
+                <station_url></station_url> 
+                <stream_url_v2>http://elvisduran.akacast.akamaistream.net/7/284/58082/v1/auth.akacast.akamaistream.net/elvisduran</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a93.l5808240092.c58082.n.lq.akamaistream.net:554/D/93/58082/v0001/reflector:40092.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=FAYETTEVILLE-AR&affiliate=kmxf-fm&market=FAYETTEVILLE-AR&format=ROCKCLASSIC&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KMXF-FM</callletters> 
+                <call_letters>KMXF-FM</call_letters> 
+                <description><![CDATA[Northwest Arkansas' Hit Music]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/928/2010/11/default/IHR_kmxf_1290554690.png</logo_url> 
+                <name><![CDATA[Hot Mix 101.9]]></name> 
+                <stationid>928</stationid> 
+                <station_id>928</station_id> 
+                <station_url>www.hotmix1019.com</station_url> 
+                <stream_url_v2>http://kmxf-fm.akacast.akamaistream.net/7/697/36593/v1/auth.akacast.akamaistream.net/kmxf-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=ilov-fl&market=NATIONAL&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>ILOV-FL</callletters> 
+                <call_letters>ILOV-FL</call_letters> 
+                <description><![CDATA[Contemporary Christian Music KLOVE]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/ilov_logo_1_1318618853.png</logo_url> 
+                <name><![CDATA[K-LOVE]]></name> 
+                <stationid>14896</stationid> 
+                <station_id>14896</station_id> 
+                <station_url></station_url> 
+                <stream_url_v2>http://ilov-fl.akacast.akamaistream.net/7/519/137297/v1/auth.akacast.akamaistream.net/ilov-fl</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=FAYETTEVILLE-AR&affiliate=kkix-fm&market=FAYETTEVILLE-AR&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KKIX-FM</callletters> 
+                <call_letters>KKIX-FM</call_letters> 
+                <description><![CDATA[Good Times Great Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/878/2010/11/default/IHR_kkix_1290554694.png</logo_url> 
+                <name><![CDATA[Kix 104]]></name> 
+                <stationid>878</stationid> 
+                <station_id>878</station_id> 
+                <station_url>www.kix104.com</station_url> 
+                <stream_url_v2>http://kkix-fm.akacast.akamaistream.net/7/649/36596/v1/auth.akacast.akamaistream.net/kkix-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=FAYETTEVILLE-AR&affiliate=keza-fm&market=FAYETTEVILLE-AR&format=ACMAINSTREAM&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KEZA-FM</callletters> 
+                <call_letters>KEZA-FM</call_letters> 
+                <description><![CDATA[Best of Yesterday and Today]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/796/2010/11/default/IHR_keza_1290554699.png</logo_url> 
+                <name><![CDATA[Magic 107.9]]></name> 
+                <stationid>796</stationid> 
+                <station_id>796</station_id> 
+                <station_url>www.magic1079.com</station_url> 
+                <stream_url_v2>http://keza-fm.akacast.akamaistream.net/7/218/36594/v1/auth.akacast.akamaistream.net/keza-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=ieig-fl&market=NATIONAL&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IEIG-FL</callletters> 
+                <call_letters>IEIG-FL</call_letters> 
+                <description><![CDATA[Hits from the 80's]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/06/default/ieig_mobile_logo_1_1307124110.png</logo_url> 
+                <name><![CDATA[My 80's]]></name> 
+                <stationid>14774</stationid> 
+                <station_id>14774</station_id> 
+                <station_url></station_url> 
+                <stream_url_v2>http://ieig-fl.akacast.akamaistream.net/7/234/114511/v1/auth.akacast.akamaistream.net/ieig-fl</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=islj-fl&market=NATIONAL&format=ACURBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>ISLJ-FL</callletters> 
+                <call_letters>ISLJ-FL</call_letters> 
+                <description><![CDATA[Smooth Blend Of The Best R&B Love Songs]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/08/default/islj_logo_0_1313037192.png</logo_url> 
+                <name><![CDATA[Slow Jams]]></name> 
+                <stationid>14264</stationid> 
+                <station_id>14264</station_id> 
+                <station_url>islj-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://slowjams.akacast.akamaistream.net/7/899/49406/v1/auth.akacast.akamaistream.net/slowjams</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=ijaz-fl&market=NATIONAL&format=SMOOTHJAZZ&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IJAZ-FL</callletters> 
+                <call_letters>IJAZ-FL</call_letters> 
+                <description><![CDATA[The Smoothest Place on the Planet]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/08/default/ijaz_site_logo_0_1313037983.png</logo_url> 
+                <name><![CDATA[Smooth Jazz]]></name> 
+                <stationid>10713</stationid> 
+                <station_id>10713</station_id> 
+                <station_url>www.yoursmoothjazz.com</station_url> 
+                <stream_url_v2>http://smoothjazz.akacast.akamaistream.net/7/418/49381/v1/auth.akacast.akamaistream.net/smoothjazz</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=ispi-fl&market=NATIONAL&format=CHRPOP&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>ISPI-FL</callletters> 
+                <call_letters>ISPI-FL</call_letters> 
+                <description><![CDATA[Mixing and Remixing The Hits 24/7]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://content.clearchannel.com/cc-common/mlib/8169/05/8169_1274988270.png</logo_url> 
+                <name><![CDATA[Spin Cycle]]></name> 
+                <stationid>14420</stationid> 
+                <station_id>14420</station_id> 
+                <station_url>ISPI-FL.clearchannel.com</station_url> 
+                <stream_url_v2>http://ispi-fl.akacast.akamaistream.net/7/277/94966/v1/auth.akacast.akamaistream.net/ispi-fl</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1718.l9496633717.c94966.g.lq.akamaistream.net:554/D/1718/94966/v0001/reflector:33717.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=iurb-fl&market=NATIONAL&format=URBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IURB-FL</callletters> 
+                <call_letters>IURB-FL</call_letters> 
+                <description><![CDATA[Hip Hop, R&B and Back in the Day Joints]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/12057/2010/11/default/IHR_iurb-fl_1290554651.png</logo_url> 
+                <name><![CDATA[The Beat]]></name> 
+                <stationid>12057</stationid> 
+                <station_id>12057</station_id> 
+                <station_url>iurb-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://thebeat.akacast.akamaistream.net/7/808/73699/v1/auth.akacast.akamaistream.net/thebeat</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station></stations>

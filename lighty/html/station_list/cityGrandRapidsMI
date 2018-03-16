@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stations offset="0" total="22" limit="2000">
+<station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=GRANDRAPIDS-MI&affiliate=wbfx-fm&market=GRANDRAPIDS-MI&format=ROCKCLASSIC&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WBFX-FM</callletters> 
+                <call_letters>WBFX-FM</call_letters> 
+                <description><![CDATA[West Michigan's 52 Minutes Of Rock]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1683/2010/11/default/IHR_wbfx_1290554667.png</logo_url> 
+                <name><![CDATA[101-3 The Fox Rocks]]></name> 
+                <stationid>1683</stationid> 
+                <station_id>1683</station_id> 
+                <station_url>www.101thefoxrocks.com</station_url> 
+                <stream_url_v2>http://wbfx-fm.akacast.akamaistream.net/7/537/19929/v1/auth.akacast.akamaistream.net/wbfx-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a962.l1992924961.c19929.n.lq.akamaistream.net:554/D/962/19929/v0001/reflector:24961.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=GRANDRAPIDS-MI&affiliate=wsnx-fm&market=GRANDRAPIDS-MI&format=CHRPOP&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WSNX-FM</callletters> 
+                <call_letters>WSNX-FM</call_letters> 
+                <description><![CDATA[West Michigan's Party Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2019/2010/11/default/IHR_wsnx_1290554671.png</logo_url> 
+                <name><![CDATA[104-5 WSNX]]></name> 
+                <stationid>2019</stationid> 
+                <station_id>2019</station_id> 
+                <station_url>www.1045snx.com</station_url> 
+                <stream_url_v2>http://wsnx-fm.akacast.akamaistream.net/7/535/19932/v1/auth.akacast.akamaistream.net/wsnx-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a851.l1993234850.c19932.n.lq.akamaistream.net:554/D/851/19932/v0001/reflector:34850.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=GRANDRAPIDS-MI&affiliate=wmus-fm&market=GRANDRAPIDS-MI&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WMUS-FM</callletters> 
+                <call_letters>WMUS-FM</call_letters> 
+                <description><![CDATA[Muskegon's Country Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1907/2010/11/default/IHR_wmus_1290554675.png</logo_url> 
+                <name><![CDATA[107 MUS The Moose!]]></name> 
+                <stationid>1907</stationid> 
+                <station_id>1907</station_id> 
+                <station_url>www.107mus.com</station_url> 
+                <stream_url_v2>http://wmus-fm.akacast.akamaistream.net/7/975/24595/v1/auth.akacast.akamaistream.net/wmus-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=icom-fl&market=NATIONAL&format=AAA&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>ICOM-FL</callletters> 
+                <call_letters>ICOM-FL</call_letters> 
+                <description><![CDATA[Funny. HAHA]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/14564/2010/11/default/IHR_icom-fl_1290554649.png</logo_url> 
+                <name><![CDATA[24/7 Comedy Radio]]></name> 
+                <stationid>14564</stationid> 
+                <station_id>14564</station_id> 
+                <station_url>ICOM-FL.clearchannel.com</station_url> 
+                <stream_url_v2>http://icom-fl.akacast.akamaistream.net/7/468/106734/v1/auth.akacast.akamaistream.net/icom-fl</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=iair-fl&market=NATIONAL&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IAIR-FL</callletters> 
+                <call_letters>IAIR-FL</call_letters> 
+                <description><![CDATA[Christian Pop/Rock Air 1]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/iair_logo_1_1318619036.png</logo_url> 
+                <name><![CDATA[Air1 Radio]]></name> 
+                <stationid>14898</stationid> 
+                <station_id>14898</station_id> 
+                <station_url></station_url> 
+                <stream_url_v2>http://iair-fl.akacast.akamaistream.net/7/984/137298/v1/auth.akacast.akamaistream.net/iair-fl</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=iuac-fl&market=NATIONAL&format=ACURBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IUAC-FL</callletters> 
+                <call_letters>IUAC-FL</call_letters> 
+                <description><![CDATA[Today's R&B and The Best Old School]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/12049/2010/11/default/IHR_iuac-fl_1290554649.png</logo_url> 
+                <name><![CDATA[All My Jams]]></name> 
+                <stationid>12049</stationid> 
+                <station_id>12049</station_id> 
+                <station_url>iuac-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://allmyjams.akacast.akamaistream.net/7/425/73700/v1/auth.akacast.akamaistream.net/allmyjams</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a348.l7370058347.c73700.n.lq.akamaistream.net:554/D/348/73700/v0001/reflector:58347.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LOSANGELES-CA&affiliate=at40-pr&market=LOSANGELES-CA&format=CHRPOP&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>AT40-PR</callletters> 
+                <call_letters>AT40-PR</call_letters> 
+                <description><![CDATA[AT40 with Ryan Seacrest]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/06/default/at40_mobile_logo_0_1307382948.png</logo_url> 
+                <name><![CDATA[American Top 40]]></name> 
+                <stationid>14196</stationid> 
+                <station_id>14196</station_id> 
+                <station_url>at40-pr.clearchannel.com</station_url> 
+                <stream_url_v2>http://americantop40.akacast.akamaistream.net/7/785/58084/v1/auth.akacast.akamaistream.net/americantop40</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a741.l5808438740.c58084.n.lq.akamaistream.net:554/D/741/58084/v0001/reflector:38740.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=GRANDRAPIDS-MI&affiliate=wbct-fm&market=GRANDRAPIDS-MI&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WBCT-FM</callletters> 
+                <call_letters>WBCT-FM</call_letters> 
+                <description><![CDATA[Michigan's Country Station!]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1680/2010/11/default/IHR_wbct_1290554682.png</logo_url> 
+                <name><![CDATA[B-93]]></name> 
+                <stationid>1680</stationid> 
+                <station_id>1680</station_id> 
+                <station_url>www.b93.com</station_url> 
+                <stream_url_v2>http://wbct-fm.akacast.akamaistream.net/7/876/19928/v1/auth.akacast.akamaistream.net/wbct-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a977.l1992848976.c19928.n.lq.akamaistream.net:554/D/977/19928/v0001/reflector:48976.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=iclh-fl&market=NATIONAL&format=CLASSICHITS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>ICLH-FL</callletters> 
+                <call_letters>ICLH-FL</call_letters> 
+                <description><![CDATA[Feel Good Songs of the 70's & 80's!]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/12097/2010/11/default/IHR_iclh-fl_1290554650.png</logo_url> 
+                <name><![CDATA[Big Classic Hits]]></name> 
+                <stationid>12097</stationid> 
+                <station_id>12097</station_id> 
+                <station_url>iclh-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://bigclassichits.akacast.akamaistream.net/7/921/61098/v1/auth.akacast.akamaistream.net/bigclassichits</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1499.l6109831498.c61098.n.lq.akamaistream.net:554/D/1499/61098/v0001/reflector:31498.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=icla-fl&market=NATIONAL&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>ICLA-FL</callletters> 
+                <call_letters>ICLA-FL</call_letters> 
+                <description><![CDATA[All Classical Music - All The Time]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/13425/2010/11/default/IHR_icla-fl_1290554650.png</logo_url> 
+                <name><![CDATA[Classica]]></name> 
+                <stationid>13425</stationid> 
+                <station_id>13425</station_id> 
+                <station_url>icla-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://icla-fl.akacast.akamaistream.net/7/936/83441/v1/auth.akacast.akamaistream.net/icla-fl</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=iphu-fl&market=NATIONAL&format=CHRRHYTHMIC&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IPHU-FL</callletters> 
+                <call_letters>IPHU-FL</call_letters> 
+                <description><![CDATA[Your dance music, 24/7]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/14482/2010/11/default/IHR_iphu-fl_1290554650.png</logo_url> 
+                <name><![CDATA[Club Phusion]]></name> 
+                <stationid>14482</stationid> 
+                <station_id>14482</station_id> 
+                <station_url>IPHU-FL.clearchannel.com</station_url> 
+                <stream_url_v2>http://iphu-fl.akacast.akamaistream.net/7/724/99570/v1/auth.akacast.akamaistream.net/iphu-fl</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=GRANDRAPIDS-MI&affiliate=wmax-fm&market=GRANDRAPIDS-MI&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WMAX-FM</callletters> 
+                <call_letters>WMAX-FM</call_letters> 
+                <description><![CDATA[West Michigan's Sports & ESPN]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/3392/2010/11/default/IHR_wmax_1290554688.png</logo_url> 
+                <name><![CDATA[ESPN 96-1 WMAX-FM]]></name> 
+                <stationid>3392</stationid> 
+                <station_id>3392</station_id> 
+                <station_url>www.espn961.com</station_url> 
+                <stream_url_v2>http://wmax-fm.akacast.akamaistream.net/7/618/19934/v1/auth.akacast.akamaistream.net/wmax-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1659.l1993423658.c19934.n.lq.akamaistream.net:554/D/1659/19934/v0001/reflector:23658.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=ilov-fl&market=NATIONAL&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>ILOV-FL</callletters> 
+                <call_letters>ILOV-FL</call_letters> 
+                <description><![CDATA[Contemporary Christian Music KLOVE]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/ilov_logo_1_1318618853.png</logo_url> 
+                <name><![CDATA[K-LOVE]]></name> 
+                <stationid>14896</stationid> 
+                <station_id>14896</station_id> 
+                <station_url></station_url> 
+                <stream_url_v2>http://ilov-fl.akacast.akamaistream.net/7/519/137297/v1/auth.akacast.akamaistream.net/ilov-fl</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=GRANDRAPIDS-MI&affiliate=wkbz-am&market=GRANDRAPIDS-MI&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WKBZ-AM</callletters> 
+                <call_letters>WKBZ-AM</call_letters> 
+                <description><![CDATA[Talk of Muskegon]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/3503/2010/11/default/IHR_wkbz-am_1290554742.png</logo_url> 
+                <name><![CDATA[News/Talk 1090 WKBZ]]></name> 
+                <stationid>3503</stationid> 
+                <station_id>3503</station_id> 
+                <station_url>www.newstalk1090.com</station_url> 
+                <stream_url_v2>http://wkbz-am.akacast.akamaistream.net/7/883/23929/v1/auth.akacast.akamaistream.net/wkbz-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=GRANDRAPIDS-MI&affiliate=wmrr-fm&market=GRANDRAPIDS-MI&format=ROCKCLASSIC&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WMRR-FM</callletters> 
+                <call_letters>WMRR-FM</call_letters> 
+                <description><![CDATA[Muskegon's Rock Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/06/default/wmrr_mobile_logo_1_1308659430.png</logo_url> 
+                <name><![CDATA[Rock 101.7, WMRR]]></name> 
+                <stationid>1900</stationid> 
+                <station_id>1900</station_id> 
+                <station_url>www.rock1017fm.com</station_url> 
+                <stream_url_v2>http://wmrr-fm.akacast.akamaistream.net/7/145/24596/v1/auth.akacast.akamaistream.net/wmrr-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=iact-fl&market=NATIONAL&format=ROCKACTIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IACT-FL</callletters> 
+                <call_letters>IACT-FL</call_letters> 
+                <description><![CDATA[Look Ma!  Rock Music!]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/12153/2010/11/default/IHR_iact-fl_1290554651.png</logo_url> 
+                <name><![CDATA[Rock Nation]]></name> 
+                <stationid>12153</stationid> 
+                <station_id>12153</station_id> 
+                <station_url>iact-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://rocknation.akacast.akamaistream.net/7/573/73696/v1/auth.akacast.akamaistream.net/rocknation</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1609.l7369659608.c73696.n.lq.akamaistream.net:554/D/1609/73696/v0001/reflector:59608.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=ijaz-fl&market=NATIONAL&format=SMOOTHJAZZ&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IJAZ-FL</callletters> 
+                <call_letters>IJAZ-FL</call_letters> 
+                <description><![CDATA[The Smoothest Place on the Planet]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/08/default/ijaz_site_logo_0_1313037983.png</logo_url> 
+                <name><![CDATA[Smooth Jazz]]></name> 
+                <stationid>10713</stationid> 
+                <station_id>10713</station_id> 
+                <station_url>www.yoursmoothjazz.com</station_url> 
+                <stream_url_v2>http://smoothjazz.akacast.akamaistream.net/7/418/49381/v1/auth.akacast.akamaistream.net/smoothjazz</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=imac-fl&market=NATIONAL&format=ACMAINSTREAM&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IMAC-FL</callletters> 
+                <call_letters>IMAC-FL</call_letters> 
+                <description><![CDATA[Best Variety from Yesterday & Today]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/08/default/imac_site_logo_2_1312548909.png</logo_url> 
+                <name><![CDATA[Soft Rock]]></name> 
+                <stationid>11929</stationid> 
+                <station_id>11929</station_id> 
+                <station_url>imac-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://softrock.akacast.akamaistream.net/7/72/61080/v1/auth.akacast.akamaistream.net/softrock</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=GRANDRAPIDS-MI&affiliate=wsrw-fm&market=GRANDRAPIDS-MI&format=ACMAINSTREAM&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WSRW-FM</callletters> 
+                <call_letters>WSRW-FM</call_letters> 
+                <description><![CDATA[Today's Hits/Yesterday's Favorites]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/wsrw__logo_1_1318247732.png</logo_url> 
+                <name><![CDATA[West Michigan's Star 105.7]]></name> 
+                <stationid>1937</stationid> 
+                <station_id>1937</station_id> 
+                <station_url>www.westmichiganstar.com</station_url> 
+                <stream_url_v2>http://wood-fm.akacast.akamaistream.net/7/875/19931/v1/auth.akacast.akamaistream.net/wood-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=GRANDRAPIDS-MI&affiliate=wood-am&market=GRANDRAPIDS-MI&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WOOD-AM</callletters> 
+                <call_letters>WOOD-AM</call_letters> 
+                <description><![CDATA[West MI's Newsradio + Rush, Beck]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/06/default/wood-am_mobile_logo_0_1308656505.png</logo_url> 
+                <name><![CDATA[WOOD Radio 106.9 FM & 1300AM]]></name> 
+                <stationid>1236</stationid> 
+                <station_id>1236</station_id> 
+                <station_url>www.woodradio.com</station_url> 
+                <stream_url_v2>http://wood-am.akacast.akamaistream.net/7/863/19930/v1/auth.akacast.akamaistream.net/wood-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a985.l1993154984.c19931.n.lq.akamaistream.net:554/D/985/19931/v0001/reflector:54984.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=iaaa-fl&market=NATIONAL&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IAAA-FL</callletters> 
+                <call_letters>IAAA-FL</call_letters> 
+                <description><![CDATA[Eclectic mix of adult alternative rock]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1/2011/03/default/iaaa_0_1300513704.png</logo_url> 
+                <name><![CDATA[World Class Rock]]></name> 
+                <stationid>14640</stationid> 
+                <station_id>14640</station_id> 
+                <station_url>IAAA-FL.clearchannel.com</station_url> 
+                <stream_url_v2>http://iaaa-fl.akacast.akamaistream.net/7/464/109815/v1/auth.akacast.akamaistream.net/iaaa-fl</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=GRANDRAPIDS-MI&affiliate=wtkg-am&market=GRANDRAPIDS-MI&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WTKG-AM</callletters> 
+                <call_letters>WTKG-AM</call_letters> 
+                <description><![CDATA[Grand Rapids Talk: Dave Ramsey]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1270/2010/11/default/IHR_wtkg-am_1290554689.png</logo_url> 
+                <name><![CDATA[WTKG 1230 AM]]></name> 
+                <stationid>1270</stationid> 
+                <station_id>1270</station_id> 
+                <station_url>www.wtkg.com</station_url> 
+                <stream_url_v2>http://wtkg-am.akacast.akamaistream.net/7/327/19933/v1/auth.akacast.akamaistream.net/wtkg-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1307.l1993335306.c19933.n.lq.akamaistream.net:554/D/1307/19933/v0001/reflector:35306.sdp</stream_url_rtsp> 
+        </station></stations>

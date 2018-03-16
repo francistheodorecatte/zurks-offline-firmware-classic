@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stationlist>
+  <tunein base="/chumcast/show"/>
+  <station channels="2" genre="White Noise" ct="White Noise" lc="1" br="160" name="White Noise" mt="audio/mpeg" id="84" sr="44100"/>
+  <station channels="1" genre="Bird Songs" ct="Bird Song Radio" lc="1" br="128" name="Bird Song Radio" mt="audio/mpeg" id="74" sr="44100"/>
+  <station channels="2" genre="White Noise" ct="Waves - Whitenoise247.com" lc="1" br="128" name="Waves - Whitenoise247.com" mt="audio/mpeg" id="71" sr="44100"/>
+  <station channels="2" genre="White Noise" ct="Rain - Whitenoise247.com" lc="1" br="128" name="Rain - Whitenoise247.com" mt="audio/mpeg" id="75" sr="44100"/>
+  <station channels="2" genre="White Noise" ct="White Noise 24/7" lc="1" br="128" name="White Noise 24/7" mt="audio/mpeg" id="76" sr="44100"/>
+  <station channels="2" genre="Sleep Sounds" ct="Cryosleep" lc="1" br="128" name="Cryosleep" mt="audio/mpeg" id="78" sr="44100"/>
+  <station channels="2" genre="Sleep" ct="Sleepbot Environmental" lc="1" br="56" name="Sleepbot Environmental" mt="audio/mpeg" id="63" sr="22050"/>
+  <station channels="2" genre="Ambient" ct="Drone Zone" lc="1" br="128" name="Drone Zone" mt="audio/mpeg" id="80" sr="44100"/>
+  <station channels="1" genre="Snoring" ct="Snoring" lc="1" br="64" name="Snoring" mt="audio/mpeg" id="83" sr="44100"/>
+</stationlist>

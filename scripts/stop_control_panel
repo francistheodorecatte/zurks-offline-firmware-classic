@@ -1,0 +1,121 @@
+#!/bin/sh
+# $Rev: 20512 $
+#
+# stop_control_panel - kill running flashplayer and its wrapper script
+#				if optional --keep-btplay is specified, skip killing btplayd
+#
+# Ken Steele
+# Copyright (c) Chumby Industries, 2007-2009
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+# Signal to running wrapper script that we're stopping control panel
+> /tmp/flashplayer_stopping
+
+# Kill any video players launched by play_media first
+[ -f /var/run/play_media.pid ] && { VPLAYER_PID="$(cat /var/run/play_media.pid)"; echo "Killing play_media ${VPLAYER_PID}"; kill ${VPLAYER_PID}; }
+
+echo "*** stopping control panel"
+# If there's a running flashplayer pid in /var/run/chumbyflashplayer.pid, kill it first
+# so that its threads will get shut down by the parent process.
+if [ -e /var/run/chumbyflashplayer.pid ]; then
+    i=$(cat /var/run/chumbyflashplayer.pid)
+    echo "*** killing registered flashplayer pid: $i"
+    chumbyflashplayer.x -F15
+fi
+
+for i in `pidof start_control_panel`; do
+        echo "*** killing control panel pid: $i"
+        kill $i
+done
+
+if [ "$1" = "--keep-btplay" ]
+then
+  echo "Leaving btplayd running, $1 specified"
+else
+
+# Kill registered btplay instance first
+btplay --passthru=quit
+
+for i in `pidof btplayd`; do
+  echo "*** killing btplayd (SIGTERM): $i"
+  kill $i
+done
+
+for i in `pidof btplayd`; do
+  echo "*** killing btplayd (SIGKILL): $i"
+  kill -9 $i
+done
+
+fi
+
+
+# Stop the radio, if it's running.
+(curl 'http://127.0.0.1:8081/radio/configure?power=0' > /dev/null 2> /dev/null &)
+
+
+# Shut down watchdog unless --keepalive specified
+if [ "$1" != "--keepalive" -a -e /tmp/flashplayer_started ]; then
+        rm /tmp/flashplayer_started
+fi
+
+shutdownTimer=0
+# give the flash player up to 10 seconds to shut down before forcing a kill
+while [ "$shutdownTimer" -lt 10 ]; do
+    if [ `pidof chumbyflashplayer.x` ]; then
+        echo "$0: Flash player still running: $shutdownTimer"
+        shutdownTimer=`expr "$shutdownTimer" + 1`
+        sleep 1
+    else
+        shutdownTimer=10
+    fi
+done
+
+# Kill any remaining instances
+for i in `pidof chumbyflashplayer.x`; do
+        echo "*** killing flashplayer pid: $i"
+        kill $i
+done
+
+# If there are any remaining zombied flashplayer instances, we should report them
+ZOMBIELIST=$(pidof chumbyflashplayer\\.x)
+if [ "${ZOMBIELIST}" != "" ]; then
+    echo "*** Zombies remain! Issuing kill -9 against zombies! ***"
+
+    for i in ${ZOMBIELIST}; do
+        echo "*** killing zombie: $i"
+        kill -9 $i
+    done
+fi
+
+# If there are any remaining zombied chumbpipe instances, we should kill them
+ZOMBIELIST=$(pidof chumbpipe)
+if [ "${ZOMBIELIST}" != "" ]; then
+    echo "*** chumbpipe zombies remain! Issuing kill -9 against zombies! ***"
+
+    for i in ${ZOMBIELIST}; do
+        echo "*** killing chumbpipe zombie: $i"
+        kill -9 $i
+    done
+fi
+
+# If /tmp/flashplayer_started has come back from the dead, report it
+if [ -f /tmp/flashplayer_started ]
+then
+   echo "flashplayer_started was re-created"
+   rm /tmp/flashplayer_started
+fi
+
+rm /tmp/flashplayer_stopping

@@ -1,0 +1,2 @@
+Edit profiles in xml directory to modify parameters for weather widgets.
+

@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /mnt/usb/ruby_arm/bin/ruby "-r${0}_fix_path.rb" "$@"

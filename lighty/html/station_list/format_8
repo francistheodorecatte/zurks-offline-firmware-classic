@@ -1,0 +1,1329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stations offset="0" total="102" limit="2000">
+<station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=ihco-fl&market=NATIONAL&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IHCO-FL</callletters> 
+                <call_letters>IHCO-FL</call_letters> 
+                <description><![CDATA[All the Holiday Hits]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/ihco_logo_1_1319827640.png</logo_url> 
+                <name><![CDATA[Country Christmas]]></name> 
+                <stationid>13401</stationid> 
+                <station_id>13401</station_id> 
+                <station_url>ihco-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://ihco-fl.akacast.akamaistream.net/7/358/54132/v1/auth.akacast.akamaistream.net/ihco-fl</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=ieag-fl&market=NATIONAL&format=ROCKCLASSIC&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IEAG-FL</callletters> 
+                <call_letters>IEAG-FL</call_letters> 
+                <description><![CDATA[Their music, stories and favorite bands]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/12259/2010/11/default/IHR_ieag-fl_1290554650.png</logo_url> 
+                <name><![CDATA[Eagles Radio]]></name> 
+                <stationid>12259</stationid> 
+                <station_id>12259</station_id> 
+                <station_url>ieag-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://eagles.akacast.akamaistream.net/7/228/73708/v1/auth.akacast.akamaistream.net/eagles</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1923.l7370843922.c73708.n.lq.akamaistream.net:554/D/1923/73708/v0001/reflector:43922.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=iclc-fl&market=NATIONAL&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>ICLC-FL</callletters> 
+                <call_letters>ICLC-FL</call_letters> 
+                <description><![CDATA[Real, Genuine, Authentic, Classic Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/12089/2010/11/default/IHR_iclc-fl_1290554650.png</logo_url> 
+                <name><![CDATA[Foggy Mountain]]></name> 
+                <stationid>12089</stationid> 
+                <station_id>12089</station_id> 
+                <station_url>iclc-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://foggymountain.akacast.akamaistream.net/7/532/61096/v1/auth.akacast.akamaistream.net/foggymountain</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1257.l6109659256.c61096.n.lq.akamaistream.net:554/D/1257/61096/v0001/reflector:59256.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=insh-fl&market=NATIONAL&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>INSH-FL</callletters> 
+                <call_letters>INSH-FL</call_letters> 
+                <description><![CDATA[The Best Damn Country....Period!]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/13385/2010/11/default/IHR_insh-fl_1290554652.png</logo_url> 
+                <name><![CDATA[The Nashville Channel]]></name> 
+                <stationid>13385</stationid> 
+                <station_id>13385</station_id> 
+                <station_url>insh-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://prn-nash-ic-pri.akacast.akamaistream.net/7/86/79928/v1/auth.akacast.akamaistream.net/prn_nash_ic_pri</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a74.l10186430073.c101864.n.lq.akamaistream.net/D/74/101864/v0001/reflector:30073.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=GRANDFORKS-ND&affiliate=ksnr-fm&market=GRANDFORKS-ND&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KSNR-FM</callletters> 
+                <call_letters>KSNR-FM</call_letters> 
+                <description><![CDATA[The Forks Best Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/3406/2010/11/default/IHR_ksnr_1290554665.png</logo_url> 
+                <name><![CDATA[100.3 Cat Country]]></name> 
+                <stationid>3406</stationid> 
+                <station_id>3406</station_id> 
+                <station_url>www.thecatfm.com</station_url> 
+                <stream_url_v2>http://ksnr-fm.akacast.akamaistream.net/7/588/27989/v1/auth.akacast.akamaistream.net/ksnr-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SPRINGFIELD-MO&affiliate=kswf-fm&market=SPRINGFIELD-MO&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KSWF-FM</callletters> 
+                <call_letters>KSWF-FM</call_letters> 
+                <description><![CDATA[Springfield's New Country Hits]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/kswf_logo_1_1317299859.png</logo_url> 
+                <name><![CDATA[100.5 The Wolf]]></name> 
+                <stationid>2383</stationid> 
+                <station_id>2383</station_id> 
+                <station_url>www.1005thewolf.com</station_url> 
+                <stream_url_v2>http://kswf-fm.akacast.akamaistream.net/7/699/19942/v1/auth.akacast.akamaistream.net/kswf-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=FORTCOLLINS-CO&affiliate=kolz-fm&market=FORTCOLLINS-CO&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KOLZ-FM</callletters> 
+                <call_letters>KOLZ-FM</call_letters> 
+                <description><![CDATA[Cheyenne's Wide Open Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/949/2010/11/default/IHR_kolz_1290554666.png</logo_url> 
+                <name><![CDATA[100.7 KOLT FM]]></name> 
+                <stationid>949</stationid> 
+                <station_id>949</station_id> 
+                <station_url>www.kolz.com</station_url> 
+                <stream_url_v2>http://kolz-fm.akacast.akamaistream.net/7/437/22233/v1/auth.akacast.akamaistream.net/kolz-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NEWORLEANS-LA&affiliate=wnoe-fm&market=NEWORLEANS-LA&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WNOE-FM</callletters> 
+                <call_letters>WNOE-FM</call_letters> 
+                <description><![CDATA[New Orleans' Country Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1924/2010/11/default/IHR_wnoe_1290554667.png</logo_url> 
+                <name><![CDATA[101.1 WNOE]]></name> 
+                <stationid>1924</stationid> 
+                <station_id>1924</station_id> 
+                <station_url>www.wnoe.com</station_url> 
+                <stream_url_v2>http://wnoe-fm.akacast.akamaistream.net/7/626/27993/v1/auth.akacast.akamaistream.net/wnoe-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a841.l2799322840.c27993.n.lq.akamaistream.net:554/D/841/27993/v0001/reflector:22840.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=BATONROUGE-LA&affiliate=wynk-fm&market=BATONROUGE-LA&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WYNK-FM</callletters> 
+                <call_letters>WYNK-FM</call_letters> 
+                <description><![CDATA[Today's Hot Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2112/2010/11/default/IHR_wynk_1290554667.png</logo_url> 
+                <name><![CDATA[101.5 WYNK]]></name> 
+                <stationid>2112</stationid> 
+                <station_id>2112</station_id> 
+                <station_url>www.wynkcountry.com</station_url> 
+                <stream_url_v2>http://wynk-fm.akacast.akamaistream.net/7/754/19910/v1/auth.akacast.akamaistream.net/wynk-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1514.l1991035513.c19910.n.lq.akamaistream.net:554/D/1514/19910/v0001/reflector:35513.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=OKLAHOMACITY-OK&affiliate=ktst-fm&market=OKLAHOMACITY-OK&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KTST-FM</callletters> 
+                <call_letters>KTST-FM</call_letters> 
+                <description><![CDATA[Today's New Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1034/2010/11/default/IHR_ktst_1290554668.png</logo_url> 
+                <name><![CDATA[101.9 The Twister]]></name> 
+                <stationid>1034</stationid> 
+                <station_id>1034</station_id> 
+                <station_url>www.thetwister.com</station_url> 
+                <stream_url_v2>http://ktst-fm.akacast.akamaistream.net/7/84/20041/v1/auth.akacast.akamaistream.net/ktst-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1995.l2004123994.c20041.n.lq.akamaistream.net:554/D/1995/20041/v0001/reflector:23994.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=PHOENIX-AZ&affiliate=knix-fm&market=PHOENIX-AZ&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KNIX-FM</callletters> 
+                <call_letters>KNIX-FM</call_letters> 
+                <description><![CDATA[Everything Country: Phoenix]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/938/2010/11/default/IHR_knix_1290554668.png</logo_url> 
+                <name><![CDATA[102-5 KNIX]]></name> 
+                <stationid>938</stationid> 
+                <station_id>938</station_id> 
+                <station_url>www.knixcountry.com</station_url> 
+                <stream_url_v2>http://knix-fm.akacast.akamaistream.net/7/587/19754/v1/auth.akacast.akamaistream.net/knix-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=HUNTSVILLE-AL&affiliate=wdrm-fm&market=HUNTSVILLE-AL&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WDRM-FM</callletters> 
+                <call_letters>WDRM-FM</call_letters> 
+                <description><![CDATA[Continuous Country Favorites]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1729/2010/11/default/IHR_wdrm_1290554668.png</logo_url> 
+                <name><![CDATA[102.1 WDRM]]></name> 
+                <stationid>1729</stationid> 
+                <station_id>1729</station_id> 
+                <station_url>www.wdrm.com</station_url> 
+                <stream_url_v2>http://wdrm-fm.akacast.akamaistream.net/7/374/30684/v1/auth.akacast.akamaistream.net/wdrm-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a563.l3068440562.c30684.n.lq.akamaistream.net:554/D/563/30684/v0001/reflector:40562.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=FAIRBANKS-AK&affiliate=kiak-fm&market=FAIRBANKS-AK&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KIAK-FM</callletters> 
+                <call_letters>KIAK-FM</call_letters> 
+                <description><![CDATA[Alaska's Best Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/835/2010/11/default/IHR_kiak_1290554669.png</logo_url> 
+                <name><![CDATA[102.5 KIAK FM]]></name> 
+                <stationid>835</stationid> 
+                <station_id>835</station_id> 
+                <station_url>www.kiak.com</station_url> 
+                <stream_url_v2>http://kiak-fm.akacast.akamaistream.net/7/22/43845/v1/auth.akacast.akamaistream.net/kiak-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ROCHESTER-MN&affiliate=kmfx-fm&market=ROCHESTER-MN&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KMFX-FM</callletters> 
+                <call_letters>KMFX-FM</call_letters> 
+                <description><![CDATA[Rochester's Choice For New Country!]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/912/2010/11/default/IHR_kmfx_1290554669.png</logo_url> 
+                <name><![CDATA[102.5 The Fox]]></name> 
+                <stationid>912</stationid> 
+                <station_id>912</station_id> 
+                <station_url>www.1025thefox.com</station_url> 
+                <stream_url_v2>http://kmfx-fm.akacast.akamaistream.net/7/783/73703/v1/auth.akacast.akamaistream.net/kmfx-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=DAVENPORT-IA&affiliate=wllr-fm&market=DAVENPORT-IA&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WLLR-FM</callletters> 
+                <call_letters>WLLR-FM</call_letters> 
+                <description><![CDATA[Number ONE Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1867/2010/11/default/IHR_wllr_1290554670.png</logo_url> 
+                <name><![CDATA[103-7 WLLR]]></name> 
+                <stationid>1867</stationid> 
+                <station_id>1867</station_id> 
+                <station_url>www.1037wllr.com</station_url> 
+                <stream_url_v2>http://wllr-fm.akacast.akamaistream.net/7/321/31702/v1/auth.akacast.akamaistream.net/wllr-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=HUNTINGTON-WV&affiliate=wtcr-fm&market=HUNTINGTON-WV&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WTCR-FM</callletters> 
+                <call_letters>WTCR-FM</call_letters> 
+                <description><![CDATA[Good Times & Great Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/05/default/wtcr_mobile_logo_0_1304691030.png</logo_url> 
+                <name><![CDATA[103.3 WTCR]]></name> 
+                <stationid>2037</stationid> 
+                <station_id>2037</station_id> 
+                <station_url>www.wtcr.com</station_url> 
+                <stream_url_v2>http://wtcr-fm.akacast.akamaistream.net/7/846/20145/v1/auth.akacast.akamaistream.net/wtcr-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=TOLEDO-OH&affiliate=wcky-fm&market=TOLEDO-OH&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WCKY-FM</callletters> 
+                <call_letters>WCKY-FM</call_letters> 
+                <description><![CDATA[Your Choice For Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://content.clearchannel.com/cc-common/mlib/8169/02/8169_1267137768.png</logo_url> 
+                <name><![CDATA[103.7 WCKY]]></name> 
+                <stationid>1707</stationid> 
+                <station_id>1707</station_id> 
+                <station_url>www.1037wcky.com</station_url> 
+                <stream_url_v2>http://wcky-fm.akacast.akamaistream.net/7/57/20025/v1/auth.akacast.akamaistream.net/wcky-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=GREENSBORO-NC&affiliate=wtqr-fm&market=GREENSBORO-NC&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WTQR-FM</callletters> 
+                <call_letters>WTQR-FM</call_letters> 
+                <description><![CDATA[The Triad’s New Q 104.1]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/08/default/wtqr_mobile_logo_1_1312807867.png</logo_url> 
+                <name><![CDATA[104.1 WTQR]]></name> 
+                <stationid>2045</stationid> 
+                <station_id>2045</station_id> 
+                <station_url>www.wtqr.com</station_url> 
+                <stream_url_v2>http://wtqr-fm.akacast.akamaistream.net/7/686/19999/v1/auth.akacast.akamaistream.net/wtqr-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1072.l1999951071.c19999.n.lq.akamaistream.net:554/D/1072/19999/v0001/reflector:51071.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=HARRISONBURG-VA&affiliate=wkcy-fm&market=HARRISONBURG-VA&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WKCY-FM</callletters> 
+                <call_letters>WKCY-FM</call_letters> 
+                <description><![CDATA[Valley's Country Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/wkcy_logo_1_1318954623.png</logo_url> 
+                <name><![CDATA[104.3 Country KCY]]></name> 
+                <stationid>1826</stationid> 
+                <station_id>1826</station_id> 
+                <station_url>www.countrykcy.com</station_url> 
+                <stream_url_v2>http://wkcy-fm.akacast.akamaistream.net/7/309/33403/v1/auth.akacast.akamaistream.net/wkcy-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LITTLEROCK-AR&affiliate=kmjx-fm&market=LITTLEROCK-AR&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KMJX-FM</callletters> 
+                <call_letters>KMJX-FM</call_letters> 
+                <description><![CDATA[Your Home For All Things Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/823/2010/11/default/IHR_kmjx_1290554672.png</logo_url> 
+                <name><![CDATA[105.1 The Wolf]]></name> 
+                <stationid>823</stationid> 
+                <station_id>823</station_id> 
+                <station_url>www.1051thewolf.com</station_url> 
+                <stream_url_v2>http://kmjx-fm.akacast.akamaistream.net/7/892/19762/v1/auth.akacast.akamaistream.net/kmjx-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=DEFIANCE-OH&affiliate=wzom-fm&market=DEFIANCE-OH&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WZOM-FM</callletters> 
+                <call_letters>WZOM-FM</call_letters> 
+                <description><![CDATA[Northwest Ohio's Better Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2128/2010/11/default/IHR_wzom_1290554673.png</logo_url> 
+                <name><![CDATA[105.7 The BULL]]></name> 
+                <stationid>2128</stationid> 
+                <station_id>2128</station_id> 
+                <station_url>www.1057thebull.com</station_url> 
+                <stream_url_v2>http://wzom-fm.akacast.akamaistream.net/7/911/32784/v1/auth.akacast.akamaistream.net/wzom-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SARASOTA-FL&affiliate=wctq-fm&market=SARASOTA-FL&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WCTQ-FM</callletters> 
+                <call_letters>WCTQ-FM</call_letters> 
+                <description><![CDATA[Sarasota's 12 In A Row Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/wctq_logo_1_1317996082.png</logo_url> 
+                <name><![CDATA[106.5 CTQ]]></name> 
+                <stationid>1713</stationid> 
+                <station_id>1713</station_id> 
+                <station_url>www.1065ctq.com</station_url> 
+                <stream_url_v2>http://wctq-fm.akacast.akamaistream.net/7/795/19860/v1/auth.akacast.akamaistream.net/wctq-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=GRANDRAPIDS-MI&affiliate=wmus-fm&market=GRANDRAPIDS-MI&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WMUS-FM</callletters> 
+                <call_letters>WMUS-FM</call_letters> 
+                <description><![CDATA[Muskegon's Country Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1907/2010/11/default/IHR_wmus_1290554675.png</logo_url> 
+                <name><![CDATA[107 MUS The Moose!]]></name> 
+                <stationid>1907</stationid> 
+                <station_id>1907</station_id> 
+                <station_url>www.107mus.com</station_url> 
+                <stream_url_v2>http://wmus-fm.akacast.akamaistream.net/7/975/24595/v1/auth.akacast.akamaistream.net/wmus-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ROANOKE-VA&affiliate=wyyd-fm&market=ROANOKE-VA&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WYYD-FM</callletters> 
+                <call_letters>WYYD-FM</call_letters> 
+                <description><![CDATA[Virginia's Best Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2115/2010/11/default/IHR_wyyd_1290554676.png</logo_url> 
+                <name><![CDATA[108 WYYD]]></name> 
+                <stationid>2115</stationid> 
+                <station_id>2115</station_id> 
+                <station_url>www.1079wyyd.com</station_url> 
+                <stream_url_v2>http://wyyd-fm.akacast.akamaistream.net/7/788/26902/v1/auth.akacast.akamaistream.net/wyyd-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=PANAMACITY-FL&affiliate=wpap-fm&market=PANAMACITY-FL&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WPAP-FM</callletters> 
+                <call_letters>WPAP-FM</call_letters> 
+                <description><![CDATA[Panama City's Country Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1943/2010/11/default/IHR_wpap_1290554652.png</logo_url> 
+                <name><![CDATA[92.5 WPAP]]></name> 
+                <stationid>1943</stationid> 
+                <station_id>1943</station_id> 
+                <station_url>www.wpapfm.com</station_url> 
+                <stream_url_v2>http://wpap-fm.akacast.akamaistream.net/7/8/31528/v1/auth.akacast.akamaistream.net/wpap-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=GREENVILLE-SC&affiliate=wesc-fm&market=GREENVILLE-SC&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WESC-FM</callletters> 
+                <call_letters>WESC-FM</call_letters> 
+                <description><![CDATA[Carolina's Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/06/default/wesc_mobile_logo_1_1308675523.png</logo_url> 
+                <name><![CDATA[92.5 WESC]]></name> 
+                <stationid>1749</stationid> 
+                <station_id>1749</station_id> 
+                <station_url>www.wescfm.com</station_url> 
+                <stream_url_v2>http://wesc-fm.akacast.akamaistream.net/7/345/20068/v1/auth.akacast.akamaistream.net/wesc-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=MONTEREY-CA&affiliate=ktom-fm&market=MONTEREY-CA&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KTOM-FM</callletters> 
+                <call_letters>KTOM-FM</call_letters> 
+                <description><![CDATA[Salinas' Only Real Country Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1028/2010/11/default/IHR_ktom_1290554653.png</logo_url> 
+                <name><![CDATA[92.7 KTOM]]></name> 
+                <stationid>1028</stationid> 
+                <station_id>1028</station_id> 
+                <station_url>www.ktom.com</station_url> 
+                <stream_url_v2>http://ktom-fm.akacast.akamaistream.net/7/658/31705/v1/auth.akacast.akamaistream.net/ktom-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=WILMINGTON-DE&affiliate=wdsd-fm&market=WILMINGTON-DE&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WDSD-FM</callletters> 
+                <call_letters>WDSD-FM</call_letters> 
+                <description><![CDATA[Delaware's Continuous Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/wdsd_logo_1_1319548411.png</logo_url> 
+                <name><![CDATA[94.7 WDSD]]></name> 
+                <stationid>1731</stationid> 
+                <station_id>1731</station_id> 
+                <station_url>www.wdsd.com</station_url> 
+                <stream_url_v2>http://wdsd-fm.akacast.akamaistream.net/7/365/19826/v1/auth.akacast.akamaistream.net/wdsd-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=TALLAHASSEE-FL&affiliate=wtnt-fm&market=TALLAHASSEE-FL&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WTNT-FM</callletters> 
+                <call_letters>WTNT-FM</call_letters> 
+                <description><![CDATA[Tallahassee's Best Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2042/2010/11/default/IHR_wtnt_1290554656.png</logo_url> 
+                <name><![CDATA[94.9 TNT]]></name> 
+                <stationid>2042</stationid> 
+                <station_id>2042</station_id> 
+                <station_url>www.949tnt.com</station_url> 
+                <stream_url_v2>http://wtnt-fm.akacast.akamaistream.net/7/135/20798/v1/auth.akacast.akamaistream.net/wtnt-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=MOBILE-AL&affiliate=wksj-fm&market=MOBILE-AL&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WKSJ-FM</callletters> 
+                <call_letters>WKSJ-FM</call_letters> 
+                <description><![CDATA[Mobile's Best Country!]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1849/2010/11/default/IHR_wksj_1290554657.png</logo_url> 
+                <name><![CDATA[95 KSJ]]></name> 
+                <stationid>1849</stationid> 
+                <station_id>1849</station_id> 
+                <station_url>www.95ksj.com</station_url> 
+                <stream_url_v2>http://wksj-fm.akacast.akamaistream.net/7/555/32166/v1/auth.akacast.akamaistream.net/wksj-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1894.l3216653893.c32166.n.lq.akamaistream.net:554/D/1894/32166/v0001/reflector:53893.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=CEDARRAPIDS-IOWACITY-IA&affiliate=kksy-fm&market=CEDARRAPIDS-IOWACITY-IA&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KKSY-FM</callletters> 
+                <call_letters>KKSY-FM</call_letters> 
+                <description><![CDATA[Iowa's New Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/6105/2010/11/default/IHR_kksy_1290554657.png</logo_url> 
+                <name><![CDATA[95-7 Kiss Country]]></name> 
+                <stationid>6105</stationid> 
+                <station_id>6105</station_id> 
+                <station_url>www.957kisscountry.com</station_url> 
+                <stream_url_v2>http://kksy-fm.akacast.akamaistream.net/7/749/43849/v1/auth.akacast.akamaistream.net/kksy-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LASVEGAS-NV&affiliate=kwnr-fm&market=LASVEGAS-NV&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KWNR-FM</callletters> 
+                <call_letters>KWNR-FM</call_letters> 
+                <description><![CDATA[Vegas Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1056/2010/11/default/IHR_kwnr_1290554657.png</logo_url> 
+                <name><![CDATA[95.5 KWNR]]></name> 
+                <stationid>1056</stationid> 
+                <station_id>1056</station_id> 
+                <station_url>www.kwnr.com</station_url> 
+                <stream_url_v2>http://kwnr-fm.akacast.akamaistream.net/7/361/20809/v1/auth.akacast.akamaistream.net/kwnr-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1047.l2080943046.c20809.n.lq.akamaistream.net:554/D/1047/20809/v0001/reflector:43046.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=OKLAHOMACITY-OK&affiliate=kxxy-fm&market=OKLAHOMACITY-OK&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KXXY-FM</callletters> 
+                <call_letters>KXXY-FM</call_letters> 
+                <description><![CDATA[Oklahoma City's Only Classic Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1069/2010/11/default/IHR_kxxy_1290554659.png</logo_url> 
+                <name><![CDATA[96.1 KXY]]></name> 
+                <stationid>1069</stationid> 
+                <station_id>1069</station_id> 
+                <station_url>www.kxy.com</station_url> 
+                <stream_url_v2>http://kxxy-fm.akacast.akamaistream.net/7/741/20042/v1/auth.akacast.akamaistream.net/kxxy-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1194.l2004239193.c20042.g.lq.akamaistream.net:554/D/1194/20042/v0001/reflector:39193</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=CHARLOTTE-NC&affiliate=wkkt-fm&market=CHARLOTTE-NC&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WKKT-FM</callletters> 
+                <call_letters>WKKT-FM</call_letters> 
+                <description><![CDATA[Charlotte's Best Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/wkkt_logo_1_1318421575.png</logo_url> 
+                <name><![CDATA[96.9 The Kat]]></name> 
+                <stationid>1839</stationid> 
+                <station_id>1839</station_id> 
+                <station_url>www.wkktfm.com</station_url> 
+                <stream_url_v2>http://wkkt-fm.akacast.akamaistream.net/7/850/19994/v1/auth.akacast.akamaistream.net/wkkt-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1152.l1999445151.c19994.n.lq.akamaistream.net:554/D/1152/19994/v0001/reflector:45151.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=COLUMBIA-SC&affiliate=wcos-fm&market=COLUMBIA-SC&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WCOS-FM</callletters> 
+                <call_letters>WCOS-FM</call_letters> 
+                <description><![CDATA[South Carolina's Country Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/04/default/wcos_mobile_logo_0_1302888892.png</logo_url> 
+                <name><![CDATA[97.5 WCOS]]></name> 
+                <stationid>1709</stationid> 
+                <station_id>1709</station_id> 
+                <station_url>www.975wcos.com</station_url> 
+                <stream_url_v2>http://wcos-fm.akacast.akamaistream.net/7/664/21877/v1/auth.akacast.akamaistream.net/wcos-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LOUISVILLE-KY&affiliate=wamz-fm&market=LOUISVILLE-KY&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WAMZ-FM</callletters> 
+                <call_letters>WAMZ-FM</call_letters> 
+                <description><![CDATA[Kentuckiana's Best Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1670/2010/11/default/IHR_wamz_1290554662.png</logo_url> 
+                <name><![CDATA[97.5 WAMZ]]></name> 
+                <stationid>1670</stationid> 
+                <station_id>1670</station_id> 
+                <station_url>www.wamz.com</station_url> 
+                <stream_url_v2>http://wamz-fm.akacast.akamaistream.net/7/218/23683/v1/auth.akacast.akamaistream.net/wamz-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a249.l2368320248.c23683.n.lq.akamaistream.net:554/D/249/23683/v0001/reflector:20248.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LANCASTER-CA&affiliate=ktpi-fm&market=LANCASTER-CA&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KTPI-FM</callletters> 
+                <call_letters>KTPI-FM</call_letters> 
+                <description><![CDATA[The Antelope Valley's Best Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/699/2010/12/default/IHR_ktpi_1291675996.png</logo_url> 
+                <name><![CDATA[97.7 KTPI]]></name> 
+                <stationid>1030</stationid> 
+                <station_id>1030</station_id> 
+                <station_url>www.ktpi.com</station_url> 
+                <stream_url_v2>http://ktpi-fm.akacast.akamaistream.net/7/728/21750/v1/auth.akacast.akamaistream.net/ktpi-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=TUSCALOOSA-AL&affiliate=wtxt-fm&market=TUSCALOOSA-AL&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WTXT-FM</callletters> 
+                <call_letters>WTXT-FM</call_letters> 
+                <description><![CDATA[Tuscaloosa's Country Music Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2053/2010/11/default/IHR_wtxt_1290554662.png</logo_url> 
+                <name><![CDATA[98 TXT]]></name> 
+                <stationid>2053</stationid> 
+                <station_id>2053</station_id> 
+                <station_url>www.98txt.com</station_url> 
+                <stream_url_v2>http://wtxt-fm.akacast.akamaistream.net/7/477/31809/v1/auth.akacast.akamaistream.net/wtxt-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LEXINGTON-KY&affiliate=wbul-fm&market=LEXINGTON-KY&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WBUL-FM</callletters> 
+                <call_letters>WBUL-FM</call_letters> 
+                <description><![CDATA[Better Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/wbul_mobile_logo_0_1316520296.png</logo_url> 
+                <name><![CDATA[98.1 The Bull]]></name> 
+                <stationid>1694</stationid> 
+                <station_id>1694</station_id> 
+                <station_url>www.wbul.com</station_url> 
+                <stream_url_v2>http://wbul-fm.akacast.akamaistream.net/7/818/22348/v1/auth.akacast.akamaistream.net/wbul-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a987.l2234820986.c22348.n.lq.akamaistream.net:554/D/987/22348/v0001/reflector:20986.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=WHEELING-WV&affiliate=wovk-fm&market=WHEELING-WV&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WOVK-FM</callletters> 
+                <call_letters>WOVK-FM</call_letters> 
+                <description><![CDATA[The Valley's Country Leader]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1941/2010/11/default/IHR_wovk_1290554663.png</logo_url> 
+                <name><![CDATA[98.7 Country WOVK]]></name> 
+                <stationid>1941</stationid> 
+                <station_id>1941</station_id> 
+                <station_url>www.wovk.com</station_url> 
+                <stream_url_v2>http://wovk-fm.akacast.akamaistream.net/7/697/69402/v1/auth.akacast.akamaistream.net/wovk-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=CLEVELAND-OH&affiliate=wgar-fm&market=CLEVELAND-OH&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WGAR-FM</callletters> 
+                <call_letters>WGAR-FM</call_letters> 
+                <description><![CDATA[Cleveland's Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1771/2010/11/default/IHR_wgar_1290554664.png</logo_url> 
+                <name><![CDATA[99.5 WGAR]]></name> 
+                <stationid>1771</stationid> 
+                <station_id>1771</station_id> 
+                <station_url>www.wgar.com</station_url> 
+                <stream_url_v2>http://wgar-fm.akacast.akamaistream.net/7/320/20013/v1/auth.akacast.akamaistream.net/wgar-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1513.l2001321512.c20013.n.lq.akamaistream.net:554/D/1513/20013/v0001/reflector:21512.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ASHEVILLE-NC&affiliate=wksf-fm&market=ASHEVILLE-NC&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WKSF-FM</callletters> 
+                <call_letters>WKSF-FM</call_letters> 
+                <description><![CDATA[Today's Hit Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/08/default/wksf_site_logo_0_1313035395.png</logo_url> 
+                <name><![CDATA[99.9 Kiss Country]]></name> 
+                <stationid>1847</stationid> 
+                <station_id>1847</station_id> 
+                <station_url>www.99kisscountry.com</station_url> 
+                <stream_url_v2>http://wksf-fm.akacast.akamaistream.net/7/5/19987/v1/auth.akacast.akamaistream.net/wksf-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a166.l1998750165.c19987.g.lq.akamaistream.net:554/D/166/19987/v0001/reflector:50165.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=BRYAN-TX&affiliate=kagg-fm&market=BRYAN-TX&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KAGG-FM</callletters> 
+                <call_letters>KAGG-FM</call_letters> 
+                <description><![CDATA[Continuous Country Hits]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/732/2010/11/default/IHR_kagg_1290554681.png</logo_url> 
+                <name><![CDATA[AGGIE 96]]></name> 
+                <stationid>732</stationid> 
+                <station_id>732</station_id> 
+                <station_url>www.aggie96.com</station_url> 
+                <stream_url_v2>http://kagg-fm.akacast.akamaistream.net/7/738/20087/v1/auth.akacast.akamaistream.net/kagg-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=GRANDRAPIDS-MI&affiliate=wbct-fm&market=GRANDRAPIDS-MI&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WBCT-FM</callletters> 
+                <call_letters>WBCT-FM</call_letters> 
+                <description><![CDATA[Michigan's Country Station!]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1680/2010/11/default/IHR_wbct_1290554682.png</logo_url> 
+                <name><![CDATA[B-93]]></name> 
+                <stationid>1680</stationid> 
+                <station_id>1680</station_id> 
+                <station_url>www.b93.com</station_url> 
+                <stream_url_v2>http://wbct-fm.akacast.akamaistream.net/7/876/19928/v1/auth.akacast.akamaistream.net/wbct-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a977.l1992848976.c19928.n.lq.akamaistream.net:554/D/977/19928/v0001/reflector:48976.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ALBANY-GA&affiliate=wobb-fm&market=ALBANY-GA&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WOBB-FM</callletters> 
+                <call_letters>WOBB-FM</call_letters> 
+                <description><![CDATA[Continuous Country Favorites]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1932/2010/11/default/IHR_wobb_1290554683.png</logo_url> 
+                <name><![CDATA[B100 Albany, GA]]></name> 
+                <stationid>1932</stationid> 
+                <station_id>1932</station_id> 
+                <station_url>www.b100wobb.com</station_url> 
+                <stream_url_v2>http://wobb-fm.akacast.akamaistream.net/7/592/32789/v1/auth.akacast.akamaistream.net/wobb-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SYRACUSE-NY&affiliate=wbbs-fm&market=SYRACUSE-NY&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WBBS-FM</callletters> 
+                <call_letters>WBBS-FM</call_letters> 
+                <description><![CDATA[Best Country, Familiar Favorites]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1679/2010/11/default/IHR_wbbs_1290554683.png</logo_url> 
+                <name><![CDATA[B104.7]]></name> 
+                <stationid>1679</stationid> 
+                <station_id>1679</station_id> 
+                <station_url>www.b1047.net</station_url> 
+                <stream_url_v2>http://wbbs-fm.akacast.akamaistream.net/7/449/19978/v1/auth.akacast.akamaistream.net/wbbs-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1631.l1997839630.c19978.n.lq.akamaistream.net:554/D/1631/19978/v0001/reflector:39630</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=EAUCLAIRE-WI&affiliate=wqrb-fm&market=EAUCLAIRE-WI&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WQRB-FM</callletters> 
+                <call_letters>WQRB-FM</call_letters> 
+                <description><![CDATA[Hot Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/3384/2010/11/default/IHR_wqrb_1290554683.png</logo_url> 
+                <name><![CDATA[B95]]></name> 
+                <stationid>3384</stationid> 
+                <station_id>3384</station_id> 
+                <station_url>www.b95radio.com</station_url> 
+                <stream_url_v2>http://wqrb-fm.akacast.akamaistream.net/7/202/24926/v1/auth.akacast.akamaistream.net/wqrb-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=FRESNO-CA&affiliate=khge-fm&market=FRESNO-CA&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KHGE-FM</callletters> 
+                <call_letters>KHGE-FM</call_letters> 
+                <description><![CDATA[Central California's New Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/06/default/khge_mobile_logo_1_1307707202.png</logo_url> 
+                <name><![CDATA[102.7 The Wolf]]></name> 
+                <stationid>3570</stationid> 
+                <station_id>3570</station_id> 
+                <station_url>www.1027thewolf.com</station_url> 
+                <stream_url_v2>http://khge-fm.akacast.akamaistream.net/7/416/19767/v1/auth.akacast.akamaistream.net/khge-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=FORTCOLLINS-CO&affiliate=kxbg-fm&market=FORTCOLLINS-CO&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KXBG-FM</callletters> 
+                <call_letters>KXBG-FM</call_letters> 
+                <description><![CDATA[The Most Country for Colorado]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/3343/2010/11/default/IHR_kxbg_1290554684.png</logo_url> 
+                <name><![CDATA[Big Country 97.9]]></name> 
+                <stationid>3343</stationid> 
+                <station_id>3343</station_id> 
+                <station_url>www.bigcountry979.com</station_url> 
+                <stream_url_v2>http://kxbg-fm.akacast.akamaistream.net/7/833/20993/v1/auth.akacast.akamaistream.net/kxbg-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ALBUQUERQUE-NM&affiliate=kbqi-fm&market=ALBUQUERQUE-NM&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KBQI-FM</callletters> 
+                <call_letters>KBQI-FM</call_letters> 
+                <description><![CDATA[New Mexico's Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/758/2010/11/default/IHR_kbqi_1290554684.png</logo_url> 
+                <name><![CDATA[Big I 107-9]]></name> 
+                <stationid>758</stationid> 
+                <station_id>758</station_id> 
+                <station_url>www.bigi1079.com</station_url> 
+                <stream_url_v2>http://kbqi-fm.akacast.akamaistream.net/7/347/19962/v1/auth.akacast.akamaistream.net/kbqi-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=WILLIAMSPORT-PA&affiliate=wbyl-fm&market=WILLIAMSPORT-PA&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WBYL-FM</callletters> 
+                <call_letters>WBYL-FM</call_letters> 
+                <description><![CDATA[Central PA's New Country Fun]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/11/default/wbyl_logo_1_1320758329.png</logo_url> 
+                <name><![CDATA[BILL 95 FM]]></name> 
+                <stationid>1701</stationid> 
+                <station_id>1701</station_id> 
+                <station_url>www.billcountry.com</station_url> 
+                <stream_url_v2>http://wbyl-fm.akacast.akamaistream.net/7/511/29791/v1/auth.akacast.akamaistream.net/wbyl-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=HARRISBURG-PA&affiliate=wrbt-fm&market=HARRISBURG-PA&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WRBT-FM</callletters> 
+                <call_letters>WRBT-FM</call_letters> 
+                <description><![CDATA[Harrisburg's Country Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1974/2010/11/default/IHR_wrbt_1290554685.png</logo_url> 
+                <name><![CDATA[Bob 94-9]]></name> 
+                <stationid>1974</stationid> 
+                <station_id>1974</station_id> 
+                <station_url>www.bob949.com</station_url> 
+                <stream_url_v2>http://wrbt-fm.akacast.akamaistream.net/7/682/32494/v1/auth.akacast.akamaistream.net/wrbt-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a89.l3249420088.c32494.n.lq.akamaistream.net:554/D/89/32494/v0001/reflector:20088.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=MARION-OH&affiliate=wmrn-fm&market=MARION-OH&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WMRN-FM</callletters> 
+                <call_letters>WMRN-FM</call_letters> 
+                <description><![CDATA[Today's Hot New Country!]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/05/default/wmrn_mobile_logo_0_1304692316.png</logo_url> 
+                <name><![CDATA[Buckeye Country]]></name> 
+                <stationid>1899</stationid> 
+                <station_id>1899</station_id> 
+                <station_url>www.buckeyecountry943.com</station_url> 
+                <stream_url_v2>http://wmrn-fm.akacast.akamaistream.net/7/393/48657/v1/auth.akacast.akamaistream.net/wmrn-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=FORTMYERS-FL&affiliate=wckt-fm&market=FORTMYERS-FL&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WCKT-FM</callletters> 
+                <call_letters>WCKT-FM</call_letters> 
+                <description><![CDATA[SWFL's Country Station!]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1706/2010/11/default/IHR_wckt_1290554685.png</logo_url> 
+                <name><![CDATA[Cat Country 107.1]]></name> 
+                <stationid>1706</stationid> 
+                <station_id>1706</station_id> 
+                <station_url>www.catcountry1071.com</station_url> 
+                <stream_url_v2>http://wckt-fm.akacast.akamaistream.net/7/47/19831/v1/auth.akacast.akamaistream.net/wckt-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ALBUQUERQUE-NM&affiliate=kabq-fm&market=ALBUQUERQUE-NM&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KABQ-FM</callletters> 
+                <call_letters>KABQ-FM</call_letters> 
+                <description><![CDATA[Albuquerque's Classic Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://content.clearchannel.com/cc-common/mlib/8169/02/8169_1265320332.png</logo_url> 
+                <name><![CDATA[Classic Country 104.7]]></name> 
+                <stationid>730</stationid> 
+                <station_id>730</station_id> 
+                <station_url>www.classiccountry1047.com</station_url> 
+                <stream_url_v2>http://kabq-fm.akacast.akamaistream.net/7/699/19961/v1/auth.akacast.akamaistream.net/kabq-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=MINNEAPOLIS-MN&affiliate=keey-fm&market=MINNEAPOLIS-MN&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KEEY-FM</callletters> 
+                <call_letters>KEEY-FM</call_letters> 
+                <description><![CDATA[Minnesota's Country Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/790/2010/11/default/IHR_keey_1290554668.png</logo_url> 
+                <name><![CDATA[102.1 K102]]></name> 
+                <stationid>790</stationid> 
+                <station_id>790</station_id> 
+                <station_url>www.k102.com</station_url> 
+                <stream_url_v2>http://keey-fm.akacast.akamaistream.net/7/8/19936/v1/auth.akacast.akamaistream.net/keey-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a861.l1993622860.c19936.n.lq.akamaistream.net:554/D/861/19936/v0001/reflector:22860.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=POUGHKEEPSIE-NY&affiliate=wrwd-fm&market=POUGHKEEPSIE-NY&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WRWD-FM</callletters> 
+                <call_letters>WRWD-FM</call_letters> 
+                <description><![CDATA[The Hudson Valley's Country Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2002/2010/11/default/IHR_wrwd_1290554687.png</logo_url> 
+                <name><![CDATA[Country 107.3 WRWD]]></name> 
+                <stationid>2002</stationid> 
+                <station_id>2002</station_id> 
+                <station_url>www.wrwdfm.com</station_url> 
+                <stream_url_v2>http://wrwd-fm.akacast.akamaistream.net/7/166/19977/v1/auth.akacast.akamaistream.net/wrwd-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=HARTFORD-CT&affiliate=wwyz-fm&market=HARTFORD-CT&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WWYZ-FM</callletters> 
+                <call_letters>WWYZ-FM</call_letters> 
+                <description><![CDATA[Connecticut Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/wwyz_logo_1_1315595366.png</logo_url> 
+                <name><![CDATA[Country 92.5]]></name> 
+                <stationid>2090</stationid> 
+                <station_id>2090</station_id> 
+                <station_url>www.country925.com</station_url> 
+                <stream_url_v2>http://wwyz-fm.akacast.akamaistream.net/7/884/19822/v1/auth.akacast.akamaistream.net/wwyz-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=MILWAUKEE-WI&affiliate=wmil-fm&market=MILWAUKEE-WI&format=AAA&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WMIL-FM</callletters> 
+                <call_letters>WMIL-FM</call_letters> 
+                <description><![CDATA[Milwaukee Country!]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/wmil_logo_1_1316695267.png</logo_url> 
+                <name><![CDATA[FM 106.1]]></name> 
+                <stationid>1889</stationid> 
+                <station_id>1889</station_id> 
+                <station_url>www.fm106.com</station_url> 
+                <stream_url_v2>http://wmil-fm.akacast.akamaistream.net/7/588/20151/v1/auth.akacast.akamaistream.net/wmil-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1563.l2015139562.c20151.n.lq.akamaistream.net:554/D/1563/20151/v0001/reflector:39562.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=MCALLEN-TX&affiliate=ktex-fm&market=MCALLEN-TX&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KTEX-FM</callletters> 
+                <call_letters>KTEX-FM</call_letters> 
+                <description><![CDATA[South Texas Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1024/2010/11/default/IHR_ktex_1290554688.png</logo_url> 
+                <name><![CDATA[FM100 KTEX]]></name> 
+                <stationid>1024</stationid> 
+                <station_id>1024</station_id> 
+                <station_url>www.ktex.net</station_url> 
+                <stream_url_v2>http://ktex-fm.akacast.akamaistream.net/7/859/20659/v1/auth.akacast.akamaistream.net/ktex-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1480.l2065943479.c20659.g.lq.akamaistream.net:554/D/1480/20659/v0001/reflector:43479.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SALISBURY-MD&affiliate=wwfg-fm&market=SALISBURY-MD&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WWFG-FM</callletters> 
+                <call_letters>WWFG-FM</call_letters> 
+                <description><![CDATA[All Time Favorites & Best Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2081/2010/11/default/IHR_wwfg_1290554689.png</logo_url> 
+                <name><![CDATA[FROGGY 99.9]]></name> 
+                <stationid>2081</stationid> 
+                <station_id>2081</station_id> 
+                <station_url>www.froggy999.com</station_url> 
+                <stream_url_v2>http://wwfg-fm.akacast.akamaistream.net/7/838/32168/v1/auth.akacast.akamaistream.net/wwfg-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=FORTSMITH-AR&affiliate=kmag-fm&market=FORTSMITH-AR&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KMAG-FM</callletters> 
+                <call_letters>KMAG-FM</call_letters> 
+                <description><![CDATA[Continuous Hit Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/908/2010/11/default/IHR_kmag_1290554691.png</logo_url> 
+                <name><![CDATA[K-MAG 99.1]]></name> 
+                <stationid>908</stationid> 
+                <station_id>908</station_id> 
+                <station_url>www.kmag991.com</station_url> 
+                <stream_url_v2>http://kmag-fm.akacast.akamaistream.net/7/465/25176/v1/auth.akacast.akamaistream.net/kmag-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=CORPUSCHRISTI-TX&affiliate=krys-fm&market=CORPUSCHRISTI-TX&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KRYS-FM</callletters> 
+                <call_letters>KRYS-FM</call_letters> 
+                <description><![CDATA[South Texas Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/989/2010/11/default/IHR_krys_1290554691.png</logo_url> 
+                <name><![CDATA[K99]]></name> 
+                <stationid>989</stationid> 
+                <station_id>989</station_id> 
+                <station_url>www.k99country.com</station_url> 
+                <stream_url_v2>http://krys-fm.akacast.akamaistream.net/7/83/32493/v1/auth.akacast.akamaistream.net/krys-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=BILOXI-MS&affiliate=wknn-fm&market=BILOXI-MS&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WKNN-FM</callletters> 
+                <call_letters>WKNN-FM</call_letters> 
+                <description><![CDATA[Today's Best Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1842/2010/11/default/IHR_wknn_1290554691.png</logo_url> 
+                <name><![CDATA[K99.1]]></name> 
+                <stationid>1842</stationid> 
+                <station_id>1842</station_id> 
+                <station_url>www.k99fm.com</station_url> 
+                <stream_url_v2>http://wknn-fm.akacast.akamaistream.net/7/529/29323/v1/auth.akacast.akamaistream.net/wknn-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=AUSTIN-TX&affiliate=kase-fm&market=AUSTIN-TX&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KASE-FM</callletters> 
+                <call_letters>KASE-FM</call_letters> 
+                <description><![CDATA[Today's Country - Austin]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/07/default/kase_logo_site_0_1311865630.png</logo_url> 
+                <name><![CDATA[KASE 101]]></name> 
+                <stationid>736</stationid> 
+                <station_id>736</station_id> 
+                <station_url>www.kase101.com</station_url> 
+                <stream_url_v2>http://kase-fm.akacast.akamaistream.net/7/105/20081/v1/auth.akacast.akamaistream.net/kase-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1943.l2008159942.c20081.n.lq.akamaistream.net:554/D/1943/20081/v0001/reflector:59942.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ANCHORAGE-AK&affiliate=kash-fm&market=ANCHORAGE-AK&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KASH-FM</callletters> 
+                <call_letters>KASH-FM</call_letters> 
+                <description><![CDATA[Alaska's Country Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/737/2010/11/default/IHR_kash_1290554692.png</logo_url> 
+                <name><![CDATA[KASH Country 107.5]]></name> 
+                <stationid>737</stationid> 
+                <station_id>737</station_id> 
+                <station_url>www.kashcountry1075.com</station_url> 
+                <stream_url_v2>http://kash-fm.akacast.akamaistream.net/7/517/31532/v1/auth.akacast.akamaistream.net/kash-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=OMAHA-NE&affiliate=kxkt-fm&market=OMAHA-NE&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KXKT-FM</callletters> 
+                <call_letters>KXKT-FM</call_letters> 
+                <description><![CDATA[Nebraska's Country Superstation]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1061/2010/11/default/IHR_kxkt_1290554692.png</logo_url> 
+                <name><![CDATA[Kat 103.7]]></name> 
+                <stationid>1061</stationid> 
+                <station_id>1061</station_id> 
+                <station_url>www.thekat.com</station_url> 
+                <stream_url_v2>http://kxkt-fm.akacast.akamaistream.net/7/845/29503/v1/auth.akacast.akamaistream.net/kxkt-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a922.l2950340921.c29503.n.lq.akamaistream.net:554/D/922/29503/v0001/reflector:40921.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=BEAUMONT-TX&affiliate=kykr-fm&market=BEAUMONT-TX&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KYKR-FM</callletters> 
+                <call_letters>KYKR-FM</call_letters> 
+                <description><![CDATA[Today's Best and Most Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1071/2010/11/default/IHR_kykr_1290554693.png</logo_url> 
+                <name><![CDATA[Kicker 95.1]]></name> 
+                <stationid>1071</stationid> 
+                <station_id>1071</station_id> 
+                <station_url>www.kykr.com</station_url> 
+                <stream_url_v2>http://kykr-fm.akacast.akamaistream.net/7/933/22702/v1/auth.akacast.akamaistream.net/kykr-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=WICHITA-KS&affiliate=kzsn-fm&market=WICHITA-KS&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KZSN-FM</callletters> 
+                <call_letters>KZSN-FM</call_letters> 
+                <description><![CDATA[Today's Best Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1093/2010/11/default/IHR_kzsn_1290554694.png</logo_url> 
+                <name><![CDATA[Kissin' 102.1]]></name> 
+                <stationid>1093</stationid> 
+                <station_id>1093</station_id> 
+                <station_url>www.kzsn.com</station_url> 
+                <stream_url_v2>http://kzsn-fm.akacast.akamaistream.net/7/159/19904/v1/auth.akacast.akamaistream.net/kzsn-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=FAYETTEVILLE-AR&affiliate=kkix-fm&market=FAYETTEVILLE-AR&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KKIX-FM</callletters> 
+                <call_letters>KKIX-FM</call_letters> 
+                <description><![CDATA[Good Times Great Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/878/2010/11/default/IHR_kkix_1290554694.png</logo_url> 
+                <name><![CDATA[Kix 104]]></name> 
+                <stationid>878</stationid> 
+                <station_id>878</station_id> 
+                <station_url>www.kix104.com</station_url> 
+                <stream_url_v2>http://kkix-fm.akacast.akamaistream.net/7/649/36596/v1/auth.akacast.akamaistream.net/kkix-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SPOKANE-WA&affiliate=kixz-fm&market=SPOKANE-WA&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KIXZ-FM</callletters> 
+                <call_letters>KIXZ-FM</call_letters> 
+                <description><![CDATA[Better Country.]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/855/2010/11/default/IHR_kixz_1290554694.png</logo_url> 
+                <name><![CDATA[KIX 96]]></name> 
+                <stationid>855</stationid> 
+                <station_id>855</station_id> 
+                <station_url>www.kix961.com</station_url> 
+                <stream_url_v2>http://kixz-fm.akacast.akamaistream.net/7/523/29886/v1/auth.akacast.akamaistream.net/kixz-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SPRINGFIELD-MA&affiliate=wpkx-fm&market=SPRINGFIELD-MA&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WPKX-FM</callletters> 
+                <call_letters>WPKX-FM</call_letters> 
+                <description><![CDATA[Pioneer Valley's Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/wpkx_logo_0_1319829984.png</logo_url> 
+                <name><![CDATA[KIX 100.9]]></name> 
+                <stationid>1949</stationid> 
+                <station_id>1949</station_id> 
+                <station_url>www.mykix1009.com</station_url> 
+                <stream_url_v2>http://wpkx-fm.akacast.akamaistream.net/7/879/19919/v1/auth.akacast.akamaistream.net/wpkx-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=FORTMYERS-FL&affiliate=wikx-fm&market=FORTMYERS-FL&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WIKX-FM</callletters> 
+                <call_letters>WIKX-FM</call_letters> 
+                <description><![CDATA[New Country, Legends & Superstars!]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1803/2010/11/default/IHR_wikx_1290554695.png</logo_url> 
+                <name><![CDATA[KIX Country 92.9]]></name> 
+                <stationid>1803</stationid> 
+                <station_id>1803</station_id> 
+                <station_url>www.wikx.com</station_url> 
+                <stream_url_v2>http://wikx-fm.akacast.akamaistream.net/7/114/73710/v1/auth.akacast.akamaistream.net/wikx-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SANANTONIO-TX&affiliate=kaja-fm&market=SANANTONIO-TX&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KAJA-FM</callletters> 
+                <call_letters>KAJA-FM</call_letters> 
+                <description><![CDATA[San Antonio's Country Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/733/2010/11/default/IHR_kaja_1290554695.png</logo_url> 
+                <name><![CDATA[KJ97]]></name> 
+                <stationid>733</stationid> 
+                <station_id>733</station_id> 
+                <station_url>www.kj97.com</station_url> 
+                <stream_url_v2>http://kaja-fm.akacast.akamaistream.net/7/609/20103/v1/auth.akacast.akamaistream.net/kaja-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=OGALLALA-NE&affiliate=kmcx-fm&market=OGALLALA-NE&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KMCX-FM</callletters> 
+                <call_letters>KMCX-FM</call_letters> 
+                <description><![CDATA[Today's Hot Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/910/2010/11/default/IHR_kmcx_1290554695.png</logo_url> 
+                <name><![CDATA[KMCX 106.5]]></name> 
+                <stationid>910</stationid> 
+                <station_id>910</station_id> 
+                <station_url>www.kmcx.com</station_url> 
+                <stream_url_v2>http://kmcx-fm.akacast.akamaistream.net/7/687/19950/v1/auth.akacast.akamaistream.net/kmcx-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SAINTLOUIS-MO&affiliate=ksd-fm&market=SAINTLOUIS-MO&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KSD-FM</callletters> 
+                <call_letters>KSD-FM</call_letters> 
+                <description><![CDATA[St. Louis' New Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1/2011/03/default/ksd_fm_0_1300551421.png</logo_url> 
+                <name><![CDATA[93.7 The Bull]]></name> 
+                <stationid>996</stationid> 
+                <station_id>996</station_id> 
+                <station_url>www.937thebull.com</station_url> 
+                <stream_url_v2>http://ksd-fm.akacast.akamaistream.net/7/151/19947/v1/auth.akacast.akamaistream.net/ksd-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LITTLEROCK-AR&affiliate=kssn-fm&market=LITTLEROCK-AR&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KSSN-FM</callletters> 
+                <call_letters>KSSN-FM</call_letters> 
+                <description><![CDATA[Arkansas' Radio Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1014/2010/11/default/IHR_kssn_1290554696.png</logo_url> 
+                <name><![CDATA[KSSN 96]]></name> 
+                <stationid>1014</stationid> 
+                <station_id>1014</station_id> 
+                <station_url>www.kssn.com</station_url> 
+                <stream_url_v2>http://kssn-fm.akacast.akamaistream.net/7/901/19764/v1/auth.akacast.akamaistream.net/kssn-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=AUSTIN-TX&affiliate=kvet-fm&market=AUSTIN-TX&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KVET-FM</callletters> 
+                <call_letters>KVET-FM</call_letters> 
+                <description><![CDATA[The Genuine Austin Original]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/04/default/kvet_ipad_logo_0_1303305841.png</logo_url> 
+                <name><![CDATA[KVET 98.1 FM]]></name> 
+                <stationid>1048</stationid> 
+                <station_id>1048</station_id> 
+                <station_url>www.kvet.com</station_url> 
+                <stream_url_v2>http://kvet-fm.akacast.akamaistream.net/7/772/20086/v1/auth.akacast.akamaistream.net/kvet-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1293.l2008633292.c20086.n.lq.akamaistream.net:554/D/1293/20086/v0001/reflector:33292.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=JACKSON-MS&affiliate=wmsi-fm&market=JACKSON-MS&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WMSI-FM</callletters> 
+                <call_letters>WMSI-FM</call_letters> 
+                <description><![CDATA[Today's Country & All Time Favorites]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1902/2010/11/default/IHR_wmsi_1290554699.png</logo_url> 
+                <name><![CDATA[MISS 103]]></name> 
+                <stationid>1902</stationid> 
+                <station_id>1902</station_id> 
+                <station_url>www.miss103.com</station_url> 
+                <stream_url_v2>http://wmsi-fm.akacast.akamaistream.net/7/819/23514/v1/auth.akacast.akamaistream.net/wmsi-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=EAUCLAIRE-WI&affiliate=watq-fm&market=EAUCLAIRE-WI&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WATQ-FM</callletters> 
+                <call_letters>WATQ-FM</call_letters> 
+                <description><![CDATA[Country Favorites]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/3376/2010/11/default/IHR_watq_1290554701.png</logo_url> 
+                <name><![CDATA[Moose Country 106.7]]></name> 
+                <stationid>3376</stationid> 
+                <station_id>3376</station_id> 
+                <station_url>www.moose106.com</station_url> 
+                <stream_url_v2>http://watq-fm.akacast.akamaistream.net/7/421/24924/v1/auth.akacast.akamaistream.net/watq-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=WINCHESTER-VA&affiliate=wusq-fm&market=WINCHESTER-VA&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WUSQ-FM</callletters> 
+                <call_letters>WUSQ-FM</call_letters> 
+                <description><![CDATA[Shenandoah Country Q102]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2059/2010/11/default/IHR_wusq_1290554743.png</logo_url> 
+                <name><![CDATA[Q102]]></name> 
+                <stationid>2059</stationid> 
+                <station_id>2059</station_id> 
+                <station_url>www.wusq.com</station_url> 
+                <stream_url_v2>http://wusq-fm.akacast.akamaistream.net/7/602/36590/v1/auth.akacast.akamaistream.net/wusq-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=COLUMBUS-GA&affiliate=wsth-fm&market=COLUMBUS-GA&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WSTH-FM</callletters> 
+                <call_letters>WSTH-FM</call_letters> 
+                <description><![CDATA[Columbus' Continuous Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/wsth_logo_1_1318941989.png</logo_url> 
+                <name><![CDATA[South 106.1]]></name> 
+                <stationid>2027</stationid> 
+                <station_id>2027</station_id> 
+                <station_url>www.mysouth1061.com</station_url> 
+                <stream_url_v2>http://wsth-fm.akacast.akamaistream.net/7/327/31302/v1/auth.akacast.akamaistream.net/wsth-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=MADISON-WI&affiliate=wmad-fm&market=MADISON-WI&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WMAD-FM</callletters> 
+                <call_letters>WMAD-FM</call_letters> 
+                <description><![CDATA[Madison's Only REAL Country Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/3544/2010/11/default/IHR_wmad_1290554747.png</logo_url> 
+                <name><![CDATA[Star Country]]></name> 
+                <stationid>3544</stationid> 
+                <station_id>3544</station_id> 
+                <station_url>www.wmad.com</station_url> 
+                <stream_url_v2>http://wmad-fm.akacast.akamaistream.net/7/388/37057/v1/auth.akacast.akamaistream.net/wmad-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LIMA-OH&affiliate=wimt-fm&market=LIMA-OH&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WIMT-FM</callletters> 
+                <call_letters>WIMT-FM</call_letters> 
+                <description><![CDATA[Your Home for Today's Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1805/2010/11/default/IHR_wimt_1290554749.png</logo_url> 
+                <name><![CDATA[T102]]></name> 
+                <stationid>1805</stationid> 
+                <station_id>1805</station_id> 
+                <station_url>www.t102.com</station_url> 
+                <stream_url_v2>http://wimt-fm.akacast.akamaistream.net/7/702/24665/v1/auth.akacast.akamaistream.net/wimt-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NASHVILLE-TN&affiliate=wsix-fm&market=NASHVILLE-TN&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WSIX-FM</callletters> 
+                <call_letters>WSIX-FM</call_letters> 
+                <description><![CDATA[Nashville's Country Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/wsix_logo_1_1316523506.png</logo_url> 
+                <name><![CDATA[The Big 98 WSIX]]></name> 
+                <stationid>2013</stationid> 
+                <station_id>2013</station_id> 
+                <station_url>www.wsix.com</station_url> 
+                <stream_url_v2>http://wsix-fm.akacast.akamaistream.net/7/957/20080/v1/auth.akacast.akamaistream.net/wsix-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a747.l2008056746.c20080.n.lq.akamaistream.net:554/D/747/20080/v0001/reflector:56746.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ATLANTA-GA&affiliate=wubl-fm&market=ATLANTA-GA&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WUBL-FM</callletters> 
+                <call_letters>WUBL-FM</call_letters> 
+                <description><![CDATA[The Most Country, Guaranteed!]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/4189/2010/11/default/IHR_wubl_1290554750.png</logo_url> 
+                <name><![CDATA[The NEW 94.9 The Bull]]></name> 
+                <stationid>4189</stationid> 
+                <station_id>4189</station_id> 
+                <station_url>www.949thebull.com</station_url> 
+                <stream_url_v2>http://wubl-fm.akacast.akamaistream.net/7/337/19885/v1/auth.akacast.akamaistream.net/wubl-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a14.l1988522013.c19885.n.lq.akamaistream.net:554/D/14/19885/v0001/reflector:22013.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=FLORIDAKEYS-FL&affiliate=wcth-fm&market=FLORIDAKEYS-FL&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WCTH-FM</callletters> 
+                <call_letters>WCTH-FM</call_letters> 
+                <description><![CDATA[The Best Variety]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1712/2010/11/default/IHR_wcth_1290554751.png</logo_url> 
+                <name><![CDATA[Thunder Country 100.3]]></name> 
+                <stationid>1712</stationid> 
+                <station_id>1712</station_id> 
+                <station_url>www.thundercountry.com</station_url> 
+                <stream_url_v2>http://wcth-fm.akacast.akamaistream.net/7/755/25966/v1/auth.akacast.akamaistream.net/wcth-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=RIVERSIDE-CA&affiliate=ktdd-am&market=RIVERSIDE-CA&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KTDD-AM</callletters> 
+                <call_letters>KTDD-AM</call_letters> 
+                <description><![CDATA[Genuine Country Music]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/693/2010/11/default/IHR_ktdd-am_1290554751.png</logo_url> 
+                <name><![CDATA[TOAD]]></name> 
+                <stationid>693</stationid> 
+                <station_id>693</station_id> 
+                <station_url>www.am1350thetoad.com</station_url> 
+                <stream_url_v2>http://ktdd-am.akacast.akamaistream.net/7/362/21437/v1/auth.akacast.akamaistream.net/ktdd-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=OMAHA-NE&affiliate=ktwi-fm&market=OMAHA-NE&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KTWI-FM</callletters> 
+                <call_letters>KTWI-FM</call_letters> 
+                <description><![CDATA[Omaha's New Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/831/2010/11/default/IHR_ktwi_1290554751.png</logo_url> 
+                <name><![CDATA[Twister 93.3]]></name> 
+                <stationid>831</stationid> 
+                <station_id>831</station_id> 
+                <station_url>www.twister933.com</station_url> 
+                <stream_url_v2>http://ktwi-fm.akacast.akamaistream.net/7/383/54125/v1/auth.akacast.akamaistream.net/ktwi-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=CHATTANOOGA-TN&affiliate=wusy-fm&market=CHATTANOOGA-TN&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WUSY-FM</callletters> 
+                <call_letters>WUSY-FM</call_letters> 
+                <description><![CDATA[Chattanooga's Best Country & the Legends]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/wusy_logo_1_1315423001.png</logo_url> 
+                <name><![CDATA[U.S. 101]]></name> 
+                <stationid>2061</stationid> 
+                <station_id>2061</station_id> 
+                <station_url>www.us101country.com</station_url> 
+                <stream_url_v2>http://wusy-fm.akacast.akamaistream.net/7/496/31535/v1/auth.akacast.akamaistream.net/wusy-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1319.l3153533318.c31535.n.lq.akamaistream.net:554/D/1319/31535/v0001/reflector:33318.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=TAMPA-FL&affiliate=wfus-fm&market=TAMPA-FL&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WFUS-FM</callletters> 
+                <call_letters>WFUS-FM</call_letters> 
+                <description><![CDATA[Tampa Bay's Best Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2036/2010/11/default/IHR_wfus_1290554752.png</logo_url> 
+                <name><![CDATA[US 103-5]]></name> 
+                <stationid>2036</stationid> 
+                <station_id>2036</station_id> 
+                <station_url>www.us1035.com</station_url> 
+                <stream_url_v2>http://wfus-fm.akacast.akamaistream.net/7/304/19872/v1/auth.akacast.akamaistream.net/wfus-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1268.l1987243267.c19872.n.lq.akamaistream.net:554/D/1268/19872/v0001/reflector:43267.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=WACO-TX&affiliate=waco-fm&market=WACO-TX&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WACO-FM</callletters> 
+                <call_letters>WACO-FM</call_letters> 
+                <description><![CDATA[Texas' #1 Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1660/2010/11/default/IHR_waco_1290554752.png</logo_url> 
+                <name><![CDATA[WACO 100]]></name> 
+                <stationid>1660</stationid> 
+                <station_id>1660</station_id> 
+                <station_url>www.waco100.com</station_url> 
+                <stream_url_v2>http://waco-fm.akacast.akamaistream.net/7/800/20112/v1/auth.akacast.akamaistream.net/waco-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=WESTPALMBEACH-FL&affiliate=wavw-fm&market=WESTPALMBEACH-FL&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WAVW-FM</callletters> 
+                <call_letters>WAVW-FM</call_letters> 
+                <description><![CDATA[Continuous Country Favorites]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1673/2010/11/default/IHR_wavw_1290554753.png</logo_url> 
+                <name><![CDATA[Wave 92.7]]></name> 
+                <stationid>1673</stationid> 
+                <station_id>1673</station_id> 
+                <station_url>www.wavw.com</station_url> 
+                <stream_url_v2>http://wavw-fm.akacast.akamaistream.net/7/115/30787/v1/auth.akacast.akamaistream.net/wavw-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=COLUMBUS-OH&affiliate=wcol-fm&market=COLUMBUS-OH&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WCOL-FM</callletters> 
+                <call_letters>WCOL-FM</call_letters> 
+                <description><![CDATA[Continuous Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1708/2010/11/default/IHR_wcol_1290554753.png</logo_url> 
+                <name><![CDATA[WCOL - Columbus]]></name> 
+                <stationid>1708</stationid> 
+                <station_id>1708</station_id> 
+                <station_url>www.wcol.com</station_url> 
+                <stream_url_v2>http://wcol-fm.akacast.akamaistream.net/7/631/25889/v1/auth.akacast.akamaistream.net/wcol-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1829.l2588923828.c25889.n.lq.akamaistream.net:554/D/1829/25889/v0001/reflector:23828.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=CHARLESTON-SC&affiliate=wezl-fm&market=CHARLESTON-SC&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WEZL-FM</callletters> 
+                <call_letters>WEZL-FM</call_letters> 
+                <description><![CDATA[Charleston's Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/wezl_logo_1_1317055420.png</logo_url> 
+                <name><![CDATA[WEZL The Weasel]]></name> 
+                <stationid>1752</stationid> 
+                <station_id>1752</station_id> 
+                <station_url>www.wezl.com</station_url> 
+                <stream_url_v2>http://wezl-fm.akacast.akamaistream.net/7/498/22020/v1/auth.akacast.akamaistream.net/wezl-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=FREDERICK-MD&affiliate=wfre-fm&market=FREDERICK-MD&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WFRE-FM</callletters> 
+                <call_letters>WFRE-FM</call_letters> 
+                <description><![CDATA[Free Country 99.9]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1765/2010/11/default/IHR_wfre_1290554753.png</logo_url> 
+                <name><![CDATA[WFRE]]></name> 
+                <stationid>1765</stationid> 
+                <station_id>1765</station_id> 
+                <station_url>www.wfre.com</station_url> 
+                <stream_url_v2>http://wfre-fm.akacast.akamaistream.net/7/114/21367/v1/auth.akacast.akamaistream.net/wfre-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=WASHINGTON-DC&affiliate=wmzq-fm&market=WASHINGTON-DC&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WMZQ-FM</callletters> 
+                <call_letters>WMZQ-FM</call_letters> 
+                <description><![CDATA[DC's Hometown Country Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/wmzq_logo_1_1315576996.png</logo_url> 
+                <name><![CDATA[WMZQ]]></name> 
+                <stationid>1917</stationid> 
+                <station_id>1917</station_id> 
+                <station_url>www.wmzq.com</station_url> 
+                <stream_url_v2>http://wmzq-fm.akacast.akamaistream.net/7/235/20128/v1/auth.akacast.akamaistream.net/wmzq-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=BALTIMORE-MD&affiliate=wpoc-fm&market=BALTIMORE-MD&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WPOC-FM</callletters> 
+                <call_letters>WPOC-FM</call_letters> 
+                <description><![CDATA[Baltimore's Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/wpoc_logo_1_1315595796.png</logo_url> 
+                <name><![CDATA[WPOC]]></name> 
+                <stationid>1951</stationid> 
+                <station_id>1951</station_id> 
+                <station_url>www.wpoc.com</station_url> 
+                <stream_url_v2>http://wpoc-fm.akacast.akamaistream.net/7/846/19913/v1/auth.akacast.akamaistream.net/wpoc-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1693.l1991333692.c19913.n.lq.akamaistream.net:554/D/1693/19913/v0001/reflector:33692.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=JACKSONVILLE-FL&affiliate=wqik-fm&market=JACKSONVILLE-FL&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WQIK-FM</callletters> 
+                <call_letters>WQIK-FM</call_letters> 
+                <description><![CDATA[Jacksonville's Country!]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/08/default/wqik_logo_0_1313606020.png</logo_url> 
+                <name><![CDATA[99.1 QIK]]></name> 
+                <stationid>1959</stationid> 
+                <station_id>1959</station_id> 
+                <station_url>www.991qik.com</station_url> 
+                <stream_url_v2>http://wqik-fm.akacast.akamaistream.net/7/72/19838/v1/auth.akacast.akamaistream.net/wqik-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1058.l1983849057.c19838.n.lq.akamaistream.net:554/D/1058/19838/v0001/reflector:49057.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=GREENVILLE-SC&affiliate=wssl-fm&market=GREENVILLE-SC&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WSSL-FM</callletters> 
+                <call_letters>WSSL-FM</call_letters> 
+                <description><![CDATA[Today's Best Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2025/2010/11/default/IHR_wssl_1290554756.png</logo_url> 
+                <name><![CDATA[WSSL 100.5]]></name> 
+                <stationid>2025</stationid> 
+                <station_id>2025</station_id> 
+                <station_url>www.wsslfm.com</station_url> 
+                <stream_url_v2>http://wssl-fm.akacast.akamaistream.net/7/736/20070/v1/auth.akacast.akamaistream.net/wssl-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ELPASO-TX&affiliate=khey-fm&market=ELPASO-TX&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KHEY-FM</callletters> 
+                <call_letters>KHEY-FM</call_letters> 
+                <description><![CDATA[Today's Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://content.clearchannel.com/cc-common/mlib/8169/02/8169_1265922447.png</logo_url> 
+                <name><![CDATA[Y96.3 KHEY]]></name> 
+                <stationid>819</stationid> 
+                <station_id>819</station_id> 
+                <station_url>www.khey.com</station_url> 
+                <stream_url_v2>http://khey-fm.akacast.akamaistream.net/7/168/32497/v1/auth.akacast.akamaistream.net/khey-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=COLORADOSPRINGS-CO&affiliate=kccy-fm&market=COLORADOSPRINGS-CO&format=COUNTRY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KCCY-FM</callletters> 
+                <call_letters>KCCY-FM</call_letters> 
+                <description><![CDATA[Today's Best Country]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/06/default/kccy_mobile_logo_1_1307561503.png</logo_url> 
+                <name><![CDATA[Y96.9]]></name> 
+                <stationid>763</stationid> 
+                <station_id>763</station_id> 
+                <station_url>www.y969.com</station_url> 
+                <stream_url_v2>http://kccy-fm.akacast.akamaistream.net/7/55/19805/v1/auth.akacast.akamaistream.net/kccy-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station></stations>

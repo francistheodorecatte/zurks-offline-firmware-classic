@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stations offset="0" total="1" limit="2000">
+<station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=icla-fl&market=NATIONAL&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>ICLA-FL</callletters> 
+                <call_letters>ICLA-FL</call_letters> 
+                <description><![CDATA[All Classical Music - All The Time]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/13425/2010/11/default/IHR_icla-fl_1290554650.png</logo_url> 
+                <name><![CDATA[Classica]]></name> 
+                <stationid>13425</stationid> 
+                <station_id>13425</station_id> 
+                <station_url>icla-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://icla-fl.akacast.akamaistream.net/7/936/83441/v1/auth.akacast.akamaistream.net/icla-fl</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station></stations>

@@ -1,0 +1,68 @@
+This is a USB drive image for Chumby Photoframe.
+
+http://github.com/kstephens/chumby_photoframe/tree/master
+
+===========================
+
+To setup:
+
+1)  Mount your USB drive.
+2)  Delete the example images from media/images.
+3)  Place your images in media/images.
+4)  On a Debian-based Linux host (not your Chumby), run:
+
+  make prereqs
+  make install usb=/media/YOURUSBDRIVE
+
+5)  Unmount USB drive.
+6)  Turn-off chumby.
+7)  Plug-in USB drive into USB slot A.
+8)  Turn-on chumby.
+9)  Validate the following pages:
+
+* http://ip.of.your.chumby/cgi-bin/env
+* http://ip.of.your.chumby/image/
+* http://ip.of.your.chumby/image/upload.cgi
+
+
+10) Add Photoframe 2 widget via http://chumby.com/.
+11) Configure Photoframe for http://localhost/image.
+
+
+===========================
+
+To add additional images:
+
+1) Plugin your USB drive.
+2) Add images to media/image/.
+3) cd to the root of your USB drive.
+4) Run "bin/make-images"
+
+===========================
+
+To upload images directly to your Chumby:
+
+* http://ip.of.your.chumby/image/upload.cgi
+
+NOTE: uploaded images are not automatically resize.
+
+===========================
+
+To build USB archive:
+
+* Run "make archive"
+
+===========================
+
+Note:
+
+1) .../cgi-bin/custom/fb0 and fb1 work with this HTTPD, 
+assuming you enable the FBCGI from 
+Control Panel -> Settings -> Info -> Pi screen.
+
+2) If you want to bootup other program
+besides lighttpd,
+create a file named debugchumby.foo;
+debugchumby will run it.
+
+===========================

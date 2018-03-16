@@ -1,0 +1,6 @@
+/psp/usr/bin/ptar
+/psp/usr/bin/ptardiff
+/psp/usr/bin/ptargrep
+/psp/usr/lib/perl5/5.10.0/Archive/Tar.pm
+/psp/usr/lib/perl5/5.10.0/Archive/Tar/Constant.pm
+/psp/usr/lib/perl5/5.10.0/Archive/Tar/File.pm

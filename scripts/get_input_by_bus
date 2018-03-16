@@ -1,0 +1,38 @@
+#!/bin/sh
+# $Id: get_input_by_bus 20353 2009-10-02 00:30:00Z henry $
+# get_input_by_bus - get the event name of an input device by
+# bus, either usb or input
+# The built-in touchscreen driver reports the bus as input
+# USB HID devices which are present at startup may report
+# themselves before the touchscreen.
+
+[ -d /sys/class/input ] || { echo "sysfs not mounted"; exit 1; }
+
+# Optional filter reports only the event# name
+FILTER=$1
+SYSBASE=/sys/class/input
+for NUM in 0 1 2 3 4
+do
+  if [ -f ${SYSBASE}/event${NUM}/dev ]
+  then
+    # If there is no device symlink, it's an ironforge ts
+    if [ -L ${SYSBASE}/event${NUM}/device ]
+    then
+	BUS=$(cat ${SYSBASE}/event${NUM}/device/modalias | awk -F: '{print $1;}')
+	HAS_MODALIAS=1
+    else
+	BUS=input
+	HAS_MODALIAS=0
+    fi
+    if [ "${FILTER}" ]
+    then
+      [ "${FILTER}" = "${BUS}" ] && echo event${NUM}
+    elif [ ${HAS_MODALIAS} = 1 ]
+    then
+      cat ${SYSBASE}/event${NUM}/device/modalias
+    else
+      echo "${BUS}:$(cat ${SYSBASE}/event${NUM}/dev)"
+    fi
+  fi
+done
+

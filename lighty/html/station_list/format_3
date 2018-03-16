@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stations offset="0" total="21" limit="2000">
+<station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=icbg-fl&market=NATIONAL&format=ROCK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>ICBG-FL</callletters> 
+                <call_letters>ICBG-FL</call_letters> 
+                <description><![CDATA[The Home of Underground Rock]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://content.clearchannel.com/cc-common/mlib/8169/01/8169_1264136412.png</logo_url> 
+                <name><![CDATA[CBGB Radio]]></name> 
+                <stationid>13741</stationid> 
+                <station_id>13741</station_id> 
+                <station_url>icbg-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://icbg-fl.akacast.akamaistream.net/7/847/84267/v1/auth.akacast.akamaistream.net/icbg-fl</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a557.l8426754556.c84267.g.lq.akamaistream.net:554/D/557/84267/v0001/reflector:54556.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=iwez-fl&market=NATIONAL&format=ROCKALTERNATIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IWEZ-FL</callletters> 
+                <call_letters>IWEZ-FL</call_letters> 
+                <description><![CDATA[Weez in charge now]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/12263/2010/11/default/IHR_iwez_1290554651.png</logo_url> 
+                <name><![CDATA[Radio Weezer]]></name> 
+                <stationid>12263</stationid> 
+                <station_id>12263</station_id> 
+                <station_url>iwez-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://weezer.akacast.akamaistream.net/7/871/61097/v1/auth.akacast.akamaistream.net/weezer</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NASHVILLE-TN&affiliate=ialt-fl&market=NASHVILLE-TN&format=ROCKALTERNATIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IALT-FL</callletters> 
+                <call_letters>IALT-FL</call_letters> 
+                <description><![CDATA[Ear holes wanted!]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/12161/2010/11/default/IHR_ialt-fl_1290554651.png</logo_url> 
+                <name><![CDATA[The Alternative Project]]></name> 
+                <stationid>12161</stationid> 
+                <station_id>12161</station_id> 
+                <station_url>ialt-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://alternativeproject.akacast.akamaistream.net/7/275/73697/v1/auth.akacast.akamaistream.net/alternativeproject</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a507.l7369756506.c73697.n.lq.akamaistream.net:554/D/507/73697/v0001/reflector:56506.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=DALLAS-TX&affiliate=kdge-fm&market=DALLAS-TX&format=ROCKALTERNATIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KDGE-FM</callletters> 
+                <call_letters>KDGE-FM</call_letters> 
+                <description><![CDATA[Alternative Rock. 102.1 The Edge]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/kdge_logo_1_1315834663.png</logo_url> 
+                <name><![CDATA[102.1 The Edge]]></name> 
+                <stationid>779</stationid> 
+                <station_id>779</station_id> 
+                <station_url>www.kdge.com</station_url> 
+                <stream_url_v2>http://kdge-fm.akacast.akamaistream.net/7/259/20088/v1/auth.akacast.akamaistream.net/kdge-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=RICHMOND-VA&affiliate=wrxl-fm&market=RICHMOND-VA&format=ROCKALTERNATIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WRXL-FM</callletters> 
+                <call_letters>WRXL-FM</call_letters> 
+                <description><![CDATA[Richmond's Rock Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2003/2010/11/default/IHR_wrxl_1290554668.png</logo_url> 
+                <name><![CDATA[102.1 The X]]></name> 
+                <stationid>2003</stationid> 
+                <station_id>2003</station_id> 
+                <station_url>www.1021thex.com</station_url> 
+                <stream_url_v2>http://wrxl-fm.akacast.akamaistream.net/7/958/20123/v1/auth.akacast.akamaistream.net/wrxl-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1431.l2012351430.c20123.n.lq.akamaistream.net:554/D/1431/20123/v0001/reflector:51430.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ALBUQUERQUE-NM&affiliate=kteg-fm&market=ALBUQUERQUE-NM&format=AAA&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KTEG-FM</callletters> 
+                <call_letters>KTEG-FM</call_letters> 
+                <description><![CDATA[New Rock Revolution]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1023/2010/11/default/IHR_kteg_1290554672.png</logo_url> 
+                <name><![CDATA[104.1 The Edge]]></name> 
+                <stationid>1023</stationid> 
+                <station_id>1023</station_id> 
+                <station_url>www.1041theedge.com</station_url> 
+                <stream_url_v2>http://kteg-fm.akacast.akamaistream.net/7/14/19965/v1/auth.akacast.akamaistream.net/kteg-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a94.l1996556093.c19965.n.lq.akamaistream.net:554/D/94/19965/v0001/reflector:56093.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=FAIRBANKS-AK&affiliate=kked-fm&market=FAIRBANKS-AK&format=ROCKALTERNATIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KKED-FM</callletters> 
+                <call_letters>KKED-FM</call_letters> 
+                <description><![CDATA[Alaska's New Rock Leader]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/874/2010/11/default/IHR_kked_1290554672.png</logo_url> 
+                <name><![CDATA[104.7 The Edge]]></name> 
+                <stationid>874</stationid> 
+                <station_id>874</station_id> 
+                <station_url>www.1047theedge.com</station_url> 
+                <stream_url_v2>http://kked-fm.akacast.akamaistream.net/7/330/33405/v1/auth.akacast.akamaistream.net/kked-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=DESMOINES-IA&affiliate=kccq-fm&market=DESMOINES-IA&format=ROCKALTERNATIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KCCQ-FM</callletters> 
+                <call_letters>KCCQ-FM</call_letters> 
+                <description><![CDATA[The New Rock Revolution]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/762/2010/11/default/IHR_kccq_1290554740.png</logo_url> 
+                <name><![CDATA[New Rock 1051]]></name> 
+                <stationid>762</stationid> 
+                <station_id>762</station_id> 
+                <station_url>www.newrock1051.com</station_url> 
+                <stream_url_v2>http://kccq-fm.akacast.akamaistream.net/7/373/26510/v1/auth.akacast.akamaistream.net/kccq-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SARASOTA-FL&affiliate=wtzb-fm&market=SARASOTA-FL&format=ROCKALTERNATIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WTZB-FM</callletters> 
+                <call_letters>WTZB-FM</call_letters> 
+                <description><![CDATA[Today's New Rock Alternative: Sarasota]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/wtzb_logo_1_1319648292.png</logo_url> 
+                <name><![CDATA[105.9 The Buzz]]></name> 
+                <stationid>2054</stationid> 
+                <station_id>2054</station_id> 
+                <station_url>www.1059thebuzz.com</station_url> 
+                <stream_url_v2>http://wtzb-fm.akacast.akamaistream.net/7/209/19865/v1/auth.akacast.akamaistream.net/wtzb-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=PITTSBURGH-PA&affiliate=wxdx-fm&market=PITTSBURGH-PA&format=ROCKALTERNATIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WXDX-FM</callletters> 
+                <call_letters>WXDX-FM</call_letters> 
+                <description><![CDATA[Home of the Pittsburgh Penguins]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2094/2010/11/default/IHR_wxdx_1290554673.png</logo_url> 
+                <name><![CDATA[105.9 The X]]></name> 
+                <stationid>2094</stationid> 
+                <station_id>2094</station_id> 
+                <station_url>www.1059thex.com</station_url> 
+                <stream_url_v2>http://wxdx-fm.akacast.akamaistream.net/7/746/20065/v1/auth.akacast.akamaistream.net/wxdx-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1136.l2006531135.c20065.n.lq.akamaistream.net:554/D/1136/20065/v0001/reflector:31135.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=BAKERSFIELD-CA&affiliate=krab-fm&market=BAKERSFIELD-CA&format=ROCKALTERNATIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KRAB-FM</callletters> 
+                <call_letters>KRAB-FM</call_letters> 
+                <description><![CDATA[Bakersfield's New Rock Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/975/2010/11/default/IHR_krab_1290554674.png</logo_url> 
+                <name><![CDATA[106.1 KRAB]]></name> 
+                <stationid>975</stationid> 
+                <station_id>975</station_id> 
+                <station_url>www.krab.com</station_url> 
+                <stream_url_v2>http://krab-fm.akacast.akamaistream.net/7/754/32792/v1/auth.akacast.akamaistream.net/krab-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=CHARLOTTE-NC&affiliate=wend-fm&market=CHARLOTTE-NC&format=ROCKALTERNATIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WEND-FM</callletters> 
+                <call_letters>WEND-FM</call_letters> 
+                <description><![CDATA[Charlotte's Alternative]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/wend_logo_1_1318418961.png</logo_url> 
+                <name><![CDATA[106.5 The END]]></name> 
+                <stationid>1744</stationid> 
+                <station_id>1744</station_id> 
+                <station_url>www.1065.com</station_url> 
+                <stream_url_v2>http://wend-fm.akacast.akamaistream.net/7/195/19992/v1/auth.akacast.akamaistream.net/wend-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1228.l1999235227.c19992.n.lq.akamaistream.net:554/D/1228/19992/v0001/reflector:35227.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=HOUSTON-TX&affiliate=ktbz-fm&market=HOUSTON-TX&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KTBZ-FM</callletters> 
+                <call_letters>KTBZ-FM</call_letters> 
+                <description><![CDATA[Houston's New Rock Alternative]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/692/2010/12/default/IHR_ktbz_1291675995.png</logo_url> 
+                <name><![CDATA[94.5 The Buzz]]></name> 
+                <stationid>1020</stationid> 
+                <station_id>1020</station_id> 
+                <station_url>www.thebuzz.com</station_url> 
+                <stream_url_v2>http://ktbz-fm.akacast.akamaistream.net/7/370/20099/v1/auth.akacast.akamaistream.net/ktbz-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1968.l2009937967.c20099.n.lq.akamaistream.net:554/D/1968/20099/v0001/reflector:37967.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LOSANGELES-CA&affiliate=kysr-fm&market=LOSANGELES-CA&format=ROCKALTERNATIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KYSR-FM</callletters> 
+                <call_letters>KYSR-FM</call_letters> 
+                <description><![CDATA[LA's Best Alternative Music]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/3674/2010/11/default/IHR_kysr_1290554663.png</logo_url> 
+                <name><![CDATA[98.7fm]]></name> 
+                <stationid>3674</stationid> 
+                <station_id>3674</station_id> 
+                <station_url>www.987fm.com</station_url> 
+                <stream_url_v2>http://kysr-fm.akacast.akamaistream.net/7/410/19778/v1/auth.akacast.akamaistream.net/kysr-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a195.l1977820194.c19778.n.lq.akamaistream.net:554/D/195/19778/v0001/reflector:20194.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=DENVER-CO&affiliate=ktcl-fm&market=DENVER-CO&format=ROCKALTERNATIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KTCL-FM</callletters> 
+                <call_letters>KTCL-FM</call_letters> 
+                <description><![CDATA[Colorado's Modern Rock]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1021/2010/11/default/IHR_ktcl_1290554654.png</logo_url> 
+                <name><![CDATA[93.3 KTCL]]></name> 
+                <stationid>1021</stationid> 
+                <station_id>1021</station_id> 
+                <station_url>www.area93.com</station_url> 
+                <stream_url_v2>http://ktcl-fm.akacast.akamaistream.net/7/594/19816/v1/auth.akacast.akamaistream.net/ktcl-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=WASHINGTON-DC&affiliate=wwdc-fm&market=WASHINGTON-DC&format=ROCKALTERNATIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WWDC-FM</callletters> 
+                <call_letters>WWDC-FM</call_letters> 
+                <description><![CDATA[DC's Rock Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/08/default/wwdc_logo_1_1313071958.png</logo_url> 
+                <name><![CDATA[DC101]]></name> 
+                <stationid>2079</stationid> 
+                <station_id>2079</station_id> 
+                <station_url>www.dc101.com</station_url> 
+                <stream_url_v2>http://wwdc-fm.akacast.akamaistream.net/7/634/20131/v1/auth.akacast.akamaistream.net/wwdc-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a247.l2013124246.c20131.n.lq.akamaistream.net:554/D/247/20131/v0001/reflector:24246.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=DAYTON-OH&affiliate=wxeg-fm&market=DAYTON-OH&format=ROCKALTERNATIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WXEG-FM</callletters> 
+                <call_letters>WXEG-FM</call_letters> 
+                <description><![CDATA[Dayton's Alt-Rock Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2095/2010/11/default/IHR_wxeg_1290554739.png</logo_url> 
+                <name><![CDATA[New Rock 103.9 THE X]]></name> 
+                <stationid>2095</stationid> 
+                <station_id>2095</station_id> 
+                <station_url>www.wxeg.com</station_url> 
+                <stream_url_v2>http://wxeg-fm.akacast.akamaistream.net/7/291/20024/v1/auth.akacast.akamaistream.net/wxeg-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=PHILADELPHIA-PA&affiliate=wrff-fm&market=PHILADELPHIA-PA&format=ROCKALTERNATIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WRFF-FM</callletters> 
+                <call_letters>WRFF-FM</call_letters> 
+                <description><![CDATA[It's All About The Music]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/4665/2010/11/default/IHR_wrff_1290554744.png</logo_url> 
+                <name><![CDATA[Radio1045]]></name> 
+                <stationid>4665</stationid> 
+                <station_id>4665</station_id> 
+                <station_url>www.radio1045.com</station_url> 
+                <stream_url_v2>http://wrff-fm.akacast.akamaistream.net/7/321/20058/v1/auth.akacast.akamaistream.net/wrff-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a424.l2005830423.c20058.n.lq.akamaistream.net:554/D/424/20058/v0001/reflector:30423.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=HONOLULU-HI&affiliate=kucd-fm&market=HONOLULU-HI&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KUCD-FM</callletters> 
+                <call_letters>KUCD-FM</call_letters> 
+                <description><![CDATA[Hawaii's New Music Alternative]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1041/2010/11/default/IHR_kucd_1290554747.png</logo_url> 
+                <name><![CDATA[STAR]]></name> 
+                <stationid>1041</stationid> 
+                <station_id>1041</station_id> 
+                <station_url>www.star1019.com</station_url> 
+                <stream_url_v2>http://kucd-fm.akacast.akamaistream.net/7/292/21876/v1/auth.akacast.akamaistream.net/kucd-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a765.l2187648764.c21876.n.lq.akamaistream.net:554/D/765/21876/v0001/reflector:48764.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=HOUSTON-TX&affiliate=irod-fl&market=HOUSTON-TX&format=ROCKALTERNATIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IROD-FL</callletters> 
+                <call_letters>IROD-FL</call_letters> 
+                <description><![CDATA[www.rodryan.thebuzz.com]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/13609/2010/11/default/IHR_irod-fl_1290554751.png</logo_url> 
+                <name><![CDATA[The Rod Ryan Show Channel]]></name> 
+                <stationid>13609</stationid> 
+                <station_id>13609</station_id> 
+                <station_url>irod-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://rodryan.akacast.akamaistream.net/7/934/78278/v1/auth.akacast.akamaistream.net/rodryan</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a946.l7827834945.c78278.g.lq.akamaistream.net:554/D/946/78278/v0001/reflector:34945.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=INDIANAPOLIS-IN&affiliate=wrzx-fm&market=INDIANAPOLIS-IN&format=ROCKACTIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WRZX-FM</callletters> 
+                <call_letters>WRZX-FM</call_letters> 
+                <description><![CDATA[Rocks]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/wrzx_logo_3_1316694278.png</logo_url> 
+                <name><![CDATA[X103]]></name> 
+                <stationid>2005</stationid> 
+                <station_id>2005</station_id> 
+                <station_url>www.x103.com</station_url> 
+                <stream_url_v2>http://wrzx-fm.akacast.akamaistream.net/7/660/21575/v1/auth.akacast.akamaistream.net/wrzx-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1343.l2157553342.c21575.n.lq.akamaistream.net:554/D/1343/21575/v0001/reflector:53342.sdp</stream_url_rtsp> 
+        </station></stations>

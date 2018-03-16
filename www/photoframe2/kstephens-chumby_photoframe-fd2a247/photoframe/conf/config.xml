@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<movie width="800" height="600" framerate="12">
+  <clip import="build/config.swf" />
+
+  <frame>
+    <library>
+      <clip id="config" class="PhotoFrameConfig" />
+      <clip id="testButton" import="data/btn_okay.png" />
+      <clip id="bgimage" import="data/background.png" />
+    </library>
+
+    <place id="bgimage" name="bgImage" depth="0" />
+    <place id="config" name="myApp" depth="1" />
+
+  </frame>
+</movie>

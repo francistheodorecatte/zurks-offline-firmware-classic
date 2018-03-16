@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile id="2">
+  <name>Kitchen Timer</name>
+  <description/>
+  <user username="offline-user">
+    <profiles>
+      <profile unaccepted="0" name="offline-mode" id="0" />
+      <profile unaccepted="0" name="Squeezebox" id="1" />
+      <profile  unaccepted="0" name="Kitchen Timer" id="2" />
+    </profiles>
+  </user>
+<skin href="/xml/skins/00000000-0000-0000-0000-000000000001" name="Standard" id="00000000-0000-0000-0000-000000000001"/>
+<access access="private" id="2"/>
+  <widget_instances>
+    <widget_instance id="420">
+      <name>EggTimer</name>
+<widget id="420">
+  <name>EggTimer</name>
+  <description>
+Egg timer </description>
+  <version>1.1</version>
+  <mode mode="timeout" time="15"/>
+        <access sendable="false" deleteable="false" access="private" virtualable="false"/>
+  <user username="samuel337"/>
+  <thumbnail href="file:////mnt/usb/www/D4C9F912-9B90-11DC-A894-0030488CBE0D" contenttype="image/jpeg"/>
+  <template href="file:////mnt/usb/www/1D39220E-9D76-11DC-88F6-0030488CBE0D" contenttype="application/x-shockwave-flash"/>
+  <movie href="file:////mnt/usb/www/eggtimer-countdown.swf" contenttype="application/x-shockwave-flash"/>
+  <rating count="5" rating="3.2"/>
+</widget>
+      <access access="private"/>
+   <mode mode="cooperative" time="15"/>
+      <widget_parameters>
+      </widget_parameters>
+      <rating rating="0"/>
+    </widget_instance>
+  </widget_instances>
+</profile>

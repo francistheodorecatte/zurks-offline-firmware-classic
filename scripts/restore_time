@@ -1,0 +1,94 @@
+#!/usr/bin/perl
+#
+# restore_time - attempt to restore time based on the crypto processor's
+#                uptime counter
+#
+# Ken Steele
+# Copyright (c) Chumby Industries, 2007-2008
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+
+# The cryptoprocessor keeps track of its uptime.  When we synced time last,
+# we recorded our notion of the date, along with its notion of uptime in
+# /psp/cp_offset.  Use this to figure out the real time.
+
+main();
+
+sub main {
+	if(!$ENV{'HAS_CP'}) {
+		print "no cryptoprocessor - cannot restore time.\n";
+		return;
+	}
+
+    print "Restoring time... ";
+
+    my $cp_offset = read_cpoffset();
+    my $old_cp_time = read_cptime();
+    
+    if(!defined($cp_offset)) {
+        print "time cannot be restored; no previous time record found.\n";
+        return 0;
+    }
+    
+    my $cp_time = get_cp_time();
+    
+    if($cp_time < $old_cp_time) {
+        print "time cannot be restored; crypto processor's uptime was reset.\n";
+        return 0;
+    }
+    
+    my $date_cmd = 'date -D "%s" -s ' . ($cp_time + $cp_offset);
+    `$date_cmd`;
+    print "done.\n";
+}
+
+sub get_cp_time {
+    my $query = <<END;
+<?xml version='1.0'?>
+<cpi version='1.0'>
+  <query_list>
+    <query type="time"></query>
+  </query_list>
+</cpi>
+END
+
+    open(my $f, '>', "/tmp/query_time.xml" )
+        or die("Couldn't write /tmp/query_time.xml: $!");
+    print $f $query;
+    close($f);
+
+    my $response = `/usr/chumby/scripts/cpi.sh -r /tmp/query_time.xml -o|grep "</response>"`;
+    chomp( $response );
+
+    $response =~ m/(\d+)<\/response/;
+    my $time = $1;
+
+    return $time;
+}
+
+sub read_cpoffset {
+    open(my $f, '<', "/psp/cp_offset") or die("Couldn't get cp offset: $!\n");
+    my $cp_offset = int(<$f>);
+    close($f);
+    return $cp_offset;
+}
+
+sub read_cptime {
+    open(my $f, '<', "/psp/cp_time") or die("Couldn't get cp time: $!\n");
+    my $cp_time = int(<$f>);
+    close($f);
+    return $cp_time;
+}

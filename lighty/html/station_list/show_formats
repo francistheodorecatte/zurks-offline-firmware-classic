@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<formats offset="0" total="20" limit="200">
+  <format>Adult Alternative</format>
+  <format>Adult Contemporary</format>
+  <format>Adult Hits</format>
+  <format>Alternative</format>
+  <format>Christian / Religious</format>
+  <format>Classic Hits</format>
+  <format>Classic Rock</format>
+  <format>Classical</format>
+  <format>Country</format>
+  <format>Hawaiian</format>
+  <format>Hip Hop and R&amp;B</format>
+  <format>Hits</format>
+  <format>Jazz</format>
+  <format>Spanish</format>
+  <format>News/Talk</format>
+  <format>Personalities</format>
+  <format>R&amp;B</format>
+  <format>Rock</format>
+  <format>Sports</format>
+  <format>World</format>
+</formats>

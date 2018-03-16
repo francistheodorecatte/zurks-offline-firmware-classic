@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile id="0">
+  <name>offline-mode</name>
+  <description/>
+  <user id="1">offline-user</user>
+  <info unaccepted="0" type="Profile" updated="Sun Mar 04 21:15:16 +0000 2012" master="false" pending="0" origin="" created="Fri Sep 03 18:18:02 +0000 2010" published=""/>
+  <widget_instances count="23">
+
+<widget_instance id="1">
+  <name>Sky Happenings</name>
+  <info updated="Sun Mar 15 00:28:40 +0000 2012" access="private" secure="" origin="widget_guide" created="Sun Mar 25 00:28:16 +0000 2012"/>
+  <play mode="timeout" time="180"/>
+  <rating value="5"/>
+<widget id="EC1748F8-E91A-11DD-9CA0-001E681DFAC2">
+  <name>Sky Happenings</name>
+  <description>Sun rises and sets according to time of day. Clear display featuring day and date. Watch the skies for surprises. Tap the screen for a simple control panel (watch disasters, storms, or reload widget for the chance of a new sky event).  I'll continue to add new sky happenings as time allows, suggestions welcome! ** May 2009 Update ** Bluer skies for increased legibility, more sky events, fixed interval leak. </description>
+  <version>3.65</version>
+  <play mode="timeout" time="180"/>
+  <user type="community" id="C16C3788-BC81-11DC-A690-00156009DD9B" username="McConnell"/>
+  <security sendable="false" previewable="false" access="private" virtualable="false" approval="approved" deletable="false" overlay="true"/>
+  <rating count="265" value="4.4491"/>
+  <thumbnail href="file:////mnt/usb/www/EC1738A4-E91A-11DD-9CA0-001E681DFAC2"/>
+  <template href="file:////mnt/usb/www/C81936C2-4627-11DE-BA1B-001E681DFAC2"/>
+  <movie href="file:////mnt/usb/www/C3274E1A-050E-11DE-B045-001B24F07EF4" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="320" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/C3274E1A-050E-11DE-B045-001B24F07EF4" fixed_ar="true" swf_version="8" height="240" bgcolor="000000" supports_browser="false" pointing="false" resolution="" scalable="false" requires_sound="false"/>
+  </swfs>
+</widget>
+  <parameters>
+    <parameter value="Zurk's ChumbyFW" name="banner"/>
+  </parameters>
+</widget_instance>
+
+<widget_instance id="2">
+  <name>Weather Radar</name>
+  <info updated="Sun Mar 04 20:20:56 +0000 2012" access="private" secure="" origin="manual" created="Sun Mar 04 20:20:38 +0000 2012"/>
+  <play mode="timeout" time="180"/>
+  <rating value="0"/>
+<widget id="2">
+  <name>Weather Radar</name>
+  <description>Doppler weather radar - updated hourly</description>
+  <version>1.0</version>
+  <play mode="timeout" time="180"/>
+  <user type="community" id="E818F108-307A-11DB-9A6C-001372292121" username="axwl"/>
+  <security sendable="false" previewable="false" access="private" virtualable="false" approval="approved" deletable="false" overlay="true"/>
+  <rating count="63" value="3.8889"/>
+  <thumbnail href="file:////mnt/usb/www/radarthumb.jpg"/>
+  <movie href="file:////tmp/gif.swf" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="800" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////tmp/gif.swf" fixed_ar="true" swf_version="7" height="600" bgcolor="000000" supports_browser="false" pointing="false" resolution="" scalable="false" requires_sound="false"/>
+  </swfs>
+</widget>
+  <parameters>
+  </parameters>
+</widget_instance>
+
+<widget_instance id="3">
+  <name>Simple Calendar</name>
+  <info updated="Sun Mar 04 20:20:56 +0000 2012" access="private" secure="" origin="manual" created="Sun Mar 04 20:20:38 +0000 2012"/>
+  <play mode="timeout" time="180"/>
+  <rating value="0"/>
+<widget id="3">
+  <name>Simple Calendar</name>
+  <description>A simple calendar</description>
+  <version>1.0</version>
+  <play mode="timeout" time="180"/>
+  <user type="community" id="E818F108-307A-11DB-9A6C-001372292121" username="dmaxwell"/>
+  <security sendable="false" previewable="false" access="private" virtualable="false" approval="approved" deletable="false" overlay="true"/>
+  <rating count="63" value="3.8889"/>
+  <thumbnail href="file:////mnt/usb/www/4D3EFC52-8DD1-11DD-937E-001E681DFAC2"/>
+  <movie href="file:////mnt/usb/www/4D3E3FCE-8DD1-11DD-937E-001E681DFAC2" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="800" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/4D3E3FCE-8DD1-11DD-937E-001E681DFAC2" fixed_ar="true" swf_version="7" height="600" bgcolor="000000" supports_browser="false" pointing="false" resolution="" scalable="false" requires_sound="false"/>
+  </swfs>
+</widget>
+  <parameters>
+  </parameters>
+</widget_instance>
+
+<widget_instance id="4">
+  <name>SkyHappenings - Weather Edition</name>
+  <info updated="Sun Mar 04 20:18:33 +0000 2012" access="private" secure="" origin="manual" created="Sun Mar 04 20:18:33 +0000 2012"/>
+  <play mode="default" time="180"/>
+  <rating value="5"/>
+<widget id="4">
+  <name>SkyHappenings - Weather Edition</name>
+  <description>Localized weather patterns for US now available! Sun rises and sets according to time of day. Clear display featuring day and date. Watch the skies for surprises. Tap the screen for local temp. Configure widget to add overlay to always show location and temp.</description>
+  <version>1.2</version>
+  <play mode="timeout" time="180"/>
+  <user type="community" id="C16C3788-BC81-11DC-A690-00156009DD9B" username="McConnell"/>
+  <security sendable="false" previewable="false" access="private" virtualable="false" approval="approved" deletable="false" overlay="true"/>
+  <rating count="201" value="4.199"/>
+  <thumbnail href="file:////mnt/usb/www/E789C7B6-A7F1-11DE-AE3A-001B24F07EF4"/>
+  <template href="file:////mnt/usb/www/33136578-AC40-11DE-BF5D-001B24F07EF4"/>
+  <movie href="file:////mnt/usb/www/SkyHappenningsZurkianEdition.swf" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="320" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/791B081A-A6E0-11DE-B0D8-001E681DFAC2" fixed_ar="true" swf_version="6" height="240" bgcolor="ffffff" supports_browser="false" pointing="false" resolution="" scalable="false" requires_sound="false"/>
+  </swfs>
+</widget>
+  <parameters>
+    <parameter value="ZZ" name="zip"/>
+    <parameter value="Zurk's ChumbyFW" name="banner"/>
+    <parameter value="Temperature" name="myID"/>
+  </parameters>
+</widget_instance>
+
+<widget_instance id="5">
+  <name>pic</name>
+  <info updated="Sun Mar 04 20:21:59 +0000 2012" access="private" secure="" origin="manual" created="Sun Mar 04 20:21:35 +0000 2012"/>
+  <play mode="timeout" time="180"/>
+  <rating value="0"/>
+<widget id="5">
+  <name>ImageURL</name>
+  <description>Loads single jpg, gif or png from given URL. 
+
+LongTouch is zoom in.
+ShortTouch is zoom out.
+Slide is reload.
+
+Please look at [http://d.hatena.ne.jp/shoozhoo/20081105#p2] when using it with URL that authenticate. </description>
+  <version>1.1</version>
+  <play mode="timeout" time="180"/>
+  <user type="community" id="FECA09D4-765D-11DD-AB09-001E681DFAC2" username="shoozhoo"/>
+  <security sendable="false" previewable="false" access="private" virtualable="false" approval="approved" deletable="false" overlay="true"/>
+  <rating count="126" value="4.3254"/>
+  <thumbnail href="file:////mnt/usb/www/398B20BE-E721-11DE-AACD-001E681DF646"/>
+  <template href="file:////mnt/usb/www/398EF5FE-E721-11DE-AACD-001E681DF646"/>
+  <movie href="file:////mnt/usb/www/E6A167CA-AD4F-11DD-908F-001E681DFAC2" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="320" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/E6A167CA-AD4F-11DD-908F-001E681DFAC2" fixed_ar="true" swf_version="7" height="240" bgcolor="ffffff" supports_browser="false" pointing="false" resolution="" scalable="false" requires_sound="false"/>
+  </swfs>
+</widget>
+  <parameters>
+    <parameter value="http://radblast-mi.wunderground.com/cgi-bin/radar/WUNIDS_map?station=ATX&amp;brand=wui&amp;num=1&amp;delay=15&amp;type=N0R&amp;frame=0&amp;scale=0.250&amp;noclutter=0&amp;t=1278308259&amp;lat=0&amp;lon=0&amp;label=you&amp;showstorms=0&amp;map.x=400&amp;map.y=240&amp;centerx=428&amp;centery=672&amp;transx=28&amp;transy=432&amp;showlabels=1&amp;severe=1&amp;rainsnow=1&amp;lightning=1&amp;smooth=0" name="url"/>
+    <parameter value="60" name="reloadSec"/>
+    <parameter value="NO" name="hideLoading"/>
+  </parameters>
+</widget_instance>
+
+<widget_instance id="6">
+  <name>wGraphXL</name>
+  <info updated="Fri Sep 03 18:18:51 +0000 2010" access="private" secure="" origin="manual" created="Fri Sep 03 18:18:39 +0000 2010"/>
+  <play mode="timeout" time="180"/>
+  <rating value="5"/>
+<widget id="6">
+  <name>wGraphXL</name>
+  <description>wGraphXL is a weather graph widget which takes wunderground.com data and displays weather underground graphs for the given location. wGraphXL is optimized for large screen devices. You can select the location id from the list at : [http://www.wunderground.com/weatherstation/index.asp]</description>
+  <version>0.1</version>
+  <play mode="timeout" time="180"/>
+  <user type="community" id="498D2B2A-B605-11DF-8748-0021288E785A" username="YohannSulaiman"/>
+  <security sendable="false" previewable="false" access="private" virtualable="false" approval="approved" deletable="false" overlay="true"/>
+  <rating count="5" value="3.0"/>
+  <thumbnail href="file:////mnt/usb/www/8D3C5266-B6EA-11DF-8836-0021288EC192"/>
+  <template href="file:////mnt/usb/www/8D3CD4B6-B6EA-11DF-8836-0021288EC192"/>
+  <movie href="file:////mnt/usb/www/8D3E903A-B6EA-11DF-8836-0021288EC192" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="800" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/8D3E903A-B6EA-11DF-8836-0021288EC192" fixed_ar="true" swf_version="8" height="600" bgcolor="ffffff" supports_browser="false" pointing="false" resolution="800x600" scalable="false" requires_sound="false"/>
+  </swfs>
+</widget>
+  <parameters>
+    <parameter value="IBCPITTM3" name="banner"/>
+  </parameters>
+</widget_instance>
+
+<widget_instance id="7">
+  <name>Chumby RSS Reader</name>
+  <info updated="Sun Mar 11 21:25:01 +0000 2012" access="private" secure="" origin="widget_guide" created="Sun Mar 11 21:24:56 +0000 2012"/>
+  <play mode="timeout" time="180"/>
+  <rating value="5"/>
+<widget id="7">
+  <name>Chumby RSS Reader</name>
+  <description>A simple configurable RSS reader.  Follow the RSS feed of your choice on the chumby!</description>
+  <version>2.4.4</version>
+  <play mode="timeout" time="180"/>
+  <user type="chumby" id="00000000-0000-0000-0000-000000000001" username="chumby"/>
+  <security sendable="false" previewable="false" access="private" virtualable="false" approval="approved" deletable="false" overlay="true"/>
+  <rating count="235" value="4.0043"/>
+  <thumbnail href="file:////mnt/usb/www/9B7778C8-5152-11DE-B74E-001B24E044BE"/>
+  <template href="file:////mnt/usb/www/9BF61476-5152-11DE-B74E-001B24E044BE"/>
+  <movie href="file:////mnt/usb/www/9C7CBEE0-5152-11DE-B74E-001B24E044BE" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="320" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/9C7CBEE0-5152-11DE-B74E-001B24E044BE" fixed_ar="true" swf_version="7" height="240" bgcolor="666666" supports_browser="false" pointing="false" resolution="" scalable="false" requires_sound="false"/>
+  </swfs>
+</widget>
+  <parameters>
+    <parameter value="http://news.google.com/?output=rss" name="_chumby_param_rssurl"/>
+  </parameters>
+</widget_instance>
+
+<widget_instance id="8">
+  <name>All In One Clock</name>
+  <info updated="Sun Mar 11 21:28:40 +0000 2012" access="private" secure="" origin="widget_guide" created="Sun Mar 11 21:28:39 +0000 2012"/>
+  <play mode="default" time="180"/>
+  <rating value="0"/>
+<widget id="8">
+  <name>All In One Clock</name>
+  <description>The swiss knife of clocks. This widget is more then just a clock. It also includes a timer, a countdown timer, a set of dices, a calculator and a Tic Tac Toe game. My next step is campaigning to make this one the built-in clock...</description>
+  <version>1.0</version>
+  <play mode="timeout" time="180"/>
+  <user type="community" id="87E213CC-0009-11DD-A70F-0016353B0686" username="Yuzzy"/>
+  <security sendable="false" previewable="false" access="private" virtualable="false" approval="approved" deletable="false" overlay="true"/>
+  <rating count="479" value="4.5428"/>
+  <thumbnail href="file:////mnt/usb/www/35049584-EED4-11DD-93FA-001E681DFAC2"/>
+  <movie href="file:////mnt/usb/www/3501D272-EED4-11DD-93FA-001E681DFAC2" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="320" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/3501D272-EED4-11DD-93FA-001E681DFAC2" fixed_ar="false" swf_version="4" height="240" bgcolor="9db9e6" supports_browser="false" pointing="false" resolution="" scalable="false" requires_sound="false"/>
+  </swfs>
+</widget>
+  <parameters>
+  </parameters>
+</widget_instance>
+
+<widget_instance id="9">
+  <name>PhotoFrame</name>
+  <info updated="Sun Mar 11 21:58:26 +0000 2012" access="private" secure="" origin="widget_guide" created="Sun Mar 11 21:58:26 +0000 2012"/>
+  <play mode="default" time="180"/>
+  <rating value="0"/>
+<widget id="9">
+  <name>PhotoFrame</name>
+  <description>View pictures hosted on a web server that can be public, inside your local network or running on the Chumby itself. For instructions and source code download, see &lt;a href="http://www.discarded-ideas.org/chumby/photoframe"&gt;http://www.discarded-ideas.org/chumby/photoframe&lt;/a</description>
+  <version>2.0</version>
+  <play mode="timeout" time="180"/>
+  <user type="community" id="8BC98436-C376-11DC-93CA-001635C47868" username="wansti"/>
+  <security sendable="false" previewable="false" access="private" virtualable="false" approval="approved" deletable="false" overlay="true"/>
+  <rating count="35" value="3.4857"/>
+  <thumbnail href="file:////mnt/usb/www/7D03C090-C864-11DC-8101-0016353B0686"/>
+  <template href="file:////mnt/usb/www/3EA76676-FD98-11DC-A3D2-001635C47868"/>
+  <movie href="file:////mnt/usb/www/C9820B5C-FD98-11DC-AEDD-00156009DD9B" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="800" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/C9820B5C-FD98-11DC-AEDD-00156009DD9B" fixed_ar="true" swf_version="7" height="600" bgcolor="f0f8ff" supports_browser="false" pointing="false" resolution="" scalable="false" requires_sound="false"/>
+  </swfs>
+</widget>
+  <parameters>
+    <parameter value="yes" name="config_display"/>
+    <parameter value="8000" name="config_delay"/>
+    <parameter value="http://localhost/photos" name="config_url"/>
+  </parameters>
+</widget_instance>
+
+<widget_instance id="10">
+  <name>Glass Globe</name>
+  <info updated="Sun Mar 11 21:32:29 +0000 2012" access="private" secure="" origin="widget_guide" created="Sun Mar 11 21:32:29 +0000 2012"/>
+  <play mode="default" time="180"/>
+  <rating value="0"/>
+<widget id="10">
+  <name>Glass Globe</name>
+  <description>Just hands with added moody glass sphere.
+Get free clocks for your own website at www.adamdorman.com.</description>
+  <version>1.0</version>
+  <play mode="timeout" time="180"/>
+  <user type="community" id="E790164A-5200-11DD-BAC5-001E681DFAC2" username="adorman"/>
+  <security sendable="false" previewable="false" access="private" virtualable="false" approval="approved" deletable="false" overlay="true"/>
+  <rating count="37" value="3.8108"/>
+  <thumbnail href="file:////mnt/usb/www/F4D20776-6710-11DD-8104-001E681DFAC2"/>
+  <movie href="file:////mnt/usb/www/84A81CEE-6A56-11DD-8456-001B24F07EF4" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="320" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/84A81CEE-6A56-11DD-8456-001B24F07EF4" fixed_ar="false" swf_version="7" height="240" bgcolor="000000" supports_browser="false" pointing="false" resolution="" scalable="false" requires_sound="false"/>
+  </swfs>
+</widget>
+  <parameters>
+  </parameters>
+</widget_instance>
+
+<widget_instance id="11">
+  <name>Reuters - Top News</name>
+  <info updated="Sun Mar 11 21:19:06 +0000 2012" access="private" secure="" origin="manual" created="Sun Mar 11 21:19:06 +0000 2012"/>
+  <play mode="default" time="180"/>
+  <rating value="0"/>
+<widget id="11">
+  <name>Reuters - Top News</name>
+  <description>See the latest top news headlines from Reuters, read full stories, see the latest pictures, and email stories to yourself.</description>
+  <version>2.6</version>
+  <play mode="timeout" time="180"/>
+  <user type="chumby" id="00000000-0000-0000-0000-000000000001" username="chumby"/>
+  <security sendable="false" previewable="false" access="private" virtualable="false" approval="approved" deletable="false" overlay="true"/>
+  <rating count="31" value="2.871"/>
+  <thumbnail href="file:////mnt/usb/www/715050B0-0534-11DF-AE90-001B24E044BE"/>
+  <template href="file:////mnt/usb/www/71C0BCCE-0534-11DF-AE90-001B24E044BE"/>
+  <movie href="file:////mnt/usb/www/7254DE40-0534-11DF-AE90-001B24E044BE" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="320" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/7254DE40-0534-11DF-AE90-001B24E044BE" fixed_ar="false" swf_version="8" height="240" bgcolor="ffffff" supports_browser="false" pointing="false" resolution="" scalable="false" requires_sound="false"/>
+  </swfs>
+</widget>
+  <parameters>
+  </parameters>
+</widget_instance>
+
+<widget_instance id="12">
+  <name>picx</name>
+  <info updated="Sun Mar 04 20:21:59 +0000 2012" access="private" secure="" origin="manual" created="Sun Mar 04 20:21:35 +0000 2012"/>
+  <play mode="timeout" time="60"/>
+  <rating value="0"/>
+<widget id="12">
+  <name>ImageURL</name>
+  <description>Loads single jpg, gif or png from given URL. 
+
+LongTouch is zoom in.
+ShortTouch is zoom out.
+Slide is reload.
+
+Please look at [http://d.hatena.ne.jp/shoozhoo/20081105#p2] when using it with URL that authenticate. </description>
+  <version>1.1</version>
+  <play mode="timeout" time="60"/>
+  <user type="community" id="FECA09D4-765D-11DD-AB09-001E681DFAC2" username="shoozhoo"/>
+  <security sendable="false" previewable="false" access="private" virtualable="false" approval="approved" deletable="false" overlay="true"/>
+  <rating count="126" value="4.3254"/>
+  <thumbnail href="file:////mnt/usb/www/398B20BE-E721-11DE-AACD-001E681DF646"/>
+  <template href="file:////mnt/usb/www/398EF5FE-E721-11DE-AACD-001E681DF646"/>
+  <movie href="file:////mnt/usb/www/E6A167CA-AD4F-11DD-908F-001E681DFAC2" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="320" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/E6A167CA-AD4F-11DD-908F-001E681DFAC2" fixed_ar="true" swf_version="7" height="240" bgcolor="ffffff" supports_browser="false" pointing="false" resolution="" scalable="false" requires_sound="false"/>
+  </swfs>
+</widget>
+  <parameters>
+    <parameter value="http://intercom/jpg/image.jpg" name="url"/>
+    <parameter value="5" name="reloadSec"/>
+    <parameter value="NO" name="hideLoading"/>
+  </parameters>
+</widget_instance>
+
+<widget_instance id="13">
+  <name>Moon Phase</name>
+  <info updated="Mon Mar 12 01:40:42 +0000 2012" access="private" secure="" origin="widget_guide" created="Mon Mar 12 01:40:42 +0000 2012"/>
+  <play mode="default" time="180"/>
+  <rating value="5"/>
+<widget id="EF7B5026-2F35-11DB-8753-001372292121">
+  <name>Moon Phase</name>
+  <description>The current phase of the moon</description>
+  <version>1.3</version>
+  <play mode="default" time="180"/>
+  <user type="community" id="E818F108-307A-11DB-9A6C-001372292121" username="dmaxwell"/>
+  <security sendable="false" previewable="false" access="private" virtualable="false" approval="approved" deletable="false" overlay="true"/>
+  <rating count="240" value="3.9667"/>
+  <thumbnail href="file:////mnt/usb/www/BBA01F62-D997-11DC-B110-0016353B4502"/>
+  <template href="file:////mnt/usb/www/BBA41E0A-D997-11DC-B110-0016353B4502"/>
+  <movie href="file:////mnt/usb/www/BBA6F378-D997-11DC-B110-0016353B4502" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="320" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/BBA6F378-D997-11DC-B110-0016353B4502" fixed_ar="false" swf_version="6" height="240" bgcolor="000000" supports_browser="false" pointing="false" resolution="" scalable="false" requires_sound="false"/>
+  </swfs>
+</widget>
+  <parameters>
+  </parameters>
+</widget_instance>
+
+<widget_instance id="14">
+  <name>Pong Clock</name>
+  <info updated="Sun Mar 04 20:19:05 +0000 2012" access="private" secure="" origin="manual" created="Sun Mar 04 20:16:54 +0000 2012"/>
+  <play mode="timeout" time="180"/>
+  <rating value="5"/>
+<widget id="14">
+  <name>Pong Clock</name>
+  <description>Pong Clock - While this game of Pong randomly plays, the players score the time. The left player scores the hours, and the right player scores the minutes. Inspired by http://www.sandermulder.com/pong_clock.html</description>
+  <version>1.2</version>
+  <play mode="timeout" time="180"/>
+  <user type="community" id="6A0956A2-F28B-11DC-A70F-0016353B0686" username="winmill"/>
+  <security sendable="false" previewable="false" access="private" virtualable="false" approval="approved" deletable="false" overlay="true"/>
+  <rating count="256" value="4.4492"/>
+  <thumbnail href="file:////mnt/usb/www/E0FB2BCC-13F7-11DD-88EF-0030488E34CA"/>
+  <movie href="file:////mnt/usb/www/D1626D2A-13F6-11DD-91E9-0030485B75AA" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="320" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/D1626D2A-13F6-11DD-91E9-0030485B75AA" fixed_ar="true" swf_version="6" height="240" bgcolor="000000" supports_browser="false" pointing="false" resolution="" scalable="false" requires_sound="false"/>
+  </swfs>
+</widget>
+  <parameters>
+  </parameters>
+</widget_instance>
+
+<widget_instance id="15">
+  <name>RapidFire</name>
+  <info updated="Sun Mar 14 20:21:59 +0000 2012" access="private" secure="" origin="manual" created="Sun Mar 04 20:21:35 +0000 2012"/>
+  <play mode="timeout" time="30"/>
+  <rating value="0"/>
+<widget id="15">
+  <name>RapidFire</name>
+  <description>Loads weather underground Rapid Fire updates.
+
+Please look at [http://wunderground.com] when looking for station ID. </description>
+  <version>1.1</version>
+  <play mode="timeout" time="30"/>
+  <user type="community" id="FECA09D4-765D-11DD-AB09-001E681DFAC2" username="shoozhoo"/>
+  <security sendable="false" previewable="false" access="private" virtualable="false" approval="approved" deletable="false" overlay="true"/>
+  <rating count="126" value="4.3254"/>
+  <thumbnail href="file:////mnt/usb/www/rapidfirethumb.jpg"/>
+  <movie href="file:////mnt/usb/www/Rapid_Fire.swf" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="800" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/Rapid_Fire.swf" fixed_ar="true" swf_version="7" height="600" bgcolor="ffffff" supports_browser="false" pointing="false" resolution="" scalable="false" requires_sound="false"/>
+  </swfs>
+</widget>
+  <parameters>
+    <parameter value="both" name="units"/>
+    <parameter value="IBCPITTM3" name="station"/>
+  </parameters>
+</widget_instance>
+
+<widget_instance id="16">
+  <name>Media RSS2</name>
+  <info updated="Tue Apr 7 01:49:56 +0000 2012" access="private" secure="" origin="manual" created="Tue Apr 17 01:49:56 +0000 2012"/>
+  <play mode="default" time="180"/>
+  <rating value="0"/>
+<widget id="16">
+  <name>Media RSS2</name>
+  <description>Media RSS2 reader custom for Flickr images.</description>
+  <version>1.1</version>
+  <play mode="timeout" time="180"/>
+  <user type="community" id="C16C3788-BC81-11DC-A690-00156009DD9B" username="McConnell"/>
+  <security sendable="false" previewable="false" access="private" virtualable="false" approval="approved" deletable="false" overlay="true"/>
+  <rating count="54" value="3.537"/>
+  <thumbnail href="file:////mnt/usb/www/mediarssthumb.jpg"/>
+  <template href="file:////mnt/usb/www/D5673AF6-D910-11DD-B2C3-001E681DF646"/>
+  <movie href="file:////mnt/usb/www/mediaRss2.swf" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="800" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/mediaRss2.swf" fixed_ar="false" swf_version="8" height="600" bgcolor="ffffff" supports_browser="false" pointing="false" resolution="" scalable="false" requires_sound="false"/>
+  </swfs>
+</widget>
+  <parameters>
+  </parameters>
+</widget_instance>
+
+<widget_instance id="17">
+  <name>Chumby RSS Reader</name>
+  <info updated="Sun Mar 11 21:25:01 +0000 2012" access="private" secure="" origin="widget_guide" created="Sun Mar 11 21:24:56 +0000 2012"/>
+  <play mode="timeout" time="180"/>
+  <rating value="5"/>
+<widget id="7">
+  <name>Chumby RSS Reader</name>
+  <description>A simple configurable RSS reader.  Follow the RSS feed of your choice on the chumby!</description>
+  <version>2.4.4</version>
+  <play mode="timeout" time="180"/>
+  <user type="chumby" id="00000000-0000-0000-0000-000000000001" username="chumby"/>
+  <security sendable="false" previewable="false" access="private" virtualable="false" approval="approved" deletable="false" overlay="true"/>
+  <rating count="235" value="4.0043"/>
+  <thumbnail href="file:////mnt/usb/www/9B7778C8-5152-11DE-B74E-001B24E044BE"/>
+  <template href="file:////mnt/usb/www/9BF61476-5152-11DE-B74E-001B24E044BE"/>
+  <movie href="file:////mnt/usb/www/9C7CBEE0-5152-11DE-B74E-001B24E044BE" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="320" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/9C7CBEE0-5152-11DE-B74E-001B24E044BE" fixed_ar="true" swf_version="7" height="240" bgcolor="666666" supports_browser="false" pointing="false" resolution="" scalable="false" requires_sound="false"/>
+  </swfs>
+</widget>
+  <parameters>
+    <parameter value="http://chumby.com/zurksofw/rss.xml" name="_chumby_param_rssurl"/>
+  </parameters>
+</widget_instance>
+
+<widget_instance id="18">
+  <name>Talking Clock</name>
+  <info updated="Sun Mar 11 21:25:01 +0000 2012" access="private" secure="" origin="widget_guide" created="Sun Mar 11 21:24:56 +0000 2012"/>
+  <play mode="timeout" time="180"/>
+  <rating value="5"/>
+<widget id="18">
+  <name>Talking Clock</name>
+  <description>A simple configurable Clock</description>
+  <version>2.4.4</version>
+  <play mode="timeout" time="180"/>
+  <user type="chumby" id="00000000-0000-0000-0000-000000000001" username="chumby"/>
+  <security sendable="false" previewable="false" access="private" virtualable="false" approval="approved" deletable="false" overlay="true"/>
+  <rating count="235" value="4.0043"/>
+  <thumbnail href="file:////mnt/usb/www/clockthumb.jpg"/>
+  <movie href="file:////mnt/usb/www/TalkingClock.swf" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="320" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/TalkingClock.swf" fixed_ar="true" swf_version="7" height="240" bgcolor="666666" supports_browser="false" pointing="false" resolution="" scalable="false" requires_sound="false"/>
+  </swfs>
+</widget>
+  <parameters>
+  </parameters>
+</widget_instance>
+
+<widget_instance id="19">
+  <name>TextFieldWidget</name>
+  <info updated="Fri Apr 20 05:50:56 +0000 2012" access="private" secure="" origin="widget_guide" created="Fri Apr 20 05:50:03 +0000 2012"/>
+  <play mode="timeout" time="180"/>
+  <rating value="0"/>
+<widget id="19">
+  <name>TextFieldWidget</name>
+  <description>Displays the results from an HTTP request in a TextField with programmable refresh time.
+
+The preview won't work here because it needs a real url. Also the chumbyplayer only has 3 fonts, I set the font to the internal mono font, which doesn't display as mono in flash player 10, no worries. Here's where to get my source code, http://www.rethinksun.com/main/?p=504. You can com&#173;pile my project for your own use using open source tools, mtasc and swfmill.</description>
+  <version>1.2</version>
+  <play mode="timeout" time="180"/>
+  <user type="community" id="4E2FCCB4-8B38-11DC-8372-0030488E34F8" username="holla2040"/>
+  <security sendable="false" previewable="false" access="private" virtualable="false" approval="approved" deletable="false" overlay="true"/>
+  <rating count="0" value="0.0"/>
+  <thumbnail href="file:////mnt/usb/www/A6A67970-D250-11E0-A536-0021288E6F90"/>
+  <movie href="file:////mnt/usb/www/TextFieldWidget.swf" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="800" as_version="2" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/TextFieldWidget.swf" swf_version="7" height="600" bgcolor="ffffff"/>
+  </swfs>
+</widget>
+  <parameters>
+    <parameter value="[type Function]" name="childrenOfType"/>
+    <parameter value="" name="undefined"/>
+    <parameter value="16" name="config_tfsize"/>
+    <parameter value="5000" name="config_delay"/>
+    <parameter value="http://chumby.com/cgi-bin/msghdr.sh" name="config_url"/>
+    <parameter value="[type Function]" name="firstChildOfType"/>
+  </parameters>
+</widget_instance>
+
+<widget_instance id="20">
+  <name>RoboClock</name>
+  <info updated="Thu Apr 19 22:38:37 +0000 2012" access="private" secure="" origin="manual" created="Thu Apr 19 22:38:13 +0000 2012"/>
+  <play mode="timeout" time="180"/>
+  <rating value="0"/>
+<widget id="20">
+  <name>RoboClock</name>
+  <description>Animated robotic clock. Digits are changed by robotic arms. Funny.</description>
+  <version>Beta</version>
+  <play mode="timeout" time="180"/>
+  <user type="community" id="87E213CC-0009-11DD-A70F-0016353B0686" username="Yuzzy"/>
+  <security sendable="false" previewable="false" access="private" virtualable="false" approval="approved" deletable="false" overlay="true"/>
+  <rating count="961" value="4.5297"/>
+  <thumbnail href="file:////mnt/usb/www/8A1F863E-BF66-11DD-A72B-001B24F07EF4"/>
+  <movie href="file:////mnt/usb/www/8A1A2F68-BF66-11DD-A72B-001B24F07EF4" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="320" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/8A1A2F68-BF66-11DD-A72B-001B24F07EF4" fixed_ar="true" swf_version="6" height="240" bgcolor="ffffff" supports_browser="false" pointing="false" resolution="" scalable="false" requires_sound="false"/>
+  </swfs>
+</widget>
+  <parameters>
+  </parameters>
+</widget_instance>
+
+<widget_instance id="21">
+  <name>Zoltar</name>
+  <info updated="Fri Apr 20 04:55:49 +0000 2012" access="private" secure="" origin="widget_guide" created="Fri Apr 20 04:55:49 +0000 2012"/>
+  <play mode="default" time="180"/>
+  <rating value="0"/>
+<widget id="21">
+  <name>Zoltar</name>
+  <description>Zoltar can see your future! Zoltar forsee that you will add this most venerable widget to your chumby, yesss! He can see that you will give it five stars! ZOLTAR SEES ALL THINGS!!!!</description>
+  <version>1.0</version>
+  <play mode="timeout" time="180"/>
+  <user type="community" id="FAE524F6-CCFF-11DB-AD70-00161771248C" username="howdog"/>
+  <security sendable="false" previewable="false" access="private" virtualable="false" approval="approved" deletable="false" overlay="true"/>
+  <rating count="124" value="4.1371"/>
+  <thumbnail href="file:////mnt/usb/www/BD1320B6-611C-11DE-8D19-001B24F07EF4"/>
+  <movie href="file:////mnt/usb/www/BD139730-611C-11DE-8D19-001B24F07EF4" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="320" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/BD139730-611C-11DE-8D19-001B24F07EF4" fixed_ar="true" swf_version="8" height="240" bgcolor="000000" supports_browser="false" pointing="false" resolution="" scalable="false" requires_sound="true"/>
+  </swfs>
+</widget>
+  <parameters>
+  </parameters>
+</widget_instance>
+
+<widget_instance id="22">
+  <name>Space Clock</name>
+  <info updated="Sun Mar 04 20:19:05 +0000 2012" access="private" secure="" origin="manual" created="Sun Mar 04 20:16:54 +0000 2012"/>
+  <play mode="timeout" time="180"/>
+  <rating value="5"/>
+<widget id="22">
+  <name>Space Clock</name>
+  <description>A clock you might find on a starship.</description>
+  <version>1.2</version>
+  <play mode="timeout" time="180"/>
+  <user type="community" id="E818F108-307A-11DB-9A6C-001372292121" username="dmaxwell"/>
+  <security sendable="false" previewable="false" access="private" virtualable="false" approval="approved" deletable="false" overlay="true"/>
+  <rating count="266" value="4.4361"/>
+  <thumbnail href="file:////mnt/usb/www/E1FDAEC4-88F4-11DD-B9A5-001B24F07EF4"/>
+  <movie href="file:////mnt/usb/www/19D7FDB0-F49B-11DD-896F-001E681DFAC2" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="320" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/19D7FDB0-F49B-11DD-896F-001E681DFAC2" fixed_ar="true" swf_version="6" height="240" bgcolor="000000" supports_browser="false" pointing="false" resolution="" scalable="false" requires_sound="false"/>
+  </swfs>
+</widget>
+  <parameters>
+  </parameters>
+</widget_instance>
+
+<widget_instance id="23">
+  <name>BBC World Edition</name>
+  <info updated="Sun Mar 04 20:19:05 +0000 2012" access="private" secure="" origin="manual" created="Sun Mar 04 20:16:54 +0000 2012"/>
+  <play mode="timeout" time="180"/>
+  <rating value="5"/>
+<widget id="23">
+  <name>BBC World Edition</name>
+  <description>News feed from BBC News-World Edition, with the look and feel of ink on paper.</description>
+  <version>1.2</version>
+  <play mode="timeout" time="180"/>
+  <user type="community" id="E818F108-307A-11DB-9A6C-001372291" username="someguy"/>
+  <security sendable="false" previewable="false" access="private" virtualable="false" approval="approved" deletable="false" overlay="true"/>
+  <rating count="266" value="4.4361"/>
+  <thumbnail href="file:////mnt/usb/www/43D39928-E52B-11DD-AF84-001E681DFAC2"/>
+  <movie href="file:////mnt/usb/www/B60AB9F0-E57F-11DD-8A65-001E681DF646" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="320" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/B60AB9F0-E57F-11DD-8A65-001E681DF646" fixed_ar="true" swf_version="6" height="240" bgcolor="000000" supports_browser="false" pointing="false" resolution="" scalable="false" requires_sound="false"/>
+  </swfs>
+</widget>
+  <parameters>
+  </parameters>
+</widget_instance>
+
+  </widget_instances>
+</profile>

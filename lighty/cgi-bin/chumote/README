@@ -1,0 +1,29 @@
+Control much of the functionality of a Chumby device via any web browser.
+
+Utilizes the built in web server, perl, bash and various code that comes stock with the Chumby.
+Update 6/29/12 A new version will work with Zurk's setup soon.
+
+1) Using ssh or scp place all files in /psp/cgi-bin/
+
+2) Once installed you can start your journey of control by pointing a web browser at 
+http://ip-of-the-chumby/cgi-bin/custom/index.cgi
+
+An easy method to install this that will not require use of shelling into the Chumby will be available soon. 
+
+Currently tested and confirmed to work on a Chumby Insignia 3.5
+
+NB. The current version should be considered Alpha grade. It works....but not elegantly. Hooks are in place that are not
+yet tied into the web interface. Stay calm and eat a jaffa.
+
+Update 6/5/12 Had to stop working on this project due to life, I aim to get back on things in a few weeks...by which time 
+I should be able to have the code work with Zurk's lattest firmware replacement. 
+
+History of the project......
+A few hours after I got my first chumby last week I realized it was more a linux box than a consumer toy. Given how
+I wanted to use the devices I started looking into what it would take to control it remotely. Finding a web server,
+perl and bash already onboard I started working on a web front end to some of the features I would be using regularly.
+Looking about the web and chumby wiki for help I then found Chumbymote (http://wecreategames.com/blog/?p=181). They had 
+already worked out the screen capture stuff, the general layout and some of the functionality. I took it, cleaned up the
+code some and started adding/reworking things. Much thanks to their efforts as it got the dev rolling nicely. After a 
+two days of working up the podcatching/streaming, fm tuning and stream reporting a friend suggested I make a github repo
+of the project. Here it is and here it will continue to be worked on. Enjoy. 

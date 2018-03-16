@@ -1,0 +1,70 @@
+#!/bin/bash
+# By Linc 10/1/2004
+# Find the latest script at http://lincgeek.org/bashpodder
+# Revision 1.21 12/04/2008 - Many Contributers!
+# If you use this and have made improvements or have comments
+# drop me an email at linc dot fessenden at gmail dot com
+# and post your changes to the forum at http://lincgeek.org/lincware
+# I'd appreciate it!
+# Chumbycized  04/20/2012 - tomhiggins
+
+# Mode setting (Stream or File)
+chummode="stream"
+
+# USB directory on the Chumby
+chumusb="/mnt/usb/"
+
+# Make script crontab friendly:
+cd $(dirname $0)
+
+# datadir is the directory you want podcasts saved to:
+datadir=$chumusb$(date +%Y-%m-%d)
+
+#debug
+#echo $datadir
+
+# create datadir if necessary:
+mkdir -p $datadir
+
+# Delete any temp file:
+rm -f temp.log
+rm -f ctemp.log
+
+echo "entering loop"
+
+# Read the bp.conf file and wget any url not already in the podcast.log file:
+while read podcast
+	do
+	podcasturl=$(echo $podcast|cut -d '#' -f1)
+	podcastname=$(echo $podcast|cut -d '#' -f2)
+	echo "Podcast URL" $podcasturl
+	echo "Podcast Name" $podcastname
+	file=$(xsltproc parse_enclosure.xsl $podcast 2> /dev/null || wget -q $podcasturl -O - | tr '\r' '\n' | tr \' \" | sed -n 's/.*url="\([^"]*\)".*/\1/p'|grep mp3|head -n4)
+	echo $file
+	for url in $file
+		do
+		echo $url >> temp.log
+		if ! grep "$url" podcast.log > /dev/null
+			then
+			   case "$chummode" in
+			    stream)
+			    echo $url"#"$podcasname
+			    echo $url"#"$podcastname >>currentcasts.log 
+			    ;;
+			   file )
+			   wget -t 10 -U BashPodder -c -q -O $datadir/$(echo "$url" | awk -F'/' {'print $NF'} | awk -F'=' {'print $NF'} | awk -F'?' {'print $1'}) "$url"
+			   ;;
+			  esac
+		fi
+		done
+	done < bp.conf
+echo "end loop"
+# Move dynamically created log file to permanent log file:
+cat podcast.log >> temp.log
+cat currentcasts.log >> ctemp.log
+sort temp.log | uniq > podcast.log
+sort ctemp.log |uniq > currentcasts.log
+rm temp.log
+rm ctemp.log
+# Create an m3u playlist:
+#ls $datadir | grep -v m3u > $datadir/podcast.m3u

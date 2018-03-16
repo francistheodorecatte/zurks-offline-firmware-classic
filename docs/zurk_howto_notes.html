@@ -1,0 +1,417 @@
+<html>
+<head>
+<title>Using zurk's offline chumby software</title>
+</head>
+<body marginwidth=20>
+
+<h1>Using Zurk's <a href="http://sourceforge.net/projects/zurk/files/">offline chumby software</a> to permanently convert a chumby 
+one to offline use</h1>
+<i>galadriel's notes</i><br>
+Based off discussions on <a href="http://forum.chumby.com/viewtopic.php?id=7831">forum.chumby.com</a>.<br><br>
+
+Do I need to mention that you should probably test the software on your own chumby, following zurk's instructions, booting 
+from the usb drive BEFORE making permanent changes?  Well, okay, there's the mention.  If you need this	writeup	to include the directions 
+specifically for the usb drive bootable, I've got it written up	<a href="zurk_howto_notes_mnt_usb.html">at zurk_howto_notes_mnt_usb.html</a> 
+instead.
+
+<br>
+<br>
+You'll do most of this while <a 
+href="http://wiki.chumby.com/index.php/Chumby_tricks#Open_a_secure_shell_.28SSH.29_console_on_the_chumby">ssh'd into the 
+chumby</a>, so make sure you're comfortable with that.  You'll need to know your chumby's IP (<b>your_chumbys_ip</b>) to ssh in and 
+to make the backups beforehand (this is found on the chumby's info screen).  You'll also need to be able to use scp and ssh; 
+if you're on a Windows machine, you may need to download putty.exe and pscp.exe from <a 
+href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">here.<a/> <br><br> 
+Any time you should just type a command at the command line, I'll put it in <code>code</code> so you can tell.  If you're 
+using Windows, then you'll use "pscp" instead of "scp", and you'll use "putty" instead of "ssh".
+<br>
+<br>
+
+<h2>Starting off</h2>
+To be really safe, make backups of your chumby's current files. <a
+href="http://wiki.chumby.com/index.php/Chumby_tricks#Open_a_secure_shell_.28SSH.29_console_on_the_chumby">Start up the ssh 
+daemon on the chumby</a> so you can manipulate it directly.  Then open a command line on your primary computer. Type--or 
+copy-and-paste--each of these commands on the command line, but replace <b>your_chumbys_ip</b> with your chumby's IP, of course. 
+<br>
+
+
+<code>
+mkdir chumby_backup
+<br>
+cd chumby_backup
+</code>
+<br><br>
+
+If you're on Windows and don't know much about ssh and scp, go ahead and get putty/pscp and put them here so they'll be 
+right there for you to use:<br>
+<code>
+wget http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe
+<br>
+wget http://the.earth.li/~sgtatham/putty/latest/x86/pscp.exe
+</code>
+<br><br>
+
+
+Now continue with your backups:<br>
+<code>
+scp -r root@your_chumbys_ip:/psp .
+<br>
+scp -r root@your_chumbys_ip:/www .
+<br>
+mkdir usr/; mkdir usr/widgets/
+<br>
+scp root@your_chumbys_ip:/usr/widgets/controlpanel.swf usr/widgets/
+</code>
+<br>
+<br>
+
+Moving along.  Download <a href="http://sourceforge.net/projects/zurk/files/">zurk's offline chumby software</a> to your 
+computer.  Plug in a usb drive to the computer, and extract the software to the usb drive.  Put the usb drive in the chumby.
+
+
+<h2>Get your widgets</h2>
+Move on over to the chumby now.  Make sure <a
+href="http://wiki.chumby.com/index.php/Chumby_tricks#Open_a_secure_shell_.28SSH.29_console_on_the_chumby">sshd is started 
+on the chumby</a>.  Then, from the command line on your primary computer:<br>
+<code>
+ssh root@your_chumbys_ip
+</code>
+<br><br>
+
+Make a copy of zurk's original profiles file so you can refer to it later if you need to:<br>
+<code>cp /mnt/usb/www/xml/profiles /mnt/usb/www/xml/profiles.bak</code>
+<br><br>
+On your account at <a href="http://www.chumby.com">chumby.com</a>, put all the widgets you want to download into one 
+channel, then switch your chumby to that channel.
+<br><br>
+
+<table cellpadding=20 border=1>
+<tr><td>
+<super>*</super>If you're using these with the usb-booted version, put the widget files in /mnt/usb/www and edit the 
+/mnt/usb/www/xml/profiles file instead.  Again, you really should test all this with the usb-booted version first.  Just 
+reemmber, when you're ready to make it permanent: move the widgets to /www, move the profiles file to /www/xml, AND edit the 
+/www/xml/profiles file so the it knows that the widgets are in /www (instead of /mnt/usb/www). 
+</td></tr>
+</table>
+
+
+<br><br>
+I'm just going to go ahead and use the converted-chumby /www for all the directories, okay?  You go ahead and change the 
+directory as you go along if you're just going to boot from the usb drive for now.  If you need step-by-step directions for the
+usb-bootable drive with the directory names changed for you, I've got them <a href="zurk_howto_notes_mnt_usb.html">at 
+zurk_howto_notes_mnt_usb.html</a> instead.
+<br><br>
+You're ssh'd into your chumby.  Then after you:<br>
+<code>stop_control_panel</code><br> and then<br>
+<code>start_control_panel</code><br>
+You'll see a lot of text zooming by.  At some point you'll see a URL.  The url will look something like this:<br>
+<b>http://xml.chumby.com/xml/profiles?id=...</b>
+<br><br>
+Copy and wget that url; it's the profile for your active channel:<br>
+<code>cd /mnt/usb/<br>
+mkdir temp</br>
+cd temp</br>
+wget [the copied url]<br>
+mv [the file that wget saved] /www/xml/profiles</code>
+<br>
+<br>
+
+If you're not sure what the file is called, you can check:<br>
+<code>
+ls
+</code>
+
+<br>
+<br>
+That will list the files in your current directory.  If you don't want to type out some huge filename, you can start typing 
+it and then hit the TAB key.  The TAB will complete the filename for you. 
+<br>
+<br>
+
+Now you'll edit that file. Open another command line on your primary computer (console, putty, etc) and ssh into your chumby 
+again.  In that second window:<br>
+<code>nano /www/xml/profiles</code><br>
+<br>
+Start with a simple find-and-replace.  Where you see:<br>
+<b>     &ltaccess access="public" deleteable="true" virtualable="true" sendable="true"/&gt</b><br>
+replace the whole thing with the line in the "www/xml/profiles" file provided:<br>
+<b>    &ltaccess sendable="false" deleteable="false" access="private" virtualable="false"/&gr</b>
+<br><br>
+
+Now, a more complicated find-and-replace.  Everything that looks like a URL in that file needs to have two things done to 
+it.  First wget the URL and put the resulting file in /www, and then change the entry in the file to point to /www.  I'll 
+show you how to do that.   For example, where my profiles file said:
+<br><br>
+    &ltmovie href="<b>http://s3movies.chumby.com/cdn/xmlmovie/2EEDFAB0-AA2D-11DC-AC8F-001635C47868</b>" 
+contenttype="application/x-shockwave-flash"/&gt
+<br>
+<br>
+
+I needed to go back to that first window, and at the command line:<br>
+<code>wget http://s3movies.chumby.com/cdn/xmlmovie/2EEDFAB0-AA2D-11DC-AC8F-001635C47868<br>
+mv 2EEDFAB0-AA2D-11DC-AC8F-001635C47868 /www/</code><br>
+<br>
+and also in the second window, edit the line in the file so it read:<br>
+    &ltmovie href="<b>file:////www/2EEDFAB0-AA2D-11DC-AC8F-001635C47868</b>"
+contenttype="application/x-shockwave-flash"/&gt 
+<br><br>
+
+Repeat this for every URL in that file.
+<br><br>
+
+However!<br>
+In some places you'll see things that look sort of like URL's, but they don't actually have a http:// and may 
+not mention 
+chumby.com.  For example:<br>
+    &ltcategory href="<b>/xml/categories/EF508B70-2F35-11DB-8753-001372292121</b>" name="Clocks" 
+id="EF508B70-2F35-11DB-8753-001372292121"/&gt 
+<br><br>
+
+What you'll need to do there is insert http://chumby.com into the beginning of the part that looks like a URL, and then wget 
+the resulting whole URL, like so:<br>
+<code>wget http://chumby.com/xml/categories/EF508B70-2F35-11DB-8753-001372292121<br>
+mv EF508B70-2F35-11DB-8753-001372292121 /www</code>
+<br><br>
+
+and then change the profiles file so it reads:<br>
+    &ltcategory href="<b>file:////www/EF508B70-2F35-11DB-8753-001372292121</b>" name="Clocks"
+id="EF508B70-2F35-11DB-8753-001372292121"/&gt 
+<br><br>
+
+Once you have found all of the URL's in the file, save and exit.  Hit "control-X" and then "Y" for yes.  you should have a 
+working "profiles" file!  Your widgets are all saved right there on your chumby, and your profiles file will call them just 
+like it used to when it was using the original chumby software.
+
+
+
+
+
+
+
+
+<br><br>
+
+
+
+
+
+
+<h2>To do a minimal changeover to offline mode</h2>
+
+
+<b>To use only widgets that won't ask for the weather, photoframe, voice, etc</b>
+<br><br>
+Make sure that usb drive with zurk's files is plugged into the chumby.  Then you'll start moving files and changing a few:
+<br>
+<code>
+stop_control_panel
+<br>
+sync
+<br>
+mount -o remount,rw /
+<br>
+cd /mnt/usb/
+<br>
+cp -r psp/* /psp
+<br>
+cp -r www/* /www
+<br>
+cp controlpanel.swf /
+<br>
+
+cp debugchumby /psp/rfs1/userhook2
+<br>
+cp debugchumbyearly /psp/rfs1/userhook1 
+<br>
+
+rm www/cgi-bin/speak* 
+<br>
+rm /psp/zwapi*
+</code>
+<br>
+<br>
+
+Now you'll need to change another file.
+<br>
+<code>cp /usr/chumby/scripts/start_control_panel /usr/chumby/scripts/start_control_panel.bak<br>
+nano /usr/chumby/scripts/start_control_panel</code>
+<br>
+<br>
+
+Find <b>/mnt/usb/controlpanel.swf</b> (there are two occurrences) and replace it with <b>/controlpanel.swf</b>.<br>
+Then hit "control-X" and "Y" for yes.
+<br>
+<br>
+
+A few more commands at the command line:<br>
+<code>sync
+<br>
+mount -o remount,ro /
+<br>
+sync 
+<br>
+start_control_panel
+</code>
+
+<br>
+<br>
+Aaaaand you're done!
+<br>
+<br>
+
+<br>
+<br>
+<h2>To do a full changeover to offline mode</h2>
+
+<b>To use all the widgets</b>
+<br><br>
+
+Make sure that usb drive with zurk's files is plugged into the chumby.  Then you'll start moving files and changing a few:
+<br>
+<code>
+stop_control_panel
+<br>
+sync
+<br>
+mount -o remount,rw /
+<br>
+cd /mnt/usb/
+<br>
+cp -r psp/* /psp
+<br>
+cp -r www/* /www
+<br>
+cp -r nano/ /
+<br>
+cp -r java/ /
+<br>
+cp -r proxy/ /
+<br>
+cp -r music/ /
+<br>
+cp -r TalkingChumby/ /
+<br>
+
+cp controlpanel.swf /
+<br>
+
+cp debugchumby /psp/rfs1/userhook2
+<br>
+cp debugchumbyearly /psp/rfs1/userhook1 
+</code>
+<br>
+<br>
+
+Now you'll need to change another file.
+<br>
+<code>cp /usr/chumby/scripts/start_control_panel /usr/chumby/scripts/start_control_panel.bak<br>
+nano /usr/chumby/scripts/start_control_panel</code>
+<br>
+<br>
+
+Find <b>/mnt/usb/controlpanel.swf</b> (there are two occurrences) and replace it with <b>/controlpanel.swf</b>.<br>
+Then hit "control-X" and "Y" for yes.
+<br>
+<br>
+
+A few more commands at the command line:<br>
+<code>sync
+<br>
+mount -o remount,ro /
+<br>
+sync 
+<br>
+start_control_panel
+</code>
+
+<br>
+<br>
+Aaaaand you're done!
+
+<br>
+<br>
+
+<br>
+<br>
+
+
+
+<h1>More notes</h1>
+
+<table cellpadding=20 border=1>
+<tr><td	colspan=2><h2>Octopus: Download every single chumby widget and the entire catalog</h2></td></tr>
+<tr><td>zurk<br>
+said on <a href="http://forum.chumby.com/viewtopic.php?id=8061">forum.chumby.com</a></td>
+<td>I've decided to release this rather than hang on to it. Its a simple method of downloading every single widget including all support files from the entire chumby network library.
+<br>
+
+Download it here including all source code : <a href="http://sourceforge.net/projects/zurk/files/octopus.zip/download">http://sourceforge.net/projects/zurk/files/octopus.zip/download</a>
+<br>
+
+Octopus -- A chumby.com full catalog downloader.
+<br>
+by
+<br>
+Zurk
+<br>
+----
+<br>
+
+Download version 7 of java from <a href="http://java.sun.com">http://java.sun.com</a> and install it.
+<br>
+
+Create a new writeable directory and then go to a dos or unix prompt.
+<br>
+
+Type C:\<java path>\java octopus on Windows and the program will run.
+<br>
+or /<java path>/java octopus on UNIX and the program will run.
+<br>
+It will create 4 directories and download all XML files, widget SWFs and thumbnails.
+<br>
+
+You may pipe the output to a text file to examine it later. e.g.
+<br>
+/java/bin/java octopus > octopusoutput.txt
+<br>
+
+You can then open the output in a text editor to view which files were written where.
+<br>
+
+Note : This program requires network access and uses the chumby network heavily. Run it only once to back up all the widgets!
+</td></tr>
+<tr><td>Xav<br>
+said on <a href="http://forum.chumby.com/viewtopic.php?id=8061">forum.chumby.com</a></td>
+<td>I'm using Ubuntu with Java 1.6 here. Can you tell me how I would go about recompiling? I'm pretty tech savvy and very comfortable with a command line, but I'm not a Java developer.</td>
+</tr>
+<tr><td>zurk<br>
+said on <a href="http://forum.chumby.com/viewtopic.php?id=8061">forum.chumby.com</a></td>
+<td>Just run "javac" on the octopus.java file included, that will rebuild it.</td>
+</tr>
+</table>
+<br>
+<br>
+
+
+
+<table cellpadding=20 border=1>
+<tr><td colspan=2><h2>Power to the USB port when running off the battery</h2></td</tr>
+
+<tr><td>francesco<br>
+said on <a href="http://forum.chumby.com/viewtopic.php?id=7831">forum.chumby.com</a></td>
+<td>I've noticed that when I run the Chumby one on the battery alone, the USB port is not powered anymore and the device crashes. This might be a good reason for going native.</td></tr>
+<tr><td>zurk<br>
+said on <a href="http://forum.chumby.com/viewtopic.php?id=7831">forum.chumby.com</a></td>
+<td>not really. the chumby battery system is somewhat stupid.
+<br>
+edit the file :
+<br>
+/usr/chumby/scripts/power_state_changed.sh and remove all the hub lines. that should keep power on to the usb ports on battery.
+<br>
+wont help with the chumby charging batteries to the death problem tho. the whole charging system stupidity ensures batteries wont last more than a year or two tops even if unused.
+</td></tr></table>
+
+
+
+</body>
+</html>

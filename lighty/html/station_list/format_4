@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stations offset="0" total="9" limit="2000">
+<station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SAVANNAH-GA&affiliate=wsok-am&market=SAVANNAH-GA&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WSOK-AM</callletters> 
+                <call_letters>WSOK-AM</call_letters> 
+                <description><![CDATA[Savannah's Gospel 1230 WSOK]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1256/2010/11/default/IHR_wsok-am_1290554680.png</logo_url> 
+                <name><![CDATA[1230 WSOK]]></name> 
+                <stationid>1256</stationid> 
+                <station_id>1256</station_id> 
+                <station_url>www.1230wsok.com</station_url> 
+                <stream_url_v2>http://wsok-am.akacast.akamaistream.net/7/323/26229/v1/auth.akacast.akamaistream.net/wsok-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=JACKSON-MS&affiliate=whlh-fm&market=JACKSON-MS&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WHLH-FM</callletters> 
+                <call_letters>WHLH-FM</call_letters> 
+                <description><![CDATA[#1 For Gospel Hits: Jackson]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1787/2010/11/default/IHR_whlh_1290554657.png</logo_url> 
+                <name><![CDATA[95.5 Hallelujah FM]]></name> 
+                <stationid>1787</stationid> 
+                <station_id>1787</station_id> 
+                <station_url>www.hallelujah955.com</station_url> 
+                <stream_url_v2>http://whlh-fm.akacast.akamaistream.net/7/669/23517/v1/auth.akacast.akamaistream.net/whlh-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=MEMPHIS-TN&affiliate=whal-fm&market=MEMPHIS-TN&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WHAL-FM</callletters> 
+                <call_letters>WHAL-FM</call_letters> 
+                <description><![CDATA[Memphis' Inspiration Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/05/default/whal_mobile_logo_0_1304690563.png</logo_url> 
+                <name><![CDATA[95.7 Hallelujah FM]]></name> 
+                <stationid>1780</stationid> 
+                <station_id>1780</station_id> 
+                <station_url>www.hallelujahfm.com</station_url> 
+                <stream_url_v2>http://whal-fm.akacast.akamaistream.net/7/210/20076/v1/auth.akacast.akamaistream.net/whal-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1429.l2007621428.c20076.n.lq.akamaistream.net:554/D/1429/20076/v0001/reflector:21428.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ALBANY-GA&affiliate=wjyz-am&market=ALBANY-GA&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WJYZ-AM</callletters> 
+                <call_letters>WJYZ-AM</call_letters> 
+                <description><![CDATA[Albany's Inspirational Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1184/2010/11/default/IHR_wjyz-am_1290554677.png</logo_url> 
+                <name><![CDATA[960 AM The Light]]></name> 
+                <stationid>1184</stationid> 
+                <station_id>1184</station_id> 
+                <station_url>www.wjyz.com</station_url> 
+                <stream_url_v2>http://wjyz-am.akacast.akamaistream.net/7/512/34113/v1/auth.akacast.akamaistream.net/wjyz-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NEWORLEANS-LA&affiliate=wyld-am&market=NEWORLEANS-LA&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WYLD-AM</callletters> 
+                <call_letters>WYLD-AM</call_letters> 
+                <description><![CDATA[WYLD for Jesus!]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/04/default/wyld_mobile_logo_1_1302884261.png</logo_url> 
+                <name><![CDATA[AMen 940 New Orleans]]></name> 
+                <stationid>1291</stationid> 
+                <station_id>1291</station_id> 
+                <station_url>www.am940.com</station_url> 
+                <stream_url_v2>http://wyld-am.akacast.akamaistream.net/7/858/27994/v1/auth.akacast.akamaistream.net/wyld-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=BALTIMORE-MD&affiliate=wcao-am&market=BALTIMORE-MD&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WCAO-AM</callletters> 
+                <call_letters>WCAO-AM</call_letters> 
+                <description><![CDATA[Baltimore's Good News Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1114/2010/11/default/IHR_wcao-am_1290554690.png</logo_url> 
+                <name><![CDATA[Heaven600]]></name> 
+                <stationid>1114</stationid> 
+                <station_id>1114</station_id> 
+                <station_url>www.heaven600.com</station_url> 
+                <stream_url_v2>http://wcao-am.akacast.akamaistream.net/7/810/19912/v1/auth.akacast.akamaistream.net/wcao-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1934.l1991233933.c19912.n.lq.akamaistream.net:554/D/1934/19912/v0001/reflector:33933.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=CHICAGO-IL&affiliate=wgrb-am&market=CHICAGO-IL&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WGRB-AM</callletters> 
+                <call_letters>WGRB-AM</call_letters> 
+                <description><![CDATA[Music of Power and Praise: Chicago]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1151/2010/11/default/IHR_wgrb-am_1290554690.png</logo_url> 
+                <name><![CDATA[Inspiration 1390]]></name> 
+                <stationid>1151</stationid> 
+                <station_id>1151</station_id> 
+                <station_url>www.inspiration1390.com</station_url> 
+                <stream_url_v2>http://wgrb-am.akacast.akamaistream.net/7/356/19890/v1/auth.akacast.akamaistream.net/wgrb-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1882.l1989055881.c19890.n.lq.akamaistream.net:554/D/1882/19890/v0001/reflector:55881.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SAINTLOUIS-MO&affiliate=katz-am&market=SAINTLOUIS-MO&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KATZ-AM</callletters> 
+                <call_letters>KATZ-AM</call_letters> 
+                <description><![CDATA[Gospel Hits: St. Louis]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/katz-am_logo_1_1317216529.png</logo_url> 
+                <name><![CDATA[Hallelujah 1600]]></name> 
+                <stationid>584</stationid> 
+                <station_id>584</station_id> 
+                <station_url>www.hallelujah1600.com</station_url> 
+                <stream_url_v2>http://katz-am.akacast.akamaistream.net/7/840/19943/v1/auth.akacast.akamaistream.net/katz-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1437.l1994321436.c19943.n.lq.akamaistream.net:554/D/1437/19943/v0001/reflector:21436.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=AUSTIN-TX&affiliate=kpez-fm&market=AUSTIN-TX&format=URBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KPEZ-FM</callletters> 
+                <call_letters>KPEZ-FM</call_letters> 
+                <description><![CDATA[Austin's Hip Hop And R&B]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/04/default/kpez_mobile_logo_1_1303321245.png</logo_url> 
+                <name><![CDATA[102.3 The Beat]]></name> 
+                <stationid>804</stationid> 
+                <station_id>804</station_id> 
+                <station_url>www.thebeatatx.com</station_url> 
+                <stream_url_v2>http://kpez-fm.akacast.akamaistream.net/7/825/20084/v1/auth.akacast.akamaistream.net/kpez-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1913.l2008451912.c20084.n.lq.akamaistream.net:554/D/1913/20084/v0001/reflector:51912.sdp</stream_url_rtsp> 
+        </station></stations>

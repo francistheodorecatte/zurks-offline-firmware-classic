@@ -1,0 +1,7 @@
+[playlist]
+numberofentries=1
+File1=http://jellyradio.com:8000/
+Title1=Jelly Radio
+Length1=-1
+Browser1=http://jellyradio.com
+Version=2

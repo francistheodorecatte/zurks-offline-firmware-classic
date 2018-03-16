@@ -1,0 +1,33 @@
+<html>
+<head>
+
+<script type="text/javascript">
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+    xmlhttp=new XMLHttpRequest();
+      }
+      else
+        {// code for IE6, IE5
+          xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.open("GET","fmstatus.xml",false);
+            xmlhttp.send();
+            xmlDoc=xmlhttp.responseXML; 
+            
+            x=xmlDoc.getElementsByTagName("station");
+            i=0;
+            
+            function displayCD()
+            {
+            artist=(x[i].getElementsByTagName("station")[0].childNodes[0].nodeValue);
+            txt="station: " + station + "<br />";
+            document.getElementById("showstation").innerHTML=txt;
+            }
+            </script>
+            </head>
+            <body onload="displayCD()">
+            
+            <div id='showstation'></div>
+            
+            </body>
+            </html>

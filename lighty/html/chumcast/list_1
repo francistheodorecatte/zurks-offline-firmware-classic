@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stationlist>
+  <tunein base="/chumcast/show"/>
+  <station ct="Radio Paradise" channels="1" genre="eclectic rock" lc="1" br="0" name="Radio Paradise" mt="audio/mpeg" id="3" sr="144"/>
+  <station ct="Absolute Radio" channels="1" genre="Rock" lc="1" br="32" name="Absolute Radio" mt="audio/mpeg" id="10" sr="22050"/>
+  <station ct="WFMU 91.1 Jersey City, NJ" channels="2" genre="Freeform" lc="1" br="128" name="WFMU 91.1 Jersey City, NJ" mt="audio/mpeg" id="27" sr="44100"/>
+  <station ct="NPR Newscast" channels="1" genre="NPR" lc="1" br="64" name="NPR Newscast" mt="audio/mpeg" id="86" sr="44100"/>
+  <station ct="ZoomerRadio (CFZM)" channels="2" genre="Canada" lc="1" br="64" name="ZoomerRadio (CFZM)" mt="audio/mpeg" id="91" sr="44100"/>
+  <station ct="Classical963fm (CFMX)" channels="2" genre="Classical" lc="1" br="48" name="Classical963fm (CFMX)" mt="audio/mpeg" id="92" sr="44100"/>
+  <station ct="NPR Program Stream" channels="1" genre="NPR" lc="1" br="64" name="NPR Program Stream" mt="audio/mpeg" id="85" sr="44100"/>
+  <station ct="Heartland Public Radio" channels="2" genre="Country" lc="1" br="128" name="Heartland Public Radio" mt="audio/mpeg" id="94" sr="44100"/>
+  <station ct="Jelly Radio" channels="2" genre="Hip Hop" lc="1" br="128" name="Jelly Radio" mt="audio/mpeg" id="51" sr="44100"/>
+  <station ct="WERS - Emerson College" channels="2" genre="Independent" lc="1" br="128" name="WERS - Emerson College" mt="audio/mpeg" id="30" sr="44100"/>
+  <station ct="WCPE - The Classical Station" channels="2" genre="Classical" lc="1" br="55" name="WCPE - The Classical Station" mt="audio/vorbis" id="7" sr="44100"/>
+  <station ct="KCRW - NPR Santa Monica" channels="2" genre="Various" lc="1" br="128" name="KCRW - NPR Santa Monica" mt="audio/mpeg" id="8" sr="44100"/>
+  <station ct="WXPN - Philadelphia" channels="2" genre="NPR Music" lc="1" br="96" name="WXPN - Philadelphia" mt="audio/mpeg" id="20" sr="44100"/>
+  <station ct="Radio HIT (Slovenia)" channels="1" genre="Russian" lc="1" br="96" name="Radio HIT (Slovenia)" mt="audio/mpeg" id="96" sr="44100"/>
+  <station ct="Radio FANTASY (Slovenia)" channels="1" genre="" lc="1" br="56" name="Radio FANTASY (Slovenia)" mt="audio/mpeg" id="97" sr="44100"/>
+  <station ct="Radio VESELJAK (Slovenia)" channels="2" genre="Russian" lc="1" br="128" name="Radio VESELJAK (Slovenia)" mt="audio/mpeg" id="98" sr="44100"/>
+</stationlist>

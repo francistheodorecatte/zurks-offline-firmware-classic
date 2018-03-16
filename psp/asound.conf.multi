@@ -1,0 +1,172 @@
+#
+# Chumby ALSA config file
+#
+# This file's natural home is in /etc/asound.conf or ~/.asoundrc
+#
+# Note that this doesn't actually work.  Not sure why.
+
+pcm.!default {
+    type plug;
+    slave.pcm chumix;
+}
+ctl.!default chumix;
+
+
+pcm.chumix {
+    type asym;
+    playback.pcm {
+        type dmix;
+        ipc_key 2048;
+        slave {
+            pcm {
+                type hw;
+                card 0;
+            }
+            period_time 0;
+            period_size 8192;
+            buffer_size 16384;
+            rate 44100;
+            channels 2;
+        }
+        bindings {
+            0 0;
+            1 1;
+        }
+    }
+    capture.pcm {
+        type hw;
+        card 0;
+    }
+}
+
+ctl.chumix {
+    type hw;
+    card 0;
+}
+
+
+/mnt/storage $ cat /psp/asound.conf.multi 
+#
+# Chumby ALSA config file
+#
+# This file's natural home is in /etc/asound.conf or ~/.asoundrc
+#
+
+pcm.!default {
+    type plug;
+    slave.pcm bothcards;
+}
+ctl.!default {
+    type hw;
+    card 0;
+}
+
+pcm.bothcards {
+    type asym;
+    playback.pcm {
+        type route;
+        slave.pcm {
+            type multi;
+#            slaves.a.pcm "pcm.chumix";
+            slaves.a.pcm "pcm.usb";
+            slaves.a.channels 2;
+#            slaves.b.channels 2;
+       
+            bindings.0.slave a;
+            bindings.0.channel 0;
+            bindings.1.slave a;
+            bindings.1.channel 1;
+        
+#            bindings.2.slave b;
+#            bindings.2.channel 0;
+#            bindings.3.slave b;
+#            bindings.3.channel 1;
+        }
+        
+        ttable.0.0 1;   # Channel 0 binds to slave a, channel 0, 1x volume
+        ttable.1.1 1;   # Channel 1 binds to slave a, channel 1, 1x volume
+        
+#        ttable.0.2 1;   # Channel 2 binds to slave b, channel 0, 1x volume
+#        ttable.1.3 1;   # Channel 3 binds to slave b, channel 1, 1x volume
+    }
+    capture.pcm "hw:0";    
+}
+
+ctl.bothcards {
+    type hw;
+    card 0;
+}
+
+
+#pcm.dmixer {
+#    type dmix
+#    ipc_key 11945
+#    
+#    slave {
+#        pcm bothcards;
+#        period_time 0
+#        period_size 2048
+#        buffer_size 16384
+#        rate 44100
+#        channels 2;
+#    }
+#    
+#    bindings {
+#    }
+#}
+#
+#ctl.dmixer
+#{
+#    type hw
+#    card 0
+#}
+
+pcm.chumix {
+    type dmix;
+    ipc_key 4096;
+    slave {
+        pcm {
+            type hw;
+            card 0;
+        }
+        period_time 0;
+        period_size 2048;
+        buffer_size 16384;
+        rate 44100;
+        channels 2;
+    }
+    bindings {
+        0 0;
+        1 1;
+    }
+}
+
+ctl.chumix {
+    type hw;
+    card 0;
+}
+
+pcm.usb {
+    type dmix;
+    ipc_key 2048;
+    slave {
+        pcm {
+            type hw;
+            card 1;
+        }
+        period_time 0;
+        period_size 2048;
+        buffer_size 16384;
+        rate 44100;
+        channels 2;
+    }
+    bindings {
+        0 0;
+        1 1;
+    }
+}
+
+ctl.usb {
+    type hw;
+    card 1;
+}

@@ -1,0 +1,23 @@
+PHOTOFRAME 2.0
+By Kurt Stephens
+
+Features:
+
+* Tapping screen skips to next image.
+* Smoother transition between images.
+* Better randomization.
+* Image list is reloaded.
+
+Based on:
+
+PHOTOFRAME CHUMBY WIDGET
+by Wansti
+from http://www.discarded-ideas.org/files/chumby-photoframe-1.1.tar.gz
+
+USING THE WIDGET:
+See http://www.discarded-ideas.org/chumby/photoframe for instructions.
+
+BUILDING THE WIDGET:
+Make sure you have swfmill and mtasc installed and in your path.
+On Debian-based systems "make prereqs" will install required tools.
+Run "make" to build.

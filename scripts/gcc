@@ -1,0 +1,32 @@
+#!/bin/sh
+#
+
+fail() {
+    echo $*
+    exit 1
+}
+
+echo "GCC isn't on this device by default, but it's possible to download a"
+echo "package and install it.  If you like, we can try fetching one from"
+echo "http://files.chumby.com/hacks/falconwing_toolchain.sh and installing it."
+read -p "Install toolchain? [Y/n] " -n 1 VAL
+echo ""
+
+if [ "x${VAL}" = "xy" -o "x${VAL}" = "xY" -o "x${VAL}" = "x" ]
+then
+    if [ -e /mnt/storage/falconwing_toolchain.sh ]
+    then
+        echo "/mnt/storage/falconwing_toolchain.sh already exists.  Not downloading."
+    else
+        echo "Downloading toolchain..."
+        wget -O /mnt/storage/falconwing_toolchain.sh \
+            http://files.chumby.com/hacks/falconwing_toolchain.sh \
+            || fail "Unable to download toolchain"
+    fi
+    chmod a+x /mnt/storage/falconwing_toolchain.sh
+
+    echo "Installing toolchain..."
+    exec /mnt/storage/falconwing_toolchain.sh
+fi
+
+echo "Not installing toolchain."

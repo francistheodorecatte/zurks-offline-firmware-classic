@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stations offset="0" total="8" limit="2000">
+<station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LAUREL-MS&affiliate=wjkx-fm&market=LAUREL-MS&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WJKX-FM</callletters> 
+                <call_letters>WJKX-FM</call_letters> 
+                <description><![CDATA[Urban AC Hattiesburg-Laurel]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/12/default/wjkx-fm_logo_1_1323285616.png</logo_url> 
+                <name><![CDATA[102JKX]]></name> 
+                <stationid>1816</stationid> 
+                <station_id>1816</station_id> 
+                <station_url>www.102jkx.com</station_url> 
+                <stream_url_v2>http://wjkx-fm.akacast.akamaistream.net/7/678/141699/v1/auth.akacast.akamaistream.net/wjkx-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LAUREL-MS&affiliate=wffx-fm&market=LAUREL-MS&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WFFX-FM</callletters> 
+                <call_letters>WFFX-FM</call_letters> 
+                <description><![CDATA[It just rocks – Hattiesburg-Laurel]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/12/default/wffx-fm_logo_1_1323288509.png</logo_url> 
+                <name><![CDATA[1037WFFX]]></name> 
+                <stationid>2060</stationid> 
+                <station_id>2060</station_id> 
+                <station_url>www.1037wffx.com</station_url> 
+                <stream_url_v2>http://wffx-fm.akacast.akamaistream.net/7/173/141698/v1/auth.akacast.akamaistream.net/wffx-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LAUREL-MS&affiliate=wfor-am&market=LAUREL-MS&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WFOR-AM</callletters> 
+                <call_letters>WFOR-AM</call_letters> 
+                <description><![CDATA[Play Hard in Hattiesburg-Laurel]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/12/default/wfor-am_logo_1_1323351589.png</logo_url> 
+                <name><![CDATA[1400 The Score]]></name> 
+                <stationid>14648</stationid> 
+                <station_id>14648</station_id> 
+                <station_url>www.1400thescore.com</station_url> 
+                <stream_url_v2>http://wfor-am.akacast.akamaistream.net/7/690/141702/v1/auth.akacast.akamaistream.net/wfor-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LAUREL-MS&affiliate=wnsl-fm&market=LAUREL-MS&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WNSL-FM</callletters> 
+                <call_letters>WNSL-FM</call_letters> 
+                <description><![CDATA[All The Hits for Hattiesburg-Laurel]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/12/default/wnsl-fm_logo_1_1323286752.png</logo_url> 
+                <name><![CDATA[SL100]]></name> 
+                <stationid>1927</stationid> 
+                <station_id>1927</station_id> 
+                <station_url>www.sl100.com</station_url> 
+                <stream_url_v2>http://wnsl-fm.akacast.akamaistream.net/7/448/141700/v1/auth.akacast.akamaistream.net/wnsl-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LAUREL-MS&affiliate=wzld-fm&market=LAUREL-MS&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WZLD-FM</callletters> 
+                <call_letters>WZLD-FM</call_letters> 
+                <description><![CDATA[Hip Hop, R&B for Hattiesburg-Laurel]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/12/default/wzld-fm_1_1323287637.png</logo_url> 
+                <name><![CDATA[Wild 1063]]></name> 
+                <stationid>2126</stationid> 
+                <station_id>2126</station_id> 
+                <station_url>www.wild1063.com</station_url> 
+                <stream_url_v2>http://wzld-fm.akacast.akamaistream.net/7/540/141701/v1/auth.akacast.akamaistream.net/wzld-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=icom-fl&market=NATIONAL&format=AAA&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>ICOM-FL</callletters> 
+                <call_letters>ICOM-FL</call_letters> 
+                <description><![CDATA[Funny. HAHA]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/14564/2010/11/default/IHR_icom-fl_1290554649.png</logo_url> 
+                <name><![CDATA[24/7 Comedy Radio]]></name> 
+                <stationid>14564</stationid> 
+                <station_id>14564</station_id> 
+                <station_url>ICOM-FL.clearchannel.com</station_url> 
+                <stream_url_v2>http://icom-fl.akacast.akamaistream.net/7/468/106734/v1/auth.akacast.akamaistream.net/icom-fl</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=ilov-fl&market=NATIONAL&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>ILOV-FL</callletters> 
+                <call_letters>ILOV-FL</call_letters> 
+                <description><![CDATA[Contemporary Christian Music KLOVE]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/ilov_logo_1_1318618853.png</logo_url> 
+                <name><![CDATA[K-LOVE]]></name> 
+                <stationid>14896</stationid> 
+                <station_id>14896</station_id> 
+                <station_url></station_url> 
+                <stream_url_v2>http://ilov-fl.akacast.akamaistream.net/7/519/137297/v1/auth.akacast.akamaistream.net/ilov-fl</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=iair-fl&market=NATIONAL&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IAIR-FL</callletters> 
+                <call_letters>IAIR-FL</call_letters> 
+                <description><![CDATA[Christian Pop/Rock Air 1]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/iair_logo_1_1318619036.png</logo_url> 
+                <name><![CDATA[Air1 Radio]]></name> 
+                <stationid>14898</stationid> 
+                <station_id>14898</station_id> 
+                <station_url></station_url> 
+                <stream_url_v2>http://iair-fl.akacast.akamaistream.net/7/984/137298/v1/auth.akacast.akamaistream.net/iair-fl</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station></stations>

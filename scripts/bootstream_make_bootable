@@ -1,0 +1,60 @@
+#!/usr/bin/perl
+
+# Grab the device we're going to write to.
+defined($ARGV[0]) || die("Usage: $0 /dev/[device] (e.g. $0 /dev/sde)\n");
+
+# Attempt to open the device.
+open(my $fh, '+<', $ARGV[0]) or die("Couldn't open $ARGV[0]: $!");
+
+
+
+
+# Scan for the STMP signature, which is at the block's start offset + 20 bytes.
+my $st1;
+print STDERR "Locating boot signature...";
+for(my $offset=0; $offset<1024 && !defined($st1); $offset++) {
+
+    # Seek to $offset blocks, and add 20.
+    seek($fh, (512*$offset)+20, 0);
+
+    my $test_data;
+    read($fh, $test_data, 4);
+    if($test_data eq 'STMP') {
+        print STDERR " block $offset\n";
+        $st1 = $offset;
+    }
+}
+if(!defined($st1)) {
+    print STDERR " fatal: couldn't find boot signature on $ARGV[0]\n";
+    exit(1);
+}
+
+
+# Seek to the very last block.
+print STDERR "Determining last block...";
+seek($fh, -512, 2);
+print STDERR " block ", tell($fh)/512, "\n";
+
+# Write the boot information.
+my @data = (
+    0x33, 0x22, 0x11, 0x00, 0x01, 0x00, 0x00, 0x00,
+    0x02, 0x00, 0x00, 0x00, 0x50, 0x00, 0x00, 0x00,
+    $st1, 0x00, 0x00, 0x00, $st1, 0x00, 0x00, 0x00,
+    0x50, 0x00, 0x00, 0x00, 0x50, 0x00, 0x00, 0x00,
+    0x50, 0x00, 0x00, 0x00, 0x50, 0x00, 0x00, 0x00,
+);
+
+print STDERR "Writing boot block...";
+for my $byte(@data) {
+    print $fh chr($byte);
+}
+
+# Fill out the rest of the sector.
+my $bytes_left = 512-@data;
+for(1..$bytes_left) {
+    print $fh chr(0x00);
+}
+
+print STDERR " done.\n";
+
+close($fh);

@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stations offset="0" total="37" limit="2000">
+<station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=iwez-fl&market=NATIONAL&format=ROCKALTERNATIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IWEZ-FL</callletters> 
+                <call_letters>IWEZ-FL</call_letters> 
+                <description><![CDATA[Weez in charge now]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/12263/2010/11/default/IHR_iwez_1290554651.png</logo_url> 
+                <name><![CDATA[Radio Weezer]]></name> 
+                <stationid>12263</stationid> 
+                <station_id>12263</station_id> 
+                <station_url>iwez-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://weezer.akacast.akamaistream.net/7/871/61097/v1/auth.akacast.akamaistream.net/weezer</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=icbg-fl&market=NATIONAL&format=ROCK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>ICBG-FL</callletters> 
+                <call_letters>ICBG-FL</call_letters> 
+                <description><![CDATA[The Home of Underground Rock]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://content.clearchannel.com/cc-common/mlib/8169/01/8169_1264136412.png</logo_url> 
+                <name><![CDATA[CBGB Radio]]></name> 
+                <stationid>13741</stationid> 
+                <station_id>13741</station_id> 
+                <station_url>icbg-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://icbg-fl.akacast.akamaistream.net/7/847/84267/v1/auth.akacast.akamaistream.net/icbg-fl</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a557.l8426754556.c84267.g.lq.akamaistream.net:554/D/557/84267/v0001/reflector:54556.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=ieag-fl&market=NATIONAL&format=ROCKCLASSIC&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IEAG-FL</callletters> 
+                <call_letters>IEAG-FL</call_letters> 
+                <description><![CDATA[Their music, stories and favorite bands]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/12259/2010/11/default/IHR_ieag-fl_1290554650.png</logo_url> 
+                <name><![CDATA[Eagles Radio]]></name> 
+                <stationid>12259</stationid> 
+                <station_id>12259</station_id> 
+                <station_url>ieag-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://eagles.akacast.akamaistream.net/7/228/73708/v1/auth.akacast.akamaistream.net/eagles</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1923.l7370843922.c73708.n.lq.akamaistream.net:554/D/1923/73708/v0001/reflector:43922.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=iact-fl&market=NATIONAL&format=ROCKACTIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IACT-FL</callletters> 
+                <call_letters>IACT-FL</call_letters> 
+                <description><![CDATA[Look Ma!  Rock Music!]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/12153/2010/11/default/IHR_iact-fl_1290554651.png</logo_url> 
+                <name><![CDATA[Rock Nation]]></name> 
+                <stationid>12153</stationid> 
+                <station_id>12153</station_id> 
+                <station_url>iact-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://rocknation.akacast.akamaistream.net/7/573/73696/v1/auth.akacast.akamaistream.net/rocknation</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1609.l7369659608.c73696.n.lq.akamaistream.net:554/D/1609/73696/v0001/reflector:59608.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LEXINGTON-KY&affiliate=wkqq-fm&market=LEXINGTON-KY&format=ROCKACTIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WKQQ-FM</callletters> 
+                <call_letters>WKQQ-FM</call_letters> 
+                <description><![CDATA[Lexington's Rock Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1844/2010/11/default/IHR_wkqq_1290554665.png</logo_url> 
+                <name><![CDATA[100.1 WKQQ]]></name> 
+                <stationid>1844</stationid> 
+                <station_id>1844</station_id> 
+                <station_url>www.wkqq.com</station_url> 
+                <stream_url_v2>http://wkqq-fm.akacast.akamaistream.net/7/630/34116/v1/auth.akacast.akamaistream.net/wkqq-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1053.l3411623052.c34116.n.lq.akamaistream.net:554/D/1053/34116/v0001/reflector:23052.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=GREENSBORO-NC&affiliate=wvbz-fm&market=GREENSBORO-NC&format=ROCKACTIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WVBZ-FM</callletters> 
+                <call_letters>WVBZ-FM</call_letters> 
+                <description><![CDATA[Live Life to the Loudest]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2063/2010/11/default/IHR_wvbz_1290554665.png</logo_url> 
+                <name><![CDATA[100.3 The New Buzz]]></name> 
+                <stationid>2063</stationid> 
+                <station_id>2063</station_id> 
+                <station_url>www.ihaveabuzz.com</station_url> 
+                <stream_url_v2>http://wvbz-fm.akacast.akamaistream.net/7/10/20000/v1/auth.akacast.akamaistream.net/wvbz-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a806.l2000048805.c20000.g.lq.akamaistream.net:554/D/806/20000/v0001/reflector:48805</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=PORTSMOUTH-NH&affiliate=wheb-fm&market=PORTSMOUTH-NH&format=ROCK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WHEB-FM</callletters> 
+                <call_letters>WHEB-FM</call_letters> 
+                <description><![CDATA[The Rock Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1783/2010/11/default/IHR_wheb_1290554665.png</logo_url> 
+                <name><![CDATA[100.3 WHEB]]></name> 
+                <stationid>1783</stationid> 
+                <station_id>1783</station_id> 
+                <station_url>www.wheb.com</station_url> 
+                <stream_url_v2>http://wheb-fm.akacast.akamaistream.net/7/700/19956/v1/auth.akacast.akamaistream.net/wheb-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a708.l1995630707.c19956.n.lq.akamaistream.net:554/D/708/19956/v0001/reflector:30707.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=CLEVELAND-OH&affiliate=wmms-fm&market=CLEVELAND-OH&format=ROCKACTIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WMMS-FM</callletters> 
+                <call_letters>WMMS-FM</call_letters> 
+                <description><![CDATA[Cleveland's Rock Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/wmms_logo_1_1317215934.png</logo_url> 
+                <name><![CDATA[100.7 WMMS - The Buzzard]]></name> 
+                <stationid>1897</stationid> 
+                <station_id>1897</station_id> 
+                <station_url>www.wmms.com</station_url> 
+                <stream_url_v2>http://wmms-fm.akacast.akamaistream.net/7/920/20015/v1/auth.akacast.akamaistream.net/wmms-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a964.l2001522963.c20015.n.lq.akamaistream.net:554/D/964/20015/v0001/reflector:22963.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ORLANDO-FL&affiliate=wjrr-fm&market=ORLANDO-FL&format=ROCKACTIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WJRR-FM</callletters> 
+                <call_letters>WJRR-FM</call_letters> 
+                <description><![CDATA[The Rock Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1819/2010/11/default/IHR_wjrr_1290554668.png</logo_url> 
+                <name><![CDATA[101one WJRR]]></name> 
+                <stationid>1819</stationid> 
+                <station_id>1819</station_id> 
+                <station_url>www.wjrr.com</station_url> 
+                <stream_url_v2>http://wjrr-fm.akacast.akamaistream.net/7/207/19853/v1/auth.akacast.akamaistream.net/wjrr-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a352.l1985330351.c19853.n.lq.akamaistream.net:554/D/352/19853/v0001/reflector:30351.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=PITTSBURGH-PA&affiliate=wdve-fm&market=PITTSBURGH-PA&format=ROCK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WDVE-FM</callletters> 
+                <call_letters>WDVE-FM</call_letters> 
+                <description><![CDATA[Home of the Pittsburgh Steelers]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1734/2010/11/default/IHR_wdve_1290554669.png</logo_url> 
+                <name><![CDATA[102.5 WDVE Rocks]]></name> 
+                <stationid>1734</stationid> 
+                <station_id>1734</station_id> 
+                <station_url>www.dve.com</station_url> 
+                <stream_url_v2>http://wdve-fm.akacast.akamaistream.net/7/364/20061/v1/auth.akacast.akamaistream.net/wdve-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1561.l2006121560.c20061.n.lq.akamaistream.net:554/D/1561/20061/v0001/reflector:21560.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=DAYTON-OH&affiliate=wtue-fm&market=DAYTON-OH&format=ROCK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WTUE-FM</callletters> 
+                <call_letters>WTUE-FM</call_letters> 
+                <description><![CDATA[Dayton's Rock Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2050/2010/11/default/IHR_wtue_1290554672.png</logo_url> 
+                <name><![CDATA[104.7 WTUE Rocks]]></name> 
+                <stationid>2050</stationid> 
+                <station_id>2050</station_id> 
+                <station_url>www.wtue.com</station_url> 
+                <stream_url_v2>http://wtue-fm.akacast.akamaistream.net/7/28/20023/v1/auth.akacast.akamaistream.net/wtue-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1195.l2002331194.c20023.n.lq.akamaistream.net:554/D/1195/20023/v0001/reflector:31194.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=DENVER-CO&affiliate=kbpi-fm&market=DENVER-CO&format=ROCKACTIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KBPI-FM</callletters> 
+                <call_letters>KBPI-FM</call_letters> 
+                <description><![CDATA[Rocks The Rockies]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/757/2010/11/default/IHR_kbpi_1290554674.png</logo_url> 
+                <name><![CDATA[106.7 KBPI]]></name> 
+                <stationid>757</stationid> 
+                <station_id>757</station_id> 
+                <station_url>www.kbpi.com</station_url> 
+                <stream_url_v2>http://kbpi-fm.akacast.akamaistream.net/7/535/19810/v1/auth.akacast.akamaistream.net/kbpi-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a526.l1981038525.c19810.n.lq.akamaistream.net:554/D/526/19810/v0001/reflector:38525.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=COLORADOSPRINGS-CO&affiliate=kdza-fm&market=COLORADOSPRINGS-CO&format=ROCKCLASSIC&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KDZA-FM</callletters> 
+                <call_letters>KDZA-FM</call_letters> 
+                <description><![CDATA[Colorado's Legendary Classic Rock]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/11/default/kdza_logo_0_1322663257.png</logo_url> 
+                <name><![CDATA[Z 107.9]]></name> 
+                <stationid>788</stationid> 
+                <station_id>788</station_id> 
+                <station_url>www.z1079rocks.com</station_url> 
+                <stream_url_v2>http://kdza-fm.akacast.akamaistream.net/7/926/24930/v1/auth.akacast.akamaistream.net/kdza-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LOUISVILLE-KY&affiliate=wtfx-fm&market=LOUISVILLE-KY&format=ROCKACTIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WTFX-FM</callletters> 
+                <call_letters>WTFX-FM</call_letters> 
+                <description><![CDATA[The Fox Rocks]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2038/2010/11/default/IHR_wtfx_1290554654.png</logo_url> 
+                <name><![CDATA[93.1 The Fox]]></name> 
+                <stationid>2038</stationid> 
+                <station_id>2038</station_id> 
+                <station_url>www.foxrocks.com</station_url> 
+                <stream_url_v2>http://wtfx-fm.akacast.akamaistream.net/7/380/21366/v1/auth.akacast.akamaistream.net/wtfx-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1820.l2136621819.c21366.n.lq.akamaistream.net:554/D/1820/21366/v0001/reflector:21819.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=YOUNGSTOWN-OH&affiliate=wncd-fm&market=YOUNGSTOWN-OH&format=ROCK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WNCD-FM</callletters> 
+                <call_letters>WNCD-FM</call_letters> 
+                <description><![CDATA[The Wolf Rocks]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1918/2010/11/default/IHR_wncd_1290554654.png</logo_url> 
+                <name><![CDATA[93.3 WNCD]]></name> 
+                <stationid>1918</stationid> 
+                <station_id>1918</station_id> 
+                <station_url>www.wncd.com</station_url> 
+                <stream_url_v2>http://wncd-fm.akacast.akamaistream.net/7/759/31308/v1/auth.akacast.akamaistream.net/wncd-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=PROVIDENCE-RI&affiliate=whjy-fm&market=PROVIDENCE-RI&format=ROCK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WHJY-FM</callletters> 
+                <call_letters>WHJY-FM</call_letters> 
+                <description><![CDATA[The Home of Rock & Roll]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1785/2010/11/default/IHR_whjy_1290554655.png</logo_url> 
+                <name><![CDATA[94 HJY]]></name> 
+                <stationid>1785</stationid> 
+                <station_id>1785</station_id> 
+                <station_url>www.94hjy.com</station_url> 
+                <stream_url_v2>http://whjy-fm.akacast.akamaistream.net/7/174/20066/v1/auth.akacast.akamaistream.net/whjy-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ALBUQUERQUE-NM&affiliate=kzrr-fm&market=ALBUQUERQUE-NM&format=ROCK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KZRR-FM</callletters> 
+                <call_letters>KZRR-FM</call_letters> 
+                <description><![CDATA[New Mexico's Real Rock]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1091/2010/11/default/IHR_kzrr_1290554655.png</logo_url> 
+                <name><![CDATA[94 Rock]]></name> 
+                <stationid>1091</stationid> 
+                <station_id>1091</station_id> 
+                <station_url>www.94rock.com</station_url> 
+                <stream_url_v2>http://kzrr-fm.akacast.akamaistream.net/7/732/19966/v1/auth.akacast.akamaistream.net/kzrr-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1335.l1996631334.c19966.n.lq.akamaistream.net:554/D/1335/19966/v0001/reflector:31334.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=HARRISONBURG-VA&affiliate=wacl-fm&market=HARRISONBURG-VA&format=ROCK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WACL-FM</callletters> 
+                <call_letters>WACL-FM</call_letters> 
+                <description><![CDATA[Valley's Rock Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1659/2010/11/default/IHR_wacl_1290554662.png</logo_url> 
+                <name><![CDATA[98 ROCK]]></name> 
+                <stationid>1659</stationid> 
+                <station_id>1659</station_id> 
+                <station_url>www.98rockme.com</station_url> 
+                <stream_url_v2>http://wacl-fm.akacast.akamaistream.net/7/689/33402/v1/auth.akacast.akamaistream.net/wacl-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=TAMPA-FL&affiliate=wxtb-fm&market=TAMPA-FL&format=ROCKACTIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WXTB-FM</callletters> 
+                <call_letters>WXTB-FM</call_letters> 
+                <description><![CDATA[Tampa Bay's Rock Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2101/2010/11/default/IHR_wxtb_1290554662.png</logo_url> 
+                <name><![CDATA[98 Rock]]></name> 
+                <stationid>2101</stationid> 
+                <station_id>2101</station_id> 
+                <station_url>www.98rock.com</station_url> 
+                <stream_url_v2>http://wxtb-fm.akacast.akamaistream.net/7/662/19873/v1/auth.akacast.akamaistream.net/wxtb-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=WINCHESTER-VA&affiliate=wfqx-fm&market=WINCHESTER-VA&format=ROCK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WFQX-FM</callletters> 
+                <call_letters>WFQX-FM</call_letters> 
+                <description><![CDATA[The FOX ROCKS]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1764/2010/11/default/IHR_wfqx_1290554664.png</logo_url> 
+                <name><![CDATA[99.3 The FOX]]></name> 
+                <stationid>1764</stationid> 
+                <station_id>1764</station_id> 
+                <station_url>www.993thefox.com</station_url> 
+                <stream_url_v2>http://wfqx-fm.akacast.akamaistream.net/7/165/37063/v1/auth.akacast.akamaistream.net/wfqx-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ATLANTA-GA&affiliate=wkls-fm&market=ATLANTA-GA&format=ROCKACTIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WKLS-FM</callletters> 
+                <call_letters>WKLS-FM</call_letters> 
+                <description><![CDATA[Live Loud, Play Hard]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/4060/2010/11/default/IHR_wkls_1290554682.png</logo_url> 
+                <name><![CDATA[Atlanta's Project 9-6-1]]></name> 
+                <stationid>4060</stationid> 
+                <station_id>4060</station_id> 
+                <station_url>www.project961.com</station_url> 
+                <stream_url_v2>http://wkls-fm.akacast.akamaistream.net/7/379/19884/v1/auth.akacast.akamaistream.net/wkls-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a878.l1988422877.c19884.n.lq.akamaistream.net:554/D/878/19884/v0001/reflector:22877.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=MODESTO-CA&affiliate=koso-fm&market=MODESTO-CA&format=ROCKACTIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KOSO-FM</callletters> 
+                <call_letters>KOSO-FM</call_letters> 
+                <description><![CDATA[90s and Now]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/951/2010/11/default/IHR_koso_1290554683.png</logo_url> 
+                <name><![CDATA[B92.9]]></name> 
+                <stationid>951</stationid> 
+                <station_id>951</station_id> 
+                <station_url>www.b929.com</station_url> 
+                <stream_url_v2>http://koso-fm.akacast.akamaistream.net/7/954/31800/v1/auth.akacast.akamaistream.net/koso-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=BEAUMONT-TX&affiliate=kioc-fm&market=BEAUMONT-TX&format=ROCKACTIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KIOC-FM</callletters> 
+                <call_letters>KIOC-FM</call_letters> 
+                <description><![CDATA[The Rock of Southeast Texas]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/845/2010/11/default/IHR_kioc_1290554684.png</logo_url> 
+                <name><![CDATA[Big Dog 106]]></name> 
+                <stationid>845</stationid> 
+                <station_id>845</station_id> 
+                <station_url>www.bigdog106.com</station_url> 
+                <stream_url_v2>http://kioc-fm.akacast.akamaistream.net/7/684/22967/v1/auth.akacast.akamaistream.net/kioc-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=CORPUSCHRISTI-TX&affiliate=kncn-fm&market=CORPUSCHRISTI-TX&format=ROCK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KNCN-FM</callletters> 
+                <call_letters>KNCN-FM</call_letters> 
+                <description><![CDATA[C101 Rocks!]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/936/2010/11/default/IHR_kncn_1290554685.png</logo_url> 
+                <name><![CDATA[C101]]></name> 
+                <stationid>936</stationid> 
+                <station_id>936</station_id> 
+                <station_url>www.c101.com</station_url> 
+                <stream_url_v2>http://kncn-fm.akacast.akamaistream.net/7/46/32492/v1/auth.akacast.akamaistream.net/kncn-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=WHEELING-WV&affiliate=wegw-fm&market=WHEELING-WV&format=ROCK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WEGW-FM</callletters> 
+                <call_letters>WEGW-FM</call_letters> 
+                <description><![CDATA[Wheeling's Rock Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1742/2010/11/default/IHR_wegw_1290554687.png</logo_url> 
+                <name><![CDATA[EAGLE 107.5]]></name> 
+                <stationid>1742</stationid> 
+                <station_id>1742</station_id> 
+                <station_url>www.wegw.com</station_url> 
+                <stream_url_v2>http://wegw-fm.akacast.akamaistream.net/7/137/69400/v1/auth.akacast.akamaistream.net/wegw-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=BINGHAMTON-NY&affiliate=wkgb-fm&market=BINGHAMTON-NY&format=ROCKACTIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WKGB-FM</callletters> 
+                <call_letters>WKGB-FM</call_letters> 
+                <description><![CDATA[Binghamton's Rock Station KGB-FM]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1833/2010/11/default/IHR_wkgb_1290554693.png</logo_url> 
+                <name><![CDATA[KGB FM 925]]></name> 
+                <stationid>1833</stationid> 
+                <station_id>1833</station_id> 
+                <station_url>www.925kgb.com</station_url> 
+                <stream_url_v2>http://wkgb-fm.akacast.akamaistream.net/7/144/30794/v1/auth.akacast.akamaistream.net/wkgb-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=GRANDFORKS-ND&affiliate=kjkj-fm&market=GRANDFORKS-ND&format=ROCKACTIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KJKJ-FM</callletters> 
+                <call_letters>KJKJ-FM</call_letters> 
+                <description><![CDATA[The Rock Original]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/859/2010/11/default/IHR_kjkj_1290554695.png</logo_url> 
+                <name><![CDATA[KJ108]]></name> 
+                <stationid>859</stationid> 
+                <station_id>859</station_id> 
+                <station_url>www.kjkj.com</station_url> 
+                <stream_url_v2>http://kjkj-fm.akacast.akamaistream.net/7/556/69399/v1/auth.akacast.akamaistream.net/kjkj-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=MANCHESTER-NH&affiliate=wgir-fm&market=MANCHESTER-NH&format=ROCK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WGIR-FM</callletters> 
+                <call_letters>WGIR-FM</call_letters> 
+                <description><![CDATA[NH'S Rock Radio]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://content.clearchannel.com/cc-common/mlib/8169/09/8169_1253205857.png</logo_url> 
+                <name><![CDATA[Rock 101]]></name> 
+                <stationid>1775</stationid> 
+                <station_id>1775</station_id> 
+                <station_url>www.rock101fm.com</station_url> 
+                <stream_url_v2>http://wgir-fm.akacast.akamaistream.net/7/453/19955/v1/auth.akacast.akamaistream.net/wgir-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1253.l1995523252.c19955.n.lq.akamaistream.net:554/D/1253/19955/v0001/reflector:23252.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=COLUMBUS-GA&affiliate=wvrk-fm&market=COLUMBUS-GA&format=ROCK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WVRK-FM</callletters> 
+                <call_letters>WVRK-FM</call_letters> 
+                <description><![CDATA[Everything that Rocks]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2070/2010/11/default/IHR_wvrk_1290554745.png</logo_url> 
+                <name><![CDATA[Rock 103]]></name> 
+                <stationid>2070</stationid> 
+                <station_id>2070</station_id> 
+                <station_url>www.rock103columbus.com</station_url> 
+                <stream_url_v2>http://wvrk-fm.akacast.akamaistream.net/7/187/30786/v1/auth.akacast.akamaistream.net/wvrk-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=CHATTANOOGA-TN&affiliate=wrxr-fm&market=CHATTANOOGA-TN&format=ROCKACTIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WRXR-FM</callletters> 
+                <call_letters>WRXR-FM</call_letters> 
+                <description><![CDATA[Chattanooga's Rock Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/wrxr_logo_1_1315421187.png</logo_url> 
+                <name><![CDATA[Rock 105]]></name> 
+                <stationid>2004</stationid> 
+                <station_id>2004</station_id> 
+                <station_url>www.rock105.com</station_url> 
+                <stream_url_v2>http://wrxr-fm.akacast.akamaistream.net/7/192/31536/v1/auth.akacast.akamaistream.net/wrxr-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SANDIEGO-CA&affiliate=kioz-fm&market=SANDIEGO-CA&format=ROCKACTIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KIOZ-FM</callletters> 
+                <call_letters>KIOZ-FM</call_letters> 
+                <description><![CDATA[San Diego's ROCK Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/kioz__logo_1_1319045234.png</logo_url> 
+                <name><![CDATA[ROCK 105.3]]></name> 
+                <stationid>847</stationid> 
+                <station_id>847</station_id> 
+                <station_url>www.rock1053.com</station_url> 
+                <stream_url_v2>http://kioz-fm.akacast.akamaistream.net/7/777/19786/v1/auth.akacast.akamaistream.net/kioz-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a507.l1978634506.c19786.n.lq.akamaistream.net:554/D/507/19786/v0001/reflector:34506.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=AKRON-OH&affiliate=wrqk-fm&market=AKRON-OH&format=ROCK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WRQK-FM</callletters> 
+                <call_letters>WRQK-FM</call_letters> 
+                <description><![CDATA[It Just Rocks!]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/3951/2010/11/default/IHR_wrqk_1290554745.png</logo_url> 
+                <name><![CDATA[Rock 106.9]]></name> 
+                <stationid>3951</stationid> 
+                <station_id>3951</station_id> 
+                <station_url>www.wrqk.com</station_url> 
+                <stream_url_v2>http://wrqk-fm.akacast.akamaistream.net/7/393/33392/v1/auth.akacast.akamaistream.net/wrqk-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=DALLAS-TX&affiliate=kegl-fm&market=DALLAS-TX&format=ROCKACTIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KEGL-FM</callletters> 
+                <call_letters>KEGL-FM</call_letters> 
+                <description><![CDATA[97.1 the EAGLE ROCKS]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1/2011/09/default/kegl_logo_1_1315839466.png</logo_url> 
+                <name><![CDATA[The EAGLE]]></name> 
+                <stationid>792</stationid> 
+                <station_id>792</station_id> 
+                <station_url>www.kegl.com</station_url> 
+                <stream_url_v2>http://kegl-fm.akacast.akamaistream.net/7/379/20090/v1/auth.akacast.akamaistream.net/kegl-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a665.l2009054664.c20090.n.lq.akamaistream.net:554/D/665/20090/v0001/reflector:54664.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=MOBILE-AL&affiliate=wtkx-fm&market=MOBILE-AL&format=ROCKACTIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WTKX-FM</callletters> 
+                <call_letters>WTKX-FM</call_letters> 
+                <description><![CDATA[The Rock Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/wtkx_logo_1_1316619201.png</logo_url> 
+                <name><![CDATA[TK101]]></name> 
+                <stationid>2040</stationid> 
+                <station_id>2040</station_id> 
+                <station_url>www.tk101.com</station_url> 
+                <stream_url_v2>http://wtkx-fm.akacast.akamaistream.net/7/141/20658/v1/auth.akacast.akamaistream.net/wtkx-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a151.l2065824150.c20658.n.lq.akamaistream.net:554/D/151/20658/v0001/reflector:24150.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=CINCINNATI-OH&affiliate=webn-fm&market=CINCINNATI-OH&format=ROCKACTIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WEBN-FM</callletters> 
+                <call_letters>WEBN-FM</call_letters> 
+                <description><![CDATA[The Lunatic Fringe of American FM]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/webn_logo_1_1316112664.png</logo_url> 
+                <name><![CDATA[WEBN]]></name> 
+                <stationid>1738</stationid> 
+                <station_id>1738</station_id> 
+                <station_url>www.webn.com</station_url> 
+                <stream_url_v2>http://webn-fm.akacast.akamaistream.net/7/438/20005/v1/auth.akacast.akamaistream.net/webn-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1352.l2000559351.c20005.n.lq.akamaistream.net:554/D/1352/20005/v0001/reflector:59351.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=TALLAHASSEE-FL&affiliate=wxsr-fm&market=TALLAHASSEE-FL&format=ROCK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WXSR-FM</callletters> 
+                <call_letters>WXSR-FM</call_letters> 
+                <description><![CDATA[Tallahassee's New Rock Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2100/2010/11/default/IHR_wxsr_1290554756.png</logo_url> 
+                <name><![CDATA[X101.5]]></name> 
+                <stationid>2100</stationid> 
+                <station_id>2100</station_id> 
+                <station_url>www.x1015.com</station_url> 
+                <stream_url_v2>http://wxsr-fm.akacast.akamaistream.net/7/390/20799/v1/auth.akacast.akamaistream.net/wxsr-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SIOUXCITY-IA&affiliate=ksez-fm&market=SIOUXCITY-IA&format=ROCK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KSEZ-FM</callletters> 
+                <call_letters>KSEZ-FM</call_letters> 
+                <description><![CDATA[Sioux City's Best Rock]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/998/2010/11/default/IHR_ksez_1290554758.png</logo_url> 
+                <name><![CDATA[Z-98]]></name> 
+                <stationid>998</stationid> 
+                <station_id>998</station_id> 
+                <station_url>www.z98rocks.com</station_url> 
+                <stream_url_v2>http://ksez-fm.akacast.akamaistream.net/7/28/25970/v1/auth.akacast.akamaistream.net/ksez-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station></stations>

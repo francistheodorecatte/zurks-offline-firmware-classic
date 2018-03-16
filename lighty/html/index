@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chumby updated="Sun Mar 04 21:44:29 +0000 2012" anonymous="false" id="1" authorized="Sun Mar 04 21:44:29 +0000 2012" created="Sat Jul 24 19:16:22 +0000 2010">
+  <name>offline-name</name>
+  <user id="1">offline-user</user>
+  <profile id="1">offline</profile>
+  <dcid version="0002" hash="0003-1001-0001-0001"/>
+  <control_panel enable="true" name="Control Panel"/>
+</chumby>

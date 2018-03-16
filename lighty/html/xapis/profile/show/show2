@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile id="2">
+  <name>Kitchen Timer</name>
+  <description/>
+  <user id="1">offline-user</user>
+  <info unaccepted="0" type="Profile" updated="Sun Mar 04 21:15:16 +0000 2012" master="false" pending="0" origin="" created="Fri Sep 03 18:18:02 +0000 2010" published=""/>
+  <widget_instances count="1">
+
+<widget_instance id="1">
+  <name>EggTimer</name>
+  <info updated="Mon May 07 02:54:21 +0000 2012" access="private" secure="" origin="widget_guide" created="Mon May 07 02:54:13 +0000 2012"/>
+ <play mode="cooperative" time="15"/>
+  <rating value="0"/>
+<widget id="1">
+  <name>EggTimer</name>
+  <description>
+Egg timer </description>
+  <version>1.1</version>
+  <play mode="timeout" time="45"/>
+  <user type="community" id="378740F6-2B23-11DD-9234-0030485B75AA" username="samuel337"/>
+  <security sendable="true" approval="approved" previewable="false" deletable="true" access="public" virtualable="false" overlay="true"/>
+  <rating count="5" value="3.2"/>
+  <thumbnail href="file:////mnt/usb/www/D4C9F912-9B90-11DC-A894-0030488CBE0D"/>
+  <template href="file:////mnt/usb/www/1D39220E-9D76-11DC-88F6-0030488CBE0D"/>
+  <movie href="file:////mnt/usb/www/eggtimer-countdown.swf" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="800" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/eggtimer-countdown.swf" fixed_ar="true" swf_version="8" height="600" bgcolor="000000" supports_browser="false" pointing="false" resolution="800x600" scalable="false" requires_sound="true"/>
+  </swfs>
+</widget>
+  <parameters>
+  </parameters>
+</widget_instance>
+  </widget_instances>
+</profile>

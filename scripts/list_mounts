@@ -1,0 +1,43 @@
+#!/bin/sh
+# $Id: list_mounts 33228 2010-01-14 20:02:59Z scross $
+# list_mounts - output xml summarizing all mounts
+# 
+
+# Get list of mount points in use
+MOUNT_LIST="$(cat /proc/mounts | awk '/\/dev\/sd/ {print $2;}')"
+# Line count will include the single (empty) line we'll have
+# when nothing is mounted. Since every mount point is a valid
+# token, the word count is the actual count of mount points.
+# That means we can't support mount point names or aliases
+# containing space or tab.
+MOUNT_COUNT=$(echo "${MOUNT_LIST}" | wc -w)
+echo "<mounts count=\"${MOUNT_COUNT}\">"
+if [ "${MOUNT_COUNT}" -gt "0" ]
+then
+	for mp in ${MOUNT_LIST}
+	do
+		mpf=$(basename ${mp})
+		# Get alias, if defined; if multiple (that would be a bug),
+		# take only the first
+		MOUNT_ALIAS=$(ls -l /mnt | awk "/ -> \/mnt\/$mpf\$/ {print \$9;}" | head -1)
+		MOUNT_DEV=$(grep "${mp}" /proc/mounts | cut -d' ' -f1)
+		
+		# Determine which USB port the device is plugged into
+		MOUNT_PATH=$(udevadm info -q all -n $(basename ${MOUNT_DEV}) | grep ^P:)
+		if echo "${MOUNT_PATH}" | grep -q 1-1/1-1.3/1-1.3
+		then
+			USB_PORT=1
+		elif echo "${MOUNT_PATH}" | grep -q 1-1/1-1.2/1-1.2
+		then
+			USB_PORT=2
+		elif echo "${MOUNT_PATH}" | grep -q 1-1/1-1.4/1-1.4
+		then
+			USB_PORT=0
+		else
+			USB_PORT=?
+		fi
+		cat /proc/mounts | awk "{if (\$2==\"${mp}\") printf \"    <mount dev='%s' point='%s' fstype='%s' alias='%s' flags='%s' port='%s'/>\\n\", \$1, \$2, \$3, \"${MOUNT_ALIAS}\", \$4, \"${USB_PORT}\";}"
+	done
+fi
+echo "</mounts>"
+

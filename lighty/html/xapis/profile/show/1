@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile id="1">
+  <name>Squeezebox</name>
+  <description/>
+  <user id="1">offline-user</user>
+  <info unaccepted="0" type="Profile" updated="Sun Mar 04 21:15:16 +0000 2012" master="false" pending="0" origin="" created="Fri Sep 03 18:18:02 +0000 2010" published=""/>
+  <widget_instances count="2">
+
+<widget_instance id="1">
+  <name>sbController</name>
+  <info updated="Mon May 07 02:54:21 +0000 2012" access="private" secure="" origin="widget_guide" created="Mon May 07 02:54:13 +0000 2012"/>
+  <play mode="timeout" time="300"/>
+  <rating value="0"/>
+<widget id="1">
+  <name>sbController</name>
+  <description>This widget lets you see details of the current song playing on your Squeezebox. You can also access some rudimentary controls, namely - next (swipe left), previous (swipe right) and pause (tap).
+
+To use this widget, you will also need to install a plugin on your Squeezebox Server in order to allow the widget to access it. Follow the instructions here, under Instructions.
+
+NOTE: While this widget has been enabled for 8-inch devices due to some user requests, this is currently unsupported and will probably look odd.
+
+If you have any issues, please post in this forum thread.</description>
+  <version>1.1</version>
+  <play mode="timeout" time="300"/>
+  <user type="community" id="378740F6-2B23-11DD-9234-0030485B75AA" username="samuel337"/>
+  <security sendable="true" approval="approved" previewable="false" deletable="true" access="public" virtualable="false" overlay="true"/>
+  <rating count="5" value="3.2"/>
+  <thumbnail href="file:////mnt/usb/www/40D019C6-29C2-11E0-B411-0021288EC192"/>
+  <template href="file:////mnt/usb/www/8B7527D8-2B83-11E0-9A51-0021288E6F90"/>
+  <movie href="file:////mnt/usb/www/2D3AC4D6-C631-11E0-8421-0021288EBF58" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="800" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/2D3AC4D6-C631-11E0-8421-0021288EBF58" fixed_ar="true" swf_version="8" height="600" bgcolor="000000" supports_browser="false" pointing="false" resolution="800x600" scalable="false" requires_sound="false"/>
+  </swfs>
+</widget>
+  <parameters>
+    <parameter value="192.168.101.4:9000" name="_private_sbcontroller_address"/>
+    <parameter value="" name="_private_sbcontroller_defaultId"/>
+    <parameter value="" name="_private_sbcontroller_cauth"/>
+  </parameters>
+</widget_instance>
+
+<widget_instance id="2">
+  <name>sbController</name>
+  <info updated="Mon May 07 02:54:21 +0000 2012" access="private" secure="" origin="widget_guide" created="Mon May 07 02:54:13 +0000 2012"/>
+  <play mode="timeout" time="300"/>
+  <rating value="0"/>
+<widget id="2">
+  <name>sbController</name>
+  <description>This widget lets you see details of the current song playing on your Squeezebox. You can also access some rudimentary controls, namely - next (swipe left), previous (swipe right) and pause (tap).
+
+To use this widget, you will also need to install a plugin on your Squeezebox Server in order to allow the widget to access it. Follow the instructions here, under Instructions.
+
+NOTE: While this widget has been enabled for 8-inch devices due to some user requests, this is currently unsupported and will probably look odd.
+
+If you have any issues, please post in this forum thread.</description>
+  <version>1.1</version>
+  <play mode="timeout" time="300"/>
+  <user type="community" id="378740F6-2B23-11DD-9234-0030485B75AA" username="samuel337"/>
+  <security sendable="true" approval="approved" previewable="false" deletable="true" access="public" virtualable="false" overlay="true"/>
+  <rating count="5" value="3.2"/>
+  <thumbnail href="file:////mnt/usb/www/40D019C6-29C2-11E0-B411-0021288EC192"/>
+  <template href="file:////mnt/usb/www/8B7527D8-2B83-11E0-9A51-0021288E6F90"/>
+  <movie href="file:////mnt/usb/www/2D3AC4D6-C631-11E0-8421-0021288EBF58" contenttype="application/x-shockwave-flash"/>
+  <swfs>
+    <swf width="800" microphone="false" kb="false" camera="false" as_version="2" accelerometer="false" previewable="true" content-type="application/x-shockwave-flash" href="file:////mnt/usb/www/2D3AC4D6-C631-11E0-8421-0021288EBF58" fixed_ar="true" swf_version="8" height="600" bgcolor="000000" supports_browser="false" pointing="false" resolution="800x600" scalable="false" requires_sound="false"/>
+  </swfs>
+</widget>
+  <parameters>
+    <parameter value="192.168.101.4:9000" name="_private_sbcontroller_address"/>
+    <parameter value="" name="_private_sbcontroller_defaultId"/>
+    <parameter value="" name="_private_sbcontroller_cauth"/>
+  </parameters>
+</widget_instance>
+  </widget_instances>
+</profile>

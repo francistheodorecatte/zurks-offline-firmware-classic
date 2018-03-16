@@ -1,0 +1,193 @@
+#!/bin/sh
+# $Id: mkdevs 753 2008-11-19 23:57:50Z henry $
+#
+# Simple script to automatically populate a /dev directory.
+# Copyright (c) 2002-2005 Microcross, Inc.  All Rights Reserved
+#
+# Written by: bgat@billgatliff.com
+#
+# Usage:
+#  makedev [<devpath>] [<createdevnodepath>]
+#
+# Creates a device node list.
+#  <devpath> -- location to build the list,
+#               defaults to ${DEFAULT_PREFIX}/dev
+#
+#  This script uses the host system 'makedev' utility to create
+#  device nodes in the target $(ROOTFS)
+#
+#
+#####################################################################
+
+DEFAULT_PREFIX=./rootfs
+
+# Construct a device node name from a stem (e.g. sdb) and a number.
+devnod() {
+        if [ $2 = 0 ]
+        then
+                echo $1
+        else
+                echo $1$2
+        fi
+}
+
+PREFIX=$1
+if [ x${PREFIX} = x ]; then
+ PREFIX=${DEFAULT_PREFIX}/dev
+fi
+
+if [ "${TIMID_MODE}" = "1" -a x${PREFIX} = x/dev ]; then
+ echo "Cowardly refusing to overwrite my own /dev directory.  Abort."
+ exit
+fi
+
+CREATE_DEVNODE=$2
+if [ x${CREATE_DEVNODE} = x ]; then
+ CREATE_DEVNODE=mknod
+fi
+
+echo "mkdevs $Revision: 753 $"
+echo "mkdevs: creating device nodes at ${PREFIX} using ${CREATE_DEVNODE}"
+
+mkdir -p ${PREFIX}
+
+${CREATE_DEVNODE} ${PREFIX}/console c 5 1
+chmod 644 ${PREFIX}/*console*
+
+for d in 0 1 2; do ${CREATE_DEVNODE} ${PREFIX}/fb${d} c 29 $d; done
+ln -sf fb0 ${PREFIX}/fb
+
+
+#mkfifo ${PREFIX}/initctl
+
+mkdir -p ${PREFIX}/input
+${CREATE_DEVNODE} ${PREFIX}/input/mice c 13 63
+for d in 0 1 2; do ${CREATE_DEVNODE} ${PREFIX}/input/event${d} c 13 $(expr $d + 64); done
+${CREATE_DEVNODE} ${PREFIX}/input/ts0 c 13 128
+${CREATE_DEVNODE} ${PREFIX}/ts c 13 128
+
+for d in 0 1 2 3 4 5 6 7 8 9; do ${CREATE_DEVNODE} ${PREFIX}/loop${d} b 7 $d; done
+
+# create 10 rw MTD character devices
+for d in 0 1 2 3 4 5 6 7 8 9; do ${CREATE_DEVNODE} ${PREFIX}/mtd${d} c 90 `expr $d \* 2`; done
+
+# create 10 ro MTD character devices
+for d in 0 1 2 3 4 5 6 7 8 9; do ${CREATE_DEVNODE} ${PREFIX}/mtd${d}ro c 90 `expr $d \* 2 + 1`; done
+
+# create 10 MTD block devices
+for d in 0 1 2 3 4 5 6 7 8 9; do ${CREATE_DEVNODE} ${PREFIX}/mtdblock${d} b 31 $d; done
+
+# Create symlink for rfs1 root device
+ln -sf mtdblock5 ${PREFIX}/root
+
+${CREATE_DEVNODE} ${PREFIX}/null c 1 3
+
+for d in 0 1 2 3 4 5 6 7; do ${CREATE_DEVNODE} ${PREFIX}/ram${d} b 31 $d; done
+
+${CREATE_DEVNODE} ${PREFIX}/tty c 5 0
+
+for d in 0 1 2 3; do ${CREATE_DEVNODE} ${PREFIX}/ttyS0${d} c 4 $d; done
+
+
+# Falconwing-specific terminal noes.
+${CREATE_DEVNODE} ${PREFIX}/ttyAM0 c 204 16
+${CREATE_DEVNODE} ${PREFIX}/ttySP0 c 242 0
+
+
+${CREATE_DEVNODE} ${PREFIX}/ttyS0 c 4 64
+${CREATE_DEVNODE} ${PREFIX}/ttyS1 c 4 65
+${CREATE_DEVNODE} ${PREFIX}/ttyS2 c 4 66
+${CREATE_DEVNODE} ${PREFIX}/ttyS3 c 4 67
+
+mkdir -p ${PREFIX}/usb && chmod 755 ${PREFIX}/usb
+
+for d in 0 1 2 3 4 5 6 7 8 9; do ${CREATE_DEVNODE} ${PREFIX}/usb/rawUSB${d} c 190 $d; done
+for d in 0 1 2 3 4 5 6 7 8 9; do ${CREATE_DEVNODE} ${PREFIX}/usb/ttyUSB${d} c 189 $d; done
+
+${CREATE_DEVNODE} ${PREFIX}/zero c 1 5
+
+${CREATE_DEVNODE} ${PREFIX}/rtc c 254 0
+
+# Create block devices for sda, b and c
+#SCSI_MSTART=0
+#for drive in a b c
+#do
+#  for d in 0 1 2 3 4; do ${CREATE_DEVNODE} ${PREFIX}/$(devnod sd$drive $d) b 8 $(expr $SCSI_MSTART + $d); done
+#  SCSI_MSTART=$(expr $SCSI_MSTART + 16)
+#done
+
+# OSS device nodes
+${CREATE_DEVNODE} ${PREFIX}/mixer c 14 0
+${CREATE_DEVNODE} ${PREFIX}/sequencer c 14 1
+${CREATE_DEVNODE} ${PREFIX}/dsp c 14 3
+${CREATE_DEVNODE} ${PREFIX}/audio c 14 4
+${CREATE_DEVNODE} ${PREFIX}/sndstat c 14 6
+${CREATE_DEVNODE} ${PREFIX}/music c 14 8
+${CREATE_DEVNODE} ${PREFIX}/dmfm c 14 10
+${CREATE_DEVNODE} ${PREFIX}/amixer c 14 11
+${CREATE_DEVNODE} ${PREFIX}/adsp c 14 12
+
+# ALSA device nodes
+mkdir -p ${PREFIX}/snd
+${CREATE_DEVNODE} ${PREFIX}/snd/controlC0 c 116 0
+${CREATE_DEVNODE} ${PREFIX}/snd/controlC1 c 116 32
+${CREATE_DEVNODE} ${PREFIX}/snd/seq c 116 1
+${CREATE_DEVNODE} ${PREFIX}/snd/timer c 116 33
+${CREATE_DEVNODE} ${PREFIX}/snd/hwC0D0 c 116 4
+${CREATE_DEVNODE} ${PREFIX}/snd/hwC0D1 c 116 5
+${CREATE_DEVNODE} ${PREFIX}/snd/hwC0D2 c 116 6
+${CREATE_DEVNODE} ${PREFIX}/snd/hwC0D3 c 116 8
+${CREATE_DEVNODE} ${PREFIX}/snd/pcmC0D0p c 116 16
+${CREATE_DEVNODE} ${PREFIX}/snd/pcmC0D1p c 116 17
+${CREATE_DEVNODE} ${PREFIX}/snd/pcmC0D0c c 116 24
+${CREATE_DEVNODE} ${PREFIX}/snd/pcmC0D1c c 116 25
+${CREATE_DEVNODE} ${PREFIX}/snd/pcmC1D0c c 116 56
+
+# HID device node
+${CREATE_DEVNODE} ${PREFIX}/hiddev0 c 180 96
+
+${CREATE_DEVNODE} ${PREFIX}/random c 1 8
+${CREATE_DEVNODE} ${PREFIX}/urandom c 1 9
+
+${CREATE_DEVNODE} ${PREFIX}/ppp c 108 0
+
+
+# For MMC
+${CREATE_DEVNODE} ${PREFIX}/mmcblk0   b 179 0
+for d in 1 2 3 4 5 6 7 8 9; do ${CREATE_DEVNODE} ${PREFIX}/mmcblk0p${d} b 179 ${d}; done
+
+## Chumby specific nodes
+#${CREATE_DEVNODE} ${PREFIX}/timerx c 10 247
+#${CREATE_DEVNODE} ${PREFIX}/timerx c 252 0
+#${CREATE_DEVNODE} ${PREFIX}/switch c 251 0
+
+# Create /dev/mem
+${CREATE_DEVNODE} ${PREFIX}/mem c 1 1
+
+# Create PTYs
+${CREATE_DEVNODE} ${PREFIX}/ptmx c 5 2
+if [ ! -d ${PREFIX}/pts ]
+then
+	mkdir ${PREFIX}/pts
+	for d in 0 1 2 3 4 5 6 7 8 9; do ${CREATE_DEVNODE} ${PREFIX}/pts/${d} c 136 $d; done
+fi
+
+mkdir ${PREFIX}/pty
+i=0
+while [ $i -lt 10 ]; do
+    ${CREATE_DEVNODE} ${PREFIX}/pty/m${i} c 2 $i
+    i=`expr $i + 1`
+done;
+
+# ALM: Video nodes
+${CREATE_DEVNODE} ${PREFIX}/video0 c 81 12
+${CREATE_DEVNODE} ${PREFIX}/video1 c 81 13
+
+# Create node for i2c
+${CREATE_DEVNODE} ${PREFIX}/i2c c 89 0
+
+
+# Create misc devices
+${CREATE_DEVNODE} ${PREFIX}/watchdog c 10 130
+${CREATE_DEVNODE} ${PREFIX}/fuse c     10 229
+${CREATE_DEVNODE} ${PREFIX}/gpio c     10 185

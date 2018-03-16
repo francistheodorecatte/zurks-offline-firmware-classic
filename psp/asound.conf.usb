@@ -1,0 +1,38 @@
+pcm.!default {
+    type plug;
+    slave.pcm usb;
+}
+ctl.!default usb;
+
+
+pcm.usb {
+    type asym;
+    playback.pcm {
+        type dmix;
+        ipc_key 2048;
+        slave {
+            pcm {
+                type hw;
+                card 1;
+            }
+            period_time 0;
+            period_size 8192;
+            buffer_size 16384;
+            rate 44100;
+            channels 2;
+        }
+        bindings {
+            0 0;
+            1 1;
+        }
+    }
+    capture.pcm {
+        type hw;
+        card 0;
+    }
+}
+
+ctl.usb {
+    type hw;
+    card 1;
+}

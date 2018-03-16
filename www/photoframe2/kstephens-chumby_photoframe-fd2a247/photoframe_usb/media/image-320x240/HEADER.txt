@@ -1,0 +1,4 @@
+
+Go to upload.cgi to upload images.
+
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.1//EN' 'http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd'>
+      <html>
+      <head>
+      <title>Streamer</title>
+      <meta http-equiv="Content-Type"  content="text/html; charset=utf-8">
+      <link rel="stylesheet" type="text/css" href="style/jquery-ui-1.8.9.custom.css" />
+      <link rel="stylesheet" type="text/css" href="style/streamer.css" />
+
+      <script src=jquery.js type='text/javascript' language=javascript></script>
+      <script src=jquery-ui.js type='text/javascript' language=javascript></script>
+      <script src=streamer.js type='text/javascript' language=javascript></script>
+      <script>$(document).ready(function(){init()});</script>
+      </head>
+      <body>
+      <center>
+
+      <table id=main>
+      <tr><td><div id=controls><center>
+      <table cellpadding=5px cellspacing=0><tr>
+      <td ><div id='prev-button' class='player-button ui-state-default ui-corner-all'><span class='ui-icon ui-icon-seek-prev'></div></td>
+      <td><div id='play-button' class='player-button ui-state-default ui-corner-all'><span class='ui-icon ui-icon-play'></div></td>
+      <td><div id='pause-button' class='player-button ui-state-default ui-corner-all'><span class='ui-icon ui-icon-pause'></div></td>
+      <td><div id='stop-button' class='player-button ui-state-default ui-corner-all'><span class='ui-icon ui-icon-stop'></div></td>
+      <td><div id='next-button' class='player-button ui-state-default ui-corner-all'><span class='ui-icon ui-icon-seek-next'></div></td>
+      <td><div id='status' class=status>00:00:00</center></div></td>
+      </tr></table>
+      </div></td></tr>
+
+      <tr><td><div id=select>
+      <table cellpadding=0 cellspacing=0><tr>
+      <td><button id=browse_btn class='select_btn'>Browse</button></td>
+      <td><button id=pl_btn class='select_btn'>Play List</button></td>
+      <td><button id=trackinfo_btn class='select_btn'>Playing</button></td>
+      </table></div></td></tr>
+      
+      <tr><td><div id=browser style='display: block'><h3>Browser</h3><div id=browser-in></div></div>
+      <div id=playlist style='display: none'><h3>Play List</h3><div id=playlist-in></div></div>
+      <div id=trackinfo class=trackinfo style='display: none'><h3>Now Playing</h3><div id=trackinfo-in></div></div></td></tr>
+      </table></center>
+      <div id=add_2_playlist_ntfy><p>Item added to Play List</div>
+      <div id=playlist_item_opt></div>
+      </body>
+      </html>
+      

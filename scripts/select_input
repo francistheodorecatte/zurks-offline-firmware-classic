@@ -1,0 +1,26 @@
+#!/bin/sh
+if [ "x$1" = "x" ]
+then
+    echo "Usage: $0 [mic/line1/line2/headphone]"
+    exit 1
+fi
+
+if [ "$1" = "mic" ]
+then
+    regutil -w HW_AUDIOIN_ADCVOL_CLR=0x00003030 > /dev/null
+    
+elif [ "$1" = "line1" ]
+then
+    regutil -w HW_AUDIOIN_ADCVOL_CLR=0x00002020 > /dev/null
+    regutil -w HW_AUDIOIN_ADCVOL_SET=0x00001010 > /dev/null
+    
+elif [ "$1" = "headphone" ]
+then
+    regutil -w HW_AUDIOIN_ADCVOL_CLR=0x00001010 > /dev/null
+    regutil -w HW_AUDIOIN_ADCVOL_SET=0x00002020 > /dev/null
+    
+elif [ "$1" = "line2" ]
+then
+    regutil -w HW_AUDIOIN_ADCVOL_SET=0x00003030 > /dev/null
+
+fi

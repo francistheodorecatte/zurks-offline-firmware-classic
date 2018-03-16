@@ -1,0 +1,10 @@
+#!/bin/sh
+# $Id$
+# Get list of running services
+#
+
+. script_locations.sh
+. ${ETC_INIT_DIR}/daemon-utils.sh
+
+serviceList
+

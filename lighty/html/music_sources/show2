@@ -1,0 +1,4 @@
+<MusicSources>
+  <Music player="http://music.chumby.com/pandora/pandoraPlayer215.swf" can_pause="false" panel="http://music.chumby.com/pandora/pandoraPanel215.swf" can_next="false" alarm_panel="http://music.chumby.com/pandora/pandoraAlarmPanel215.swf" label="Pandora Radio" can_prev="false" can_alarm="true" can_resume="true" id="pandora" ver="2.15" position="0"/>
+  <Music player="http://music.chumby.com/clearchannel/ihr_player.swf" can_pause="false" panel="http://music.chumby.com/clearchannel/ihr_panel.swf" can_next="false" alarm_panel="" label="iheartradio" can_prev="false" can_alarm="false" can_resume="true" id="iheartradio" ver="beta 18653" position="2"/>
+</MusicSources>

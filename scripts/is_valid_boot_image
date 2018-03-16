@@ -1,0 +1,31 @@
+#!/bin/sh
+
+MAX_OFFSET=32
+CURRENT_OFFSET=0
+FILE=$1
+
+if [ "x${FILE}" = "x" ]
+then
+    echo "Usage: $0 [image_file]"
+    exit 0
+fi
+
+if [ ! -e ${FILE} ]
+then
+    echo "Unable to find ${FILE}"
+    exit 0
+fi
+
+while [ ${CURRENT_OFFSET} -lt ${MAX_OFFSET} ]
+do
+    SIG=$(dd if=${FILE} bs=1 skip=$(expr ${CURRENT_OFFSET} '*' 512 + 20) count=4 2> /dev/null)
+    if [ "${SIG}" = "STMP" ]
+    then
+        echo "Boot signature found at offset ${CURRENT_OFFSET}"
+        exit 1
+    fi
+    CURRENT_OFFSET=$(expr ${CURRENT_OFFSET} + 1)
+done
+
+echo "Boot signature not found"
+exit 0

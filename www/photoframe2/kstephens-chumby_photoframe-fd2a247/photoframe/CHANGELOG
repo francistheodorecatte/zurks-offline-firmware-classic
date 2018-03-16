@@ -1,0 +1,21 @@
+Version 2.0:
+    
+* Use alternating MovieClips and swapDepths to avoid loading and
+  rendering delays.
+* Better randomization: images Array is randomized to insure each image
+  gets seen in equal likelyhood.
+* Reload images.xml after all images have been shown.
+* Tapping screen skips to next image.
+* Support for debugging.
+* Attempt at using <images random="no">... to turn of randomization.
+
+========================
+
+Version 1.2 : ORIGINAL
+
+commit b6fbc0f57d4bd1487c5bcb5fe31d88b1db96be82
+Author: Kurt Stephens 
+Date:   Sat Dec 27 13:43:23 2008 -0600
+
+    Original source from chumby-photoframe-1.1.tar.gz md5sum 35e964546dccd40dd2b966e3df29c88e
+

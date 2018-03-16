@@ -1,0 +1,6 @@
+#!/bin/sh
+for i in `/bin/ls /sys/class/leds/*/brightness`
+do
+    /bin/echo 0 > $i
+done
+

@@ -1,0 +1,1 @@
+cmd_net/ipv6/netfilter/ip6table_security.ko := arm-linux-ld -EL -r   --build-id -o net/ipv6/netfilter/ip6table_security.ko net/ipv6/netfilter/ip6table_security.o net/ipv6/netfilter/ip6table_security.mod.o

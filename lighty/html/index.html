@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<meta name="author" content="Zurk" />
+	<meta name="keywords" content="zurk chumby offline firmware" />
+	<meta name="description" content="A demonstration of what can be accomplished by an offline firmware." />
+	<meta name="robots" content="all" />
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+<META HTTP-EQUIV="EXPIRES" CONTENT="Mon, 22 Jul 2002 11:12:01 GMT">
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+	<title>Zurk's Chumby Offline Firmware</title>
+	<!-- to correct the unsightly Flash of Unstyled Content. http://www.bluerobot.com/web/css/fouc.asp -->
+	<script type="text/javascript"></script>
+	<style type="text/css" media="all">
+		@import "zen.css";
+	</style>
+<script type="text/javascript" src="/fancybox/jquery.min.js"></script>
+<script type="text/javascript" src="/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<link rel="stylesheet" type="text/css" href="/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<script type="text/javascript">
+//<![CDATA[
+function repeat() {
+	document.chumote.fb.src = "/cgi-bin/fb.sh?"+Math.floor(Math.random()*9999999+1);
+	document.chumote.fb1.src = "/cgi-bin/fb1.sh?"+Math.floor(Math.random()*9999999+1);
+document.chumote.date.value=new Date();
+setTimeout('repeat()',4000);
+}
+//]]>
+</script>
+<script type="text/javascript">
+		$(document).ready(function() {
+			$(".iframe2").fancybox({
+				'width'				: '80%',
+				'height'			: '80%',
+				'autoScale'			: true,
+				'transitionIn'			: 'fade',
+				'transitionOut'			: 'fade',
+				'type'				: 'iframe'
+			});
+		});
+</script>
+</head>
+<body onload="window.defaultStatus='Zurk\'s Chumby Offline Firmware';repeat();" id="css-zen-garden">
+<div id="container">
+	<div id="intro">
+		<div id="pageHeader">
+			<h1><span>Zurk's Chumby Offline Firmware</span></h1>
+			<h2><span>Hello from Zurk's Offline Chumby firmware!</span></h2>
+		</div>
+
+		<div id="quickSummary">
+			<p class="p1"><span>Hello from Zurk's Offline Chumby firmware!</span></p>
+			<p class="p2"><span>Web Based Control Panel</a></span></p>
+		</div>
+
+		<div id="preamble">
+			<h3><span>Important information</span></h3>
+			<p class="p1"><span><BR><A class="iframe2" href="/cgi-bin/readme.sh">README</A> - Basic Help and Instructions. </span></p>
+			<p class="p2"><span><A class="iframe2" href="/cgi-bin/license.sh">LICENSE</A> - License terms and conditions. </span></p>
+			<p class="p2"><span><A class="iframe2" href="/server-status">Server status</A> - Server status and information page. </span></p>
+			<p class="p3"><span><A class="iframe2" href="/dlna">DLNA</A> - DLNA Server / UPnP Infrastructure control panel.</span></p>
+			<p class="p4"><span><A class="iframe2" href="http://sourceforge.net/projects/zurk/forums/forum/12064">Forums</A> - Chat with other users and find help on sourceforge.net forums.</span></p>
+		</div>
+	</div>
+<table border="0" width="100%">
+  <tr><td width="50%">
+	<div id="supportingText">
+		<div id="explanation">
+			<h3><span>Useful Controls</span></h3>
+			<p class="p1"><span><BR><A class="iframe2" href="/cgi-bin/top.sh">Top</A> - Show the processes running on the Chumby</span></p>
+			<p class="p2"><span><A class="iframe2" href="/cgi-bin/memstats.sh">MemStats</A> - Show memory statistics and usage</span></p>
+			<p class="p3"><span><A class="iframe2" href="/cgi-bin/wifi.sh">Wifi</A> - Show wifi statistics</span></p>
+			<p class="p4"><span><A class="iframe2" href="/cgi-bin/speak.pl">Speak</A> - Say the time</span></p>
+			<p class="p5"><span><A class="iframe2" href="/cgi-bin/dmesg.sh">DMesg</A> - Show the boot log</span></p>
+			<p class="p6"><span><A class="iframe2" href="/cgi-bin/blackbox.sh">Blackbox data recorder</A> - In case of an emergency check this log</span></p>
+			<p class="p7"><span><A class="iframe2" href="/cgi-bin/sync.sh">Sync</A> - Run a sync command on the Chumby to write data to the usb stick</span></p>
+			<p class="p8"><span><A class="iframe2" href="/cgi-bin/logs.sh">Web Log</A> - Check the Chumby web server logs</span></p>
+			<p class="p9"><span><A class="iframe2" href="/cgi-bin/dlna.sh">DLNA Check</A> - Has DLNA been started yet ? </span></p>
+			<h3><span>Music infrastructure</span></h3>
+			<p class="p11"><span><BR><A class="iframe2" href="/cgi-bin/pandora.sh">Switch to Chumby.com music infrastructure</A></span></p>
+			<p class="p12"><span><A class="iframe2" href="/cgi-bin/pandora-offline.sh">Switch to Offline music infrastructure</A></span></p>
+		</div>
+</td><td width="50%">
+<form name="chumote">
+		<div id="participation">
+			<h3><span> Chumote! &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" size="88" name="date" disabled style="background-color: transparent;border-style: solid;border-width: 0px 0px 1px 0px;border-color: darkblue"></span></h3>
+			<p class="p1"><span> <img style="padding:8px;border:solid;border-color: #dddddd #aaaaaa #aaaaaa #dddddd;border-width: 1px 2px 2px 1px;background-color:white;" id="fb" src="/cgi-bin/fb.sh" alt="Chumby" width="320" height="200"><img style="padding:8px;border:solid;border-color: #dddddd #aaaaaa #aaaaaa #dddddd;border-width: 1px 2px 2px 1px;background-color:white;" id="fb1" src="/cgi-bin/fb1.sh" alt="Chumby" width="320" height="200"> </span></p>
+			<p class="p2"><span> <button type="button" onclick="document.location.href='/cgi-bin/zmote_on.sh';"> Nightmode On </button> &nbsp;&nbsp;&nbsp;&nbsp; <button type="button" onclick="document.location.href='/cgi-bin/zmote_off.sh';"> Nightmode Off </button> </span></p>
+			<p class="p3"><span> <input type="text" name="playurl" value="http://podcast.cbc.ca/mp3/hourlynews.mp3"> <button type="button" onclick="document.location.href='/cgi-bin/zmote_play.sh?'+document.chumote.playurl.value;"> Play URL </button> &nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="playloop" value="/mnt/usb/music/hal.mp3"> <button type="button" onclick="document.location.href='/cgi-bin/zmote_playloop.sh?'+document.chumote.playloop.value;"> Play Loop </button> </span></p>
+			<p class="p4"><span> SSH Server - <a class="iframe2" href="/cgi-bin/custom/ssh.sh">Enable</A> &nbsp;&nbsp;&nbsp;&nbsp; <a class="iframe2" href="/cgi-bin/custom/sshoff.sh">Disable</A> </span></p>
+			<p class="p5"><span> (Note: Small command subset due to limited Chumby 8 support for flashplayer commands) </span></p>
+			<p class="p6"><span> (Post reboot) Volume Control <button type="button" onclick="if(document.chumote.vol.value<100){document.chumote.vol.value++;}">Vol +</button> / <button type="button" onclick="if(document.chumote.vol.value>0){document.chumote.vol.value--;}">Vol -</button> - <input type="text" name="vol" value="20" size="5"> <button type="button" onclick="document.location.href='/cgi-bin/custom/setvol.sh?'+document.chumote.vol.value;">SET</button></span></p>
+			<p class="p7"><span> (Post reboot) Daylight modes   <button type="button" onclick="if(document.chumote.day.value<100){document.chumote.day.value++;}">Bright +</button> / <button type="button" onclick="if(document.chumote.day.value>0){document.chumote.day.value--;}">Bright -</button> - <input type="text" name="day" value="20" size="5"> <button type="button" onclick="document.location.href='/cgi-bin/custom/setday.sh?'+document.chumote.day.value;">SET</button></span></p>
+			<p class="p8"><span> (Post reboot) Nighttime mode <button type="button" onclick="if(document.chumote.night.value<100){document.chumote.night.value++;}">Bright +</button> / <button type="button" onclick="if(document.chumote.night.value>0){document.chumote.night.value--;}">Bright -</button> - <input type="text" name="night" value="20" size="5"> <button type="button" onclick="document.location.href='/cgi-bin/custom/setnight.sh?'+document.chumote.night.value;">SET</button></span></p>
+		</div>
+</form>
+</td>  </tr>
+</table>
+		<div id="benefits">
+			<h3><span>Other commands available</span></h3>
+			<p class="p1"><span>http://ip.of.your.chumby/cgi-bin/custom/setvol.sh?30<BR>http://ip.of.your.chumby/cgi-bin/custom/setbrightness.sh?30<BR></span></p>
+		</div>
+		<div id="requirements">
+			<h3><span>Advanced usage</span></h3>
+			<p class="p1"><span>
+changewidget.sh<br>
+dim.sh  /proc/sys/sense1/dimlevel can have different values: 0 is normal, 1 is dimmed, 2 is off. According to [1], the display can't go from off to dimmed, so when going to the dimmed level, we just always switch to the normal level first and wait for a second<br>
+index.sh  three chumbies, each with copies of these scripts in cgi-bin. The link at the top lets me change between the three. I also have a couple links to start some specific streaming radio stations (player_kexp and player_kuow)<br>
+multistreams.sh  querystring argument to choose from a variety of streams (or stop the player). Fill in with streams / stream names as you see fit<br>
+off.sh  /proc/sys/sense1/dimlevel can have different values: 0 is normal, 1 is dimmed, 2 is off. According to [1], the display can't go from off to dimmed, so when going to the dimmed level, we just always switch to the normal level first and wait for a second<br>
+setmute.sh Unmute with comment="off"<br>
+shoutcast.sh  start a specific shoutcast stream<br>
+somafm.sh  just give it the name of your stream (groovesalad|secretagent|lush|digitalis|beatblender|...) as a parameter<br>
+traceroute.sh do a simple traceroute<br></span></p>
+		</div>
+		<div id="footer">
+			<a class="iframe2" href="http://validator.w3.org/check/referer" title="Check the validity of this site&#8217;s XHTML">xhtml</a> &nbsp; 
+			<a class="iframe2" href="http://jigsaw.w3.org/css-validator/check/referer" title="Check the validity of this site&#8217;s CSS">css</a> &nbsp; 
+			<a class="iframe2" href="http://creativecommons.org/licenses/by-nc-sa/1.0/" title="View details of the license of this site, courtesy of Creative Commons.">cc</a> &nbsp;
+			<a class="iframe2" href="http://mezzoblue.com/zengarden/faq/#s508" title="Read about the accessibility of this site">508</a> &nbsp;
+			<a class="iframe2" href="http://www.mezzoblue.com/zengarden/faq/#aaa" title="Read about the accessibility of this site">aaa</a>
+		</div>
+	</div>
+	<div id="linkList">
+		<div id="linkList2">
+			<div id="lselect">
+				<h3 class="select"><span></span></h3>
+				<ul>
+<li><a class="iframe2" href="/cgi-bin/helloworld.php" title="AccessKey: a" accesskey="a">PHP Test</a> &nbsp;</li>
+				</ul>
+			</div>
+			<div id="larchives">
+				<h3 class="archives"><span></span></h3>
+				<ul>
+<li><a class="iframe2" href="/cgi-bin/helloworld.py" title="AccessKey: b" accesskey="b">Python Test</a> &nbsp;</li>
+				</ul>
+			</div>
+			<div id="lresources">
+				<h3 class="resources"><span></span></h3>
+				<ul>
+<li><a class="iframe2" href="/cgi-bin/helloworld.pl" title="AccessKey: c" accesskey="c">Perl Test</a> &nbsp;</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- These extra divs/spans may be used as catch-alls to add extra imagery. -->
+<!-- Add a background image to each and use width and height to control sizing, place with absolute positioning -->
+<div id="extraDiv1"><span></span></div><div id="extraDiv2"><span></span></div><div id="extraDiv3"><span></span></div>
+<div id="extraDiv4"><span></span></div><div id="extraDiv5"><span></span></div><div id="extraDiv6"><span></span></div>
+</body>
+</html>

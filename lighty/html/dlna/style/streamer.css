@@ -1,0 +1,89 @@
+body {
+   font-family: Segoe UI, Arial, sans-serif;
+}   
+
+h3 {
+   color: #4c3000;
+   font-size: 12pt;
+}
+
+.player-button { 
+   width: 16px; 
+   height: 16px;
+}
+
+
+
+/* Browser */
+
+.browse-device{
+   border: 1px solid;
+   border-color: #f8f675;
+   background: #fafadf;
+   padding: 5px;
+   width: 300px;
+   color: #4c3000;
+   margin: 5px;
+   font-size: 8pt;
+}
+
+.browse-container{
+   border: 1px solid;
+   border-color: #f8f675;
+   background: #fafadf;
+   padding: 5px;
+   width: 300px;
+   color: #4c3000;
+   margin: 5px;
+   font-size: 8pt;
+}
+
+.browse-object{
+   border: 1px solid;
+   border-color: #F5A9A9;
+   background: #F5D0A9;
+   padding: 5px;
+   width: 300px;
+   color: #4c3000;
+   margin: 5px;
+   font-size: 8pt;
+}
+
+/* Play List */
+
+
+.pl-item{
+   border: 1px solid;
+   border-color: #F5A9A9;
+   background: #F5D0A9;
+   padding: 5px;
+   width: 300px;
+   color: #4c3000;
+   margin: 5px;
+   font-size: 8pt;
+}
+
+.pl-item-playing{
+   border: 1px solid;
+   border-color: #A9F5A9;
+   background: #D0F5A9;
+   padding: 5px;
+   width: 300px;
+   color: #4c3000;
+   margin: 5px;
+   font-size: 8pt;
+}
+
+/* Track Info */
+
+.trackinfo{
+   color: #4c3000;
+   font-size: 8pt;
+}
+
+/* Status */
+
+.status{
+   color: #4c3000;
+   font-size: 8pt;
+}

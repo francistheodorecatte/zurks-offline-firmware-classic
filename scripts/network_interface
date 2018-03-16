@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+# network_interface 
+#   return configured interface. 
+#   use --type=[lan|wlan] to force a specific type.
+#
+# David Burklund
+# (c) Copyright Chumby Industries 2006-2008
+# All rights reserved
+
+echo wlan0

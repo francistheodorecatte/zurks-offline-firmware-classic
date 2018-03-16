@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profiles count="2">
+<profile id="0">
+  <name>offline</name>
+  <description></description>
+  <user id="1">offline-user</user>
+  <info type="Profile" updated="Sun Mar 04 20:15:16 +0000 2012" master="false" pending="0" unaccepted="0" origin="" created="Fri Sep 03 18:18:02 +0000 2010" published=""/>
+  <widget_instances count="23" thumbnail="file:////mnt/usb/www/EC1738A4-E91A-11DD-9CA0-001E681DFAC2"/>
+</profile>
+<profile id="1">
+  <name>Squeezebox</name>
+  <description></description>
+  <user id="1">offline-user</user>
+  <info type="Profile" updated="Sun Mar 04 20:15:16 +0000 2012" master="false" pending="0" unaccepted="0" origin="" created="Fri Sep 03 18:18:02 +0000 2010" published=""/>
+  <widget_instances count="2" thumbnail="file:////mnt/usb/www/40D019C6-29C2-11E0-B411-0021288EC192"/>
+</profile>
+<profile id="2">
+  <name>Kitchen Timer</name>
+  <description></description>
+  <user id="1">offline-user</user>
+  <info type="Profile" updated="Sun Mar 04 20:15:16 +0000 2012" master="false" pending="0" unaccepted="0" origin="" created="Fri Sep 03 18:18:02 +0000 2010" published=""/>
+  <widget_instances count="1" thumbnail="file:////mnt/usb/www/D4C9F912-9B90-11DC-A894-0030488CBE0D"/>
+</profile>
+</profiles>

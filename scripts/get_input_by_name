@@ -1,0 +1,30 @@
+#!/bin/sh
+# $Id: get_input_by_name 20353 2009-10-02 00:30:00Z henry $
+# get_input_by_name - get the event name of an input device by
+# name, e.g. rotdec
+
+[ -d /sys/class/input ] || { echo "sysfs not mounted"; exit 1; }
+
+# Optional filter reports only the event# name
+FILTER=$1
+SYSBASE=/sys/class/input
+for NUM in 0 1 2 3 4
+do
+  if [ -f ${SYSBASE}/event${NUM}/dev ]
+  then
+    # If there is no device symlink, it's an ironforge ts
+    if [ -f ${SYSBASE}/event${NUM}/device/name ]
+    then
+	NAME="$(cat ${SYSBASE}/event${NUM}/device/name)"
+    else
+	NAME=unknown
+    fi
+    if [ "${FILTER}" ]
+    then
+      [ "${FILTER}" = "${NAME}" ] && echo event${NUM}
+    else
+      echo "event${NUM}: ${NAME}"
+    fi
+  fi
+done
+

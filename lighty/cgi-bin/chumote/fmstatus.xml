@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<radio found='1' tuned='1' station='90.10' stereo='0' signal='96' signal_max='256' seek_threshold='0' seek_threshold_max='255' spacing='200' start='87.50' stop='108.00' band='us' callsign='' programservice='' ptycode='' radiotext0='' radiotext1='' juliandate='0' hour='0' minute='0' localtime='0:00' >
+    <station freq="88.10"/>
+    <station freq="89.30"/>
+    <station freq="90.10"/>
+    <station freq="90.70"/>
+    <station freq="91.10"/>
+    <station freq="92.10"/>
+    <station freq="93.30"/>
+    <station freq="93.70"/>
+    <station freq="94.70"/>
+    <station freq="97.30"/>
+    <station freq="98.50"/>
+    <station freq="99.50"/>
+    <station freq="100.30"/>
+    <station freq="101.10"/>
+    <station freq="102.30"/>
+    <station freq="103.50"/>
+    <station freq="104.10"/>
+    <station freq="104.50"/>
+    <station freq="105.10"/>
+    <station freq="105.90"/>
+    <station freq="106.10"/>
+    <station freq="106.30"/>
+    <station freq="106.70"/>
+    <station freq="107.50"/>
+</radio>

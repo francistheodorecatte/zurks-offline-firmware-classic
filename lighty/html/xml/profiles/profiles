@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile id="0">
+  <name>offline-mode</name>
+  <description/>
+  <user username="offline-user">
+    <profiles>
+      <profile  unaccepted="0" name="offline-mode" id="0" />
+      <profile  unaccepted="0" name="Squeezebox" id="1" />
+      <profile  unaccepted="0" name="Kitchen Timer" id="2" />
+    </profiles>
+  </user>
+<skin href="/xml/skins/00000000-0000-0000-0000-000000000001" name="Standard" id="00000000-0000-0000-0000-000000000001"/>
+ <access access="private" id="0"/>
+  <widget_instances>
+
+    <widget_instance id="1">
+      <name>SkyHappenings - Weather Edition</name>
+<widget id="1">
+  <name>SkyHappenings - Weather Edition</name>
+  <description>Localized weather patterns for US now available! Sun rises and sets according to time of day. Clear display featuring day and date. Watch the skies for surprises. Tap the screen for local temp. Configure widget to add overlay to always show location and temp.</description>
+  <version>1.2</version>
+  <mode mode="timeout" time="180"/>
+        <access sendable="false" deleteable="false" access="private" virtualable="false"/>
+  <user username="McConnell"/>
+  <thumbnail href="file:////mnt/usb/www/E789C7B6-A7F1-11DE-AE3A-001B24F07EF4" contenttype="image/jpeg"/>
+  <template href="file:////mnt/usb/www/33136578-AC40-11DE-BF5D-001B24F07EF4" contenttype="application/x-shockwave-flash"/>
+  <movie href="file:////mnt/usb/www/SkyHappenningsZurkianEdition.swf" contenttype="application/x-shockwave-flash"/>
+  <rating count="201" rating="4.199"/>
+</widget>
+      <access access="private"/>
+      <mode mode="timeout" time="180"/>
+      <widget_parameters>
+<widget_parameter id="1">
+  <name>zip</name>
+  <value>ZZ</value>
+</widget_parameter>
+<widget_parameter id="1">
+  <name>myID</name>
+  <value>Temperature</value>
+</widget_parameter>
+<widget_parameter id="1">
+  <name>banner</name>
+  <value>Zurk's ChumbyFW</value>
+</widget_parameter>
+      </widget_parameters>
+      <rating rating="5"/>
+    </widget_instance>
+
+    <widget_instance id="2">
+      <name>Weather Radar</name>
+<widget id="2">
+  <name>Weather Radar</name>
+  <description>Doppler weather radar updated every hour.</description>
+  <version>1.2</version>
+  <mode mode="timeout" time="180"/>
+        <access sendable="false" deleteable="false" access="private" virtualable="false"/>
+  <user username="McConnell"/>
+  <thumbnail href="file:////mnt/usb/www/radarthumb.jpg" contenttype="image/jpeg"/>
+  <template href="file:////tmp/gif.swf" contenttype="application/x-shockwave-flash"/>
+  <movie href="file:////tmp/gif.swf" contenttype="application/x-shockwave-flash"/>
+  <rating count="201" rating="4.199"/>
+</widget>
+      <access access="private"/>
+      <mode mode="timeout" time="180"/>
+      <widget_parameters>
+<widget_parameter id="1">
+  <name>zip</name>
+  <value>ZZ</value>
+</widget_parameter>
+      </widget_parameters>
+      <rating rating="5"/>
+    </widget_instance>
+
+    <widget_instance id="3">
+      <name>Kalender, german</name>
+<widget id="3">
+  <name>Calender, english</name>
+  <description>Simple puristic english calendar.
+
+Press left and right to move between months. 
+Press up and down to move between years.
+Update: bugfix wrong days</description>
+  <version>0.7</version>
+  <mode mode="timeout" time="180"/>
+        <access sendable="false" deleteable="false" access="private" virtualable="false"/>
+  <user username="ReflexNPG"/>
+  <thumbnail href="file:////mnt/usb/www/6D9BCCCE-E1B4-11DC-A0A4-0016353BC7CC" contenttype="image/jpeg"/>
+  <movie href="file:////mnt/usb/www/calendarmod.swf" contenttype="application/x-shockwave-flash"/>
+  <rating count="27" rating="3.6667"/>
+</widget>
+      <access access="private"/>
+      <mode mode="timeout" time="180"/>
+      <widget_parameters>
+      </widget_parameters>
+      <rating rating="0"/>
+    </widget_instance>
+
+    <widget_instance id="4">
+      <name>AccuWeather.com Forecast</name>
+<widget id="4">
+  <name>AccuWeather.com Forecast</name>
+  <description>Current weather conditions and a 2 day weather forecast for any world location.</description>
+  <version>1.0</version>
+  <mode mode="timeout" time="180"/>
+        <access sendable="false" deleteable="false" access="private" virtualable="false"/>
+  <user username="spm161"/>
+  <thumbnail href="file:////mnt/usb/www/2B2013E4-2415-11DC-A307-0030485A78AA" contenttype="image/jpeg"/>
+  <template href="file:////mnt/usb/www/2B1431D2-2415-11DC-A307-0030485A78AA" contenttype="application/x-shockwave-flash"/>
+  <movie href="file:////mnt/usb/www/2B104CC0-2415-11DC-A307-0030485A78AA" contenttype="application/x-shockwave-flash"/>
+  <rating count="673" rating="3.477"/>
+</widget>
+      <access access="private"/>
+      <mode mode="default" time="180"/>
+      <widget_parameters>
+<widget_parameter id="3">
+  <name>chlang</name>
+  <value>eng</value>
+</widget_parameter>
+<widget_parameter id="3">
+  <name>chloc</name>
+  <value>Pitt Meadows, BC</value>
+</widget_parameter>
+<widget_parameter id="3">
+  <name>chzip</name>
+  <value>V3Y 1A1</value>
+</widget_parameter>
+<widget_parameter id="3">
+  <name>chunits</name>
+  <value>0</value>
+</widget_parameter>
+<widget_parameter id="3">
+  <name>chint</name>
+  <value>5</value>
+</widget_parameter>
+      </widget_parameters>
+      <rating rating="5"/>
+    </widget_instance>
+
+    <widget_instance id="5">
+      <name>Radar</name>
+<widget id="5">
+  <name>ImageURL</name>
+  <description>Loads single jpg, gif or png from given URL. 
+
+LongTouch is zoom in.
+ShortTouch is zoom out.
+Slide is reload.
+
+Please look at [http://d.hatena.ne.jp/shoozhoo/20081105#p2] when using it with URL that authenticate. </description>
+  <version>1.1</version>
+  <mode mode="timeout" time="180"/>
+        <access sendable="false" deleteable="false" access="private" virtualable="false"/>
+  <user username="shoozhoo"/>
+  <thumbnail href="file:////mnt/usb/www/398B20BE-E721-11DE-AACD-001E681DF646" contenttype="image/jpeg"/>
+  <template href="file:////mnt/usb/www/398EF5FE-E721-11DE-AACD-001E681DF646" contenttype="application/x-shockwave-flash"/>
+  <movie href="file:////mnt/usb/www/E6A167CA-AD4F-11DD-908F-001E681DFAC2" contenttype="application/x-shockwave-flash"/>
+  <rating count="126" rating="4.3254"/>
+</widget>
+      <access access="private"/>
+      <mode mode="default" time="180"/>
+      <widget_parameters>
+<widget_parameter id="4">
+  <name>reloadSec</name>
+  <value>30</value>
+</widget_parameter>
+<widget_parameter id="4">
+  <name>url</name>
+  <value>http://radblast-mi.wunderground.com/cgi-bin/radar/WUNIDS_map?station=ATX&amp;brand=wui&amp;num=1&amp;delay=15&amp;type=N0R&amp;frame=0&amp;scale=0.250&amp;noclutter=0&amp;t=1278308259&amp;lat=0&amp;lon=0&amp;label=you&amp;showstorms=0&amp;map.x=400&amp;map.y=240&amp;centerx=428&amp;centery=672&amp;transx=28&amp;transy=432&amp;showlabels=1&amp;severe=1&amp;rainsnow=1&amp;lightning=1&amp;smooth=0</value>
+</widget_parameter>
+<widget_parameter id="4">
+  <name>hideLoading</name>
+  <value>NO</value>
+</widget_parameter>
+      </widget_parameters>
+      <rating rating="5"/>
+    </widget_instance>
+
+    <widget_instance id="6">
+      <name>wGraph</name>
+<widget id="6">
+  <name>wGraph</name>
+  <description>wGraph is a weather graph widget which takes wunderground.com data and displays weather underground graphs for the given location. you can select the location id from the list at : [http://www.wunderground.com/weatherstation/index.asp]</description>
+  <version>0.1</version>
+  <mode mode="timeout" time="180"/>
+        <access sendable="false" deleteable="false" access="private" virtualable="false"/>
+  <user username="YohannSulaiman"/>
+  <thumbnail href="file:////mnt/usb/www/8181193C-B606-11DF-95B4-0021288EBF58" contenttype="image/jpeg"/>
+  <template href="file:////mnt/usb/www/8181AADC-B606-11DF-95B4-0021288EBF58" contenttype="application/x-shockwave-flash"/>
+  <movie href="file:////mnt/usb/www/81837E8E-B606-11DF-95B4-0021288EBF58" contenttype="application/x-shockwave-flash"/>
+  <rating count="14" rating="3.7857"/>
+</widget>
+      <access access="private"/>
+      <mode mode="default" time="180"/>
+      <widget_parameters>
+<widget_parameter id="5">
+  <name>banner</name>
+  <value>IBCPITTM3</value>
+</widget_parameter>
+      </widget_parameters>
+      <rating rating="5"/>
+    </widget_instance>
+
+    <widget_instance id="7">
+      <name>Accelerometer Strip Recorder</name>
+<widget id="7">
+  <name>Accelerometer Strip Recorder</name>
+  <description>This tool allows you to see real-time graphs of the Chumby's accelerometer.  The accelerometer values are explained here.  
+
+Tap the screen to switch to other graphs.</description>
+  <version>1.0</version>
+  <mode mode="timeout" time="180"/>
+        <access sendable="false" deleteable="false" access="private" virtualable="false"/>
+  <user username="wayn3w"/>
+  <thumbnail href="file:////mnt/usb/www/0E1D8082-E808-11DF-B38F-0021288E720C" contenttype="image/jpeg"/>
+  <movie href="file:////mnt/usb/www/0E1F9480-E808-11DF-B38F-0021288E720C" contenttype="application/x-shockwave-flash"/>
+  <rating count="4" rating="4.75"/>
+</widget>
+      <access access="private"/>
+      <mode mode="timeout" time="180"/>
+      <widget_parameters>
+      </widget_parameters>
+      <rating rating="5"/>
+    </widget_instance>
+
+    <widget_instance id="8">
+      <name>Chumby RSS Reader</name>
+<widget id="8">
+  <name>Chumby RSS Reader</name>
+  <description>A simple configurable RSS reader.  Follow the RSS feed of your choice on the chumby!</description>
+  <version>2.4.4</version>
+  <mode mode="timeout" time="180"/>
+        <access sendable="false" deleteable="false" access="private" virtualable="false"/>
+  <user username="chumby"/>
+  <thumbnail href="file:////mnt/usb/www/9B7778C8-5152-11DE-B74E-001B24E044BE" contenttype="image/jpeg"/>
+  <template href="file:////mnt/usb/www/9BF61476-5152-11DE-B74E-001B24E044BE" contenttype="application/x-shockwave-flash"/>
+  <movie href="file:////mnt/usb/www/9C7CBEE0-5152-11DE-B74E-001B24E044BE" contenttype="application/x-shockwave-flash"/>
+  <rating count="235" rating="4.0043"/>
+</widget>
+      <access access="private"/>
+      <mode mode="timeout" time="180"/>
+      <widget_parameters>
+<widget_parameter id="7">
+  <name>_chumby_param_rssurl</name>
+  <value>http://news.google.com/?output=rss</value>
+</widget_parameter>
+      </widget_parameters>
+      <rating rating="0"/>
+    </widget_instance>
+
+    <widget_instance id="9">
+      <name>All In One Clock</name>
+<widget id="9">
+  <name>All In One Clock</name>
+  <description>The swiss knife of clocks. This widget is more then just a clock. It also includes a timer, a countdown timer, a set of dices, a calculator and a Tic Tac Toe game. My next step is campaigning to make this one the built-in clock...</description>
+  <version>1.0</version>
+  <mode mode="timeout" time="180"/>
+        <access sendable="false" deleteable="false" access="private" virtualable="false"/>
+  <user username="Yuzzy"/>
+  <thumbnail href="file:////mnt/usb/www/35049584-EED4-11DD-93FA-001E681DFAC2" contenttype="image/jpeg"/>
+  <movie href="file:////mnt/usb/www/3501D272-EED4-11DD-93FA-001E681DFAC2" contenttype="application/x-shockwave-flash"/>
+  <rating count="479" rating="4.5428"/>
+</widget>
+      <access access="private"/>
+      <mode mode="default" time="180"/>
+      <widget_parameters>
+      </widget_parameters>
+      <rating rating="0"/>
+    </widget_instance>
+
+    <widget_instance id="10">
+      <name>PhotoFrame</name>
+<widget id="10">
+  <name>PhotoFrame</name>
+  <description>View pictures hosted on a web server that can be public, inside your local network or running on the Chumby itself. For instructions and source code download, see &lt;a href="http://www.discarded-ideas.org/chumby/photoframe"&gt;http://www.discarded-ideas.org/chumby/photoframe&lt;/a</description>
+  <version>2.0</version>
+  <mode mode="timeout" time="180"/>
+        <access sendable="false" deleteable="false" access="private" virtualable="false"/>
+  <user username="wansti"/>
+  <thumbnail href="file:////mnt/usb/www/7D03C090-C864-11DC-8101-0016353B0686" contenttype="image/jpeg"/>
+  <template href="file:////mnt/usb/www/3EA76676-FD98-11DC-A3D2-001635C47868" contenttype="application/x-shockwave-flash"/>
+  <movie href="file:////mnt/usb/www/C9820B5C-FD98-11DC-AEDD-00156009DD9B" contenttype="application/x-shockwave-flash"/>
+  <rating count="35" rating="3.4857"/>
+</widget>
+      <access access="private"/>
+      <mode mode="default" time="180"/>
+      <widget_parameters>
+<widget_parameter id="9">
+  <name>config_display</name>
+  <value>yes</value>
+</widget_parameter>
+<widget_parameter id="9">
+  <name>config_delay</name>
+  <value>6000</value>
+</widget_parameter>
+<widget_parameter id="9">
+  <name>config_url</name>
+  <value>http://localhost/photos</value>
+</widget_parameter>
+      </widget_parameters>
+      <rating rating="5"/>
+    </widget_instance>
+
+    <widget_instance id="11">
+      <name>Glass Globe</name>
+<widget id="11">
+  <name>Glass Globe</name>
+  <description>Just hands with added moody glass sphere.
+Get free clocks for your own website at www.adamdorman.com.</description>
+  <version>1.0</version>
+  <mode mode="timeout" time="180"/>
+        <access sendable="false" deleteable="false" access="private" virtualable="false"/>
+  <user username="adorman"/>
+  <thumbnail href="file:////mnt/usb/www/F4D20776-6710-11DD-8104-001E681DFAC2" contenttype="image/jpeg"/>
+  <movie href="file:////mnt/usb/www/84A81CEE-6A56-11DD-8456-001B24F07EF4" contenttype="application/x-shockwave-flash"/>
+  <rating count="37" rating="3.8108"/>
+</widget>
+      <access access="private"/>
+      <mode mode="default" time="180"/>
+      <widget_parameters>
+      </widget_parameters>
+      <rating rating="0"/>
+    </widget_instance>
+
+    <widget_instance id="12">
+      <name>Reuters - Top News</name>
+<widget id="12">
+  <name>Reuters - Top News</name>
+  <description>See the latest top news headlines from Reuters, read full stories, see the latest pictures, and email stories to yourself.</description>
+  <version>2.6</version>
+  <mode mode="timeout" time="180"/>
+        <access sendable="false" deleteable="false" access="private" virtualable="false"/>
+  <user username="chumby"/>
+  <thumbnail href="file:////mnt/usb/www/715050B0-0534-11DF-AE90-001B24E044BE" contenttype="image/jpeg"/>
+  <template href="file:////mnt/usb/www/71C0BCCE-0534-11DF-AE90-001B24E044BE" contenttype="text/xml"/>
+  <movie href="file:////mnt/usb/www/7254DE40-0534-11DF-AE90-001B24E044BE" contenttype="application/x-shockwave-flash"/>
+  <rating count="31" rating="2.871"/>
+</widget>
+      <access access="private"/>
+      <mode mode="default" time="180"/>
+      <widget_parameters>
+      </widget_parameters>
+      <rating rating="0"/>
+    </widget_instance>
+
+<widget_instance id="13">
+      <name>Intercom</name>
+<widget id="13">
+  <name>ImageURL</name>
+  <description>Loads single jpg, gif or png from given URL. 
+
+LongTouch is zoom in.
+ShortTouch is zoom out.
+Slide is reload.
+
+Please look at [http://d.hatena.ne.jp/shoozhoo/20081105#p2] when using it with URL that authenticate. </description>
+  <version>1.1</version>
+  <mode mode="timeout" time="60"/>
+        <access sendable="false" deleteable="false" access="private" virtualable="false"/>
+  <user username="shoozhoo"/>
+  <thumbnail href="file:////mnt/usb/www/398B20BE-E721-11DE-AACD-001E681DF646" contenttype="image/jpeg"/>
+  <template href="file:////mnt/usb/www/398EF5FE-E721-11DE-AACD-001E681DF646" contenttype="application/x-shockwave-flash"/>
+  <movie href="file:////mnt/usb/www/E6A167CA-AD4F-11DD-908F-001E681DFAC2" contenttype="application/x-shockwave-flash"/>
+  <rating count="126" rating="4.3254"/>
+</widget>
+      <access access="private"/>
+      <mode mode="default" time="60"/>
+      <widget_parameters>
+<widget_parameter id="12">
+  <name>reloadSec</name>
+  <value>5</value>
+</widget_parameter>
+<widget_parameter id="12">
+  <name>url</name>
+  <value>http://intercom/jpg/image.jpg</value>
+</widget_parameter>
+<widget_parameter id="12">
+  <name>hideLoading</name>
+  <value>NO</value>
+</widget_parameter>
+      </widget_parameters>
+      <rating rating="5"/>
+    </widget_instance>
+
+    <widget_instance id="14">
+      <name>Sky Happenings</name>
+<widget id="14">
+  <name>Sky Happenings</name>
+  <description>Sun rises and sets according to time of day. Clear display featuring day and date. Watch the skies for surprises. Tap the screen for a simple control panel (watch disasters, storms,
+or reload widget for the chance of a new sky event).  I'll continue to add new sky happenings as time allows, suggestions welcome! ** May 2009 Update ** Bluer skies for increased legibility, more s
+ky events, fixed interval leak. </description>
+  <version>3.65</version>
+  <mode mode="timeout" time="180"/>
+        <access sendable="false" deleteable="false" access="private" virtualable="false"/>
+  <user username="McConnell"/>
+  <thumbnail href="file:////mnt/usb/www/EC1738A4-E91A-11DD-9CA0-001E681DFAC2" contenttype="image/jpeg"/>
+  <template href="file:////mnt/usb/www/C81936C2-4627-11DE-BA1B-001E681DFAC2" contenttype="application/x-shockwave-flash"/>
+  <movie href="file:////mnt/usb/www/C3274E1A-050E-11DE-B045-001B24F07EF4" contenttype="application/x-shockwave-flash"/>
+  <rating count="265" rating="4.4491"/>
+</widget>
+      <access access="private"/>
+      <mode mode="timeout" time="180"/>
+      <widget_parameters>
+<widget_parameter id="13">
+  <name>banner</name>
+  <value>Zurk's ChumbyFW</value>
+</widget_parameter>
+      </widget_parameters>
+      <rating rating="5"/>
+    </widget_instance>
+
+<widget_instance id="15">
+      <name>RapidFire</name>
+<widget id="15">
+  <name>RapidFire</name>
+  <description>Load weather underground updates. 
+
+
+Please look at [http://wunderground.com] when using it with URL that authenticate. </description>
+  <version>1.1</version>
+  <mode mode="timeout" time="30"/>
+        <access sendable="false" deleteable="false" access="private" virtualable="false"/>
+  <user username="shoozhoo"/>
+  <thumbnail href="file:////mnt/usb/www/rapidfirethumb.jpg" contenttype="image/jpeg"/>
+  <template href="file:////mnt/usb/www/398EF5FE-E721-11DE-AACD-001E681DF646" contenttype="application/x-shockwave-flash"/>
+  <movie href="file:////mnt/usb/www/Rapid_Fire.swf" contenttype="application/x-shockwave-flash"/>
+  <rating count="126" rating="4.3254"/>
+</widget>
+      <access access="private"/>
+      <mode mode="default" time="30"/>
+      <widget_parameters>
+<widget_parameter id="14">
+  <name>units</name>
+  <value>both</value>
+</widget_parameter>
+<widget_parameter id="14">
+  <name>station</name>
+  <value>IBCPITTM3</value>
+</widget_parameter>
+      </widget_parameters>
+      <rating rating="5"/>
+    </widget_instance>
+
+    <widget_instance id="16">
+      <name>Chumby RSS Reader</name>
+<widget id="8">
+  <name>Chumby RSS Reader</name>
+  <description>A simple configurable RSS reader.  Follow the RSS feed of your choice on the chumby!</description>
+  <version>2.4.4</version>
+  <mode mode="timeout" time="180"/>
+        <access sendable="false" deleteable="false" access="private" virtualable="false"/>
+  <user username="chumby"/>
+  <thumbnail href="file:////mnt/usb/www/9B7778C8-5152-11DE-B74E-001B24E044BE" contenttype="image/jpeg"/>
+  <template href="file:////mnt/usb/www/9BF61476-5152-11DE-B74E-001B24E044BE" contenttype="application/x-shockwave-flash"/>
+  <movie href="file:////mnt/usb/www/9C7CBEE0-5152-11DE-B74E-001B24E044BE" contenttype="application/x-shockwave-flash"/>
+  <rating count="235" rating="4.0043"/>
+</widget>
+      <access access="private"/>
+      <mode mode="timeout" time="180"/>
+      <widget_parameters>
+<widget_parameter id="15">
+  <name>_chumby_param_rssurl</name>
+  <value>http://chumby.com/zurksofw/rss.xml</value>
+</widget_parameter>
+      </widget_parameters>
+      <rating rating="0"/>
+    </widget_instance>
+
+    <widget_instance id="17">
+      <name>Talking Clock</name>
+<widget id="17">
+  <name>Talking Clock</name>
+  <description>A simple clock</description>
+  <version>2.4.4</version>
+  <mode mode="timeout" time="180"/>
+        <access sendable="false" deleteable="false" access="private" virtualable="false"/>
+  <user username="chumby"/>
+  <thumbnail href="file:////mnt/usb/www/clockthumb.jpg" contenttype="image/jpeg"/>
+  <movie href="file:////mnt/usb/www/TalkingClock.swf" contenttype="application/x-shockwave-flash"/>
+  <rating count="235" rating="4.0043"/>
+</widget>
+      <access access="private"/>
+      <mode mode="timeout" time="180"/>
+      <widget_parameters>
+      </widget_parameters>
+      <rating rating="0"/>
+    </widget_instance>
+
+    <widget_instance id="18">
+      <name>TextFieldWidget</name>
+<widget id="18">
+  <name>TextFieldWidget</name>
+  <description>Displays the results from an HTTP request in a TextField with programmable refresh time.
+
+The preview won't work here because it needs a real url. Also the chumbyplayer only has 3 fonts, I set the font to the internal mono font, which doe                      sn't display as mono in flash player 10, no worries. Here's where to get my source code, http://www.rethinksun.com/main/?p=504. You can com&#173;pil                      e my project for your own use using open source tools, mtasc and swfmill.</description>
+  <version>1.2</version>
+  <mode mode="timeout" time="180"/>
+        <access sendable="false" deleteable="false" access="private" virtualable="false"/>
+  <user username="holla2040"/>
+  <thumbnail href="file:////mnt/usb/www/A6A67970-D250-11E0-A536-0021288E6F90" contenttype="image/jpeg"/>
+  <template href="file:////mnt/usb/www/3AFE1DD8-D27B-11E0-8AFF-0021288EBF58" contenttype="application/x-shockwave-flash"/>
+  <movie href="file:////mnt/usb/www/A6A94F56-D250-11E0-A536-0021288E6F90" contenttype="application/x-shockwave-flash"/>
+  <rating count="0" rating="0.0"/>
+</widget>
+      <access access="private"/>
+      <mode mode="timeout" time="180"/>
+      <widget_parameters>
+<widget_parameter id="17">
+  <name>childrenOfType</name>
+  <value>[type Function]</value>
+</widget_parameter>
+<widget_parameter id="17">
+  <name>undefined</name>
+  <value></value>
+</widget_parameter>
+<widget_parameter id="17">
+  <name>config_tfsize</name>
+  <value>16</value>
+</widget_parameter>
+<widget_parameter id="17">
+  <name>config_delay</name>
+  <value>5000</value>
+</widget_parameter>
+<widget_parameter id="17">
+  <name>config_url</name>
+  <value>http://chumby.com/cgi-bin/msghdr.sh</value>
+</widget_parameter>
+<widget_parameter id="17">
+  <name>firstChildOfType</name>
+  <value>[type Function]</value>
+</widget_parameter>
+      </widget_parameters>
+      <rating rating="0"/>
+    </widget_instance>
+
+    <widget_instance id="19">
+      <name>RoboClock</name>
+<widget id="19">
+  <name>RoboClock</name>
+  <description>Animated robotic clock. Digits are changed by robotic arms. Funny.</description>
+  <version>Beta</version>
+  <mode mode="timeout" time="180"/>
+        <access sendable="false" deleteable="false" access="private" virtualable="false"/>
+  <user username="Yuzzy"/>
+  <thumbnail href="file:////mnt/usb/www/8A1F863E-BF66-11DD-A72B-001B24F07EF4" contenttype="image/jpeg"/>
+  <movie href="file:////mnt/usb/www/8A1A2F68-BF66-11DD-A72B-001B24F07EF4" contenttype="application/x-shockwave-flash"/>
+  <rating count="961" rating="4.5297"/>
+</widget>
+      <access access="private"/>
+      <mode mode="timeout" time="180"/>
+      <widget_parameters>
+      </widget_parameters>
+      <rating rating="0"/>
+    </widget_instance>
+
+    <widget_instance id="20">
+      <name>Zoltar</name>
+<widget id="20">
+  <name>Zoltar</name>
+  <description>Zoltar can see your future! Zoltar forsee that you will add this most venerable widget to your chumby, yesss! He can see that you wil                      l give it five stars! ZOLTAR SEES ALL THINGS!!!!</description>
+  <version>1.0</version>
+  <mode mode="timeout" time="180"/>
+        <access sendable="false" deleteable="false" access="private" virtualable="false"/>
+  <user username="howdog"/>
+  <thumbnail href="file:////mnt/usb/www/BD1320B6-611C-11DE-8D19-001B24F07EF4" contenttype="image/jpeg"/>
+  <movie href="file:////mnt/usb/www/BD139730-611C-11DE-8D19-001B24F07EF4" contenttype="application/x-shockwave-flash"/>
+  <rating count="124" rating="4.1371"/>
+</widget>
+      <access access="private"/>
+      <mode mode="default" time="180"/>
+      <widget_parameters>
+      </widget_parameters>
+      <rating rating="0"/>
+    </widget_instance>
+
+    <widget_instance id="21">
+      <name>24-hour clock</name>
+<widget id="21">
+  <name>24-hour clock</name>
+  <description>a simple 24-hour clock</description>
+  <version>1.0</version>
+  <mode mode="timeout" time="180"/>
+        <access sendable="false" deleteable="false" access="private" virtualable="false"/>
+  <user username="Gindala"/>
+  <thumbnail href="file:////mnt/usb/www/3FDD4AEC-4FE7-11E1-A60D-1231380C729E" contenttype="image/jpeg"/>
+  <movie href="file:////mnt/usb/www/3FE0107E-4FE7-11E1-A60D-1231380C729E" contenttype="application/x-shockwave-flash"/>
+  <rating count="3" rating="4.6667"/>
+</widget>
+      <access access="private"/>
+      <mode mode="default" time="180"/>
+      <widget_parameters>
+      </widget_parameters>
+      <rating rating="0"/>
+    </widget_instance>
+
+    <widget_instance id="22">
+      <name>Media Rss2</name>
+<widget id="22">
+  <name>Media Rss2</name>
+  <description>Flickr feed.</description>
+  <version>1.1</version>
+  <mode mode="timeout" time="180"/>
+  <access sendable="true" access="public" virtualable="true" deleteable="true"/>
+  <user username="McConnell"/>
+  <thumbnail href="file:////mnt/usb/www/mediarssthumb" contenttype="image/jpeg"/>
+  <template href="file:////mnt/usb/www/D5673AF6-D910-11DD-B2C3-001E681DF646" contenttype="application/x-shockwave-flash"/>
+  <movie href="file:////mnt/usb/www/mediaRss2sm.swf" contenttype="application/x-shockwave-flash"/>
+  <rating count="54" rating="3.537"/>
+</widget>
+      <access access="private"/>
+      <mode mode="default" time="180"/>
+      <widget_parameters>
+      </widget_parameters>
+      <rating rating="0"/>
+    </widget_instance>
+
+    <widget_instance id="23">
+      <name>BBC World Edition</name>
+<widget id="23">
+  <name>BBC World Edition</name>
+  <description>News feed from BBC News-World Edition, with the look and feel of ink on paper.</description>
+  <version>1.1</version>
+  <mode mode="timeout" time="180"/>
+  <access sendable="true" access="public" virtualable="true" deleteable="true"/>
+  <user username="McConnell"/>
+  <thumbnail href="file:////mnt/usb/www/43D39928-E52B-11DD-AF84-001E681DFAC2" contenttype="image/jpeg"/>
+  <template href="file:////mnt/usb/www/D5673AF6-D910-11DD-B2C3-001E681DF646" contenttype="application/x-shockwave-flash"/>
+  <movie href="file:////mnt/usb/www/B60AB9F0-E57F-11DD-8A65-001E681DF646" contenttype="application/x-shockwave-flash"/>
+  <rating count="54" rating="3.537"/>
+</widget>
+      <access access="private"/>
+      <mode mode="default" time="180"/>
+      <widget_parameters>
+      </widget_parameters>
+      <rating rating="0"/>
+    </widget_instance>
+
+  </widget_instances>
+</profile>

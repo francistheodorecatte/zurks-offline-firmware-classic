@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stations offset="0" total="24" limit="2000">
+<station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=icag-fl&market=NATIONAL&format=CHRPOP&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>ICAG-FL</callletters> 
+                <call_letters>ICAG-FL</call_letters> 
+                <description><![CDATA[Christina's inspirations and stories]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/12257/2010/11/default/IHR_icag-fl_1290554650.png</logo_url> 
+                <name><![CDATA[Christina Aguilera Radio]]></name> 
+                <stationid>12257</stationid> 
+                <station_id>12257</station_id> 
+                <station_url>icag-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://christinaaguilera.akacast.akamaistream.net/7/436/61091/v1/auth.akacast.akamaistream.net/christinaaguilera</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=iurb-fl&market=NATIONAL&format=URBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IURB-FL</callletters> 
+                <call_letters>IURB-FL</call_letters> 
+                <description><![CDATA[Hip Hop, R&B and Back in the Day Joints]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/12057/2010/11/default/IHR_iurb-fl_1290554651.png</logo_url> 
+                <name><![CDATA[The Beat]]></name> 
+                <stationid>12057</stationid> 
+                <station_id>12057</station_id> 
+                <station_url>iurb-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://thebeat.akacast.akamaistream.net/7/808/73699/v1/auth.akacast.akamaistream.net/thebeat</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NASHVILLE-TN&affiliate=wubt-fm&market=NASHVILLE-TN&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WUBT-FM</callletters> 
+                <call_letters>WUBT-FM</call_letters> 
+                <description><![CDATA[Nashville's Only Hip-Hop and R&B]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2056/2010/11/default/IHR_wubt_1290554678.png</logo_url> 
+                <name><![CDATA[1011 The Beat JAMZ]]></name> 
+                <stationid>2056</stationid> 
+                <station_id>2056</station_id> 
+                <station_url>www.1011thebeat.com</station_url> 
+                <stream_url_v2>http://wubt-fm.akacast.akamaistream.net/7/837/23243/v1/auth.akacast.akamaistream.net/wubt-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1976.l2324331975.c23243.n.lq.akamaistream.net:554/D/1976/23243/v0001/reflector:31975.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=FORTMYERS-FL&affiliate=wbtt-fm&market=FORTMYERS-FL&format=URBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WBTT-FM</callletters> 
+                <call_letters>WBTT-FM</call_letters> 
+                <description><![CDATA[Southwest Florida's Party Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1692/2010/11/default/IHR_wbtt_1290554673.png</logo_url> 
+                <name><![CDATA[105.5 The Beat]]></name> 
+                <stationid>1692</stationid> 
+                <station_id>1692</station_id> 
+                <station_url>www.1055thebeat.com</station_url> 
+                <stream_url_v2>http://wbtt-fm.akacast.akamaistream.net/7/530/19830/v1/auth.akacast.akamaistream.net/wbtt-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SANFRANCISCO-CA&affiliate=kmel-fm&market=SANFRANCISCO-CA&format=URBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KMEL-FM</callletters> 
+                <call_letters>KMEL-FM</call_letters> 
+                <description><![CDATA[SF Bay's Hip Hop and R&B]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/911/2010/11/default/IHR_kmel_1290554673.png</logo_url> 
+                <name><![CDATA[106 KMEL]]></name> 
+                <stationid>911</stationid> 
+                <station_id>911</station_id> 
+                <station_url>www.kmel.com</station_url> 
+                <stream_url_v2>http://kmel-fm.akacast.akamaistream.net/7/918/19798/v1/auth.akacast.akamaistream.net/kmel-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1356.l1979837355.c19798.n.lq.akamaistream.net:554/D/1356/19798/v0001/reflector:37355.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=RICHMOND-VA&affiliate=wbtj-fm&market=RICHMOND-VA&format=URBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WBTJ-FM</callletters> 
+                <call_letters>WBTJ-FM</call_letters> 
+                <description><![CDATA[Richmond's #1 for Hip Hop and R&B]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1690/2010/11/default/IHR_wbtj_1290554674.png</logo_url> 
+                <name><![CDATA[106.5 The Beat]]></name> 
+                <stationid>1690</stationid> 
+                <station_id>1690</station_id> 
+                <station_url>www.1065thebeat.com</station_url> 
+                <stream_url_v2>http://wbtj-fm.akacast.akamaistream.net/7/3/22057/v1/auth.akacast.akamaistream.net/wbtj-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1208.l2205759207.c22057.n.lq.akamaistream.net:554/D/1208/22057/v0001/reflector:59207.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=CHICAGO-IL&affiliate=wgci-fm&market=CHICAGO-IL&format=URBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WGCI-FM</callletters> 
+                <call_letters>WGCI-FM</call_letters> 
+                <description><![CDATA[Chicago's #1 for Hip Hop and R&B]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1773/2010/11/default/IHR_wgci_1290554675.png</logo_url> 
+                <name><![CDATA[107.5 WGCI]]></name> 
+                <stationid>1773</stationid> 
+                <station_id>1773</station_id> 
+                <station_url>www.wgci.com</station_url> 
+                <stream_url_v2>http://wgci-fm.akacast.akamaistream.net/7/145/19889/v1/auth.akacast.akamaistream.net/wgci-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1154.l1988941153.c19889.n.lq.akamaistream.net:554/D/1154/19889/v0001/reflector:41153.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=JACKSONVILLE-FL&affiliate=wjbt-fm&market=JACKSONVILLE-FL&format=URBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WJBT-FM</callletters> 
+                <call_letters>WJBT-FM</call_letters> 
+                <description><![CDATA[Representin' Hip Hop and R&B  Flava]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1809/2010/11/default/IHR_wjbt_1290554654.png</logo_url> 
+                <name><![CDATA[93.3 The Beat Jamz]]></name> 
+                <stationid>1809</stationid> 
+                <station_id>1809</station_id> 
+                <station_url>www.wjbt.com</station_url> 
+                <stream_url_v2>http://wjbt-fm.akacast.akamaistream.net/7/80/19836/v1/auth.akacast.akamaistream.net/wjbt-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a422.l1983652421.c19836.n.lq.akamaistream.net:554/D/422/19836/v0001/reflector:52421.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SAVANNAH-GA&affiliate=wqbt-fm&market=SAVANNAH-GA&format=URBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WQBT-FM</callletters> 
+                <call_letters>WQBT-FM</call_letters> 
+                <description><![CDATA[Savannah's #1 For Hip Hop and R&B]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1954/2010/11/default/IHR_wqbt_1290554655.png</logo_url> 
+                <name><![CDATA[94-1 THE BEAT]]></name> 
+                <stationid>1954</stationid> 
+                <station_id>1954</station_id> 
+                <station_url>www.941thebeat.com</station_url> 
+                <stream_url_v2>http://wqbt-fm.akacast.akamaistream.net/7/747/26226/v1/auth.akacast.akamaistream.net/wqbt-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=TAMPA-FL&affiliate=wbtp-fm&market=TAMPA-FL&format=URBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WBTP-FM</callletters> 
+                <call_letters>WBTP-FM</call_letters> 
+                <description><![CDATA[Tampa Bay's Hip Hop and R&B]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/08/default/wbtp-fm_logo_1_1314127149.png</logo_url> 
+                <name><![CDATA[95.7 The Beat]]></name> 
+                <stationid>1691</stationid> 
+                <station_id>1691</station_id> 
+                <station_url>www.957thebeat.com</station_url> 
+                <stream_url_v2>http://wbtp-fm.akacast.akamaistream.net/7/383/19866/v1/auth.akacast.akamaistream.net/wbtp-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a700.l1986636699.c19866.n.lq.akamaistream.net:554/D/700/19866/v0001/reflector:36699.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ALBANY-GA&affiliate=wjiz-fm&market=ALBANY-GA&format=URBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WJIZ-FM</callletters> 
+                <call_letters>WJIZ-FM</call_letters> 
+                <description><![CDATA[#1 for Hip Hop and R&B]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1812/2010/11/default/IHR_wjiz_1290554660.png</logo_url> 
+                <name><![CDATA[96.3 WJIZ]]></name> 
+                <stationid>1812</stationid> 
+                <station_id>1812</station_id> 
+                <station_url>www.wjiz.com</station_url> 
+                <stream_url_v2>http://wjiz-fm.akacast.akamaistream.net/7/167/32790/v1/auth.akacast.akamaistream.net/wjiz-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=MACON-GA&affiliate=wibb-fm&market=MACON-GA&format=URBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WIBB-FM</callletters> 
+                <call_letters>WIBB-FM</call_letters> 
+                <description><![CDATA[#1 for Hip Hop & R&B]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/05/default/wibb_mobile_logo_0_1304691967.png</logo_url> 
+                <name><![CDATA[97.9 WIBB]]></name> 
+                <stationid>1797</stationid> 
+                <station_id>1797</station_id> 
+                <station_url>www.wibb.com</station_url> 
+                <stream_url_v2>http://wibb-fm.akacast.akamaistream.net/7/535/32797/v1/auth.akacast.akamaistream.net/wibb-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=COLUMBUS-GA&affiliate=wbfa-fm&market=COLUMBUS-GA&format=URBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WBFA-FM</callletters> 
+                <call_letters>WBFA-FM</call_letters> 
+                <description><![CDATA[Columbus' #1 for Hip Hop and R&B]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/5233/2010/11/default/IHR_wbfa_1290554662.png</logo_url> 
+                <name><![CDATA[98-3 the Beat]]></name> 
+                <stationid>5233</stationid> 
+                <station_id>5233</station_id> 
+                <station_url>www.thebeatcolumbus.com</station_url> 
+                <stream_url_v2>http://wbfa-fm.akacast.akamaistream.net/7/820/41601/v1/auth.akacast.akamaistream.net/wbfa-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=PANAMACITY-FL&affiliate=webz-fm&market=PANAMACITY-FL&format=URBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WEBZ-FM</callletters> 
+                <call_letters>WEBZ-FM</call_letters> 
+                <description><![CDATA[Panama City's Hip Hop and R&B]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/webz_logo_1_1315500264.png</logo_url> 
+                <name><![CDATA[99.3 The Beat]]></name> 
+                <stationid>1739</stationid> 
+                <station_id>1739</station_id> 
+                <station_url>www.993thebeat.com</station_url> 
+                <stream_url_v2>http://webz-fm.akacast.akamaistream.net/7/35/36599/v1/auth.akacast.akamaistream.net/webz-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=DETROIT-MI&affiliate=wjlb-fm&market=DETROIT-MI&format=URBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WJLB-FM</callletters> 
+                <call_letters>WJLB-FM</call_letters> 
+                <description><![CDATA[Detroit's Hip Hop and R&B]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/08/default/wjlb_logo_0_1313582347.png</logo_url> 
+                <name><![CDATA[FM 98 WJLB]]></name> 
+                <stationid>1817</stationid> 
+                <station_id>1817</station_id> 
+                <station_url>www.fm98wjlb.com</station_url> 
+                <stream_url_v2>http://wjlb-fm.akacast.akamaistream.net/7/640/19924/v1/auth.akacast.akamaistream.net/wjlb-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a487.l1992440486.c19924.n.lq.akamaistream.net:554/D/487/19924/v0001/reflector:40486.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=TUCSON-AZ&affiliate=koht-fm&market=TUCSON-AZ&format=URBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KOHT-FM</callletters> 
+                <call_letters>KOHT-FM</call_letters> 
+                <description><![CDATA[Tucson's Hits & Hip Hop]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/947/2010/11/default/IHR_koht_1290554690.png</logo_url> 
+                <name><![CDATA[Hot 98.3]]></name> 
+                <stationid>947</stationid> 
+                <station_id>947</station_id> 
+                <station_url>www.hot983.com</station_url> 
+                <stream_url_v2>http://koht-fm.akacast.akamaistream.net/7/480/29510/v1/auth.akacast.akamaistream.net/koht-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a238.l2951036237.c29510.n.lq.akamaistream.net:554/D/238/29510/v0001/reflector:36237.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=MEMPHIS-TN&affiliate=whrk-fm&market=MEMPHIS-TN&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WHRK-FM</callletters> 
+                <call_letters>WHRK-FM</call_letters> 
+                <description><![CDATA[Memphis' Only Hip-Hop and R&B]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1789/2010/11/default/IHR_whrk_1290554691.png</logo_url> 
+                <name><![CDATA[K97 FM]]></name> 
+                <stationid>1789</stationid> 
+                <station_id>1789</station_id> 
+                <station_url>www.k97fm.com</station_url> 
+                <stream_url_v2>http://whrk-fm.akacast.akamaistream.net/7/136/20077/v1/auth.akacast.akamaistream.net/whrk-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a190.l2007724189.c20077.n.lq.akamaistream.net:554/D/190/20077/v0001/reflector:24189.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NEWYORK-NY&affiliate=wwpr-fm&market=NEWYORK-NY&format=URBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WWPR-FM</callletters> 
+                <call_letters>WWPR-FM</call_letters> 
+                <description><![CDATA[New York’s R&B and Only the Best Hip-Hop]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://content.clearchannel.com/cc-common/mlib/8169/04/8169_1271697219.png</logo_url> 
+                <name><![CDATA[Power 105.1]]></name> 
+                <stationid>2086</stationid> 
+                <station_id>2086</station_id> 
+                <station_url>www.power1051fm.com</station_url> 
+                <stream_url_v2>http://wwpr-fm.akacast.akamaistream.net/7/827/19975/v1/auth.akacast.akamaistream.net/wwpr-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=AUGUSTA-GA&affiliate=wprw-fm&market=AUGUSTA-GA&format=URBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WPRW-FM</callletters> 
+                <call_letters>WPRW-FM</call_letters> 
+                <description><![CDATA[Blazin' Hip-Hop and R&B]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1952/2010/11/default/IHR_wprw_1290554743.png</logo_url> 
+                <name><![CDATA[Power 107]]></name> 
+                <stationid>1952</stationid> 
+                <station_id>1952</station_id> 
+                <station_url>www.power107.net</station_url> 
+                <stream_url_v2>http://wprw-fm.akacast.akamaistream.net/7/863/25772/v1/auth.akacast.akamaistream.net/wprw-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=PHILADELPHIA-PA&affiliate=wusl-fm&market=PHILADELPHIA-PA&format=URBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WUSL-FM</callletters> 
+                <call_letters>WUSL-FM</call_letters> 
+                <description><![CDATA[#1 for Hip-Hip and R&B!]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2058/2010/11/default/IHR_wusl_1290554743.png</logo_url> 
+                <name><![CDATA[Power99]]></name> 
+                <stationid>2058</stationid> 
+                <station_id>2058</station_id> 
+                <station_url>www.power99.com</station_url> 
+                <stream_url_v2>http://wusl-fm.akacast.akamaistream.net/7/832/20059/v1/auth.akacast.akamaistream.net/wusl-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a426.l2005930425.c20059.n.lq.akamaistream.net:554/D/426/20059/v0001/reflector:30425.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NEWORLEANS-LA&affiliate=wque-fm&market=NEWORLEANS-LA&format=URBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WQUE-FM</callletters> 
+                <call_letters>WQUE-FM</call_letters> 
+                <description><![CDATA[Your Hip Hop and R&B Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1970/2010/11/default/IHR_wque_1290554743.png</logo_url> 
+                <name><![CDATA[Q93 - New Orleans]]></name> 
+                <stationid>1970</stationid> 
+                <station_id>1970</station_id> 
+                <station_url>www.q93.com</station_url> 
+                <stream_url_v2>http://wque-fm.akacast.akamaistream.net/7/306/26504/v1/auth.akacast.akamaistream.net/wque-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a815.l2650458814.c26504.n.lq.akamaistream.net:554/D/815/26504/v0001/reflector:58814.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=MILWAUKEE-WI&affiliate=wkkv-fm&market=MILWAUKEE-WI&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WKKV-FM</callletters> 
+                <call_letters>WKKV-FM</call_letters> 
+                <description><![CDATA[Milwaukee's Hip Hop and R&B]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/wkkv_logo_1_1317837941.png</logo_url> 
+                <name><![CDATA[V100.7]]></name> 
+                <stationid>1840</stationid> 
+                <station_id>1840</station_id> 
+                <station_url>www.v100.com</station_url> 
+                <stream_url_v2>http://wkkv-fm.akacast.akamaistream.net/7/47/21440/v1/auth.akacast.akamaistream.net/wkkv-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a547.l2144032546.c21440.n.lq.akamaistream.net:554/D/547/21440/v0001/reflector:32546.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NORFOLK-VA&affiliate=wowi-fm&market=NORFOLK-VA&format=URBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WOWI-FM</callletters> 
+                <call_letters>WOWI-FM</call_letters> 
+                <description><![CDATA[Norfolk's #1 for Hip Hop and R&B]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1942/2010/11/default/IHR_wowi_1290554755.png</logo_url> 
+                <name><![CDATA[103 Jamz WOWI]]></name> 
+                <stationid>1942</stationid> 
+                <station_id>1942</station_id> 
+                <station_url>www.103jamz.com</station_url> 
+                <stream_url_v2>http://wowi-fm.akacast.akamaistream.net/7/917/21640/v1/auth.akacast.akamaistream.net/wowi-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1419.l2164033418.c21640.n.lq.akamaistream.net:554/D/1419/21640/v0001/reflector:33418.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=WACO-TX&affiliate=kiiz-fm&market=WACO-TX&format=URBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KIIZ-FM</callletters> 
+                <call_letters>KIIZ-FM</call_letters> 
+                <description><![CDATA[#1 For Hip Hop and R&B]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/kiiz_logo_1_1315940202.png</logo_url> 
+                <name><![CDATA[Z 92.3]]></name> 
+                <stationid>843</stationid> 
+                <station_id>843</station_id> 
+                <station_url>www.kiiz.com</station_url> 
+                <stream_url_v2>http://kiiz-fm.akacast.akamaistream.net/7/888/20101/v1/auth.akacast.akamaistream.net/kiiz-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station></stations>

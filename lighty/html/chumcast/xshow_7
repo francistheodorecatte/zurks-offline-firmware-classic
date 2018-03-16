@@ -1,0 +1,7 @@
+[playlist]
+numberofentries=1
+File1=http://audio-ogg.ibiblio.org:8000/wcpe.ogg
+Title1=WCPE - The Classical Station
+Length1=-1
+Browser1=http:/www.theclassicalstation.org
+Version=2

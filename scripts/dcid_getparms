@@ -1,0 +1,46 @@
+#!/usr/bin/perl
+# $Id: dcid_getparms 4686 2009-03-23 19:41:34Z henry $
+# Get dcid output and reformat args as dcid_<key>=value[&dcid_<key2>=value2]
+# Used by check_update.sh
+
+my $DCID=`dcid -o`;
+
+# CP takes everything in the <chum> container and flattens it,
+# prepending dcid_
+if (open( DCID, "dcid -o |" ))
+{
+	my $sep = "";
+	my $inchum = 0;
+	while (<DCID>)
+	{
+		chomp;
+		if ($_ =~ /<([\/]*)chum>/)
+		{
+			my $close = $1;
+			if ($close eq "/")
+			{
+				$inchum = 0;
+			}
+			else
+			{
+				$inchum++;
+			}
+		}
+		elsif ($inchum > 0 && $_ =~ /<([^>]+)>([^<]*)<\/([^>]+)>/)
+		{
+			my $tag = $1;
+			my $value = $2;
+			my $ttag = $3;
+			printf "%sdcid_%s=%s", $sep, $tag, $value;
+			$sep = "&";
+		}
+	}
+	print "\n";
+}
+else
+{
+	printf "dcid_skin=\n";
+}
+
+$| = 0;
+

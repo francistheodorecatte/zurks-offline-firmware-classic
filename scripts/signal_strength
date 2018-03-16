@@ -1,0 +1,83 @@
+#!/usr/bin/perl
+#
+# Ken Steele
+# Copyright (c) Chumby Industries, 2007-2008
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+my $script_root = $ENV{CHUMBY_SCRIPTS} || '/usr/chumby/scripts';
+my $iface = `$script_root/network_interface`;
+my $wireless_iface = `$script_root/network_interface --type=wlan`;
+
+# remove white space
+$iface =~ s/\s+//g;
+$wireless_iface =~ s/\s+//g;
+
+my $message = "<wifi connected=\"0\" />\n";
+
+if( @ARGV && ( $ARGV =~ /^--iface=(.*)$/ ) )
+{
+    # allow forcing an interface
+    $iface = $1;
+    $wireless_iface = $1;
+}
+
+if( $iface eq $wireless_iface )
+{
+    my $fh;
+    open(my $fh, '-|', "iwconfig $iface") or die("Couldn't locate iwconfig");
+    while(<$fh>) {
+        if(/\s+Quality[=:]/) {
+            my $line = $_;
+            chomp $line;
+            my ($quality, $quality_total, $strength)
+                = $line =~ /Quality[=:](\d+)\/(\d+)\s+Signal\s+level[=:](\S+)/;
+            if($strength =~ /\/100/) {
+                my $a;
+                ($a) = $strength =~ /(\d+)\/100/;
+                $strength = $a;
+            }
+            elsif($strength =~ /dBm/) {
+                my $a;
+                ($a) = $strength =~ /-(\d+) dBm/;
+                $strength = $a;
+            }
+
+            # Some cards don't have the quality be a percentage.  Convert
+            # that ratio into a percentage.
+            $quality = int(($quality / $quality_total) * 100);
+
+
+#            # For some reason, older scripts expect the quality to be
+#            # negative, and the signal to be positive.  Correct this.
+#            $quality  = int(-$quality);
+#            $strength = int(-$strength);
+
+
+            # Some cards have a "Noise level" measurement.
+            # Add that on if present.
+            my $noise = "";
+            if($line =~ /Noise\s+level/) {
+                ($noise) = $line =~ /Noise\s+level[=:](-\d+)\s+dBm/;
+                $noise = " noiselevel=\"$noise\"";
+            }
+
+
+            $message = "<wifi connected=\"1\" signalstrength=\"$strength\" linkquality=\"$quality\"$noise/>\n";
+        }
+    }
+    close($fh);
+}
+print $message;

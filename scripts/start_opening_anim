@@ -1,0 +1,39 @@
+#!/bin/sh
+#
+# start_opening_anim - start sexipus to blow bubbles while we crank up the network
+#
+# Ken Steele
+# Copyright (c) Chumby Industries, 2007-2008
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+# No error logging, enable fscommand('quit'), don't try to start btplayd
+BRAND=$1
+if [ -e /mnt/usb/opening.swf ]; then
+	MOVIE=/mnt/usb/opening.swf
+else
+    if [ -e /psp/alt_opening ]; then
+   	    MOVIE=/usr/widgets/alt_opening.swf
+    else
+	    MOVIE=/usr/widgets/opening${BRAND}.swf
+    fi
+fi
+
+# Stop metadb scanning while the movie is playing, and start it up again
+# when it's done.
+killall -STOP metadb 2> /dev/null > /dev/null
+/bin/nice -n -20 /usr/bin/chumbyflashplayer.x -i $MOVIE -L 0 -Q -3
+killall -CONT metadb 2> /dev/null > /dev/null
+echo 1 >/tmp/opening_done

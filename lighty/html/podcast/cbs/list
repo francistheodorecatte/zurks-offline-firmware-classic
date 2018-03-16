@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<categories>
+  <category name="News" id="1">
+    <items>
+      <item>
+        <id>8</id>
+        <name>World News Roundup</name>
+        <description>Complete coverage of the day&#8217;s news from the nation&#8217;s longest-running news broadcast.</description>
+        <url>http://www.cbsnews.com/common/includes/podcast/podcast_icast_1.rss</url>
+        <image_url>http://content.chumby.com/podcast/cbs/image/8</image_url>
+      </item>
+      <item>
+        <id>40</id>
+        <name>Fantasy Baseball</name>
+        <description>CBSSports.com's Fantasy Baseball Podcast combines all of our series into one convenient feed. </description>
+        <url>http://podcasts.cstv.com/feeds/fantasybaseball.xml</url>
+        <image_url>http://content.chumby.com/podcast/cbs/image/40</image_url>
+      </item>
+      <item>
+        <id>42</id>
+        <name>Fantasy Football</name>
+        <description>CBSSports.com's Fantasy experts provide their analysis of the NFL to help you dominate your fantasy league. </description>
+        <url>http://podcasts.cstv.com/feeds/fantasyfootball.xml</url>
+        <image_url>http://content.chumby.com/podcast/cbs/image/42</image_url>
+      </item>
+      <item>
+        <id>2</id>
+        <name>Katie Couric's Notebook</name>
+        <description>Daily commentary and reflection on topics both light and heavy from the anchor of the CBS Evening News.</description>
+        <url>http://www.cbsnews.com/common/includes/podcast/podcast_kcnotebook_1.rss</url>
+        <image_url>http://content.chumby.com/podcast/cbs/image/2</image_url>
+      </item>
+      <item>
+        <id>11</id>
+        <name>Harry Smith Reporting</name>
+        <description>Common sense and uncommon wit in daily doses from Harry Smith, the anchor of The Early Show.</description>
+        <url>http://www.cbsnews.com/common/includes/podcast/podcast_harry_smith_1.rss</url>
+        <image_url>http://content.chumby.com/podcast/cbs/image/11</image_url>
+      </item>
+      <item>
+        <id>15</id>
+        <name>Face the Nation</name>
+        <description>Bob Schieffer asks the biggest guests the smartest questions. Hear official Washington on the firing line, on your schedule.</description>
+        <url>http://www.cbsnews.com/common/includes/podcast/podcast_nation_1.rss</url>
+        <image_url>http://content.chumby.com/podcast/cbs/image/15</image_url>
+      </item>
+      <item>
+        <id>14</id>
+        <name>Larry Magid's Tech Report</name>
+        <description>Get useful, practical how-to advice on computers and technology - in plain English - from tech guru Larry Magid.</description>
+        <url>http://www.cbsnews.com/common/includes/podcast/podcast_larry_magid_1.rss</url>
+        <image_url>http://content.chumby.com/podcast/cbs/image/14</image_url>
+      </item>
+      <item>
+        <id>16</id>
+        <name>Weekend Roundup</name>
+        <description>Washington correspondent Dan Raviv wraps up the week's news and goes deep into the tough stories.</description>
+        <url>http://www.cbsnews.com/common/includes/podcast/podcast_weekend_1.rss</url>
+        <image_url>http://content.chumby.com/podcast/cbs/image/16</image_url>
+      </item>
+    </items>
+  </category>
+  <category name="Misc" id="3">
+    <items>
+
+<item>
+<id>900</id>
+<name>BBC Global News</name>
+<description>Highlights from Newshour, The World Today and World Briefing. Up to 30 minutes compiled twice a day.</description>
+<url>http://downloads.bbc.co.uk/podcasts/worldservice/globalnews/rss.xml</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/globalnews.jpg</image_url>
+</item>
+
+
+<item>
+<id>900</id>
+<name>BBC Newspod</name>
+<description>News highlights from across the BBC.</description>
+<url>http://downloads.bbc.co.uk/podcasts/radio/newspod/rss.xml</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/newspod.jpg</image_url>
+</item>
+
+
+<item>
+<id>901</id>
+<name>The Bugle</name>
+<description>Audio newspaper for a visual world.</description>
+<url>http://feeds.soundcloud.com/users/9818871-the-bugle/tracks</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/thebugle1.jpg</image_url>
+</item>
+
+
+<item>
+<id>902</id>
+<name>Thrilling Adventure Hour</name>
+<description>Work Juice Coffee and Patriot Brand Cigarettes bring you America's favorite new-time podcast in the style of old-time radio.</description>
+<url>http://thrillingadventurehour.libsyn.com/rss</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/workjuicelarge.jpg</image_url>
+</item>
+
+
+<item>
+<id>903</id>
+<name>Le Show</name>
+<description>From deep inside your radio, it's Harry Shearer's weekly satirical radio show.</description>
+<url>http://media.kcrw.com/podcast/show/ls</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/leshow.jpg</image_url>
+</item> 
+
+
+<item>
+<id>904</id>
+<name>Judge John Hodgman</name>
+<description>Have your pressing issues decided by Famous Minor Television Personality John Hodgman, Certified Judge.</description>
+<url>http://feeds.feedburner.com/todayinthepast</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/jjho1.jpg</image_url>
+</item>
+
+
+<item>
+<id>905</id>
+<name>Friday Night Comedy</name>
+<description>The News Quiz (alternating with The Now Show).</description>
+<url>http://downloads.bbc.co.uk/podcasts/radio4/fricomedy/rss.xml</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/newsquiz.jpg</image_url>
+</item>     
+
+
+<item>
+<id>906</id>
+<name>Science in Action</name>
+<description>Science issues of the week and breaking science news from just-released journals.</description>
+<url>http://downloads.bbc.co.uk/podcasts/worldservice/scia/rss.xml</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/scia.jpg</image_url>
+</item>
+
+
+<item>
+<id>07</id>
+<name>The Science Show</name>
+<description>ABC Radio National presents science news with Robyn Williams.</description>
+<url>http://www.abc.net.au/rn/podcast/feeds/science.xml</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/rnsci.jpg</image_url>
+</item>
+
+
+<item>
+<id>908</id>
+<name>Ockham's Razor</name>
+<description>ABC Radio National presents science essays.</description>
+<url>http://www.abc.net.au/rn/podcast/feeds/ockham.xml</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/rnor.jpg</image_url>
+</item>
+
+
+<item>
+<id>909</id>
+<name>Science Weekly</name>
+<description>The Guardian's science podcast with Alok Jha.</description>
+<url>http://www.guardian.co.uk/podcast/0,,329442289,00.xml</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/science_300_medium.jpg</image_url>
+</item>
+
+
+<item>
+<id>910</id>
+<name>The Nature Podcast</name>
+<description>Podcast of Nature magazine.</description>
+<url>http://www.nature.com/nature/podcast/rss/nature.xml</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/nature_rss_logo.jpg</image_url>
+</item>
+
+
+<item>
+<id>911</id>
+<name>The Infinite Monkey Cage</name>
+<description>Witty, irreverent look at the world according to science with physicist Brian Cox and comedian Robin Ince.</description>
+<url>http://downloads.bbc.co.uk/podcasts/radio4/timc/rss.xml</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/timc.jpg</image_url>
+</item>
+
+
+<item>
+<id>912</id>
+<name>Material World</name>
+<description>Quentin Cooper talks to researchers behind all that's new and news across science.</description>
+<url>http://downloads.bbc.co.uk/podcasts/radio4/material/rss.xml</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/bbcsci.jpg</image_url>
+</item>
+
+
+<item>
+<id>913</id>
+<name>Discovery</name>
+<description>Science from the BBC.</description>
+<url>http://downloads.bbc.co.uk/podcasts/worldservice/discovery/rss.xml</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/bbcsci.jpg</image_url>
+</item>
+
+
+<item>
+<id>914</id>
+<name>Quirks and Quarks.</name>
+<description>CBC Radio's science program.</description>
+<url>http://www.cbc.ca/podcasting/includes/quirksaio.xml</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/26734769.jpg</image_url>
+</item>  
+
+
+<item>
+<id>915</id>
+<name>Great Moments in Science</name>
+<description>ABC Radio National presents short science facts from Dr. Karl.</description>
+<url>http://abc.net.au/science/podcast/gmis.xml</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/gmis.jpg</image_url>
+</item> 
+
+
+<item>
+<id>923</id>
+<name>This Week in Science</name>
+<description>The kickass science and technology radio show.</description>
+<url>http://www.twis.org/feed/</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/twislogo2.jpg</image_url>
+</item> 
+
+
+<item>
+<id>916</id>
+<name>CSI's Point of Inquiry</name>
+<description>Skeptical podcast from the Center for Inquiry</description>
+<url>http://pointofinquiry.libsyn.com/rss</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/CfI-Logo.jpg</image_url>
+</item>
+
+
+<item>
+<id>917</id>
+<name>Radiola!</name>
+<description>Andy Senior's weekly podcast of 78 rpm records.</description>
+<url>http://www.radio4all.net/responder.php/podcast/podcast.xml?series=RADIOLA!</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/RADIOLAlarge.JPG</image_url>
+</item>     
+
+
+<item>
+<id>918</id>
+<name>The Ian Whitcomb Show</name>
+<description>History, anecdotes and music from the 78 rpm era.</description>
+<url>http://feeds.feedburner.com/ianwhitcomb</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/ianwh.gif</image_url>
+</item>     
+
+
+<item>
+<id>919</id>
+<name>The Old Codger</name>
+<description>Playing 78 RPM records like they're going out of style!</description>
+<url>http://wfmu.org/podcast/OC.xml</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/Old-Codger1-archives.jpg</image_url>
+</item> 
+
+
+<item>
+<id>920</id>
+<name>Broadcasting House</name>
+<description>BBC Radio 4's Sunday news magazine.</description>
+<url>http://downloads.bbc.co.uk/podcasts/radio4/bh/rss.xml</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/bh_small.jpg</image_url>
+</item>  
+     
+<item>
+<id>921</id>
+<name>In Our Time</name>
+<description>Melvyn Bragg explores the history of ideas with his guests.</description>
+<url>http://downloads.bbc.co.uk/podcasts/radio4/iot/rss.xml</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/iot2.jpg</image_url>
+</item>
+
+
+<item>
+<id>922</id>
+<name>What The Fuck</name>
+<description>Marc Maron interviews comedians in his garage.</description>
+<url>http://wtfpod.libsyn.com/rss</url>
+<image_url>http://content.chumby.com/podcast/cbs/image/wtf-with-marc-maron.jpg</image_url>
+</item>
+
+    </items>
+  </category>
+</categories>

@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stations offset="0" total="77" limit="2000">
+<station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=ieag-fl&market=NATIONAL&format=ROCKCLASSIC&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IEAG-FL</callletters> 
+                <call_letters>IEAG-FL</call_letters> 
+                <description><![CDATA[Their music, stories and favorite bands]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/12259/2010/11/default/IHR_ieag-fl_1290554650.png</logo_url> 
+                <name><![CDATA[Eagles Radio]]></name> 
+                <stationid>12259</stationid> 
+                <station_id>12259</station_id> 
+                <station_url>ieag-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://eagles.akacast.akamaistream.net/7/228/73708/v1/auth.akacast.akamaistream.net/eagles</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1923.l7370843922.c73708.n.lq.akamaistream.net:554/D/1923/73708/v0001/reflector:43922.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=TALLAHASSEE-FL&affiliate=wfla-fm&market=TALLAHASSEE-FL&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WFLA-FM</callletters> 
+                <call_letters>WFLA-FM</call_letters> 
+                <description><![CDATA[Tallahassee's Talk Radio]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://content.clearchannel.com/cc-common/mlib/8169/02/8169_1267134314.png</logo_url> 
+                <name><![CDATA[100.7 WFLA]]></name> 
+                <stationid>3909</stationid> 
+                <station_id>3909</station_id> 
+                <station_url>www.wflafm.com</station_url> 
+                <stream_url_v2>http://wfla-fm.akacast.akamaistream.net/7/799/20801/v1/auth.akacast.akamaistream.net/wfla-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=OKLAHOMACITY-OK&affiliate=ktok-am&market=OKLAHOMACITY-OK&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KTOK-AM</callletters> 
+                <call_letters>KTOK-AM</call_letters> 
+                <description><![CDATA[News Radio 1000 KTOK Depend On It!]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/697/2010/11/default/IHR_ktok-am_1290554678.png</logo_url> 
+                <name><![CDATA[1000 KTOK]]></name> 
+                <stationid>697</stationid> 
+                <station_id>697</station_id> 
+                <station_url>www.ktok.com</station_url> 
+                <stream_url_v2>http://ktok-am.akacast.akamaistream.net/7/815/20040/v1/auth.akacast.akamaistream.net/ktok-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a534.l2004052533.c20040.n.lq.akamaistream.net:554/D/534/20040/v0001/reflector:52533.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=DESMOINES-IA&affiliate=who-am&market=DESMOINES-IA&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WHO-AM</callletters> 
+                <call_letters>WHO-AM</call_letters> 
+                <description><![CDATA[News Radio 1040, WHO]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1165/2010/11/default/IHR_who-am_1290554678.png</logo_url> 
+                <name><![CDATA[1040 WHO]]></name> 
+                <stationid>1165</stationid> 
+                <station_id>1165</station_id> 
+                <station_url>www.whoradio.com</station_url> 
+                <stream_url_v2>http://who-am.akacast.akamaistream.net/7/926/21125/v1/auth.akacast.akamaistream.net/who-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=RALEIGH-NC&affiliate=wrdu-fm&market=RALEIGH-NC&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WRDU-FM</callletters> 
+                <call_letters>WRDU-FM</call_letters> 
+                <description><![CDATA[News/Talk]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/4028/2010/11/default/IHR_wrdu_1290554746.png</logo_url> 
+                <name><![CDATA[Rush Radio 106.1 WRDU]]></name> 
+                <stationid>4028</stationid> 
+                <station_id>4028</station_id> 
+                <station_url>www.wrdu.com</station_url> 
+                <stream_url_v2>http://wrdu-fm.akacast.akamaistream.net/7/735/25767/v1/auth.akacast.akamaistream.net/wrdu-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a743.l2576750742.c25767.n.lq.akamaistream.net:554/D/743/25767/v0001/reflector:50742.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=MILWAUKEE-WI&affiliate=wisn-am&market=MILWAUKEE-WI&format=AAA&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WISN-AM</callletters> 
+                <call_letters>WISN-AM</call_letters> 
+                <description><![CDATA[Milwaukee's News/Talk Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1176/2010/11/default/IHR_wisn-am_1290554679.png</logo_url> 
+                <name><![CDATA[1130 WISN]]></name> 
+                <stationid>1176</stationid> 
+                <station_id>1176</station_id> 
+                <station_url>www.newstalk1130.com</station_url> 
+                <stream_url_v2>http://wisn-am.akacast.akamaistream.net/7/23/20150/v1/auth.akacast.akamaistream.net/wisn-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1476.l2015033475.c20150.n.lq.akamaistream.net:554/D/1476/20150/v0001/reflector:33475.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=RICHMOND-VA&affiliate=wrva-am&market=RICHMOND-VA&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WRVA-AM</callletters> 
+                <call_letters>WRVA-AM</call_letters> 
+                <description><![CDATA[Richmond's News/Talk Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1249/2010/11/default/IHR_wrva-am_1290554679.png</logo_url> 
+                <name><![CDATA[1140 WRVA]]></name> 
+                <stationid>1249</stationid> 
+                <station_id>1249</station_id> 
+                <station_url>www.1140wrva.com</station_url> 
+                <stream_url_v2>http://wrva-am.akacast.akamaistream.net/7/765/20121/v1/auth.akacast.akamaistream.net/wrva-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=BATONROUGE-LA&affiliate=wjbo-am&market=BATONROUGE-LA&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WJBO-AM</callletters> 
+                <call_letters>WJBO-AM</call_letters> 
+                <description><![CDATA[Baton Rouge Talk Radio]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1178/2010/11/default/IHR_wjbo-am_1290554679.png</logo_url> 
+                <name><![CDATA[1150 WJBO]]></name> 
+                <stationid>1178</stationid> 
+                <station_id>1178</station_id> 
+                <station_url>www.wjbo.com</station_url> 
+                <stream_url_v2>http://wjbo-am.akacast.akamaistream.net/7/695/19908/v1/auth.akacast.akamaistream.net/wjbo-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1122.l1990835121.c19908.n.lq.akamaistream.net:554/D/1122/19908/v0001/reflector:35121.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ROCHESTER-NY&affiliate=wham-am&market=ROCHESTER-NY&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WHAM-AM</callletters> 
+                <call_letters>WHAM-AM</call_letters> 
+                <description><![CDATA[Rochester's News Radio]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1157/2010/11/default/IHR_wham-am_1290554679.png</logo_url> 
+                <name><![CDATA[1180 WHAM]]></name> 
+                <stationid>1157</stationid> 
+                <station_id>1157</station_id> 
+                <station_url>www.wham1180.com</station_url> 
+                <stream_url_v2>http://wham-am.akacast.akamaistream.net/7/202/20814/v1/auth.akacast.akamaistream.net/wham-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1077.l2081445076.c20814.n.lq.akamaistream.net:554/D/1077/20814/v0001/reflector:45076.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=TAMPA-FL&affiliate=whnz-am&market=TAMPA-FL&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WHNZ-AM</callletters> 
+                <call_letters>WHNZ-AM</call_letters> 
+                <description><![CDATA[Impact Radio for Tampa Bay]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1164/2010/11/default/IHR_whnz-am_1290554680.png</logo_url> 
+                <name><![CDATA[1250 WHNZ]]></name> 
+                <stationid>1164</stationid> 
+                <station_id>1164</station_id> 
+                <station_url>www.whnz.com</station_url> 
+                <stream_url_v2>http://whnz-am.akacast.akamaistream.net/7/113/19870/v1/auth.akacast.akamaistream.net/whnz-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=TOLEDO-OH&affiliate=wspd-am&market=TOLEDO-OH&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WSPD-AM</callletters> 
+                <call_letters>WSPD-AM</call_letters> 
+                <description><![CDATA[Where Toledo Comes To Talk]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1258/2010/11/default/IHR_wspd-am_1290554680.png</logo_url> 
+                <name><![CDATA[1370 WSPD]]></name> 
+                <stationid>1258</stationid> 
+                <station_id>1258</station_id> 
+                <station_url>www.wspd.com</station_url> 
+                <stream_url_v2>http://wspd-am.akacast.akamaistream.net/7/836/20030/v1/auth.akacast.akamaistream.net/wspd-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=WILMINGTON-DE&affiliate=wilm-am&market=WILMINGTON-DE&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WILM-AM</callletters> 
+                <call_letters>WILM-AM</call_letters> 
+                <description><![CDATA[Delaware's Newstalk Leader]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/wilm-am_logo_1_1319545845.png</logo_url> 
+                <name><![CDATA[1450 WILM]]></name> 
+                <stationid>1171</stationid> 
+                <station_id>1171</station_id> 
+                <station_url>www.wilm.com</station_url> 
+                <stream_url_v2>http://wilm-am.akacast.akamaistream.net/7/922/19827/v1/auth.akacast.akamaistream.net/wilm-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=MONTEREY-CA&affiliate=kion-am&market=MONTEREY-CA&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KION-AM</callletters> 
+                <call_letters>KION-AM</call_letters> 
+                <description><![CDATA[1460AM & 101.1FM Monterey]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/kion-am_logo_1_1319470034.png</logo_url> 
+                <name><![CDATA[Fox News Radio]]></name> 
+                <stationid>641</stationid> 
+                <station_id>641</station_id> 
+                <station_url>www.1460kion.com</station_url> 
+                <stream_url_v2>http://kion-am.akacast.akamaistream.net/7/375/83449/v1/auth.akacast.akamaistream.net/kion-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ORLANDO-FL&affiliate=wflf-am&market=ORLANDO-FL&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WFLF-AM</callletters> 
+                <call_letters>WFLF-AM</call_letters> 
+                <description><![CDATA[Orlando's RIGHT Talk]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1140/2010/11/default/IHR_wflf-am_1290554676.png</logo_url> 
+                <name><![CDATA[540 WFLA]]></name> 
+                <stationid>1140</stationid> 
+                <station_id>1140</station_id> 
+                <station_url>www.540wfla.com</station_url> 
+                <stream_url_v2>http://wflf-am.akacast.akamaistream.net/7/116/19852/v1/auth.akacast.akamaistream.net/wflf-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=CINCINNATI-OH&affiliate=wkrc-am&market=CINCINNATI-OH&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WKRC-AM</callletters> 
+                <call_letters>WKRC-AM</call_letters> 
+                <description><![CDATA[Cincinnati's Place For Talk]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/wkrc-am_mobile_logo_1_1316024474.png</logo_url> 
+                <name><![CDATA[55KRC]]></name> 
+                <stationid>1196</stationid> 
+                <station_id>1196</station_id> 
+                <station_url>www.55krc.com</station_url> 
+                <stream_url_v2>http://wkrc-am.akacast.akamaistream.net/7/95/20007/v1/auth.akacast.akamaistream.net/wkrc-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1007.l2000757006.c20007.n.lq.akamaistream.net:554/D/1007/20007/v0001/reflector:57006.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SALTLAKECITY-UT&affiliate=knrs-fm&market=SALTLAKECITY-UT&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KNRS-FM</callletters> 
+                <call_letters>KNRS-FM</call_letters> 
+                <description><![CDATA[Family Values Talk Radio]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/06/default/knrs_mobile_logo_1_1307719151.png</logo_url> 
+                <name><![CDATA[105.7 KNRS]]></name> 
+                <stationid>666</stationid> 
+                <station_id>666</station_id> 
+                <station_url>www.knrs.com</station_url> 
+                <stream_url_v2>http://knrs-fm.akacast.akamaistream.net/7/838/20118/v1/auth.akacast.akamaistream.net/knrs-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1023.l2011859022.c20118.g.lq.akamaistream.net:554/D/1023/20118/v0001/reflector:59022</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=FORTCOLLINS-CO&affiliate=kcol-am&market=FORTCOLLINS-CO&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KCOL-AM</callletters> 
+                <call_letters>KCOL-AM</call_letters> 
+                <description><![CDATA[Fox News and Talk Radio]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/05/default/kcol-am_mobile_logo_0_1305047702.png</logo_url> 
+                <name><![CDATA[600 KCOL]]></name> 
+                <stationid>596</stationid> 
+                <station_id>596</station_id> 
+                <station_url>www.600kcol.com</station_url> 
+                <stream_url_v2>http://kcol-am.akacast.akamaistream.net/7/490/19817/v1/auth.akacast.akamaistream.net/kcol-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=CEDARRAPIDS-IOWACITY-IA&affiliate=wmt-am&market=CEDARRAPIDS-IOWACITY-IA&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WMT-AM</callletters> 
+                <call_letters>WMT-AM</call_letters> 
+                <description><![CDATA[News Talk  Hawkeye Sports]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/wmt-am_logo_1_1317147381.png</logo_url> 
+                <name><![CDATA[600 WMT]]></name> 
+                <stationid>1216</stationid> 
+                <station_id>1216</station_id> 
+                <station_url>www.600wmt.com</station_url> 
+                <stream_url_v2>http://wmt-am.akacast.akamaistream.net/7/654/27991/v1/auth.akacast.akamaistream.net/wmt-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=COLUMBUS-OH&affiliate=wtvn-am&market=COLUMBUS-OH&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WTVN-AM</callletters> 
+                <call_letters>WTVN-AM</call_letters> 
+                <description><![CDATA[Columbus' News/Talk Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1279/2010/11/default/IHR_wtvn-am_1290554676.png</logo_url> 
+                <name><![CDATA[610 WTVN]]></name> 
+                <stationid>1279</stationid> 
+                <station_id>1279</station_id> 
+                <station_url>www.610wtvn.com</station_url> 
+                <stream_url_v2>http://wtvn-am.akacast.akamaistream.net/7/391/20018/v1/auth.akacast.akamaistream.net/wtvn-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a792.l2001822791.c20018.n.lq.akamaistream.net:554/D/792/20018/v0001/reflector:22791.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=DENVER-CO&affiliate=khow-am&market=DENVER-CO&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KHOW-AM</callletters> 
+                <call_letters>KHOW-AM</call_letters> 
+                <description><![CDATA[Denver's Talk Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/07/default/khow-am_mobile_logo_1_1310065636.png</logo_url> 
+                <name><![CDATA[630 KHOW]]></name> 
+                <stationid>636</stationid> 
+                <station_id>636</station_id> 
+                <station_url>www.khow.com</station_url> 
+                <stream_url_v2>http://khow-am.akacast.akamaistream.net/7/798/19812/v1/auth.akacast.akamaistream.net/khow-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a741.l1981254740.c19812.n.lq.akamaistream.net:554/D/741/19812/v0001/reflector:54740.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ATLANTA-GA&affiliate=wgst-am&market=ATLANTA-GA&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WGST-AM</callletters> 
+                <call_letters>WGST-AM</call_letters> 
+                <description><![CDATA[Atlanta. Talk. Radio. Rush Limbaugh]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1153/2010/11/default/IHR_wgst-am_1290554676.png</logo_url> 
+                <name><![CDATA[640 WGST - Atlanta]]></name> 
+                <stationid>1153</stationid> 
+                <station_id>1153</station_id> 
+                <station_url>www.640wgst.com</station_url> 
+                <stream_url_v2>http://wgst-am.akacast.akamaistream.net/7/752/19883/v1/auth.akacast.akamaistream.net/wgst-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=AKRON-OH&affiliate=whlo-am&market=AKRON-OH&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WHLO-AM</callletters> 
+                <call_letters>WHLO-AM</call_letters> 
+                <description><![CDATA[Akron-Canton's News & Talk]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1161/2010/11/default/IHR_whlo-am_1290554677.png</logo_url> 
+                <name><![CDATA[640 WHLO]]></name> 
+                <stationid>1161</stationid> 
+                <station_id>1161</station_id> 
+                <station_url>www.640whlo.com</station_url> 
+                <stream_url_v2>http://whlo-am.akacast.akamaistream.net/7/431/37062/v1/auth.akacast.akamaistream.net/whlo-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=CINCINNATI-OH&affiliate=wlw-am&market=CINCINNATI-OH&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WLW-AM</callletters> 
+                <call_letters>WLW-AM</call_letters> 
+                <description><![CDATA[Cincinnati-The Big One]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1209/2010/11/default/IHR_wlw-am_1290554677.png</logo_url> 
+                <name><![CDATA[700WLW]]></name> 
+                <stationid>1209</stationid> 
+                <station_id>1209</station_id> 
+                <station_url>www.700wlw.com</station_url> 
+                <stream_url_v2>http://wlw-am.akacast.akamaistream.net/7/212/20008/v1/auth.akacast.akamaistream.net/wlw-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=HUNTSVILLE-AL&affiliate=wbhp-am&market=HUNTSVILLE-AL&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WBHP-AM</callletters> 
+                <call_letters>WBHP-AM</call_letters> 
+                <description><![CDATA[The Valley's Big Talker]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1110/2010/11/default/IHR_wbhp-am_1290554677.png</logo_url> 
+                <name><![CDATA[800/1230 WBHP]]></name> 
+                <stationid>1110</stationid> 
+                <station_id>1110</station_id> 
+                <station_url>www.wbhpam.com</station_url> 
+                <stream_url_v2>http://wbhp-am.akacast.akamaistream.net/7/923/26508/v1/auth.akacast.akamaistream.net/wbhp-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a433.l2650846432.c26508.n.lq.akamaistream.net:554/D/433/26508/v0001/reflector:46432.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LOUISVILLE-KY&affiliate=whas-am&market=LOUISVILLE-KY&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WHAS-AM</callletters> 
+                <call_letters>WHAS-AM</call_letters> 
+                <description><![CDATA[Kentuckiana's News Radio 84]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1158/2010/11/default/IHR_whas-am_1290554652.png</logo_url> 
+                <name><![CDATA[84WHAS]]></name> 
+                <stationid>1158</stationid> 
+                <station_id>1158</station_id> 
+                <station_url>www.whas.com</station_url> 
+                <stream_url_v2>http://whas-am.akacast.akamaistream.net/7/545/19905/v1/auth.akacast.akamaistream.net/whas-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a197.l1990520196.c19905.n.lq.akamaistream.net:554/D/197/19905/v0001/reflector:20196.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ASHEVILLE-NC&affiliate=wpek-am&market=ASHEVILLE-NC&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WPEK-AM</callletters> 
+                <call_letters>WPEK-AM</call_letters> 
+                <description><![CDATA[Asheville's Progressive Talk]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1238/2010/11/default/IHR_wpek-am_1290554677.png</logo_url> 
+                <name><![CDATA[880 The Revolution]]></name> 
+                <stationid>1238</stationid> 
+                <station_id>1238</station_id> 
+                <station_url>www.880therevolution.com</station_url> 
+                <stream_url_v2>http://wpek-am.akacast.akamaistream.net/7/154/19988/v1/auth.akacast.akamaistream.net/wpek-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1723.l1998843722.c19988.g.lq.akamaistream.net:554/D/1723/19988/v0001/reflector:43722.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SANANTONIO-TX&affiliate=krpt-fm&market=SANANTONIO-TX&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KRPT-FM</callletters> 
+                <call_letters>KRPT-FM</call_letters> 
+                <description><![CDATA[SA's Conservative FM Talk Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2990/2010/11/default/IHR_krpt_1290554652.png</logo_url> 
+                <name><![CDATA[92-5 The Patriot]]></name> 
+                <stationid>2990</stationid> 
+                <station_id>2990</station_id> 
+                <station_url>www.925thepatriot.com</station_url> 
+                <stream_url_v2>http://krpt-fm.akacast.akamaistream.net/7/880/20105/v1/auth.akacast.akamaistream.net/krpt-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1477.l2010549476.c20105.n.lq.akamaistream.net:554/D/1477/20105/v0001/reflector:49476.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=PROVIDENCE-RI&affiliate=whjj-am&market=PROVIDENCE-RI&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WHJJ-AM</callletters> 
+                <call_letters>WHJJ-AM</call_letters> 
+                <description><![CDATA[Rhode Island?s Talk Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1160/2010/11/default/IHR_whjj-am_1290554677.png</logo_url> 
+                <name><![CDATA[920 WHJJ]]></name> 
+                <stationid>1160</stationid> 
+                <station_id>1160</station_id> 
+                <station_url>www.920whjj.com</station_url> 
+                <stream_url_v2>http://whjj-am.akacast.akamaistream.net/7/32/32786/v1/auth.akacast.akamaistream.net/whjj-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1377.l3278635376.c32786.n.lq.akamaistream.net:554/D/1377/32786/v0001/reflector:35376.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=WESTPALMBEACH-FL&affiliate=wzzr-fm&market=WESTPALMBEACH-FL&format=ROCKACTIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WZZR-FM</callletters> 
+                <call_letters>WZZR-FM</call_letters> 
+                <description><![CDATA[The Palm Beaches' Real Radio]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2134/2010/11/default/IHR_wzzr_1290554656.png</logo_url> 
+                <name><![CDATA[94.3 FM WZZR]]></name> 
+                <stationid>2134</stationid> 
+                <station_id>2134</station_id> 
+                <station_url>www.wzzr.com</station_url> 
+                <stream_url_v2>http://wzzr-fm.akacast.akamaistream.net/7/473/19880/v1/auth.akacast.akamaistream.net/wzzr-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1833.l1988047832.c19880.n.lq.akamaistream.net:554/D/1833/19880/v0001/reflector:47832.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=CHARLESTON-SC&affiliate=wscc-fm&market=CHARLESTON-SC&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WSCC-FM</callletters> 
+                <call_letters>WSCC-FM</call_letters> 
+                <description><![CDATA[Charleston's news, talk and weather]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2008/2010/11/default/IHR_wscc_1290554656.png</logo_url> 
+                <name><![CDATA[94.3 WSC]]></name> 
+                <stationid>2008</stationid> 
+                <station_id>2008</station_id> 
+                <station_url>www.943wsc.com</station_url> 
+                <stream_url_v2>http://wscc-fm.akacast.akamaistream.net/7/492/31805/v1/auth.akacast.akamaistream.net/wscc-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a954.l3180538953.c31805.n.lq.akamaistream.net:554/D/954/31805/v0001/reflector:38953.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=TAMPA-FL&affiliate=wfla-am&market=TAMPA-FL&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WFLA-AM</callletters> 
+                <call_letters>WFLA-AM</call_letters> 
+                <description><![CDATA[Fox Newsradio Tampa]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/wfla-am_logo_1_1317043947.png</logo_url> 
+                <name><![CDATA[970 WFLA]]></name> 
+                <stationid>1139</stationid> 
+                <station_id>1139</station_id> 
+                <station_url>www.970wfla.com</station_url> 
+                <stream_url_v2>http://wfla-am.akacast.akamaistream.net/7/242/19868/v1/auth.akacast.akamaistream.net/wfla-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ASHEVILLE-NC&affiliate=wmxf-am&market=ASHEVILLE-NC&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WMXF-AM</callletters> 
+                <call_letters>WMXF-AM</call_letters> 
+                <description><![CDATA[Waynesville's Hometown Radio Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1219/2010/11/default/IHR_wmxf-am_1290554682.png</logo_url> 
+                <name><![CDATA[AM 1400 The Peak]]></name> 
+                <stationid>1219</stationid> 
+                <station_id>1219</station_id> 
+                <station_url>www.am1400thepeak.com</station_url> 
+                <stream_url_v2>http://wmxf-am.akacast.akamaistream.net/7/30/23142/v1/auth.akacast.akamaistream.net/wmxf-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=BEAUMONT-TX&affiliate=klvi-am&market=BEAUMONT-TX&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KLVI-AM</callletters> 
+                <call_letters>KLVI-AM</call_letters> 
+                <description><![CDATA[News Talk 560 KLVI]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/657/2010/11/default/IHR_klvi-am_1290554681.png</logo_url> 
+                <name><![CDATA[AM 560 KLVI]]></name> 
+                <stationid>657</stationid> 
+                <station_id>657</station_id> 
+                <station_url>www.klvi.com</station_url> 
+                <stream_url_v2>http://klvi-am.akacast.akamaistream.net/7/913/22622/v1/auth.akacast.akamaistream.net/klvi-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SANDIEGO-CA&affiliate=kogo-am&market=SANDIEGO-CA&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KOGO-AM</callletters> 
+                <call_letters>KOGO-AM</call_letters> 
+                <description><![CDATA[San Diego's News & Talk Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/11/default/kogo-am_logo_1_1320751048.png</logo_url> 
+                <name><![CDATA[KOGO: 600 AM & 95.7 FM]]></name> 
+                <stationid>670</stationid> 
+                <station_id>670</station_id> 
+                <station_url>www.kogo.com</station_url> 
+                <stream_url_v2>http://kogo-am.akacast.akamaistream.net/7/250/19789/v1/auth.akacast.akamaistream.net/kogo-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1080.l1978943079.c19789.n.lq.akamaistream.net:554/D/1080/19789/v0001/reflector:43079.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=PORTLAND-OR&affiliate=kpoj-am&market=PORTLAND-OR&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KPOJ-AM</callletters> 
+                <call_letters>KPOJ-AM</call_letters> 
+                <description><![CDATA[Portland's Progressive Talk Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/674/2010/11/default/IHR_kpoj-am_1290554682.png</logo_url> 
+                <name><![CDATA[AM 620 KPOJ]]></name> 
+                <stationid>674</stationid> 
+                <station_id>674</station_id> 
+                <station_url>www.620kpoj.com</station_url> 
+                <stream_url_v2>http://kpoj-am.akacast.akamaistream.net/7/164/20052/v1/auth.akacast.akamaistream.net/kpoj-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1138.l2005231137.c20052.n.lq.akamaistream.net:554/D/1138/20052/v0001/reflector:31137.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=DENVER-CO&affiliate=kkzn-am&market=DENVER-CO&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KKZN-AM</callletters> 
+                <call_letters>KKZN-AM</call_letters> 
+                <description><![CDATA[Colorado's Progressive Talk]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/650/2010/11/default/IHR_kkzn-am_1290554682.png</logo_url> 
+                <name><![CDATA[AM760]]></name> 
+                <stationid>650</stationid> 
+                <station_id>650</station_id> 
+                <station_url>www.am760.net</station_url> 
+                <stream_url_v2>http://kkzn-am.akacast.akamaistream.net/7/807/19813/v1/auth.akacast.akamaistream.net/kkzn-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a745.l1981354744.c19813.n.lq.akamaistream.net:554/D/745/19813/v0001/reflector:54744.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=PITTSBURGH-PA&affiliate=wpgb-fm&market=PITTSBURGH-PA&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WPGB-FM</callletters> 
+                <call_letters>WPGB-FM</call_letters> 
+                <description><![CDATA[Pittsburgh's Next Gen NewsTalk]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1945/2010/11/default/IHR_wpgb_1290554688.png</logo_url> 
+                <name><![CDATA[FM NewsTalk 104.7]]></name> 
+                <stationid>1945</stationid> 
+                <station_id>1945</station_id> 
+                <station_url>www.wpgb.com</station_url> 
+                <stream_url_v2>http://wpgb-fm.akacast.akamaistream.net/7/564/20063/v1/auth.akacast.akamaistream.net/wpgb-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1537.l2006335536.c20063.n.lq.akamaistream.net:554/D/1537/20063/v0001/reflector:35536.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=GRANDRAPIDS-MI&affiliate=wtkg-am&market=GRANDRAPIDS-MI&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WTKG-AM</callletters> 
+                <call_letters>WTKG-AM</call_letters> 
+                <description><![CDATA[Grand Rapids Talk: Dave Ramsey]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1270/2010/11/default/IHR_wtkg-am_1290554689.png</logo_url> 
+                <name><![CDATA[WTKG 1230 AM]]></name> 
+                <stationid>1270</stationid> 
+                <station_id>1270</station_id> 
+                <station_url>www.wtkg.com</station_url> 
+                <stream_url_v2>http://wtkg-am.akacast.akamaistream.net/7/327/19933/v1/auth.akacast.akamaistream.net/wtkg-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1307.l1993335306.c19933.n.lq.akamaistream.net:554/D/1307/19933/v0001/reflector:35306.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SANFRANCISCO-CA&affiliate=kkgn-am&market=SANFRANCISCO-CA&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KKGN-AM</callletters> 
+                <call_letters>KKGN-AM</call_letters> 
+                <description><![CDATA[Progressive Talk]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/5257/2010/11/default/IHR_kkgn-am_1290554689.png</logo_url> 
+                <name><![CDATA[GREEN 960]]></name> 
+                <stationid>5257</stationid> 
+                <station_id>5257</station_id> 
+                <station_url>www.green960.com</station_url> 
+                <stream_url_v2>http://kkgn-am.akacast.akamaistream.net/7/94/19800/v1/auth.akacast.akamaistream.net/kkgn-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a465.l1980054464.c19800.n.lq.akamaistream.net:554/D/465/19800/v0001/reflector:54464.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LOSANGELES-CA&affiliate=kfi-am&market=LOSANGELES-CA&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KFI-AM</callletters> 
+                <call_letters>KFI-AM</call_letters> 
+                <description><![CDATA[Los Angeles More Stimulating Talk]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/616/2010/11/default/IHR_kfi-am_1290554692.png</logo_url> 
+                <name><![CDATA[KFI]]></name> 
+                <stationid>616</stationid> 
+                <station_id>616</station_id> 
+                <station_url>www.kfiam640.com</station_url> 
+                <stream_url_v2>http://kfi-am.akacast.akamaistream.net/7/121/19771/v1/auth.akacast.akamaistream.net/kfi-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=PHOENIX-AZ&affiliate=kfyi-am&market=PHOENIX-AZ&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KFYI-AM</callletters> 
+                <call_letters>KFYI-AM</call_letters> 
+                <description><![CDATA[Fox News Radio Phoenix]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/11/default/kfyi-am_logo_1_1320430253.png</logo_url> 
+                <name><![CDATA[550 KFYI]]></name> 
+                <stationid>622</stationid> 
+                <station_id>622</station_id> 
+                <station_url>www.kfyi.com</station_url> 
+                <stream_url_v2>http://kfyi-am.akacast.akamaistream.net/7/648/19751/v1/auth.akacast.akamaistream.net/kfyi-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a556.l1975130555.c19751.n.lq.akamaistream.net:554/D/556/19751/v0001/reflector:30555.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LOSANGELES-CA&affiliate=ktlk-am&market=LOSANGELES-CA&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KTLK-AM</callletters> 
+                <call_letters>KTLK-AM</call_letters> 
+                <description><![CDATA[Los Angeles Voice Of Reason]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/04/default/ktlk-am_mobile_logo_0_1303414645.png</logo_url> 
+                <name><![CDATA[KTLK AM 1150]]></name> 
+                <stationid>695</stationid> 
+                <station_id>695</station_id> 
+                <station_url>www.ktlkam1150.com</station_url> 
+                <stream_url_v2>http://ktlk-am.akacast.akamaistream.net/7/830/19776/v1/auth.akacast.akamaistream.net/ktlk-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=BILOXI-MS&affiliate=wbuv-fm&market=BILOXI-MS&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WBUV-FM</callletters> 
+                <call_letters>WBUV-FM</call_letters> 
+                <description><![CDATA[Your Home For Rush]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1695/2010/11/default/IHR_wbuv_1290554740.png</logo_url> 
+                <name><![CDATA[News Radio 104.9 FM]]></name> 
+                <stationid>1695</stationid> 
+                <station_id>1695</station_id> 
+                <station_url>www.newsradio1049fm.com</station_url> 
+                <stream_url_v2>http://wbuv-fm.akacast.akamaistream.net/7/810/29789/v1/auth.akacast.akamaistream.net/wbuv-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=OMAHA-NE&affiliate=kfab-am&market=OMAHA-NE&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KFAB-AM</callletters> 
+                <call_letters>KFAB-AM</call_letters> 
+                <description><![CDATA[Omaha's News, Weather and Traffic]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/611/2010/11/default/IHR_kfab-am_1290554741.png</logo_url> 
+                <name><![CDATA[News Radio 1110 KFAB]]></name> 
+                <stationid>611</stationid> 
+                <station_id>611</station_id> 
+                <station_url>www.kfab.com</station_url> 
+                <stream_url_v2>http://kfab-am.akacast.akamaistream.net/7/375/19954/v1/auth.akacast.akamaistream.net/kfab-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a481.l1995458480.c19954.n.lq.akamaistream.net:554/D/481/19954/v0001/reflector:58480.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=WESTPALMBEACH-FL&affiliate=wjno-am&market=WESTPALMBEACH-FL&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WJNO-AM</callletters> 
+                <call_letters>WJNO-AM</call_letters> 
+                <description><![CDATA[The Palm Beaches’ News & Talk.]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1182/2010/11/default/IHR_wjno-am_1290554741.png</logo_url> 
+                <name><![CDATA[News Radio 1290 WJNO]]></name> 
+                <stationid>1182</stationid> 
+                <station_id>1182</station_id> 
+                <station_url>www.wjno.com</station_url> 
+                <stream_url_v2>http://wjno-am.akacast.akamaistream.net/7/214/19875/v1/auth.akacast.akamaistream.net/wjno-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1395.l1987535394.c19875.n.lq.akamaistream.net:554/D/1395/19875/v0001/reflector:35394.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ASHEVILLE-NC&affiliate=wwnc-am&market=ASHEVILLE-NC&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WWNC-AM</callletters> 
+                <call_letters>WWNC-AM</call_letters> 
+                <description><![CDATA[The Talk of the Mountains]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/wwnc-am_logo_4_1316780442.png</logo_url> 
+                <name><![CDATA[News Radio 570 WWNC]]></name> 
+                <stationid>1283</stationid> 
+                <station_id>1283</station_id> 
+                <station_url>www.wwnc.com</station_url> 
+                <stream_url_v2>http://wwnc-am.akacast.akamaistream.net/7/788/19991/v1/auth.akacast.akamaistream.net/wwnc-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=FORTSMITH-AR&affiliate=kwhn-am&market=FORTSMITH-AR&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KWHN-AM</callletters> 
+                <call_letters>KWHN-AM</call_letters> 
+                <description><![CDATA[The One Arklahoma Depends On]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/716/2010/11/default/IHR_kwhn-am_1290554742.png</logo_url> 
+                <name><![CDATA[News Talk 1320]]></name> 
+                <stationid>716</stationid> 
+                <station_id>716</station_id> 
+                <station_url>www.kwhn.com</station_url> 
+                <stream_url_v2>http://kwhn-am.akacast.akamaistream.net/7/750/60822/v1/auth.akacast.akamaistream.net/kwhn-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=WORCESTER-MA&affiliate=wtag-am&market=WORCESTER-MA&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WTAG-AM</callletters> 
+                <call_letters>WTAG-AM</call_letters> 
+                <description><![CDATA[Worcester's News and Talk Leader]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1262/2010/11/default/IHR_wtag-am_1290554742.png</logo_url> 
+                <name><![CDATA[News Talk 580 & 94.9FM]]></name> 
+                <stationid>1262</stationid> 
+                <station_id>1262</station_id> 
+                <station_url>www.wtag.com</station_url> 
+                <stream_url_v2>http://wtag-am.akacast.akamaistream.net/7/614/27987/v1/auth.akacast.akamaistream.net/wtag-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a264.l2798748263.c27987.n.lq.akamaistream.net:554/D/264/27987/v0001/reflector:48263.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=TUCSON-AZ&affiliate=knst-am&market=TUCSON-AZ&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KNST-AM</callletters> 
+                <call_letters>KNST-AM</call_letters> 
+                <description><![CDATA[Tucson's News, Sports & Talk Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/11/default/knst_logo_1_1322508219.png</logo_url> 
+                <name><![CDATA[KNST]]></name> 
+                <stationid>667</stationid> 
+                <station_id>667</station_id> 
+                <station_url>www.knst.com</station_url> 
+                <stream_url_v2>http://knst-am.akacast.akamaistream.net/7/157/33394/v1/auth.akacast.akamaistream.net/knst-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1668.l3339443667.c33394.g.lq.akamaistream.net:554/D/1668/33394/v0001/reflector:43667.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=HARRISONBURG-VA&affiliate=wkcy-am&market=HARRISONBURG-VA&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WKCY-AM</callletters> 
+                <call_letters>WKCY-AM</call_letters> 
+                <description><![CDATA[Harrisonburg's Talk Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1190/2010/11/default/IHR_wkcy-am_1290554740.png</logo_url> 
+                <name><![CDATA[News & Talk WKCY]]></name> 
+                <stationid>1190</stationid> 
+                <station_id>1190</station_id> 
+                <station_url>www.wkcyam.com</station_url> 
+                <stream_url_v2>http://wkcy-am.akacast.akamaistream.net/7/581/58074/v1/auth.akacast.akamaistream.net/wkcy-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=PORTLAND-OR&affiliate=kex-am&market=PORTLAND-OR&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KEX-AM</callletters> 
+                <call_letters>KEX-AM</call_letters> 
+                <description><![CDATA[News, Traffic & Weather Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/06/default/kex-am_mobile_logo_1_1307721147.png</logo_url> 
+                <name><![CDATA[NewsRadio 1190 KEX]]></name> 
+                <stationid>610</stationid> 
+                <station_id>610</station_id> 
+                <station_url>www.1190kex.com</station_url> 
+                <stream_url_v2>http://kex-am.akacast.akamaistream.net/7/737/20049/v1/auth.akacast.akamaistream.net/kex-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NASHVILLE-TN&affiliate=wlac-am&market=NASHVILLE-TN&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WLAC-AM</callletters> 
+                <call_letters>WLAC-AM</call_letters> 
+                <description><![CDATA[Nashville's News and Talk Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/07/default/wlac-am_mobile_logo_1_1311166581.png</logo_url> 
+                <name><![CDATA[FOX NewsRadio 1510]]></name> 
+                <stationid>1200</stationid> 
+                <station_id>1200</station_id> 
+                <station_url>www.wlac.com</station_url> 
+                <stream_url_v2>http://wlac-am.akacast.akamaistream.net/7/589/20079/v1/auth.akacast.akamaistream.net/wlac-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a854.l2007950853.c20079.n.lq.akamaistream.net:554/D/854/20079/v0001/reflector:50853.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=MEMPHIS-TN&affiliate=wrec-am&market=MEMPHIS-TN&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WREC-AM</callletters> 
+                <call_letters>WREC-AM</call_letters> 
+                <description><![CDATA[Memphis. Rush. Hannity. Tigers.]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1246/2010/11/default/IHR_wrec-am_1290554740.png</logo_url> 
+                <name><![CDATA[NewsRadio 600WREC]]></name> 
+                <stationid>1246</stationid> 
+                <station_id>1246</station_id> 
+                <station_url>www.600wrec.com</station_url> 
+                <stream_url_v2>http://wrec-am.akacast.akamaistream.net/7/57/20078/v1/auth.akacast.akamaistream.net/wrec-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1803.l2007833802.c20078.n.lq.akamaistream.net:554/D/1803/20078/v0001/reflector:33802.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=MIAMI-FL&affiliate=wiod-am&market=MIAMI-FL&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WIOD-AM</callletters> 
+                <call_letters>WIOD-AM</call_letters> 
+                <description><![CDATA[So Fla's Only News & Talk Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1175/2010/11/default/IHR_wiod-am_1290554740.png</logo_url> 
+                <name><![CDATA[Newsradio 610]]></name> 
+                <stationid>1175</stationid> 
+                <station_id>1175</station_id> 
+                <station_url>www.610wiod.com</station_url> 
+                <stream_url_v2>http://wiod-am.akacast.akamaistream.net/7/664/19847/v1/auth.akacast.akamaistream.net/wiod-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1262.l1984721261.c19847.n.lq.akamaistream.net:554/D/1262/19847/v0001/reflector:21261.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LEXINGTON-KY&affiliate=wlap-am&market=LEXINGTON-KY&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WLAP-AM</callletters> 
+                <call_letters>WLAP-AM</call_letters> 
+                <description><![CDATA[Home of the Kentucky Wildcats]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1202/2010/11/default/IHR_wlap-am_1290554740.png</logo_url> 
+                <name><![CDATA[NewsRadio 630 WLAP]]></name> 
+                <stationid>1202</stationid> 
+                <station_id>1202</station_id> 
+                <station_url>www.wlap.com</station_url> 
+                <stream_url_v2>http://wlap-am.akacast.akamaistream.net/7/753/22349/v1/auth.akacast.akamaistream.net/wlap-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1276.l2234935275.c22349.n.lq.akamaistream.net:554/D/1276/22349/v0001/reflector:35275.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=HOUSTON-TX&affiliate=ktrh-am&market=HOUSTON-TX&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KTRH-AM</callletters> 
+                <call_letters>KTRH-AM</call_letters> 
+                <description><![CDATA[Houston's News, Weather and Traffic Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/11/default/ktrh-am_logo_1_1320331329.png</logo_url> 
+                <name><![CDATA[KTRH NewsRadio 740]]></name> 
+                <stationid>700</stationid> 
+                <station_id>700</station_id> 
+                <station_url>www.ktrh.com</station_url> 
+                <stream_url_v2>http://ktrh-am.akacast.akamaistream.net/7/975/20100/v1/auth.akacast.akamaistream.net/ktrh-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=DENVER-CO&affiliate=koa-am&market=DENVER-CO&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KOA-AM</callletters> 
+                <call_letters>KOA-AM</call_letters> 
+                <description><![CDATA[Denver-Broncos, Rockies & Buffs Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/668/2010/11/default/IHR_koa-am_1290554741.png</logo_url> 
+                <name><![CDATA[Newsradio 850 KOA]]></name> 
+                <stationid>668</stationid> 
+                <station_id>668</station_id> 
+                <station_url>www.850koa.com</station_url> 
+                <stream_url_v2>http://koa-am.akacast.akamaistream.net/7/916/19814/v1/auth.akacast.akamaistream.net/koa-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=GRANDRAPIDS-MI&affiliate=wood-am&market=GRANDRAPIDS-MI&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WOOD-AM</callletters> 
+                <call_letters>WOOD-AM</call_letters> 
+                <description><![CDATA[West MI's Newsradio + Rush, Beck]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/06/default/wood-am_mobile_logo_0_1308656505.png</logo_url> 
+                <name><![CDATA[WOOD Radio 106.9 FM & 1300AM]]></name> 
+                <stationid>1236</stationid> 
+                <station_id>1236</station_id> 
+                <station_url>www.woodradio.com</station_url> 
+                <stream_url_v2>http://wood-am.akacast.akamaistream.net/7/863/19930/v1/auth.akacast.akamaistream.net/wood-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a985.l1993154984.c19931.n.lq.akamaistream.net:554/D/985/19931/v0001/reflector:54984.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SALISBURY-MD&affiliate=wjdy-am&market=SALISBURY-MD&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WJDY-AM</callletters> 
+                <call_letters>WJDY-AM</call_letters> 
+                <description><![CDATA[Delmarva’s home for Jim Rome]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/08/default/wjdy-am_logo_0_1314624385.png</logo_url> 
+                <name><![CDATA[Fox Sports 1470]]></name> 
+                <stationid>1180</stationid> 
+                <station_id>1180</station_id> 
+                <station_url>www.wjdy.com</station_url> 
+                <stream_url_v2>http://wjdy-am.akacast.akamaistream.net/7/257/32174/v1/auth.akacast.akamaistream.net/wjdy-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SACRAMENTO-CA&affiliate=kfbk-am&market=SACRAMENTO-CA&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KFBK-AM</callletters> 
+                <call_letters>KFBK-AM</call_letters> 
+                <description><![CDATA[Coverage You Can Count On: Sacramento]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/12/default/kfbk-am_logo_0_1322771971.png</logo_url> 
+                <name><![CDATA[FM 92.5 & AM 1530 KFBK]]></name> 
+                <stationid>613</stationid> 
+                <station_id>613</station_id> 
+                <station_url>www.kfbk.com</station_url> 
+                <stream_url_v2>http://kfbk-am.akacast.akamaistream.net/7/325/19780/v1/auth.akacast.akamaistream.net/kfbk-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1878.l1978051877.c19780.n.lq.akamaistream.net:554/D/1878/19780/v0001/reflector:51877.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=YOUNGSTOWN-OH&affiliate=wkbn-am&market=YOUNGSTOWN-OH&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WKBN-AM</callletters> 
+                <call_letters>WKBN-AM</call_letters> 
+                <description><![CDATA[Voice of the Valley]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1188/2010/11/default/IHR_wkbn-am_1290554741.png</logo_url> 
+                <name><![CDATA[NewsTalk 570 WKBN]]></name> 
+                <stationid>1188</stationid> 
+                <station_id>1188</station_id> 
+                <station_url>www.570wkbn.com</station_url> 
+                <stream_url_v2>http://wkbn-am.akacast.akamaistream.net/7/915/27465/v1/auth.akacast.akamaistream.net/wkbn-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=BOSTON-MA&affiliate=wxks-am&market=BOSTON-MA&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WXKS-AM</callletters> 
+                <call_letters>WXKS-AM</call_letters> 
+                <description><![CDATA[Boston - Express Yourself]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/05/default/wxks-am_mobile_logo_1_1305905499.png</logo_url> 
+                <name><![CDATA[Talk 1200]]></name> 
+                <stationid>14220</stationid> 
+                <station_id>14220</station_id> 
+                <station_url>www.talk1200.com</station_url> 
+                <stream_url_v2>http://wxks-am.akacast.akamaistream.net/7/983/19916/v1/auth.akacast.akamaistream.net/wxks-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NEWORLEANS-LA&affiliate=wrno-fm&market=NEWORLEANS-LA&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WRNO-FM</callletters> 
+                <call_letters>WRNO-FM</call_letters> 
+                <description><![CDATA[New Orleans' Home for Rush Limbaugh]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/3632/2010/11/default/IHR_wrno_1290554746.png</logo_url> 
+                <name><![CDATA[Rush Radio 99.5 WRNO]]></name> 
+                <stationid>3632</stationid> 
+                <station_id>3632</station_id> 
+                <station_url>www.wrno.com</station_url> 
+                <stream_url_v2>http://wrno-fm.akacast.akamaistream.net/7/125/26232/v1/auth.akacast.akamaistream.net/wrno-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a239.l2623330238.c26233.n.lq.akamaistream.net/D/239/26233/v0001/reflector:30238</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SACRAMENTO-CA&affiliate=kste-am&market=SACRAMENTO-CA&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KSTE-AM</callletters> 
+                <call_letters>KSTE-AM</call_letters> 
+                <description><![CDATA[Where Sacramento Talks Back!]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/06/default/kste-am_mobile_logo_1_1307979720.png</logo_url> 
+                <name><![CDATA[Talk 650 KSTE]]></name> 
+                <stationid>691</stationid> 
+                <station_id>691</station_id> 
+                <station_url>www.kste.com</station_url> 
+                <stream_url_v2>http://kste-am.akacast.akamaistream.net/7/205/19783/v1/auth.akacast.akamaistream.net/kste-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a340.l1978332339.c19783.n.lq.akamaistream.net:554/D/340/19783/v0001/reflector:32339.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SANFRANCISCO-CA&affiliate=knew-am&market=SANFRANCISCO-CA&format=CHRPOP&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KNEW-AM</callletters> 
+                <call_letters>KNEW-AM</call_letters> 
+                <description><![CDATA[Home of Fox News]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/664/2010/11/default/IHR_knew-am_1290554677.png</logo_url> 
+                <name><![CDATA[910AM]]></name> 
+                <stationid>664</stationid> 
+                <station_id>664</station_id> 
+                <station_url>www.fox910.com</station_url> 
+                <stream_url_v2>http://knew-am.akacast.akamaistream.net/7/316/19799/v1/auth.akacast.akamaistream.net/knew-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1370.l1979943369.c19799.n.lq.akamaistream.net:554/D/1370/19799/v0001/reflector:43369.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=TUSCALOOSA-AL&affiliate=wrtr-fm&market=TUSCALOOSA-AL&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WRTR-FM</callletters> 
+                <call_letters>WRTR-FM</call_letters> 
+                <description><![CDATA[Tuscaloosa's FM Talk Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/11389/2010/11/default/IHR_wrtr_1290554749.png</logo_url> 
+                <name><![CDATA[Talk Radio 105.9]]></name> 
+                <stationid>11389</stationid> 
+                <station_id>11389</station_id> 
+                <station_url>www.talkradio1059.com</station_url> 
+                <stream_url_v2>http://wrtr-fm.akacast.akamaistream.net/7/853/69398/v1/auth.akacast.akamaistream.net/wrtr-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=HOUSTON-TX&affiliate=kprc-am&market=HOUSTON-TX&format=ROCKCLASSIC&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KPRC-AM</callletters> 
+                <call_letters>KPRC-AM</call_letters> 
+                <description><![CDATA[Radio Mojo]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/04/default/kprc_mobile_logo_1_1302887077.png</logo_url> 
+                <name><![CDATA[The 9-5-0]]></name> 
+                <stationid>676</stationid> 
+                <station_id>676</station_id> 
+                <station_url>www.the950.com</station_url> 
+                <stream_url_v2>http://kprc-am.akacast.akamaistream.net/7/779/20098/v1/auth.akacast.akamaistream.net/kprc-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ORLANDO-FL&affiliate=iphi-fl&market=ORLANDO-FL&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IPHI-FL</callletters> 
+                <call_letters>IPHI-FL</call_letters> 
+                <description><![CDATA[Real Radio 104.1 Orlando, FL]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/14384/2010/11/default/IHR_iphi-fl_1290554750.png</logo_url> 
+                <name><![CDATA[The Philips Phile]]></name> 
+                <stationid>14384</stationid> 
+                <station_id>14384</station_id> 
+                <station_url>iphi-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://iphi-fl.akacast.akamaistream.net/7/650/89383/v1/auth.akacast.akamaistream.net/iphi-fl</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1939.l8938335938.c89383.g.lq.akamaistream.net:554/D/1939/89383/v0001/reflector:35938.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=COLUMBUS-GA&affiliate=wdak-am&market=COLUMBUS-GA&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WDAK-AM</callletters> 
+                <call_letters>WDAK-AM</call_letters> 
+                <description><![CDATA[Columbus, GA's News Radio]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1125/2010/11/default/IHR_wdak-am_1290554753.png</logo_url> 
+                <name><![CDATA[News Radio 540 WDAK]]></name> 
+                <stationid>1125</stationid> 
+                <station_id>1125</station_id> 
+                <station_url>www.newsradio540.com</station_url> 
+                <stream_url_v2>http://wdak-am.akacast.akamaistream.net/7/30/30790/v1/auth.akacast.akamaistream.net/wdak-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=BIRMINGHAM-AL&affiliate=werc-am&market=BIRMINGHAM-AL&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WERC-AM</callletters> 
+                <call_letters>WERC-AM</call_letters> 
+                <description><![CDATA[Birmingham's Only Rock Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1/2011/03/default/wvvb_0_1299605082.png</logo_url> 
+                <name><![CDATA[103.1 The Vulcan]]></name> 
+                <stationid>14612</stationid> 
+                <station_id>14612</station_id> 
+                <station_url>www.1031thevulcan.com</station_url> 
+                <stream_url_v2>http://wvvb-am.akacast.akamaistream.net/7/261/31812/v1/auth.akacast.akamaistream.net/wvvb-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ALBANY-NY&affiliate=wgy-am&market=ALBANY-NY&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WGY-AM</callletters> 
+                <call_letters>WGY-AM</call_letters> 
+                <description><![CDATA[Albany's News/Talk Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1155/2010/11/default/IHR_wgy-am_1290554742.png</logo_url> 
+                <name><![CDATA[News Talk 810/103.1 WGY]]></name> 
+                <stationid>1155</stationid> 
+                <station_id>1155</station_id> 
+                <station_url>www.wgy.com</station_url> 
+                <stream_url_v2>http://wgy-am.akacast.akamaistream.net/7/697/21577/v1/auth.akacast.akamaistream.net/wgy-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=HARRISBURG-PA&affiliate=whp-am&market=HARRISBURG-PA&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WHP-AM</callletters> 
+                <call_letters>WHP-AM</call_letters> 
+                <description><![CDATA[Harrisburg's Talk Radio Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1166/2010/11/default/IHR_whp-am_1290554753.png</logo_url> 
+                <name><![CDATA[WHP 580 AM]]></name> 
+                <stationid>1166</stationid> 
+                <station_id>1166</station_id> 
+                <station_url>www.whp580.com</station_url> 
+                <stream_url_v2>http://whp-am.akacast.akamaistream.net/7/22/52424/v1/auth.akacast.akamaistream.net/whp-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SPRINGFIELD-MA&affiliate=whyn-am&market=SPRINGFIELD-MA&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WHYN-AM</callletters> 
+                <call_letters>WHYN-AM</call_letters> 
+                <description><![CDATA[Springfield's News/Talk Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/04/default/whyn_mobile_logo_1_1302888005.png</logo_url> 
+                <name><![CDATA[WHYN News/Talk 560]]></name> 
+                <stationid>1169</stationid> 
+                <station_id>1169</station_id> 
+                <station_url>www.whynam560.com</station_url> 
+                <stream_url_v2>http://whyn-am.akacast.akamaistream.net/7/525/84269/v1/auth.akacast.akamaistream.net/whyn-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SANANTONIO-TX&affiliate=woai-am&market=SANANTONIO-TX&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WOAI-AM</callletters> 
+                <call_letters>WOAI-AM</call_letters> 
+                <description><![CDATA[San Antonio's News Radio]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1229/2010/11/default/IHR_woai-am_1290554755.png</logo_url> 
+                <name><![CDATA[WOAI]]></name> 
+                <stationid>1229</stationid> 
+                <station_id>1229</station_id> 
+                <station_url>radio.woai.com</station_url> 
+                <stream_url_v2>http://woai-am.akacast.akamaistream.net/7/138/20108/v1/auth.akacast.akamaistream.net/woai-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1662.l2010831661.c20108.n.lq.akamaistream.net:554/D/1662/20108/v0001/reflector:31661.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=DAVENPORT-IA&affiliate=woc-am&market=DAVENPORT-IA&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WOC-AM</callletters> 
+                <call_letters>WOC-AM</call_letters> 
+                <description><![CDATA[NewsTalk 1420, WOC]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1230/2010/11/default/IHR_woc-am_1290554755.png</logo_url> 
+                <name><![CDATA[WOC 1420]]></name> 
+                <stationid>1230</stationid> 
+                <station_id>1230</station_id> 
+                <station_url>www.woc1420.com</station_url> 
+                <stream_url_v2>http://woc-am.akacast.akamaistream.net/7/945/31701/v1/auth.akacast.akamaistream.net/woc-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=CLEVELAND-OH&affiliate=wtam-am&market=CLEVELAND-OH&format=NEWSTALK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WTAM-AM</callletters> 
+                <call_letters>WTAM-AM</call_letters> 
+                <description><![CDATA[Cleveland's Newsradio]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1263/2010/11/default/IHR_wtam-am_1290554756.png</logo_url> 
+                <name><![CDATA[WTAM 1100]]></name> 
+                <stationid>1263</stationid> 
+                <station_id>1263</station_id> 
+                <station_url>www.wtam.com</station_url> 
+                <stream_url_v2>http://wtam-am.akacast.akamaistream.net/7/635/20017/v1/auth.akacast.akamaistream.net/wtam-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ORLANDO-FL&affiliate=wtks-fm&market=ORLANDO-FL&format=ROCKALTERNATIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WTKS-FM</callletters> 
+                <call_letters>WTKS-FM</call_letters> 
+                <description><![CDATA[Real Radio 104.1]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/05/default/wtks_mobile_logo_1_1305744030.png</logo_url> 
+                <name><![CDATA[WTKS Orlando]]></name> 
+                <stationid>2039</stationid> 
+                <station_id>2039</station_id> 
+                <station_url>www.realradio.fm</station_url> 
+                <stream_url_v2>http://wtks-fm.akacast.akamaistream.net/7/744/19857/v1/auth.akacast.akamaistream.net/wtks-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station></stations>

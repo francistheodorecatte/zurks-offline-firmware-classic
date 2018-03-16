@@ -1,0 +1,34 @@
+#!/bin/sh
+# $Id: log-rollover-enable 4686 2009-03-23 19:41:34Z henry $
+#
+# log-rollover-enable - enable log-rollover in crontab
+#
+# Henry Groover
+# Copyright (c) Chumby Industries, 2007-2008
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+# See if it's already there
+EXISTS="$(crontab -c /etc/cron/crontabs -l|grep log-rollover)"
+if [ "${EXISTS}" != "" ]
+then
+	echo "Already installed in crontab - use crontab -c /etc/cron/crontabs -e to edit"
+	exit 1
+fi
+
+echo "50 2,6,10,14,18,22 * * * /usr/chumby/scripts/log-rollover" >>/etc/cron/crontabs/root
+echo "Added log-rollover to crontab:"
+crontab -c /etc/cron/crontabs -l
+

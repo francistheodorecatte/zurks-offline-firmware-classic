@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<geoip ip="127.0.0.1" iso_country="US">
+  <ack>This product includes GeoLite data created by MaxMind, available from http://maxmind.com/</ack>
+  <license>http://geolite.maxmind.com/download/geoip/database/LICENSE.txt</license>
+  <link>http://geolite.maxmind.com/download/geoip/database/GeoIPCountryCSV.zip</link>
+</geoip>
+

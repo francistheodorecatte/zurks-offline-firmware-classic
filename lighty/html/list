@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profiles count="1">
+<profile id="1">
+  <name>offline</name>
+  <description></description>
+  <user id="1">offline-user</user>
+  <info type="Profile" updated="Sun Mar 04 20:15:16 +0000 2012" master="false" pending="0" unaccepted="0" origin="" created="Fri Sep 03 18:18:02 +0000 2010" published=""/>
+  <widget_instances count="10" thumbnail=""/>
+</profile>
+</profiles>

@@ -1,0 +1,15 @@
+ #!/bin/sh
+ echo "HTTP/1.1 200 ok"
+ echo "Content-type:  text/html"
+ echo ""
+ echo "<body style='background-color:666666; color:white'>"
+ echo "<center>"
+ echo "<h1>Chumby <a href='http://192.168.1.122/cgi-bin/custom/index'>Classic</a>, <a href='http://192.168.1.123/cgi-bin/custom/index'>Black8</a>,  <a href='http://192.168.1.124/cgi-bin/custom/index'>Red8</a></h1>"
+ echo "volume: <a href='player_setvol?20'>20</a>, <a href='player_setvol?40'>40</a>, <a href='player_setvol?60'>60</a>, <a href='player_setvol?80'>80</a>, <a href='player_setvol?100'>100</a><br>"
+ echo "mute: <a href='player_setmute?on'>on</a>, <a href='player_setmute?off'>off</a><br>"
+ echo "play: <a href='player_kexp'>kexp</a>, <a href='player_kuow'>kuow</a>, <a href='player_stop'>stop</a><br>"
+ echo "display: <a href='display_off'>off</a>, <a href='display_dim'>dimmed</a>, <a href='display_normal'>normal</a>"
+ echo "</center>"
+ echo "</body>"
+ echo ""
+

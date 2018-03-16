@@ -1,0 +1,269 @@
+#!/bin/sh
+#
+# start_control_panel - responsible for starting the control panel in the correct mode
+#
+# Ken Steele
+# Copyright (c) Chumby Industries, 2007-2008
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+
+export PATH=$PATH:/tmp/test:/usr/chumby/scripts
+
+SCRIPT_DIR=/usr/chumby/scripts
+DEFAULT_CP=/usr/widgets/controlpanel.swf
+DOWNLOADED=0
+FP_QUIT=1
+NEW_CP_AVAILABLE=0
+
+
+# Figure out what brand we are.
+for arg in $(cat /proc/cmdline)
+do
+	case "${arg}" in
+	logo.brand\=*)
+		BRAND=$(echo ${arg} | cut -d= -f2)
+		;;
+	esac
+done
+if [ "x${BRAND}" = "xchumby" ]
+then
+	BRAND=""
+else
+	BRAND=".${BRAND}"
+fi
+
+
+# check if a new control panel is available
+if [ -f /tmp/new_cp_available ]; then
+    NEW_CP_AVAILABLE=1
+    rm -f /tmp/new_cp_available
+fi
+
+if [ $NEW_CP_AVAILABLE -eq "1" ]; then
+    if [ -f /tmp/cp_path ]; then
+        CP_PATH=`cat /tmp/cp_path`
+        rm -f $CP_PATH
+        rm -f /tmp/cp_path
+    fi
+    DOWNLOADED=0
+fi
+
+# run the demo swf if we're in demo mode
+if [ -f /psp/demo_mode ]; then
+    if [ -e /mnt/usb/demo_mode.swf ]; then
+        while [ 1 ]; do
+            /usr/bin/chumbyflashplayer.x -i /mnt/usb/demo_mode.swf
+        done
+    fi
+    if [ -e /usr/widgets/demo_mode${BRAND}.swf ]; then
+        while [ 1 ]; do
+            /usr/bin/chumbyflashplayer.x -i /usr/widgets/demo_mode${BRAND}.swf
+        done
+    fi
+fi
+
+# check to see if an alternate control panel is mounted
+if [ -f /mnt/usb/controlpanel.swf ]; then
+    ALTERNATE=1
+    echo "Starting ALTERNATE control panel..."
+    CP_PATH=/mnt/usb/controlpanel.swf
+    DOWNLOADED=1
+elif [ -f /tmp/cp_path ]; then
+    CP_PATH=`cat /tmp/cp_path`
+    # check to see if we've downloaded a new control panel
+    if [ -e $CP_PATH ]; then
+        DOWNLOADED=1
+    fi
+else
+    CP_PATH=$DEFAULT_CP
+fi
+
+# Assume we're being run on purpose. Remove flag indicating that
+# flashplayer is being shut down
+rm -f /tmp/flashplayer_stopping
+
+# Drop events that were delivered before the flashplayer was started.
+# This is particularly useful because otherwise "inserted" events will
+# get delivered when the card is removed, due to the way flashplayer is
+# started.
+rm -f /tmp/flashplayer.event
+
+# check if this is the first time that chumby has been run
+if [ -f /psp/firsttime ]; then
+    FT=`cat /psp/firsttime`
+    if [ "$FT" -eq "1" ]; then
+        FIRSTTIME=1
+    else
+        FIRSTTIME=0
+    fi
+else
+    FIRSTTIME=0
+fi
+
+if [ "$FIRSTTIME" -eq "1" ]; then
+	CP=$DEFAULT_CP
+	CP_ARGS=$CP_ARGS" -dfirstTime=1"
+	BUILTIN=1
+	FP_QUIT=1
+else
+	# check to see if we have network
+	NETWORK_ERROR="$(${SCRIPT_DIR}/network_status.sh|grep error)"
+
+	if [ ! -z "$NETWORK_ERROR" ]; then
+		# network is not functioning
+		CP=$CP_PATH
+		BUILTIN=1
+	else
+		# check to see if we've already downloaded a new control panel
+		if [ $DOWNLOADED -eq "1" ]; then
+			CP=$CP_PATH
+		else
+            ATTEMPTS=0
+            FAILED=1
+
+            # download the control panel
+            echo "Downloading the controlpanel.."
+            $SCRIPT_DIR/download_cp
+            if [ "$?" -eq "0" ]; then
+                FAILED=0
+            fi
+
+            while [ $FAILED -eq "1" -a $ATTEMPTS -lt 4 ]; do
+                # if the download fails, try 4 more times
+                ATTEMPTS=`expr $ATTEMPTS + 1`
+                echo "Downloading the controlpanel.."
+                $SCRIPT_DIR/download_cp
+                if [ "$?" -eq "0" ]; then
+                    FAILED=0
+                fi
+            done
+
+            if [ $FAILED -eq "1" ]; then
+                # tried to download the control panel 3 times and failed - write
+                # error to frame buffer and exit
+                echo "FAILED TO DOWNLOAD CONTROL PANEL"
+                if [ "x${CNPLATFORM}" = "xsilvermoon" -o "x${CNPLATFORM}" = "xfalconwing" ]
+                then
+                    BRAND=
+                    if grep -q logo.brand=insignia /proc/cmdline;
+                    then
+                        BRAND=".insignia"
+                    fi
+                    imgtool --mode=draw /bitmap/${VIDEO_RES}/cp_download_unsuccessful${BRAND}.jpg
+                else
+                    imgtool --fb=0 --fill=0,0,0
+                    fbwrite "Unable to download the Chumby Control Panel...       Please restart your chumby to try again.  If the     problem persists, please contact customer support by emailing: support@chumby.com"
+                fi
+		cat
+                exit
+            fi
+
+			if [ -f /tmp/cp_path ]; then
+        			CP_PATH=`cat /tmp/cp_path`
+        			if [ -e $CP_PATH ]; then
+					CP=$CP_PATH
+				else
+					CP=$DEFAULT_CP
+					BUILTIN=1
+				fi
+			else
+        			CP=$DEFAULT_CP
+				BUILTIN=1
+			fi
+		fi
+	fi
+fi
+
+if [ "$BUILTIN" -eq "1" ]; then
+	FP_QUIT=1
+	CP_ARGS=$CP_ARGS" -dbuiltin=1"
+fi
+
+if [ "$ALTERNATE" -eq "1" ]; then
+    CP_ARGS=$CP_ARGS" -dalternate=1"
+fi
+
+if [ "$FP_QUIT" -eq "1" ]; then
+	CP_ARGS=$CP_ARGS" -Q"
+fi
+
+if [ "x${CNPLATFORM}" = "xsilvermoon" ]; then
+	CP_ARGS=$CP_ARGS" --MaxLocalMemBlocksSlave=384"
+fi
+
+# set both frame buffers to black
+imgtool --fb=0 --fill=0,0,0
+imgtool --fb=1 --fill=0,0,0
+
+# Am I attached to console?
+logger "Starting $0"
+MYPID=$$
+# ls -l may complain about pipe entries which appear temporarily
+MYSTDIN=$(ls -l /proc/${MYPID}/fd 2>/dev/null | awk '/ 0 -> / {print $11;}')
+FPREDIR=0
+# Check for stdin being attached to something - stdout and stderr may be redirected
+case ${MYSTDIN}x in
+  /dev/tty*|/dev/pts/*|/dev/consolex) ;;
+  /dev/nullx) ;;
+  *) FPREDIR=1 ;;
+esac
+
+logger "$0 pid $$ starting flashplayer with -i $CP $CP_ARGS stdin=${MYSTDIN} redir=${FPREDIR}"
+
+# Clear any previous control panel and flashplayer heartbeats
+# Reset to current time to give enough time for CP to start up
+echo 1 >/tmp/flashheartbeat
+echo 1 >/tmp/movieheartbeat
+
+# enable flashplayer watchdog
+echo 1 >/tmp/flashplayer_started
+
+# start resident portion of btplay
+echo "Starting btplay daemon"
+/usr/sbin/btplayd >/dev/null 2>&1 &
+
+# Redirection may be needed to force valid file handles
+# to work around problems with busybox shell inadvertently sharing handles.
+if [ ${FPREDIR} = 1 ]
+then
+  /usr/bin/chumbyflashplayer.x -i $CP $CP_ARGS </dev/null >/dev/null 2>/dev/null
+else
+  /usr/bin/chumbyflashplayer.x -i $CP $CP_ARGS
+fi
+switch_fb.sh 0
+FP_EXIT_CODE=$?
+logger -s "$0[$$]: chumbyflashplayer.x process exited with: $FP_EXIT_CODE"
+
+# check the error code and restart start_control_panel if there was an error
+if [ "$FP_EXIT_CODE" -ne "0" ]; then
+    if [ "$FP_EXIT_CODE" -eq "255" ]; then
+        # flashplayer exited with a SIGILL, exit without removing flashplayer_started
+        # flag, because the parent process/shell will be terminated by the kernel
+	logger "flashplayer exited with $FP_EXIT_CODE - using --keepalive option"
+        stop_control_panel --keepalive
+        exit 1
+    fi
+
+    FP_QUIT=1
+fi
+
+if [ $FP_QUIT -eq "1" -a ! -f /tmp/flashplayer_stopping -a ! -f /tmp/run_script_once.busy -a ! -x /tmp/flashplayer_notrunning_once ]; then
+	# if the flashplayer was configured to quit, recursively start this script
+	# again to load with the downloaded control panel unless flashplayer is
+	# in the process of shutting down or there is a run-once script specified
+
+	$SCRIPT_DIR/start_control_panel &
+fi

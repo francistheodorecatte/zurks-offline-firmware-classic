@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stations offset="0" total="2" limit="2000">
+<station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=PHOENIX-AZ&affiliate=kyot-fm&market=PHOENIX-AZ&format=ACRHYTHMIC&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KYOT-FM</callletters> 
+                <call_letters>KYOT-FM</call_letters> 
+                <description><![CDATA[The Valley's Old School]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/kyot_logo_1_1316539063.png</logo_url> 
+                <name><![CDATA[Eva 95.5]]></name> 
+                <stationid>14866</stationid> 
+                <station_id>14866</station_id> 
+                <station_url>www.eva955.com</station_url> 
+                <stream_url_v2>http://kyot-fm.akacast.akamaistream.net/7/265/19756/v1/auth.akacast.akamaistream.net/kyot-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1132.l1975631131.c19756.n.lq.akamaistream.net:554/D/1132/19756/v0001/reflector:31131.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=RIVERSIDE-CA&affiliate=kmyt-fm&market=RIVERSIDE-CA&format=SMOOTHJAZZ&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KMYT-FM</callletters> 
+                <call_letters>KMYT-FM</call_letters> 
+                <description><![CDATA[Temecula's Smooth Jazz]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/935/2010/11/default/IHR_kmyt_1290554695.png</logo_url> 
+                <name><![CDATA[KMYT]]></name> 
+                <stationid>935</stationid> 
+                <station_id>935</station_id> 
+                <station_url>www.kmyt945.com</station_url> 
+                <stream_url_v2>http://kmyt-fm.akacast.akamaistream.net/7/977/20796/v1/auth.akacast.akamaistream.net/kmyt-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station></stations>

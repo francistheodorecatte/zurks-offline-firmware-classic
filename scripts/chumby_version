@@ -1,0 +1,177 @@
+#!/usr/bin/perl
+#
+# chumby_version - displays the software, firmware and hardware versions
+#
+# Ken Steele
+# Copyright (c) Chumby Industries, 2007-2008
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+require "/etc/hwconfig.pl";
+
+main();
+
+sub main
+{
+    if( $ARGV[0] eq "-s" )
+    {
+        print_sw_version();
+    }
+    elsif( $ARGV[0] eq "-f" )
+    {
+        print_fw_version();
+    }
+    elsif( $ARGV[0] eq "-h" )
+    {
+        print_hw_version();
+    }
+    elsif( $ARGV[0] eq "-n" )
+    {
+        print_hw_serial();
+    }
+    elsif( $ARGV[0] eq "-t" )
+    {
+        print_hw_time();
+    }
+    elsif( $ARGV[0] eq "--rfs1" )
+    {
+        print_rfs_hash( "Root Disk1" );
+    }
+    elsif( $ARGV[0] eq "--rfs2" )
+    {
+        print_rfs_hash( "Root Disk2" );
+    }
+    else
+    {
+        print "syntax: $0 [-s -f -h -n -t]\n\t-s\t- display software version\n\t-f\t- display firmware build number\n\t-h\t- display hardware version number\n\t-n\t- display hardware serial number\n\t-t\t- display hardware time since last crypto processor power cycle\n\t--rfs1\t- display RFS1 md5sum\n\t--rfs2\t- display RFS2 md5sum\n";
+    }
+}
+
+sub print_sw_version
+{
+    print `cat /etc/software_version`;
+}
+
+sub print_fw_version
+{
+    print `cat /etc/firmware_build`;
+}
+
+sub print_hw_version
+{
+	if ($HAS_CRYPTO == 0)
+	{
+		print "3.8\n";
+		return;
+	}
+    my $query = <<END;
+<?xml version='1.0'?>
+<cpi version='1.0'>
+  <query_list>
+    <query type="hwvr"></query>
+  </query_list>
+</cpi>
+END
+
+    open( F, ">/tmp/query_hwvr.xml" );
+    print F $query;
+    close( F );
+
+    my $response = `/usr/chumby/scripts/cpi.sh -r /tmp/query_hwvr.xml -o|grep "</response>"`;
+    chomp( $response );
+
+    my $minor = substr( $response, 67, 2 );
+    my $major = substr( $response, 69, 2 );
+
+    print hex( $major ) . "." . hex( $minor ) . "\n";
+}
+
+sub print_hw_serial
+{
+	if ($HAS_CRYPTO == 0)
+	{
+		print "7600038\n";
+		return;
+	}
+
+    my $query = <<END;
+<?xml version='1.0'?>
+<cpi version='1.0'>
+  <query_list>
+    <query type="snum"></query>
+  </query_list>
+</cpi>
+END
+
+    open( F, ">/tmp/query_snum.xml" );
+    print F $query;
+    close( F );
+
+    my $response = `/usr/chumby/scripts/cpi.sh -r /tmp/query_snum.xml -o|grep "</response>"`;
+    chomp( $response );
+
+    $response =~ m/>(.*?)</;
+    my $snum = $1;
+
+    $snum =~ s/^0+//;
+
+    print "$snum\n";
+}
+
+sub print_hw_time
+{
+	if ($HAS_CRYPTO == 0)
+	{
+		print "0\n";
+		return;
+	}
+
+    my $query = <<END;
+<?xml version='1.0'?>
+<cpi version='1.0'>
+  <query_list>
+    <query type="time"></query>
+  </query_list>
+</cpi>
+END
+
+    open( F, ">/tmp/query_time.xml" );
+    print F $query;
+    close( F );
+
+    my $response = `/usr/chumby/scripts/cpi.sh -r /tmp/query_time.xml -o|grep "</response>"`;
+    chomp( $response );
+
+    $response =~ m/>(.*?)</;
+    my $time = $1;
+
+    print "$time\n";
+}
+
+sub print_rfs_hash
+{
+    my ( $rfs ) = @_;
+
+    my $mtdTable = `cat /proc/mtd`;
+
+    $mtdTable =~ m/(mtd\d+):\s+\d+\s+\d+\s+"$rfs"/;
+
+    my $mtd = "/dev/$1";
+
+    my $md5 = `/bin/nanddump -o -b $mtd 2>/dev/null |md5sum`;
+    $md5 =~ s/\s+-\s+//;
+    print "$md5\n";
+}
+

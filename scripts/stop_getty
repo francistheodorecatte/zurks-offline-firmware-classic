@@ -1,0 +1,36 @@
+#!/bin/sh
+# $Id: stop_getty 4686 2009-03-23 19:41:34Z henry $
+#
+# stop_getty - stop getty activity on /dev/ttyUSB0
+#
+# Henry Groover
+# Copyright (c) Chumby Industries, 2008
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+if [ "$1" = "" ]
+then
+  PORT=ttyUSB0
+else
+  PORT=$1
+fi
+
+# init will immediately respawn, so prevent activity on specified port
+echo 1 >/tmp/${PORT}.nogetty
+
+for i in $(pidof getty) $(pidof gettywrap)
+do
+	kill $i
+done

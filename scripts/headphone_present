@@ -1,0 +1,15 @@
+#!/usr/bin/perl -w
+
+# Target string:
+#Value at 0x80018600: 0xeca80900
+# Where the information resides in bit 11.  We just need to read this in
+# and figure out if bit 11 is set.  If it's set, then the headphones are
+# NOT connected.
+my $rawstring = `regutil -r HW_PINCTRL_DIN0`;
+my ($hexstring) = $rawstring =~ /Value at [^:]+: ([a-fA-FxX0-9]+)/;
+my $value = oct($hexstring);
+my $present = !!($value & 0x00000800);
+if($present) {
+    exit(1);
+}
+exit(0);

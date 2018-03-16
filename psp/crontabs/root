@@ -1,0 +1,5 @@
+* * * * * /usr/chumby/scripts/flashplayer_watchdog
+0 3 * * * /usr/chumby/scripts/sync_time.sh
+8 * * * * /psp/alarm2cron/alarm2cron.sh
+6 * * * * /psp/zwapi.sh
+* * * * * sync

@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# Reset port 2, which is where the internal network card lives.
+#hub-ctrl -h 0 -P 2 -p
+#sleep 1
+#hub-ctrl -h 0 -P 2 -p 1
+#sleep 2
+# Now initiate the connection to the network.
+exec start_network

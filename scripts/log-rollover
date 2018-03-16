@@ -1,0 +1,36 @@
+#!/bin/sh
+# $Id: log-rollover 4686 2009-03-23 19:41:34Z henry $
+#
+# log-rollover - roll over /var/log/messages
+# Usually invoked from crontab:
+# 50 2,6,10,14,18,22 * * * /usr/chumby/scripts/log-rollover
+#
+# Henry Groover
+# Copyright (c) Chumby Industries, 2007-2008
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+# Check size - don't bother if under 20k
+LOGSIZE=$(ls -l /var/log/messages|awk '{print $5;}')
+if [ ${LOGSIZE} -lt 20480 ]
+then
+	logger "Log is only ${LOGSIZE} bytes - no rollover under 20k"
+	exit 0
+fi
+
+DATE=$(date +'%Y%m%d-%H%M')
+cat /var/log/messages | gzip - >/tmp/log-${DATE}.gz && echo "$0: Rolled over to /tmp/log-${DATE}" >/var/log/messages
+logger "Log was ${LOGSIZE} bytes, rolled over to /tmp/log-${DATE}"
+

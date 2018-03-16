@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stations offset="0" total="1" limit="2000">
+<station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=ibol-fl&market=NATIONAL&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IBOL-FL</callletters> 
+                <call_letters>IBOL-FL</call_letters> 
+                <description><![CDATA[India's Hottest Hit Mix!]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/13377/2010/11/default/IHR_ibol-fl_1290554650.png</logo_url> 
+                <name><![CDATA[Bollywood & Beyond]]></name> 
+                <stationid>13377</stationid> 
+                <station_id>13377</station_id> 
+                <station_url>ibol-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://ibol-fl.akacast.akamaistream.net/7/302/83440/v1/auth.akacast.akamaistream.net/ibol-fl</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station></stations>

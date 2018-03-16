@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stations offset="0" total="14" limit="2000">
+<station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=icag-fl&market=NATIONAL&format=CHRPOP&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>ICAG-FL</callletters> 
+                <call_letters>ICAG-FL</call_letters> 
+                <description><![CDATA[Christina's inspirations and stories]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/12257/2010/11/default/IHR_icag-fl_1290554650.png</logo_url> 
+                <name><![CDATA[Christina Aguilera Radio]]></name> 
+                <stationid>12257</stationid> 
+                <station_id>12257</station_id> 
+                <station_url>icag-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://christinaaguilera.akacast.akamaistream.net/7/436/61091/v1/auth.akacast.akamaistream.net/christinaaguilera</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=imia-fl&market=NATIONAL&format=SPANISHCONTEMPORARY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IMIA-FL</callletters> 
+                <call_letters>IMIA-FL</call_letters> 
+                <description><![CDATA[Mas Variedad Musical]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/12081/2010/11/default/IHR_imia-fl_1290554651.png</logo_url> 
+                <name><![CDATA[MIA]]></name> 
+                <stationid>12081</stationid> 
+                <station_id>12081</station_id> 
+                <station_url>imia-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://mia.akacast.akamaistream.net/7/418/73701/v1/auth.akacast.akamaistream.net/mia</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=TULSA-OK&affiliate=kizs-fm&market=TULSA-OK&format=SPANISHCONTEMPORARY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KIZS-FM</callletters> 
+                <call_letters>KIZS-FM</call_letters> 
+                <description><![CDATA[Toda tu musica preciosa]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/857/2010/11/default/IHR_kizs_1290554667.png</logo_url> 
+                <name><![CDATA[101.5 La Preciosa]]></name> 
+                <stationid>857</stationid> 
+                <station_id>857</station_id> 
+                <station_url>www.1015lapreciosa.com</station_url> 
+                <stream_url_v2>http://kizs-fm.akacast.akamaistream.net/7/132/20044/v1/auth.akacast.akamaistream.net/kizs-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=MIAMI-FL&affiliate=wmib-fm&market=MIAMI-FL&format=SPANISHCONTEMPORARY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WMIB-FM</callletters> 
+                <call_letters>WMIB-FM</call_letters> 
+                <description><![CDATA[Exitos del los 90, 2000 y hoy]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/08/default/wmib_logo_0_1314288590.png</logo_url> 
+                <name><![CDATA[103.5 Super X - Miami]]></name> 
+                <stationid>1888</stationid> 
+                <station_id>1888</station_id> 
+                <station_url>www.1035superx.com</station_url> 
+                <stream_url_v2>http://wmib-fm.akacast.akamaistream.net/7/636/19850/v1/auth.akacast.akamaistream.net/wmib-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1192.l1985021191.c19850.n.lq.akamaistream.net:554/D/1192/19850/v0001/reflector:21191.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ATLANTA-GA&affiliate=wbzy-fm&market=ATLANTA-GA&format=REGIONALMEXICAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WBZY-FM</callletters> 
+                <call_letters>WBZY-FM</call_letters> 
+                <description><![CDATA[La Mejor Musica Mexicana Desde Atlanta]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/4065/2010/11/default/IHR_wbzy_1290554688.png</logo_url> 
+                <name><![CDATA[El Patron 105.3]]></name> 
+                <stationid>4065</stationid> 
+                <station_id>4065</station_id> 
+                <station_url>www.elpatron1053.com</station_url> 
+                <stream_url_v2>http://wbzy-fm.akacast.akamaistream.net/7/410/19882/v1/auth.akacast.akamaistream.net/wbzy-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a386.l1988230385.c19882.n.lq.akamaistream.net:554/D/386/19882/v0001/reflector:30385.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=CORPUSCHRISTI-TX&affiliate=ksab-fm&market=CORPUSCHRISTI-TX&format=REGIONALMEXICAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KSAB-FM</callletters> 
+                <call_letters>KSAB-FM</call_letters> 
+                <description><![CDATA[Tejano and Proud!]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/992/2010/11/default/IHR_ksab_1290554696.png</logo_url> 
+                <name><![CDATA[KSAB Tejano 99.9]]></name> 
+                <stationid>992</stationid> 
+                <station_id>992</station_id> 
+                <station_url>www.ksabfm.com</station_url> 
+                <stream_url_v2>http://ksab-fm.akacast.akamaistream.net/7/628/45297/v1/auth.akacast.akamaistream.net/ksab-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=MONTEREY-CA&affiliate=kprc-fm&market=MONTEREY-CA&format=SPANISHCONTEMPORARY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KPRC-FM</callletters> 
+                <call_letters>KPRC-FM</call_letters> 
+                <description><![CDATA[La Preciosa Salinas - Monterrey]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://content.clearchannel.com/cc-common/mlib/8169/02/8169_1266428784.png</logo_url> 
+                <name><![CDATA[La Preciosa 100.7 y 100.9]]></name> 
+                <stationid>8577</stationid> 
+                <station_id>8577</station_id> 
+                <station_url>salinas.lapreciosa.com</station_url> 
+                <stream_url_v2>http://kprc-fm.akacast.akamaistream.net/7/492/60821/v1/auth.akacast.akamaistream.net/kprc-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a989.l2009852988.c20098.n.lq.akamaistream.net:554/D/989/20098/v0001/reflector:52988.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=BAKERSFIELD-CA&affiliate=kbfp-fm&market=BAKERSFIELD-CA&format=SPANISHCONTEMPORARY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KBFP-FM</callletters> 
+                <call_letters>KBFP-FM</call_letters> 
+                <description><![CDATA[La Preciosa 105.3]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2155/2010/11/default/IHR_kbfp_1290554697.png</logo_url> 
+                <name><![CDATA[La Preciosa 105.3]]></name> 
+                <stationid>2155</stationid> 
+                <station_id>2155</station_id> 
+                <station_url>www.lapreciosa1053.com</station_url> 
+                <stream_url_v2>http://kbfp-fm.akacast.akamaistream.net/7/369/52427/v1/auth.akacast.akamaistream.net/kbfp-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=FRESNO-CA&affiliate=kfso-fm&market=FRESNO-CA&format=SPANISHCONTEMPORARY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KFSO-FM</callletters> 
+                <call_letters>KFSO-FM</call_letters> 
+                <description><![CDATA[La Preciosa Fresno Visalia]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/807/2010/11/default/IHR_kfso_1290554696.png</logo_url> 
+                <name><![CDATA[La Preciosa 92.9]]></name> 
+                <stationid>807</stationid> 
+                <station_id>807</station_id> 
+                <station_url>www.lapreciosa929.com</station_url> 
+                <stream_url_v2>http://kfso-fm.akacast.akamaistream.net/7/572/35476/v1/auth.akacast.akamaistream.net/kfso-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=MIAMI-FL&affiliate=wmge-fm&market=MIAMI-FL&format=SPANISHCONTEMPORARY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WMGE-FM</callletters> 
+                <call_letters>WMGE-FM</call_letters> 
+                <description><![CDATA[El Sonido Joven De Miami]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/07/default/wmge_mobile_logo_1_1310127585.png</logo_url> 
+                <name><![CDATA[MEGA 94.9]]></name> 
+                <stationid>3289</stationid> 
+                <station_id>3289</station_id> 
+                <station_url>www.mega949.com</station_url> 
+                <stream_url_v2>http://wmge-fm.akacast.akamaistream.net/7/766/19849/v1/auth.akacast.akamaistream.net/wmge-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1194.l1984921193.c19849.n.lq.akamaistream.net:554/D/1194/19849/v0001/reflector:21193.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=CHICAGO-IL&affiliate=wnua-fm&market=CHICAGO-IL&format=SPANISHCONTEMPORARY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WNUA-FM</callletters> 
+                <call_letters>WNUA-FM</call_letters> 
+                <description><![CDATA[Exitos con Amor en Chicago]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1929/2010/11/default/IHR_wnua_1290554699.png</logo_url> 
+                <name><![CDATA[Mega 95.5]]></name> 
+                <stationid>1929</stationid> 
+                <station_id>1929</station_id> 
+                <station_url>www.mega955.com</station_url> 
+                <stream_url_v2>http://wnua-fm.akacast.akamaistream.net/7/511/19893/v1/auth.akacast.akamaistream.net/wnua-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1450.l1989341449.c19893.n.lq.akamaistream.net:554/D/1450/19893/v0001/reflector:41449.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ORLANDO-FL&affiliate=wrum-fm&market=ORLANDO-FL&format=SPANISHCONTEMPORARY&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WRUM-FM</callletters> 
+                <call_letters>WRUM-FM</call_letters> 
+                <description><![CDATA[Orgullo Latino - Orlando, FL]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1994/2010/11/default/IHR_wrum_1290554745.png</logo_url> 
+                <name><![CDATA[Rumba 100.3]]></name> 
+                <stationid>1994</stationid> 
+                <station_id>1994</station_id> 
+                <station_url>www.rumba100.com</station_url> 
+                <stream_url_v2>http://wrum-fm.akacast.akamaistream.net/7/737/19856/v1/auth.akacast.akamaistream.net/wrum-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a290.l1985630289.c19856.n.lq.akamaistream.net:554/D/290/19856/v0001/reflector:30289.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=PHILADELPHIA-PA&affiliate=wuba-am&market=PHILADELPHIA-PA&format=TROPICAL&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WUBA-AM</callletters> 
+                <call_letters>WUBA-AM</call_letters> 
+                <description><![CDATA[The Soul of Philadelphia]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/11/default/wdas-am_logo_0_1321992600.png</logo_url> 
+                <name><![CDATA[WDAS-AM 1480]]></name> 
+                <stationid>3946</stationid> 
+                <station_id>3946</station_id> 
+                <station_url>www.wdasam.com</station_url> 
+                <stream_url_v2>http://wuba-am.akacast.akamaistream.net/7/177/20054/v1/auth.akacast.akamaistream.net/wuba-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a554.l2005430553.c20054.n.lq.akamaistream.net:554/D/554/20054/v0001/reflector:30553.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=TUCSON-AZ&affiliate=kxew-am&market=TUCSON-AZ&format=REGIONALMEXICAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KXEW-AM</callletters> 
+                <call_letters>KXEW-AM</call_letters> 
+                <description><![CDATA[Tucson’s Tejano Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/723/2010/11/default/IHR_kxew-am_1290554749.png</logo_url> 
+                <name><![CDATA[Tejano 1600]]></name> 
+                <stationid>723</stationid> 
+                <station_id>723</station_id> 
+                <station_url>www.tejano1600.com</station_url> 
+                <stream_url_v2>http://kxew-am.akacast.akamaistream.net/7/644/33396/v1/auth.akacast.akamaistream.net/kxew-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1665.l3339643664.c33396.g.lq.akamaistream.net:554/D/1665/33396/v0001/reflector:43664.sdp</stream_url_rtsp> 
+        </station></stations>

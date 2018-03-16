@@ -1,0 +1,55 @@
+#!/bin/sh
+# kill the built-in web server
+killall httpd
+# create the log directory
+mkdir /tmp/logs
+rm -f /mnt/usb/tmp/*
+# start lighttpd
+LD_LIBRARY_PATH=/mnt/usb/lighty/lib /mnt/usb/lighty/sbin/lighttpd -f /mnt/usb/lighty/lighttpd.conf >/mnt/usb/tmp/write.ok
+if [ -f /mnt/usb/autoreboot.on ]; then
+/mnt/usb/TalkingChumby/flite_cmu_us_kal16 -t "Welcome to Zurk's Chumby Classic Offline Firmware v 21"
+else
+# rebind /scripts  for /usr/chumby/scripts.  disable the networking scripts as required.
+#/usr/bin/iwconfig wlan0 mode Ad-Hoc essid chumbynet key AAAA-1111-22 2>&1 >> /mnt/usb/ifconfig.log
+#/sbin/ifconfig wlan0 192.168.2.2 netmask 255.255.255.0 broadcast 192.168.2.255  2>&1 >> /mnt/usb/ifconfig.log
+#/sbin/ifconfig wlan0 up 2>&1 >> /mnt/usb/ifconfig.log
+#/sbin/ifconfig  2>&1 >> /mnt/usb/ifconfig.log
+#mkdir /mnt/usb/tmp
+#cp -r /tmp /mnt/usb/tmp
+#sync
+mount /mnt/usb/scripts -o bind /usr/chumby/scripts
+sync
+/mnt/usb/TalkingChumby/flite_cmu_us_kal16 -t "Welcome to Zurk's Chumby Classic Offline Firmware v 21 in networkless mode"
+fi
+if [ -f /mnt/usb/tmp/write.ok ]; then
+sync
+else
+/mnt/usb/TalkingChumby/flite_cmu_us_kal16 -t "Error the U S B disk is read only"
+fi
+if [ -f /mnt/usb/clearsshpwd.on ]; then
+mount -oremount,rw /
+echo root: | /usr/sbin/chpasswd
+mount -oremount,ro /
+rm -f /mnt/usb/clearsshpwd.on
+else
+sync
+fi
+if [ -f /mnt/usb/dlna.on ]; then
+cp /mnt/usb/dlna.on /tmp/dlna.on
+else
+sync
+fi
+if [ -f /mnt/usb/swapfile.on ]; then
+rm -f /mnt/storage/.swap
+rm -f /mnt/usb/swapfile.on
+/mnt/usb/TalkingChumby/flite_cmu_us_kal16 -t "Building the 512 MegaByte swapfile"
+dd if=/dev/zero of=/mnt/storage/.swap bs=1 count=0 seek=512M
+/mnt/usb/TalkingChumby/flite_cmu_us_kal16 -t "Making the swapfile"
+mkswap /mnt/storage/.swap
+/mnt/usb/TalkingChumby/flite_cmu_us_kal16 -t "Swapfile built O K"
+else
+sync
+fi
+cp /mnt/usb/www/gif.swf /tmp
+/usr/chumby/scripts/fb_cgi.sh
+

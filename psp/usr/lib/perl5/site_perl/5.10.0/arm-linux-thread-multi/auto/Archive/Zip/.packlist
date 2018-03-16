@@ -1,0 +1,14 @@
+/psp/usr/bin/crc32
+/psp/usr/lib/perl5/site_perl/5.10.0/Archive/Zip.pm
+/psp/usr/lib/perl5/site_perl/5.10.0/Archive/Zip/Archive.pm
+/psp/usr/lib/perl5/site_perl/5.10.0/Archive/Zip/BufferedFileHandle.pm
+/psp/usr/lib/perl5/site_perl/5.10.0/Archive/Zip/DirectoryMember.pm
+/psp/usr/lib/perl5/site_perl/5.10.0/Archive/Zip/FAQ.pod
+/psp/usr/lib/perl5/site_perl/5.10.0/Archive/Zip/FileMember.pm
+/psp/usr/lib/perl5/site_perl/5.10.0/Archive/Zip/Member.pm
+/psp/usr/lib/perl5/site_perl/5.10.0/Archive/Zip/MemberRead.pm
+/psp/usr/lib/perl5/site_perl/5.10.0/Archive/Zip/MockFileHandle.pm
+/psp/usr/lib/perl5/site_perl/5.10.0/Archive/Zip/NewFileMember.pm
+/psp/usr/lib/perl5/site_perl/5.10.0/Archive/Zip/StringMember.pm
+/psp/usr/lib/perl5/site_perl/5.10.0/Archive/Zip/Tree.pm
+/psp/usr/lib/perl5/site_perl/5.10.0/Archive/Zip/ZipFileMember.pm

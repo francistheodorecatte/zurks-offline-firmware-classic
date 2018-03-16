@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stations offset="0" total="7" limit="200">
+<station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=iwez-fl&market=NATIONAL&format=ROCKALTERNATIVE&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IWEZ-FL</callletters> 
+                <call_letters>IWEZ-FL</call_letters> 
+                <description><![CDATA[Weez in charge now]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/12263/2010/11/default/IHR_iwez_1290554651.png</logo_url> 
+                <name><![CDATA[Radio Weezer]]></name> 
+                <stationid>12263</stationid> 
+                <station_id>12263</station_id> 
+                <station_url>iwez-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://weezer.akacast.akamaistream.net/7/871/61097/v1/auth.akacast.akamaistream.net/weezer</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=icbg-fl&market=NATIONAL&format=ROCK&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>ICBG-FL</callletters> 
+                <call_letters>ICBG-FL</call_letters> 
+                <description><![CDATA[The Home of Underground Rock]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://content.clearchannel.com/cc-common/mlib/8169/01/8169_1264136412.png</logo_url> 
+                <name><![CDATA[CBGB Radio]]></name> 
+                <stationid>13741</stationid> 
+                <station_id>13741</station_id> 
+                <station_url>icbg-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://icbg-fl.akacast.akamaistream.net/7/847/84267/v1/auth.akacast.akamaistream.net/icbg-fl</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a557.l8426754556.c84267.g.lq.akamaistream.net:554/D/557/84267/v0001/reflector:54556.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ROCHESTER-NY&affiliate=wdvi-fm&market=ROCHESTER-NY&format=AAA&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WDVI-FM</callletters> 
+                <call_letters>WDVI-FM</call_letters> 
+                <description><![CDATA[Rochester's WDVI. Listen.Different.]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/3860/2010/11/default/IHR_wdvi_1290554666.png</logo_url> 
+                <name><![CDATA[100.5 The Drive]]></name> 
+                <stationid>3860</stationid> 
+                <station_id>3860</station_id> 
+                <station_url>www.mydrivefm.com</station_url> 
+                <stream_url_v2>http://wdvi-fm.akacast.akamaistream.net/7/111/20816/v1/auth.akacast.akamaistream.net/wdvi-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a586.l2081648585.c20816.n.lq.akamaistream.net:554/D/586/20816/v0001/reflector:48585.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=DENVER-CO&affiliate=kbco-fm&market=DENVER-CO&format=AAA&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KBCO-FM</callletters> 
+                <call_letters>KBCO-FM</call_letters> 
+                <description><![CDATA[World Class Rock]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/kbco_logo_1_1316712130.png</logo_url> 
+                <name><![CDATA[97.3 KBCO]]></name> 
+                <stationid>747</stationid> 
+                <station_id>747</station_id> 
+                <station_url>www.kbco.com</station_url> 
+                <stream_url_v2>http://kbco-fm.akacast.akamaistream.net/7/983/19809/v1/auth.akacast.akamaistream.net/kbco-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=MINNEAPOLIS-MN&affiliate=ktcz-fm&market=MINNEAPOLIS-MN&format=AAA&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KTCZ-FM</callletters> 
+                <call_letters>KTCZ-FM</call_letters> 
+                <description><![CDATA[Mpls/St.Paul-Adult Album Alternative]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1022/2010/11/default/IHR_ktcz_1290554686.png</logo_url> 
+                <name><![CDATA[Cities 97]]></name> 
+                <stationid>1022</stationid> 
+                <station_id>1022</station_id> 
+                <station_url>www.cities97.com</station_url> 
+                <stream_url_v2>http://ktcz-fm.akacast.akamaistream.net/7/724/19940/v1/auth.akacast.akamaistream.net/ktcz-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SALTLAKECITY-UT&affiliate=kjmy-fm&market=SALTLAKECITY-UT&format=AAA&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KJMY-FM</callletters> 
+                <call_letters>KJMY-FM</call_letters> 
+                <description><![CDATA[More Music. More Variety.]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/kjmy_logo_1_1317298590.png</logo_url> 
+                <name><![CDATA[My 99.5 FM]]></name> 
+                <stationid>861</stationid> 
+                <station_id>861</station_id> 
+                <station_url>www.my995fm.com</station_url> 
+                <stream_url_v2>http://kjmy-fm.akacast.akamaistream.net/7/635/20114/v1/auth.akacast.akamaistream.net/kjmy-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1581.l2011455580.c20114.n.lq.akamaistream.net:554/D/1581/20114/v0001/reflector:55580.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=OKLAHOMACITY-OK&affiliate=kjyo-fm&market=OKLAHOMACITY-OK&format=AAA&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KJYO-FM</callletters> 
+                <call_letters>KJYO-FM</call_letters> 
+                <description><![CDATA[OKC'S #1 For Today's Best Music!]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/864/2010/11/default/IHR_kjyo_1290554695.png</logo_url> 
+                <name><![CDATA[KJ103]]></name> 
+                <stationid>864</stationid> 
+                <station_id>864</station_id> 
+                <station_url>www.kj103fm.com</station_url> 
+                <stream_url_v2>http://kjyo-fm.akacast.akamaistream.net/7/968/20039/v1/auth.akacast.akamaistream.net/kjyo-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a804.l2003950803.c20039.n.lq.akamaistream.net:554/D/804/20039/v0001/reflector:50803.sdp</stream_url_rtsp> 
+        </station></stations>

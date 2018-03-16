@@ -1,0 +1,82 @@
+#!/bin/bash
+#
+# Create converts all images in media/images to 320x240 JPEGs in media/images-320x240.
+#
+dir="$(dirname $0)"
+dir="$(cd "$dir/.." && /bin/pwd)"
+
+w=320
+h=240
+wxh="${w}x${h}"
+
+src_dir="$dir/media/image"
+dst_dir="$src_dir-$wxh"
+
+if [ ! -d "$src_dir" ]
+then
+  echo "src_dir $src_dir does not exist" 1>&2
+  exit 1
+fi
+
+rotate_=
+rotate_1=
+rotate_2=-lr
+rotate_3=-r180
+rotate_4="-lr -tb"
+rotate_5="-cw -lr"
+rotate_6="-cw"
+rotate_7="-ccw -lr"
+rotate_8="-ccw"
+
+mkdir -p "$dst_dir"
+
+for suffix in jpg JPG png PNG
+do
+
+  for file in `cd $src_dir && ls *.$suffix 2>/dev/null`
+  do
+    src_file="$src_dir/$file"
+    dst_file="$dst_dir/$(basename $file .$suffix)-${wxh}.jpg"
+    
+    if [ ! -e "$dst_file" -o ! -s "$dst_file" -o "$dst_file" -ot "$src_file" ]
+    then
+      echo "$(basename $src_file) => $(basename $dst_file)" 1>&2
+      echo "$(basename $src_file) => $(basename $dst_file)" 1>&2
+
+      # Handle EXIF orientation after anytopmn.
+      rotate=
+      case "$src"
+      in
+        *.jpg|*.JPG)
+          o="$(jpegexiforient $src_file)"
+          eval rotate="\$rotate_${o}"
+        ;;
+      esac
+
+      anytopnm "$src_file" 2>/dev/null | 
+      pnmflip $rotate | 
+      pnmscale -xysize $w $h | 
+      pnmpad -width=$w -height=$h | 
+      pnmtojpeg --quality=100 > "$dst_file"
+    fi
+
+  done # file
+
+done # suffix
+
+(
+  echo '<images>'
+
+  for suffix in jpg JPG png PNG
+  do
+
+    for file in `cd $dst_dir && ls *.$suffix 2>/dev/null`
+    do
+      echo "  <image filename=\"$file\" />" 
+    done # file
+
+  done # suffix
+
+  echo '</images>'
+) > "$dst_dir"/images.xml
+

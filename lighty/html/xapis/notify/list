@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notifications count="1" timestamp="1336361394">
+<notification type="Chumby" id="99999">
+  <from>Zurk &lt;zurk&gt;</from>
+  <to>Chumby8</to>
+  <date>Mon May 07 03:26:01 +0000 2012</date>
+  <message>
+    <chumby action="update" id="1">
+      <detail name="Chumby8"/>
+    </chumby>
+  </message>
+</notification>
+</notifications>

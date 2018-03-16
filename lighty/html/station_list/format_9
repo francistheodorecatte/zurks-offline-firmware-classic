@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stations offset="0" total="1" limit="2000">
+<station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=HONOLULU-HI&affiliate=kdnn-fm&market=HONOLULU-HI&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KDNN-FM</callletters> 
+                <call_letters>KDNN-FM</call_letters> 
+                <description><![CDATA[Hawaiian Style & Reggae]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/783/2010/11/default/IHR_kdnn_1290554691.png</logo_url> 
+                <name><![CDATA[ISLAND 98.5]]></name> 
+                <stationid>783</stationid> 
+                <station_id>783</station_id> 
+                <station_url>www.island985.com</station_url> 
+                <stream_url_v2>http://kdnn-fm.akacast.akamaistream.net/7/568/21438/v1/auth.akacast.akamaistream.net/kdnn-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a997.l2143830996.c21438.n.lq.akamaistream.net:554/D/997/21438/v0001/reflector:30996.sdp</stream_url_rtsp> 
+        </station></stations>

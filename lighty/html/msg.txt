@@ -1,0 +1,6 @@
+Zurk's Offline Firmware
+
+Customize this message at 
+http://ip.of.chumby/cgi-bin/
+message.sh?whatever
+

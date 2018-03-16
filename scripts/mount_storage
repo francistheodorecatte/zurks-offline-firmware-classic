@@ -1,0 +1,44 @@
+#!/bin/sh
+# $Id: mount_storage 16262 2009-08-28 12:37:22Z henry $
+# mount_storage - mount cache or storage as yaffs2, creating mount points if needed
+
+[ "$1" = "" ] && {
+	echo "$0 - no partition specified, e.g. cache"
+	exit 1
+}
+
+[ -f /tmp/$1_mounted ] && exit 0
+
+# If cache, check for virtualization
+[ "$1" = "cache" ] && /usr/chumby/scripts/is_cache_virtualized && {
+	echo -n "Mounting virtualized /mnt/cache"
+	rm -f /mnt/cache
+	ln -s /mnt/storage/cache /mnt/cache
+	mkdir -p /mnt/storage/cache
+	touch /tmp/$1_mounted
+	echo "OK"
+	exit 0
+}
+
+[ -d /mnt/$1 ] || { echo "Creating mount point for $1"; mkdir /mnt/$1; }
+
+echo -n "Mounting: [$1] "
+if is_esd
+then
+	# eSD boot
+	# FIXME - we need to check for an unitialized fs here and possibly run mkfs.ext3
+	mount -t ext3 -o noatime,nodiratime /dev/mmcblk0p4 /mnt/$1 || {
+		echo "ERROR: failed to mount eSD $1"
+		exit 1
+	}
+else
+	# Attempt to mount using yaffs2
+	mount -t yaffs2 /dev/mtdparts/mtdblock_$1 /mnt/$1 || {
+		echo "ERROR: failed to mount $1"
+		exit 1
+	}
+fi
+
+echo "OK"
+
+touch /tmp/$1_mounted

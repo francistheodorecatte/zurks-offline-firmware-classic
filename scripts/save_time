@@ -1,0 +1,84 @@
+#!/usr/bin/perl -w
+#
+# save_time - store the current crypto processor's uptime and seconds
+#             from epoch in /psp
+#
+# Ken Steele
+# Copyright (c) Chumby Industries, 2007-2008
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+# The cryptoprocessor can only keep track of its uptime.  We cannot send
+# it a new time.
+# Therefore, when we "save the time", we're really saving its uptime, and
+# how that translates to the real Unix time.
+
+main();
+
+sub main
+{
+	if(!$ENV{'HAS_CP'}) {
+		print "no cryptoprocessor - cannot save time.\n";
+		return;
+	}
+
+	if($ENV{'CNPLATFORM'} eq "falconwing") {
+		system("hwclock -w -u");
+	}
+	else {
+		write_ifdate();
+	}
+}
+
+sub get_cp_time {
+    my $query = <<END;
+<?xml version='1.0'?>
+<cpi version='1.0'>
+  <query_list>
+    <query type="time"></query>
+  </query_list>
+</cpi>
+END
+
+    open(my $f, '>', "/tmp/query_time.xml" )
+        or die("Couldn't open /tmp/query_time.xml: $!");
+    print $f $query;
+    close($f);
+
+    my $response;
+    open(my $r, '-|', '/usr/chumby/scripts/cpi.sh -r /tmp/query_time.xml -o')
+        or die("Couldn't open cpi.sh: $!");;
+    while($response=<$r>) {
+        chomp $response;
+        last if $response =~ /<\/response/;
+    }
+    close($r);
+
+    my ($cp_time_now) = $response =~ m/(\d+)<\/response/;
+
+    return $cp_time_now;
+}
+
+sub write_ifdate {
+    my $cp_time = get_cp_time();
+    
+    open(my $f, '>', "/psp/cp_offset");
+    print $f time - $cp_time;
+    close($f);
+    
+    open(my $g, '>', "/psp/cp_time");
+    print $g $cp_time;
+    close($g);
+}

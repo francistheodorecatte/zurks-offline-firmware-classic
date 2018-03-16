@@ -1,0 +1,44 @@
+#
+# Chumby ALSA config file
+#
+# This file's natural home is in /etc/asound.conf or ~/.asoundrc
+#
+
+pcm.!default {
+    type plug;
+    slave.pcm chumix;
+}
+ctl.!default chumix;
+
+
+pcm.chumix {
+    type asym;
+    playback.pcm {
+        type dmix;
+        ipc_key 2048;
+        slave {
+            pcm {
+                type hw;
+                card 0;
+            }
+            period_time 0;
+            period_size 8192;
+            buffer_size 16384;
+            rate 44100;
+            channels 2;
+        }
+        bindings {
+            0 0;
+            1 1;
+        }
+    }
+    capture.pcm {
+        type hw;
+        card 0;
+    }
+}
+
+ctl.chumix {
+    type hw;
+    card 0;
+}

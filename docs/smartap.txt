@@ -1,0 +1,95 @@
+touch /psp/start_ap
+
+Enable root read/write:
+ 
+   mount -o remount,rw /
+
+Make a backup copy of the original ap startup script:
+
+   cp /usr/chumby/scripts/start_ap.sh /usr/chumby/scripts/start_ap.sh.org
+
+Modify the attached version (looks like I can't attach, so you'll have to copy into a file) of start_ap.sh by setting your desired SSID to replace "MY_SSID" and your desired WPA key to replace "MY_WPA_KEY".
+
+Copy the modified version in as /usr/chumby/scripts/start_ap.sh
+
+   cp [edited version]start_ap.sh /usr/chumby/scripts/start_ap.sh
+
+You could also edit the existing start_ap.sh on the Chumby to add all the changes from the attached file if you wish (though this is not recommended -- and order of directives can be significant in some cases).
+
+Reboot.
+
+This should enable WP2-PSK AES crypto on your Chumby One access point. Normal Chumby functions should continue working as well.
+
+Good luck!
+
+  ----------------------------------------------------
+
+start_ap.sh
+
+-------
+
+#!/bin/sh
+EXTIF=$(route -n | grep ^0.0.0.0 | awk '{print $8}')
+INTIF=$(ifconfig -a | egrep 'encap:(Ethernet|Point)' | awk '{print $1}' | grep -v ${EXTIF} | head -n 1)
+
+
+# Ensure we have an internal and an external interface.
+if [ "x${INTIF}" = "x" -o "x${INTIF}" = "x" ]
+then
+    echo "Only one interface detected.  Not starting router."
+    exit
+fi
+
+ifconfig ${INTIF} down
+
+# Write the hostapd config file.
+cat > /tmp/hostapd.conf <<EOF
+
+interface=${INTIF}
+driver=nl80211
+logger_syslog=-1
+logger_syslog_level=2
+logger_stdout=-0
+logger_stdout_level=2
+dump_file=/tmp/hostapd.dump
+ctrl_interface=/var/run/hostapd
+ctrl_interface_group=0
+ssid=MY_SSID
+country_code=US
+hw_mode=g
+channel=6
+beacon_int=100
+#dtim_period=2
+macaddr_acl=0
+auth_algs=1
+ignore_broadcast_ssid=0
+eapol_key_index_workaround=0
+eap_server=0
+own_ip_addr=127.0.0.1
+wpa=2
+wpa_passphrase=MY_WPA_KEY
+wpa_key_mgmt=WPA-PSK
+wpa_pairwise=CCMP
+rsn_pairwise=CCMP
+wpa_group_rekey=600
+EOF
+
+
+# Run hostapd, to set up the access point, ifthe internal interface is a
+# wireless card.
+echo ${INTIF} | grep -q ^wlan && hostapd /tmp/hostapd.conf -B
+
+# Bring up the internal wifi interface.
+ifconfig ${INTIF} 10.0.50.1
+
+# Run dnsmasq, which is a combination DNS relay and DHCP server.
+mkdir -p /var/lib/misc
+dnsmasq -i ${INTIF} -F 10.0.50.100,10.0.50.250,15000 -K
+
+# Set up IP forwarding
+iptables -t nat -F
+iptables -t nat -A POSTROUTING -o ${EXTIF} -j MASQUERADE
+echo 1 > /proc/sys/net/ipv4/ip_forward
+
+--------------------------------------------
+

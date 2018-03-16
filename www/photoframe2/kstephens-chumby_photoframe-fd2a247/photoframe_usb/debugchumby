@@ -1,0 +1,9 @@
+#!/bin/sh
+# Bootscript for chumby.
+# Will load any debugchumby.* files.
+for f in $0.*
+do
+  echo "Running $f" 1>&2
+  . "$f"
+done
+

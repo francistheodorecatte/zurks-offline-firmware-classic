@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile id="1">
+  <name>Squeezebox</name>
+  <description/>
+  <user username="offline-user">
+    <profiles>
+      <profile unaccepted="0" name="offline-mode" id="0" />
+      <profile unaccepted="0" name="Squeezebox" id="1" />
+      <profile  unaccepted="0" name="Kitchen Timer" id="2" />
+    </profiles>
+  </user>
+<skin href="/xml/skins/00000000-0000-0000-0000-000000000001" name="Standard" id="00000000-0000-0000-0000-000000000001"/>
+<access access="private" id="1"/>
+  <widget_instances>
+
+    <widget_instance id="998">
+      <name>sbController</name>
+<widget id="99">
+  <name>sbController</name>
+  <description>This widget lets you see details of the current song playing on your Squeezebox. You can also access some rudimentary controls, namely - next (swipe left), previous (swipe right) and pause (tap).
+
+To use this widget, you will also need to install a plugin on your Squeezebox Server in order to allow the widget to access it. Follow the instructions here, under Instructions.
+
+NOTE: While this widget has been enabled for 8-inch devices due to some user requests, this is currently unsupported and will probably look odd.
+
+If you have any issues, please post in this forum thread.</description>
+  <version>1.1</version>
+  <mode mode="timeout" time="300"/>
+        <access sendable="false" deleteable="false" access="private" virtualable="false"/>
+  <user username="samuel337"/>
+  <thumbnail href="file:////mnt/usb/www/40D019C6-29C2-11E0-B411-0021288EC192" contenttype="image/jpeg"/>
+  <template href="file:////mnt/usb/www/8B7527D8-2B83-11E0-9A51-0021288E6F90" contenttype="application/x-shockwave-flash"/>
+  <movie href="file:////mnt/usb/www/40D646B6-29C2-11E0-B411-0021288EC192" contenttype="application/x-shockwave-flash"/>
+  <rating count="5" rating="3.2"/>
+</widget>
+      <access access="private"/>
+      <mode mode="timeout" time="300"/>
+      <widget_parameters>
+<widget_parameter id="99">
+  <name>_private_sbcontroller_address</name>
+  <value>192.168.101.4:9000</value>
+</widget_parameter>
+<widget_parameter id="99">
+  <name>_private_sbcontroller_defaultId</name>
+  <value></value>
+</widget_parameter>
+<widget_parameter id="99">
+  <name>_private_sbcontroller_cauth</name>
+  <value></value>
+</widget_parameter>
+      </widget_parameters>
+      <rating rating="0"/>
+    </widget_instance>
+
+    <widget_instance id="999">
+      <name>sbController</name>
+<widget id="99">
+  <name>sbController</name>
+  <description>This widget lets you see details of the current song playing on your Squeezebox. You can also access some rudimentary controls, namely - next (swipe left), previous (swipe right) and pause (tap).
+
+To use this widget, you will also need to install a plugin on your Squeezebox Server in order to allow the widget to access it. Follow the instructions here, under Instructions.
+
+NOTE: While this widget has been enabled for 8-inch devices due to some user requests, this is currently unsupported and will probably look odd.
+
+If you have any issues, please post in this forum thread.</description>
+  <version>1.1</version>
+  <mode mode="timeout" time="300"/>
+        <access sendable="false" deleteable="false" access="private" virtualable="false"/>
+  <user username="samuel337"/>
+  <thumbnail href="file:////mnt/usb/www/40D019C6-29C2-11E0-B411-0021288EC192" contenttype="image/jpeg"/>
+  <template href="file:////mnt/usb/www/8B7527D8-2B83-11E0-9A51-0021288E6F90" contenttype="application/x-shockwave-flash"/>
+  <movie href="file:////mnt/usb/www/40D646B6-29C2-11E0-B411-0021288EC192" contenttype="application/x-shockwave-flash"/>
+  <rating count="5" rating="3.2"/>
+</widget>
+      <access access="private"/>
+      <mode mode="timeout" time="300"/>
+      <widget_parameters>
+<widget_parameter id="99">
+  <name>_private_sbcontroller_address</name>
+  <value>192.168.101.4:9000</value>
+</widget_parameter>
+<widget_parameter id="99">
+  <name>_private_sbcontroller_defaultId</name>
+  <value></value>
+</widget_parameter>
+<widget_parameter id="99">
+  <name>_private_sbcontroller_cauth</name>
+  <value></value>
+</widget_parameter>
+      </widget_parameters>
+      <rating rating="0"/>
+    </widget_instance>
+  </widget_instances>
+</profile>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>Pitt Meadows, BC Weather from Weather Underground</title>
+	<link>http://www.wunderground.com/</link>
+	<description>Weather Underground RSS Feed for Pitt Meadows, BC CA</description>
+	<language>EN</language>
+        <generator>WU-RSS</generator>
+        <webMaster>support@wunderground.com (Wunderground Support)</webMaster>
+	<category>weather</category>
+        <image>
+                <url>http://icons.wunderground.com/graphics/smash/wunderTransparent.gif</url>
+                <link>http://www.wunderground.com/</link>
+                <title>Pitt Meadows, BC Weather from Weather Underground</title> 
+        </image>
+        <pubDate>Tue, 17 Apr 2012 01:13:00 PDT</pubDate>
+        <lastBuildDate>Tue, 17 Apr 2012 01:13:00 PDT</lastBuildDate>
+	<ttl>5</ttl>
+<item>
+<guid isPermaLink="false">1334650385</guid>
+<title>Current Conditions : 42.1F / 5.6C, Scattered Clouds - 1:13 AM PDT Apr. 17</title>
+<link>http://www.wunderground.com/global/stations/71775.html</link>
+	<description><![CDATA[Temperature: 42.1&deg;F / 5.6&deg;C | Humidity: 28% | Pressure: 30.21in / 1023hPa (Rising) | Conditions: Scattered Clouds | Wind Direction: WNW | Wind Speed: 0.0mph / 0.0km/h<img src="http://server.as5000.com/AS5000/adserver/image?ID=WUND-00071&C=0" width="0" height="0" border="0"/>]]>
+	</description>
+        <pubDate>Tue, 17 Apr 2012 01:13:00 PDT</pubDate>
+</item>
+
+<item>
+<title>Forecast for Monday as of Apr. 16 5:00 PM PDT</title>
+<link>http://www.wunderground.com/global/stations/71775.html</link>
+      <description>
+	Overcast. High:57 &amp;deg; F. / 14 &amp;deg; C.
+      </description>
+      <pubDate>Tue, 17 Apr 2012 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">1334620800-1-day</guid>
+</item>
+<item>
+<title>Forecast for Monday Night as of Apr. 16 5:00 PM PDT</title>
+<link>http://www.wunderground.com/global/stations/71775.html</link>    
+      <description>
+	Overcast. Low:44 &amp;deg; F. / 7 &amp;deg; C.
+      </description>
+      <pubDate>Tue, 17 Apr 2012 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">1334620800-1-night</guid>
+</item>
+<item>
+<title>Forecast for Tuesday as of Apr. 16 5:00 PM PDT</title>
+<link>http://www.wunderground.com/global/stations/71775.html</link>
+      <description>
+	Rain. High:53 &amp;deg; F. / 12 &amp;deg; C.
+      </description>
+      <pubDate>Tue, 17 Apr 2012 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">1334707200-2-day</guid>
+</item>
+<item>
+<title>Forecast for Tuesday Night as of Apr. 16 5:00 PM PDT</title>
+<link>http://www.wunderground.com/global/stations/71775.html</link>    
+      <description>
+	Chance of Rain. Low:39 &amp;deg; F. / 4 &amp;deg; C.
+      </description>
+      <pubDate>Tue, 17 Apr 2012 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">1334707200-2-night</guid>
+</item>
+<item>
+<title>Forecast for Wednesday as of Apr. 16 5:00 PM PDT</title>
+<link>http://www.wunderground.com/global/stations/71775.html</link>
+      <description>
+	Overcast. High:53 &amp;deg; F. / 12 &amp;deg; C.
+      </description>
+      <pubDate>Tue, 17 Apr 2012 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">1334793600-3-day</guid>
+</item>
+<item>
+<title>Forecast for Wednesday Night as of Apr. 16 5:00 PM PDT</title>
+<link>http://www.wunderground.com/global/stations/71775.html</link>    
+      <description>
+	Chance of Rain. Low:41 &amp;deg; F. / 5 &amp;deg; C.
+      </description>
+      <pubDate>Tue, 17 Apr 2012 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">1334793600-3-night</guid>
+</item>
+
+
+
+
+
+
+
+
+
+</channel>
+
+</rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stations offset="0" total="3" limit="200">
+<station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NEWYORK-NY&affiliate=whtz-fm&market=NEWYORK-NY&format=CHRPOP&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WHTZ-FM</callletters> 
+                <call_letters>WHTZ-FM</call_letters> 
+                <description><![CDATA[New York's Hit Music Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1793/2010/11/default/IHR_whtz_1290554758.png</logo_url> 
+                <name><![CDATA[Z100]]></name> 
+                <stationid>1793</stationid> 
+                <station_id>1793</station_id> 
+                <station_url>www.z100.com</station_url> 
+                <stream_url_v2>http://whtz-fm.akacast.akamaistream.net/7/579/19972/v1/auth.akacast.akamaistream.net/whtz-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LOSANGELES-CA&affiliate=kiis-fm&market=LOSANGELES-CA&format=CHRRHYTHMIC&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KIIS-FM</callletters> 
+                <call_letters>KIIS-FM</call_letters> 
+                <description><![CDATA[L.A.'s #1 Hit Music Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/842/2010/11/default/IHR_kiis_1290554669.png</logo_url> 
+                <name><![CDATA[102.7 KIIS-FM]]></name> 
+                <stationid>842</stationid> 
+                <station_id>842</station_id> 
+                <station_url>www.kiisfm.com</station_url> 
+                <stream_url_v2>http://kiis-fm.akacast.akamaistream.net/7/572/19773/v1/auth.akacast.akamaistream.net/kiis-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a995.l1977324994.c19773.n.lq.akamaistream.net:554/D/995/19773/v0001/reflector:24994.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=CHICAGO-IL&affiliate=wgci-fm&market=CHICAGO-IL&format=URBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WGCI-FM</callletters> 
+                <call_letters>WGCI-FM</call_letters> 
+                <description><![CDATA[Chicago's #1 for Hip Hop and R&B]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1773/2010/11/default/IHR_wgci_1290554675.png</logo_url> 
+                <name><![CDATA[107.5 WGCI]]></name> 
+                <stationid>1773</stationid> 
+                <station_id>1773</station_id> 
+                <station_url>www.wgci.com</station_url> 
+                <stream_url_v2>http://wgci-fm.akacast.akamaistream.net/7/145/19889/v1/auth.akacast.akamaistream.net/wgci-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1154.l1988941153.c19889.n.lq.akamaistream.net:554/D/1154/19889/v0001/reflector:41153.sdp</stream_url_rtsp> 
+        </station></stations>

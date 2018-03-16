@@ -1,0 +1,24 @@
+#!/bin/sh
+# $Id: fbwriteln 4686 2009-03-23 19:41:34Z henry $
+# fbwriteln - write to frame buffer at specified origin:0 line
+
+LINE=$1
+[ "${LINE}" = "" ] && { echo "$0: no line number"; exit 1; }
+
+shift
+MSG="$*"
+
+[ "${MSG}" = "" ] && { echo "$0: No msg"; exit 1; }
+[ ${LINE} -lt 0 -o ${LINE} -gt 25 ] && { echo "Line ${LINE} out of range (0:25)"; exit 1; }
+CLINE=0
+BUFF=""
+while [ ${CLINE} -lt ${LINE} ]
+do
+  BUFF="${BUFF}
+"
+  CLINE=$(expr ${CLINE} \+ 1)
+done
+#echo "Lines=${LINE} buff=[${BUFF}]"
+
+fbwrite "${BUFF}${MSG}"
+

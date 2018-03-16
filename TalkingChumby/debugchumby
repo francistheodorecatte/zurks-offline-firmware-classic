@@ -1,0 +1,5 @@
+#!/bin/sh
+cp /mnt/usb/speak /psp/cgi-bin/
+chmod a+x /psp/cgi-bin/speak
+mkdir -p /psp/usr/bin
+tar xvjf /mnt/usb/flite.tar.bz2 -C /psp/usr/bin

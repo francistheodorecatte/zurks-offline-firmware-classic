@@ -1,0 +1,18 @@
+stop_control_panel
+sync
+mount -o remount,rw /
+cp -ir all the files keeping the directory structure intact one directory at a time (careful!).
+cp debugchumbyearly to /psp/rfs1/userhook1
+cp debugchumby to /psp/rfs1/userhook2
+edit the files debugchumby, debugchumbyearly, zwapi.sh making sure all references to /mnt/usb go to a non readonly location like /tmp
+
+edit the file :
+/usr/chumby/scripts/start_control_panel
+and replace /mnt/usb/controlpanel.swf (there are two occurrences) with the full path to wherever you dumped your control panel.
+e.g. /controlpanel.swf
+
+sync
+mount -o remount,ro /
+sync 
+
+

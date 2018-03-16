@@ -1,0 +1,49 @@
+#!/usr/bin/perl
+#
+# wait_for_link - wait for the interface to establish link before proceeding
+#
+# Ken Steele
+# David Burklund
+# (c) Copyright Chumby Industries 2006-2008
+# All rights reserved
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+
+my $script_root = $ENV{CHUMBY_SCRIPTS} || '/usr/chumby/scripts';
+my $iface = `$script_root/network_interface`;
+$iface =~ s/\s+//g;
+
+my $wait = 10;
+
+wait_for_network( $iface, $wait );
+
+#
+# Wait for a valid network interface
+#
+sub wait_for_network
+{
+    my ($iface, $tries) = @_;
+
+    while( $tries-- > 0 )
+    {
+        my $ifcount = `ifconfig $iface | sed -n -e '/127.0.0.1/d' -e '/0.0.0.0/d' -e '/inet/p' | wc -l`;
+        if( $ifcount > 0)
+        {
+            last;
+        }
+        sleep(1);
+    }
+}

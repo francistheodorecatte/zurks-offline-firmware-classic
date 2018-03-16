@@ -1,0 +1,7 @@
+[playlist]
+numberofentries=1
+File1=http://marconi.emerson.edu:8000/wers
+Title1=WERS - Emerson College
+Length1=-1
+Browser1=http://www.wers.org
+Version=2

@@ -1,0 +1,67 @@
+#!/bin/sh
+# $Id$
+# Service control wrapper script
+# Usage:
+# service_control service_name action [args]
+#
+# This just gets the ETC_INIT_DIR value from script_locations.sh then invokes
+# ${ETC_INIT_DIR}/${service_name} action arg-list-file
+# For load and unload actions, first arg is passed separately
+# ${ETC_INIT_DIR}/${service_name} load-unload-action devpath arg-list-file
+
+# Check for debug option
+DBGFLAGS=
+if [ "$1" = "-x" ]
+then
+	set $1
+	DBGFLAGS=$1
+	shift
+fi
+
+# Check for required service name
+if [ "$1" = "" -o "$2" = "" ]
+then
+	echo "Required service name or service action missing"
+	echo "Syntax: $0 [-x] service_name service_action [args]"
+	exit 1
+fi
+
+# Get script locations
+. script_locations.sh
+
+# Get service name
+SERVICE_NAME=$1
+shift
+
+# Get service action
+SERVICE_ACTION=$1
+shift
+
+# Save args, quoted, in temp file
+TMPFILE=/tmp/service_control.$$
+> ${TMPFILE}
+ARGN=1
+# load and unload are a special case
+DEVPATH_VAR=
+if [ "${SERVICE_ACTION}" = "load" -o "${SERVICE_ACTION}" = "unload" ]
+then
+  ARGN=2
+  DEVPATH_VAR=$1
+fi
+while [ ${ARGN} -le $# ]
+do
+  ARGV="$(eval echo "\$${ARGN}")"
+  # Quotes may require stripping in the application that handles
+  # args (such as btplay)
+  echo -n "\"${ARGV}\" " >> ${TMPFILE}
+  ARGN=$(expr ${ARGN} \+ 1)
+done
+
+# Replace current process - apparently this doesn't work with the busybox shell. damn...
+#exec script $@
+# Start service script with additional args in tmp file
+${ETC_INIT_DIR}/${SERVICE_NAME}.sh ${DBGFLAGS} ${SERVICE_ACTION} ${DEVPATH_VAR} ${TMPFILE}
+
+# Remove tmp file
+rm -f ${TMPFILE}
+

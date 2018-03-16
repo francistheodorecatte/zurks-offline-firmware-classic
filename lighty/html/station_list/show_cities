@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cities offset="0" total="155" limit="200">
+  <city>Akron, OH</city>
+  <city>Albany, GA</city>
+  <city>Albany, NY</city>
+  <city>Albuquerque, NM</city>
+  <city>Allentown, PA</city>
+  <city>Anchorage, AK</city>
+  <city>Asheville, NC</city>
+  <city>Atlanta, GA</city>
+  <city>Augusta, GA</city>
+  <city>Austin, TX</city>
+  <city>Bakersfield, CA</city>
+  <city>Baltimore, MD</city>
+  <city>Baton Rouge, LA</city>
+  <city>Beaumont, TX</city>
+  <city>Biloxi, MS</city>
+  <city>Binghamton, NY</city>
+  <city>Birmingham, AL</city>
+  <city>Bismarck, ND</city>
+  <city>Boston, MA</city>
+  <city>Bryan, TX</city>
+  <city>Cedar Rapids-Iowa City, IA</city>
+  <city>Charleston, SC</city>
+  <city>Charlotte, NC</city>
+  <city>Chattanooga, TN</city>
+  <city>Chicago, IL</city>
+  <city>Chillicothe, OH</city>
+  <city>Cincinnati, OH</city>
+  <city>Cleveland, OH</city>
+  <city>Colorado Springs, CO</city>
+  <city>Columbia, SC</city>
+  <city>Columbus, GA</city>
+  <city>Columbus, OH</city>
+  <city>Corpus Christi, TX</city>
+  <city>Dallas, TX</city>
+  <city>Davenport, IA</city>
+  <city>Dayton, OH</city>
+  <city>Defiance, OH</city>
+  <city>Denver, CO</city>
+  <city>Des Moines, IA</city>
+  <city>Detroit, MI</city>
+  <city>Dickinson, ND</city>
+  <city>Eau Claire, WI</city>
+  <city>El Paso, TX</city>
+  <city>Fairbanks, AK</city>
+  <city>Farmington, NM</city>
+  <city>Fayetteville, AR</city>
+  <city>Florida Keys, FL</city>
+  <city>Fort Collins, CO</city>
+  <city>Fort Myers, FL</city>
+  <city>Fort Smith, AR</city>
+  <city>Frederick, MD</city>
+  <city>Fresno, CA</city>
+  <city>Gadsden, AL</city>
+  <city>Gallup, NM</city>
+  <city>Grand Forks, ND</city>
+  <city>Grand Rapids, MI</city>
+  <city>Greensboro, NC</city>
+  <city>Greenville, SC</city>
+  <city>Harrisburg, PA</city>
+  <city>Harrisonburg, VA</city>
+  <city>Hartford, CT</city>
+  <city>Honolulu, HI</city>
+  <city>Houston, TX</city>
+  <city>Huntington, WV</city>
+  <city>Huntsville, AL</city>
+  <city>Indianapolis, IN</city>
+  <city>Jackson, MS</city>
+  <city>Jacksonville, FL</city>
+  <city>Lancaster, CA</city>
+  <city>Las Vegas, NV</city>
+  <city>Laurel, MS</city>
+  <city>Lexington, KY</city>
+  <city>Lima, OH</city>
+  <city>Little Rock, AR</city>
+  <city>Long Island, NY</city>
+  <city>Los Angeles, CA</city>
+  <city>Louisville, KY</city>
+  <city>Macon, GA</city>
+  <city>Madison, WI</city>
+  <city>Manchester, NH</city>
+  <city>Mansfield, OH</city>
+  <city>Marion, OH</city>
+  <city>McAllen, TX</city>
+  <city>Melbourne, FL</city>
+  <city>Memphis, TN</city>
+  <city>Miami, FL</city>
+  <city>Milwaukee, WI</city>
+  <city>Minneapolis, MN</city>
+  <city>Minot, ND</city>
+  <city>Mobile, AL</city>
+  <city>Modesto, CA</city>
+  <city>Monterey, CA</city>
+  <city>Montgomery, AL</city>
+  <city>Nashville, TN</city>
+  <city>New Haven, CT</city>
+  <city>New Orleans, LA</city>
+  <city>New York, NY</city>
+  <city>Norfolk, VA</city>
+  <city>Ogallala, NE</city>
+  <city>Oklahoma City, OK</city>
+  <city>Omaha, NE</city>
+  <city>Orlando, FL</city>
+  <city>Panama City, FL</city>
+  <city>Parkersburg, WV</city>
+  <city>Philadelphia, PA</city>
+  <city>Phoenix, AZ</city>
+  <city>Pittsburgh, PA</city>
+  <city>Portland, OR</city>
+  <city>Portsmouth, NH</city>
+  <city>Poughkeepsie, NY</city>
+  <city>Premiere, PR</city>
+  <city>Providence, RI</city>
+  <city>Pueblo, CO</city>
+  <city>Raleigh, NC</city>
+  <city>Reading, PA</city>
+  <city>Richmond, VA</city>
+  <city>Riverside, CA</city>
+  <city>Roanoke, VA</city>
+  <city>Rochester, MN</city>
+  <city>Rochester, NY</city>
+  <city>Sacramento, CA</city>
+  <city>Saint Louis, MO</city>
+  <city>Salisbury, MD</city>
+  <city>Salt Lake City, UT</city>
+  <city>San Antonio, TX</city>
+  <city>San Diego, CA</city>
+  <city>San Francisco, CA</city>
+  <city>San Jose, CA</city>
+  <city>Santa Barbara, CA</city>
+  <city>Sarasota, FL</city>
+  <city>Savannah, GA</city>
+  <city>Seattle, WA</city>
+  <city>Sioux City, IA</city>
+  <city>Somerset, KY</city>
+  <city>Spokane, WA</city>
+  <city>Springfield, MA</city>
+  <city>Springfield, MO</city>
+  <city>Sussex, NJ</city>
+  <city>Syracuse, NY</city>
+  <city>Tallahassee, FL</city>
+  <city>Tampa, FL</city>
+  <city>Toledo, OH</city>
+  <city>Tucson, AZ</city>
+  <city>Tulsa, OK</city>
+  <city>Tuscaloosa, AL</city>
+  <city>Waco, TX</city>
+  <city>Washington, DC</city>
+  <city>West Palm Beach, FL</city>
+  <city>Wheeling, WV</city>
+  <city>Wichita, KS</city>
+  <city>Williamsport, PA</city>
+  <city>Wilmington, DE</city>
+  <city>Winchester, VA</city>
+  <city>Worcester, MA</city>
+  <city>Youngstown, OH</city>
+</cities>

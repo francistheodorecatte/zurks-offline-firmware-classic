@@ -1,0 +1,146 @@
+#!/usr/bin/perl
+# $Id: download_cp 4686 2009-03-23 19:41:34Z henry $
+# download_cp - downloads the control panel
+#
+# Ken Steele
+# Copyright (c) Chumby Industries, 2007-2008
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+#
+
+# Make fb0 fully visible
+system("switch_fb.sh 0");
+
+system("imgtool --mode=draw /bitmap/" . $ENV{'VIDEO_RES'} .  "/downloading_control_panel.bin" . get_brand() . ".jpg");
+
+
+my $id=`/usr/chumby/scripts/guidgen.sh`;
+my $sw=`/usr/chumby/scripts/chumby_version -s`;
+my $hw=`/usr/chumby/scripts/chumby_version -h`;
+my $fw=`/usr/chumby/scripts/chumby_version -f`;
+my $urlbase="www.chumby.com";
+if (-f "/psp/urlbase_dlcp")
+{
+	$urlbase=`cat /psp/urlbase_dlcp`;
+	chomp( $urlbase );
+}
+if (-f "/psp/cp_software_ver")
+{
+	$sw=`cat /psp/cp_software_ver`;
+}
+if (-f "/psp/cp_firmware_ver")
+{
+	$fw=`cat /psp/cp_firmware_ver`;
+}
+chomp( $id, $sw, $hw, $fw );
+
+# parse language
+open( F, "</psp/language" );
+my $lang = <F>;
+close( F );
+chomp( $lang );
+if( !defined( $lang ) || $lang eq "" )
+{
+	$lang = "en-us";
+}
+
+# parse DCID node/value pairs
+my $dcidXML = `dcid -o`;
+chomp( $dcidXML );
+my $dcidParams = "";
+while( $dcidXML =~ s/<(.*?)>(\d+)<.*?>// )
+{
+     $dcidParams .= "&dcid_$1=$2";
+}
+
+my $url = "http://$urlbase/xml/controlpanel?id=$id&hw=$hw&sw=$sw&fw=$fw" . $dcidParams . "&lang=$lang";
+print "$url\n";
+
+my $XML = `wget -q -O - '$url'`;
+
+$XML =~ m/<url>(.*?)<\/url>.*?<compressed>(.*?)<\/compressed>.*?<filename>(.*?)<\/filename>.*?<md5>(.*?)<\/md5>.*?<location>(.*?)<\/location>.*?<launchname>(.*?)<\/launchname>.*?<parameters>(.*?)<\/parameters>.*?/s;
+
+my $URL        = $1;
+my $compressed = $2;
+my $filename   = $3;
+my $MD5        = $4;
+my $location   = $5;
+my $launchname = $6;
+my $parameters = $7;
+
+# Sanity check: if there is a server error and we have an invalid url, exit now
+if ($location eq "" || $launchname eq "")
+{
+        print "Unable to get url to control panel\n";
+        exit( -1 );
+}
+
+my $path = $location . "/" . $launchname;
+
+open( F, ">/tmp/cp_path" );
+print F "$path";
+close( F );
+
+# henry@chumby.com - the use of --progress=bar:force is needed to make the bar display work
+# even when there's no tty, e.g. when the terminal detaches or is run
+# cmd >/dev/null 2>&1
+# But --progress=bar:force sounds like a violent version of what they call a pubcrawl in the UK...
+`wget -T 240 --progressbar --progress=bar:force -O $location/$filename '$URL'`;
+
+if( $compressed eq "true" )
+{
+    `cd $location;tar zxf $location/$filename`;
+}
+
+# compare md5sum
+
+my $localMD5 = `md5sum $location/$filename`;
+$localMD5 =~ s/\s+.*//;
+chomp( $localMD5 );
+
+if( $localMD5 ne $MD5 )
+{
+    print "no match\n";
+    exit( -1 );
+}
+
+sub get_brand {
+    my $brand = "";
+    open(my $f, '<', "/proc/cmdline");
+    my $cmdline = <$f>;
+    close($f);
+
+    for(split(/ /, $cmdline)) {
+        chomp;
+        my ($arg, $val);
+        if(/=/) {
+            ($arg, $val) = $_ =~ /^([^=]+)=(.+)$/;
+        }
+        else {
+            $arg = $_;
+            $val = "";
+        }
+        next unless $arg eq "logo.brand";
+        $brand = $val;
+    }
+    if($brand eq "chumby") {
+        $brand = "";
+    }
+    elsif($brand ne "") {
+        $brand = ".$brand";
+    }
+    return $brand;
+}
+

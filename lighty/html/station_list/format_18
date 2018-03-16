@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stations offset="0" total="35" limit="2000">
+<station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=ieag-fl&market=NATIONAL&format=ROCKCLASSIC&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IEAG-FL</callletters> 
+                <call_letters>IEAG-FL</call_letters> 
+                <description><![CDATA[Their music, stories and favorite bands]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/12259/2010/11/default/IHR_ieag-fl_1290554650.png</logo_url> 
+                <name><![CDATA[Eagles Radio]]></name> 
+                <stationid>12259</stationid> 
+                <station_id>12259</station_id> 
+                <station_url>ieag-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://eagles.akacast.akamaistream.net/7/228/73708/v1/auth.akacast.akamaistream.net/eagles</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1923.l7370843922.c73708.n.lq.akamaistream.net:554/D/1923/73708/v0001/reflector:43922.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=TOLEDO-OH&affiliate=wcwa-am&market=TOLEDO-OH&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WCWA-AM</callletters> 
+                <call_letters>WCWA-AM</call_letters> 
+                <description><![CDATA[Fox Sports Radio 1230 WCWA]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1123/2010/11/default/IHR_wcwa-am_1290554679.png</logo_url> 
+                <name><![CDATA[1230 WCWA]]></name> 
+                <stationid>1123</stationid> 
+                <station_id>1123</station_id> 
+                <station_url>www.1230foxsports.com</station_url> 
+                <stream_url_v2>http://wcwa-am.akacast.akamaistream.net/7/450/37066/v1/auth.akacast.akamaistream.net/wcwa-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=INDIANAPOLIS-IN&affiliate=wnde-am&market=INDIANAPOLIS-IN&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WNDE-AM</callletters> 
+                <call_letters>WNDE-AM</call_letters> 
+                <description><![CDATA[Sports Radio Indianapolis]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/wnde-am_logo_1_1316694279.png</logo_url> 
+                <name><![CDATA[1260 WNDE]]></name> 
+                <stationid>1222</stationid> 
+                <station_id>1222</station_id> 
+                <station_url>www.wnde.com</station_url> 
+                <stream_url_v2>http://wnde-am.akacast.akamaistream.net/7/500/21576/v1/auth.akacast.akamaistream.net/wnde-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a461.l2157622460.c21576.n.lq.akamaistream.net:554/D/461/21576/v0001/reflector:22460.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=TALLAHASSEE-FL&affiliate=wnls-am&market=TALLAHASSEE-FL&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WNLS-AM</callletters> 
+                <call_letters>WNLS-AM</call_letters> 
+                <description><![CDATA[Tallahassee's Sports Leader]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1225/2010/11/default/IHR_wnls-am_1290554680.png</logo_url> 
+                <name><![CDATA[1270 The Team]]></name> 
+                <stationid>1225</stationid> 
+                <station_id>1225</station_id> 
+                <station_url>www.1270theteam.com</station_url> 
+                <stream_url_v2>http://wnls-am.akacast.akamaistream.net/7/38/20802/v1/auth.akacast.akamaistream.net/wnls-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ROCHESTER-NY&affiliate=whtk-am&market=ROCHESTER-NY&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WHTK-AM</callletters> 
+                <call_letters>WHTK-AM</call_letters> 
+                <description><![CDATA[Rochester's Sports Talk]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1167/2010/11/default/IHR_whtk-am_1290554680.png</logo_url> 
+                <name><![CDATA[1280 WHTK & FM 107.3]]></name> 
+                <stationid>1167</stationid> 
+                <station_id>1167</station_id> 
+                <station_url>www.whtk.com</station_url> 
+                <stream_url_v2>http://whtk-am.akacast.akamaistream.net/7/28/20815/v1/auth.akacast.akamaistream.net/whtk-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=WILMINGTON-DE&affiliate=wwtx-am&market=WILMINGTON-DE&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WWTX-AM</callletters> 
+                <call_letters>WWTX-AM</call_letters> 
+                <description><![CDATA[Delaware's ALL Sports Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/wwtx-am_logo_1_1319545007.png</logo_url> 
+                <name><![CDATA[1290 The Ticket]]></name> 
+                <stationid>1285</stationid> 
+                <station_id>1285</station_id> 
+                <station_url>www.1290theticket.com</station_url> 
+                <stream_url_v2>http://wwtx-am.akacast.akamaistream.net/7/390/19829/v1/auth.akacast.akamaistream.net/wwtx-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=TULSA-OK&affiliate=ktbz-am&market=TULSA-OK&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KTBZ-AM</callletters> 
+                <call_letters>KTBZ-AM</call_letters> 
+                <description><![CDATA[Tulsa's Sports Authority]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/692/2010/11/default/IHR_ktbz-am_1290554680.png</logo_url> 
+                <name><![CDATA[1430 the BUZZ]]></name> 
+                <stationid>692</stationid> 
+                <station_id>692</station_id> 
+                <station_url>www.buzztulsa.com</station_url> 
+                <stream_url_v2>http://ktbz-am.akacast.akamaistream.net/7/675/20048/v1/auth.akacast.akamaistream.net/ktbz-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=DESMOINES-IA&affiliate=kxno-am&market=DESMOINES-IA&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KXNO-AM</callletters> 
+                <call_letters>KXNO-AM</call_letters> 
+                <description><![CDATA[Des Moines' Sports Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/726/2010/11/default/IHR_kxno-am_1290554681.png</logo_url> 
+                <name><![CDATA[1460 KXNO]]></name> 
+                <stationid>726</stationid> 
+                <station_id>726</station_id> 
+                <station_url>www.kxno.com</station_url> 
+                <stream_url_v2>http://kxno-am.akacast.akamaistream.net/7/889/21126/v1/auth.akacast.akamaistream.net/kxno-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SIOUXCITY-IA&affiliate=kmns-am&market=SIOUXCITY-IA&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KMNS-AM</callletters> 
+                <call_letters>KMNS-AM</call_letters> 
+                <description><![CDATA[Fox Sports Radio]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/662/2010/11/default/IHR_kmns-am_1290554676.png</logo_url> 
+                <name><![CDATA[620 KMNS]]></name> 
+                <stationid>662</stationid> 
+                <station_id>662</station_id> 
+                <station_url>www.620kmns.com</station_url> 
+                <stream_url_v2>http://kmns-am.akacast.akamaistream.net/7/337/25969/v1/auth.akacast.akamaistream.net/kmns-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=TAMPA-FL&affiliate=wdae-am&market=TAMPA-FL&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WDAE-AM</callletters> 
+                <call_letters>WDAE-AM</call_letters> 
+                <description><![CDATA[Tampa Bay’s Sports Animal]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/wdae-am_logo_1_1315498338.png</logo_url> 
+                <name><![CDATA[620 WDAE]]></name> 
+                <stationid>1124</stationid> 
+                <station_id>1124</station_id> 
+                <station_url>www.620wdae.com</station_url> 
+                <stream_url_v2>http://wdae-am.akacast.akamaistream.net/7/282/19867/v1/auth.akacast.akamaistream.net/wdae-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=HOUSTON-TX&affiliate=kbme-am&market=HOUSTON-TX&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KBME-AM</callletters> 
+                <call_letters>KBME-AM</call_letters> 
+                <description><![CDATA[Your Home for Houston Sports]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/kbme-am_iphone_logo_0_1315845849.png</logo_url> 
+                <name><![CDATA[SportsTalk 790]]></name> 
+                <stationid>589</stationid> 
+                <station_id>589</station_id> 
+                <station_url>www.sports790.com</station_url> 
+                <stream_url_v2>http://kbme-am.akacast.akamaistream.net/7/403/20093/v1/auth.akacast.akamaistream.net/kbme-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1352.l2009347351.c20093.n.lq.akamaistream.net:554/D/1352/20093/v0001/reflector:47351.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=JACKSONVILLE-FL&affiliate=wfxj-am&market=JACKSONVILLE-FL&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WFXJ-AM</callletters> 
+                <call_letters>WFXJ-AM</call_letters> 
+                <description><![CDATA[The Gator's Play Here: Jacksonville]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/12/default/wfxj-am_logo_1_1323089902.png</logo_url> 
+                <name><![CDATA[Sports Radio 930 AM]]></name> 
+                <stationid>1145</stationid> 
+                <station_id>1145</station_id> 
+                <station_url>www.sportsradiojax.com</station_url> 
+                <stream_url_v2>http://wfxj-am.akacast.akamaistream.net/7/747/19835/v1/auth.akacast.akamaistream.net/wfxj-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=MIAMI-FL&affiliate=winz-am&market=MIAMI-FL&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WINZ-AM</callletters> 
+                <call_letters>WINZ-AM</call_letters> 
+                <description><![CDATA[The Sports Animal: Miami]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/winz-am_logo_1_1319744494.png</logo_url> 
+                <name><![CDATA[940 WINZ]]></name> 
+                <stationid>1174</stationid> 
+                <station_id>1174</station_id> 
+                <station_url>www.940winz.com</station_url> 
+                <stream_url_v2>http://winz-am.akacast.akamaistream.net/7/63/19846/v1/auth.akacast.akamaistream.net/winz-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1396.l1984621395.c19846.n.lq.akamaistream.net:554/D/1396/19846/v0001/reflector:21395.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SEATTLE-WA&affiliate=kjr-am&market=SEATTLE-WA&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KJR-AM</callletters> 
+                <call_letters>KJR-AM</call_letters> 
+                <description><![CDATA[Seattle's Local Sports Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/11/default/kjr-am_logo_1_1320405867.png</logo_url> 
+                <name><![CDATA[Sports Radio KJR]]></name> 
+                <stationid>645</stationid> 
+                <station_id>645</station_id> 
+                <station_url>www.sportsradiokjr.com</station_url> 
+                <stream_url_v2>http://kjr-am.akacast.akamaistream.net/7/89/20135/v1/auth.akacast.akamaistream.net/kjr-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=AUSTIN-TX&affiliate=kvet-am&market=AUSTIN-TX&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KVET-AM</callletters> 
+                <call_letters>KVET-AM</call_letters> 
+                <description><![CDATA[The Longhorn Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/04/default/kvet-am_mobile_logo_0_1303314702.png</logo_url> 
+                <name><![CDATA[AM 1300 The Zone]]></name> 
+                <stationid>710</stationid> 
+                <station_id>710</station_id> 
+                <station_url>www.longhornstation.com</station_url> 
+                <stream_url_v2>http://kvet-am.akacast.akamaistream.net/7/366/20085/v1/auth.akacast.akamaistream.net/kvet-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=GRANDRAPIDS-MI&affiliate=wmax-fm&market=GRANDRAPIDS-MI&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WMAX-FM</callletters> 
+                <call_letters>WMAX-FM</call_letters> 
+                <description><![CDATA[West Michigan's Sports & ESPN]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/3392/2010/11/default/IHR_wmax_1290554688.png</logo_url> 
+                <name><![CDATA[ESPN 96-1 WMAX-FM]]></name> 
+                <stationid>3392</stationid> 
+                <station_id>3392</station_id> 
+                <station_url>www.espn961.com</station_url> 
+                <stream_url_v2>http://wmax-fm.akacast.akamaistream.net/7/618/19934/v1/auth.akacast.akamaistream.net/wmax-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1659.l1993423658.c19934.n.lq.akamaistream.net:554/D/1659/19934/v0001/reflector:23658.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=PITTSBURGH-PA&affiliate=wbgg-am&market=PITTSBURGH-PA&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WBGG-AM</callletters> 
+                <call_letters>WBGG-AM</call_letters> 
+                <description><![CDATA[Pittsburgh's Sports Talk]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/04/default/wbgg-am_mobile_logo_0_1303413942.png</logo_url> 
+                <name><![CDATA[970 ESPN]]></name> 
+                <stationid>1109</stationid> 
+                <station_id>1109</station_id> 
+                <station_url>www.970espn.com</station_url> 
+                <stream_url_v2>http://wbgg-am.akacast.akamaistream.net/7/655/20060/v1/auth.akacast.akamaistream.net/wbgg-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=AKRON-OH&affiliate=warf-am&market=AKRON-OH&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WARF-AM</callletters> 
+                <call_letters>WARF-AM</call_letters> 
+                <description><![CDATA[Akron's All Sports Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/warf-am_logo_0_1318009713.png</logo_url> 
+                <name><![CDATA[Fox Sports 1350]]></name> 
+                <stationid>4577</stationid> 
+                <station_id>4577</station_id> 
+                <station_url>www.sportsradio1350.com</station_url> 
+                <stream_url_v2>http://warf-am.akacast.akamaistream.net/7/222/29880/v1/auth.akacast.akamaistream.net/warf-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ALBANY-NY&affiliate=wofx-am&market=ALBANY-NY&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WOFX-AM</callletters> 
+                <call_letters>WOFX-AM</call_letters> 
+                <description><![CDATA[Capital Region's Sports Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1232/2010/11/default/IHR_wofx-am_1290554689.png</logo_url> 
+                <name><![CDATA[FOX Sports 980]]></name> 
+                <stationid>1232</stationid> 
+                <station_id>1232</station_id> 
+                <station_url>www.foxsports980.com</station_url> 
+                <stream_url_v2>http://wofx-am.akacast.akamaistream.net/7/931/20810/v1/auth.akacast.akamaistream.net/wofx-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=BAKERSFIELD-CA&affiliate=khty-am&market=BAKERSFIELD-CA&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KHTY-AM</callletters> 
+                <call_letters>KHTY-AM</call_letters> 
+                <description><![CDATA[All Sports, All Day, Every Day]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/08/default/khty-am_logo_0_1313501119.png</logo_url> 
+                <name><![CDATA[Fox Sports Radio 970]]></name> 
+                <stationid>11445</stationid> 
+                <station_id>11445</station_id> 
+                <station_url>www.foxsports970am.com</station_url> 
+                <stream_url_v2>http://khty-am.akacast.akamaistream.net/7/31/69396/v1/auth.akacast.akamaistream.net/khty-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=COLUMBUS-GA&affiliate=whal-am&market=COLUMBUS-GA&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WHAL-AM</callletters> 
+                <call_letters>WHAL-AM</call_letters> 
+                <description><![CDATA[Fox Sports Radio 1460]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1156/2010/11/default/IHR_whal-am_1290554689.png</logo_url> 
+                <name><![CDATA[FSR 1460]]></name> 
+                <stationid>1156</stationid> 
+                <station_id>1156</station_id> 
+                <station_url>www.foxsportsradio1460.com</station_url> 
+                <stream_url_v2>http://whal-am.akacast.akamaistream.net/7/922/35471/v1/auth.akacast.akamaistream.net/whal-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ROCHESTER-MN&affiliate=kfan-am&market=ROCHESTER-MN&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KFAN-AM</callletters> 
+                <call_letters>KFAN-AM</call_letters> 
+                <description><![CDATA[Rochester’s Sports Leader]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/kfan-am_logo_1_1315943056.png</logo_url> 
+                <name><![CDATA[KFAN AM1270]]></name> 
+                <stationid>714</stationid> 
+                <station_id>714</station_id> 
+                <station_url>www.fan1270.com</station_url> 
+                <stream_url_v2>http://kweb-am.akacast.akamaistream.net/7/91/73705/v1/auth.akacast.akamaistream.net/kweb-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LOSANGELES-CA&affiliate=klac-am&market=LOSANGELES-CA&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KLAC-AM</callletters> 
+                <call_letters>KLAC-AM</call_letters> 
+                <description><![CDATA[Fox Sports Los Angeles - KLAC]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/klac-am_logo_1_1316011382.png</logo_url> 
+                <name><![CDATA[AM570 Fox Sports LA]]></name> 
+                <stationid>727</stationid> 
+                <station_id>727</station_id> 
+                <station_url>www.am570radio.com</station_url> 
+                <stream_url_v2>http://klac-am.akacast.akamaistream.net/7/304/19774/v1/auth.akacast.akamaistream.net/klac-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a997.l1977424996.c19774.n.lq.akamaistream.net:554/D/997/19774/v0001/reflector:24996.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SANANTONIO-TX&affiliate=ktkr-am&market=SANANTONIO-TX&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KTKR-AM</callletters> 
+                <call_letters>KTKR-AM</call_letters> 
+                <description><![CDATA[San Antonio's Sports Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/694/2010/11/default/IHR_ktkr-am_1290554696.png</logo_url> 
+                <name><![CDATA[KTKR]]></name> 
+                <stationid>694</stationid> 
+                <station_id>694</station_id> 
+                <station_url>www.ticket760.com</station_url> 
+                <stream_url_v2>http://ktkr-am.akacast.akamaistream.net/7/255/20107/v1/auth.akacast.akamaistream.net/ktkr-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1243.l2010741242.c20107.n.lq.akamaistream.net:554/D/1243/20107/v0001/reflector:41242.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=PITTSBURGH-PA&affiliate=ipen-fl&market=PITTSBURGH-PA&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IPEN-FL</callletters> 
+                <call_letters>IPEN-FL</call_letters> 
+                <description><![CDATA[Pittsburgh Penguins coverage 24/7]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/ipen_logo_1_1317650045.png</logo_url> 
+                <name><![CDATA[Penguins Radio 24/7]]></name> 
+                <stationid>13225</stationid> 
+                <station_id>13225</station_id> 
+                <station_url>ipen-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://penguins.akacast.akamaistream.net/7/741/78275/v1/auth.akacast.akamaistream.net/penguins</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a489.l7827540488.c78275.g.lq.akamaistream.net:554/D/489/78275/v0001/reflector:40488</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=COLUMBIA-SC&affiliate=wcos-am&market=COLUMBIA-SC&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WCOS-AM</callletters> 
+                <call_letters>WCOS-AM</call_letters> 
+                <description><![CDATA[Columbia's Live and Local Sports]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/04/default/wcos-am_mobile_logo_0_1302888399.png</logo_url> 
+                <name><![CDATA[Sports Radio 1400 THE TEAM]]></name> 
+                <stationid>1122</stationid> 
+                <station_id>1122</station_id> 
+                <station_url>www.1400theteam.com</station_url> 
+                <stream_url_v2>http://wcos-am.akacast.akamaistream.net/7/402/20819/v1/auth.akacast.akamaistream.net/wcos-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SYRACUSE-NY&affiliate=when-am&market=SYRACUSE-NY&format=ACURBAN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WHEN-AM</callletters> 
+                <call_letters>WHEN-AM</call_letters> 
+                <description><![CDATA[CNY's Voice of the Community]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/04/default/when_mobile_logo_0_1303240277.png</logo_url> 
+                <name><![CDATA[Power AM 620]]></name> 
+                <stationid>1947</stationid> 
+                <station_id>1947</station_id> 
+                <station_url>www.wphrfm.com</station_url> 
+                <stream_url_v2>http://when-am.akacast.akamaistream.net/7/218/19979/v1/auth.akacast.akamaistream.net/when-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=EAUCLAIRE-WI&affiliate=wbiz-am&market=EAUCLAIRE-WI&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WBIZ-AM</callletters> 
+                <call_letters>WBIZ-AM</call_letters> 
+                <description><![CDATA[The Valley's Sports Authority]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1/2011/03/default/wbiz_am_0_1300551970.png</logo_url> 
+                <name><![CDATA[Sportsradio 1400]]></name> 
+                <stationid>3377</stationid> 
+                <station_id>3377</station_id> 
+                <station_url>www.sportsradio1400.com</station_url> 
+                <stream_url_v2>http://wbiz-am.akacast.akamaistream.net/7/960/24923/v1/auth.akacast.akamaistream.net/wbiz-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=RICHMOND-VA&affiliate=wrnl-am&market=RICHMOND-VA&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WRNL-AM</callletters> 
+                <call_letters>WRNL-AM</call_letters> 
+                <description><![CDATA[Richmond's Home For Sportstalk]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1248/2010/11/default/IHR_wrnl-am_1290554747.png</logo_url> 
+                <name><![CDATA[Sportsradio 910]]></name> 
+                <stationid>1248</stationid> 
+                <station_id>1248</station_id> 
+                <station_url>www.sportsradio910.com</station_url> 
+                <stream_url_v2>http://wrnl-am.akacast.akamaistream.net/7/677/22058/v1/auth.akacast.akamaistream.net/wrnl-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SALISBURY-MD&affiliate=wtgm-am&market=SALISBURY-MD&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WTGM-AM</callletters> 
+                <call_letters>WTGM-AM</call_letters> 
+                <description><![CDATA[All Sports, All the Time: Salisbury]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1/2011/03/default/wtgm-am_1_1300800577.png</logo_url> 
+                <name><![CDATA[960 The Sports Animal]]></name> 
+                <stationid>1938</stationid> 
+                <station_id>1938</station_id> 
+                <station_url>www.960thesportsanimal.com</station_url> 
+                <stream_url_v2>http://wtgm-am.akacast.akamaistream.net/7/464/32173/v1/auth.akacast.akamaistream.net/wtgm-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=BATONROUGE-LA&affiliate=wskr-am&market=BATONROUGE-LA&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WSKR-AM</callletters> 
+                <call_letters>WSKR-AM</call_letters> 
+                <description><![CDATA[Sports & Talk]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1254/2010/11/default/IHR_wskr-am_1290554751.png</logo_url> 
+                <name><![CDATA[The Score 1210]]></name> 
+                <stationid>1254</stationid> 
+                <station_id>1254</station_id> 
+                <station_url>www.thescore1210.com</station_url> 
+                <stream_url_v2>http://wskr-am.akacast.akamaistream.net/7/759/19909/v1/auth.akacast.akamaistream.net/wskr-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a391.l1990956390.c19909.n.lq.akamaistream.net:554/D/391/19909/v0001/reflector:56390.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=DETROIT-MI&affiliate=wdfn-am&market=DETROIT-MI&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WDFN-AM</callletters> 
+                <call_letters>WDFN-AM</call_letters> 
+                <description><![CDATA[Detroit Sports Talk]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1128/2010/11/default/IHR_wdfn-am_1290554753.png</logo_url> 
+                <name><![CDATA[WDFN]]></name> 
+                <stationid>1128</stationid> 
+                <station_id>1128</station_id> 
+                <station_url>www.wdfn.com</station_url> 
+                <stream_url_v2>http://wdfn-am.akacast.akamaistream.net/7/449/19921/v1/auth.akacast.akamaistream.net/wdfn-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a486.l1992140485.c19921.n.lq.akamaistream.net:554/D/486/19921/v0001/reflector:40485.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=BINGHAMTON-NY&affiliate=wene-am&market=BINGHAMTON-NY&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WENE-AM</callletters> 
+                <call_letters>WENE-AM</call_letters> 
+                <description><![CDATA[1430 The Team]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1135/2010/11/default/IHR_wene-am_1290554753.png</logo_url> 
+                <name><![CDATA[WENE Binghamton]]></name> 
+                <stationid>1135</stationid> 
+                <station_id>1135</station_id> 
+                <station_url>www.1430theteam.com</station_url> 
+                <stream_url_v2>http://wene-am.akacast.akamaistream.net/7/146/37067/v1/auth.akacast.akamaistream.net/wene-am</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SANDIEGO-CA&affiliate=klsd-am&market=SANDIEGO-CA&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KLSD-AM</callletters> 
+                <call_letters>KLSD-AM</call_letters> 
+                <description><![CDATA[San Diego's Sports Station]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/klsd-am_logo_1_1319048066.png</logo_url> 
+                <name><![CDATA[XTRA Sports 1360]]></name> 
+                <stationid>5629</stationid> 
+                <station_id>5629</station_id> 
+                <station_url>www.xtrasports1360.com</station_url> 
+                <stream_url_v2>http://klsd-am.akacast.akamaistream.net/7/733/19787/v1/auth.akacast.akamaistream.net/klsd-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a181.l1978722180.c19787.n.lq.akamaistream.net:554/D/181/19787/v0001/reflector:22180.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=PHOENIX-AZ&affiliate=kgme-am&market=PHOENIX-AZ&format=SPORTS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KGME-AM</callletters> 
+                <call_letters>KGME-AM</call_letters> 
+                <description><![CDATA[The Valley's Sports Leader]]></description> 
+                <is_talk>1</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/629/2010/11/default/IHR_kgme-am_1290554757.png</logo_url> 
+                <name><![CDATA[XTRA Sports 910]]></name> 
+                <stationid>629</stationid> 
+                <station_id>629</station_id> 
+                <station_url>www.xtra910.com</station_url> 
+                <stream_url_v2>http://kgme-am.akacast.akamaistream.net/7/159/19752/v1/auth.akacast.akamaistream.net/kgme-am</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a927.l1975222926.c19752.n.lq.akamaistream.net:554/D/927/19752/v0001/reflector:22926.sdp</stream_url_rtsp> 
+        </station></stations>

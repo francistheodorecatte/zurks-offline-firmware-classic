@@ -1,0 +1,19 @@
+#!/bin/sh
+# $Id: flashplayer_is_running 16152 2009-08-27 15:01:30Z henry $
+# Test to see if flashplayer is running
+[ -f /var/run/chumbyflashplayer.pid ] || exit 1
+
+# Get state
+FPPID=$(cat /var/run/chumbyflashplayer.pid)
+FPSTATE=$(cat /proc/${FPPID}/stat 2>/dev/null| awk '{print $3;}')
+
+# If empty, nothing to do
+[ "${FPSTATE}" = "" ] && exit 1
+
+# Check for state - should be R, S or Z
+case ${FPSTATE} in
+R|S) exit 0	;;
+Z) exit 1	;;
+*) echo "Unhandled state ${FPSTATE}"; exit 0	;;
+esac
+

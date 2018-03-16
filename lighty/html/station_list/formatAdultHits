@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stations offset="0" total="38" limit="2000">
+<station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=irac-fl&market=NATIONAL&format=ACRHYTHMIC&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IRAC-FL</callletters> 
+                <call_letters>IRAC-FL</call_letters> 
+                <description><![CDATA[Move To The Music]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/14276/2010/11/default/IHR_irac-fl_1290554651.png</logo_url> 
+                <name><![CDATA[Rhythmix]]></name> 
+                <stationid>14276</stationid> 
+                <station_id>14276</station_id> 
+                <station_url>irac-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://irac-fl.akacast.akamaistream.net/7/994/83447/v1/auth.akacast.akamaistream.net/irac-fl</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1524.l8344741523.c83447.g.lq.akamaistream.net:554/D/1524/83447/v0001/reflector:41523.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=ihad-fl&market=NATIONAL&format=AAA&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IHAD-FL</callletters> 
+                <call_letters>IHAD-FL</call_letters> 
+                <description><![CDATA[Celebrate the Holidays]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/ihad_logo_1_1319825781.png</logo_url> 
+                <name><![CDATA[Christmas Lites]]></name> 
+                <stationid>13409</stationid> 
+                <station_id>13409</station_id> 
+                <station_url>ihad-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://ihad-fl.akacast.akamaistream.net/7/895/54130/v1/auth.akacast.akamaistream.net/ihad-fl</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=ihva-fl&market=NATIONAL&format=ACMAINSTREAM&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IHVA-FL</callletters> 
+                <call_letters>IHVA-FL</call_letters> 
+                <description><![CDATA[All-time Christmas Hits]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/ihva_logo_1_1319829631.png</logo_url> 
+                <name><![CDATA[Holiday Mix]]></name> 
+                <stationid>13417</stationid> 
+                <station_id>13417</station_id> 
+                <station_url>ihva-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://ihva-fl.akacast.akamaistream.net/7/292/54131/v1/auth.akacast.akamaistream.net/ihva-fl</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=icag-fl&market=NATIONAL&format=CHRPOP&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>ICAG-FL</callletters> 
+                <call_letters>ICAG-FL</call_letters> 
+                <description><![CDATA[Christina's inspirations and stories]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/12257/2010/11/default/IHR_icag-fl_1290554650.png</logo_url> 
+                <name><![CDATA[Christina Aguilera Radio]]></name> 
+                <stationid>12257</stationid> 
+                <station_id>12257</station_id> 
+                <station_url>icag-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://christinaaguilera.akacast.akamaistream.net/7/436/61091/v1/auth.akacast.akamaistream.net/christinaaguilera</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=ieag-fl&market=NATIONAL&format=ROCKCLASSIC&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IEAG-FL</callletters> 
+                <call_letters>IEAG-FL</call_letters> 
+                <description><![CDATA[Their music, stories and favorite bands]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/12259/2010/11/default/IHR_ieag-fl_1290554650.png</logo_url> 
+                <name><![CDATA[Eagles Radio]]></name> 
+                <stationid>12259</stationid> 
+                <station_id>12259</station_id> 
+                <station_url>ieag-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://eagles.akacast.akamaistream.net/7/228/73708/v1/auth.akacast.akamaistream.net/eagles</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1923.l7370843922.c73708.n.lq.akamaistream.net:554/D/1923/73708/v0001/reflector:43922.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=NATIONAL&affiliate=ihac-fl&market=NATIONAL&format=OTHER&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>IHAC-FL</callletters> 
+                <call_letters>IHAC-FL</call_letters> 
+                <description><![CDATA[80's, 90's, Now]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/12041/2010/11/default/IHR_ihac-fl_1290554652.png</logo_url> 
+                <name><![CDATA[Today's Mix]]></name> 
+                <stationid>12041</stationid> 
+                <station_id>12041</station_id> 
+                <station_url>ihac-fl.clearchannel.com</station_url> 
+                <stream_url_v2>http://todaysmix.akacast.akamaistream.net/7/97/61092/v1/auth.akacast.akamaistream.net/todaysmix</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1680.l6109237679.c61092.n.lq.akamaistream.net:554/D/1680/61092/v0001/reflector:37679.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ALBUQUERQUE-NM&affiliate=kpek-fm&market=ALBUQUERQUE-NM&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KPEK-FM</callletters> 
+                <call_letters>KPEK-FM</call_letters> 
+                <description><![CDATA[80's, 90's & NOW]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/956/2010/11/default/IHR_kpek_1290554665.png</logo_url> 
+                <name><![CDATA[100.3 The Peak]]></name> 
+                <stationid>956</stationid> 
+                <station_id>956</station_id> 
+                <station_url>www.1003thepeak.com</station_url> 
+                <stream_url_v2>http://kpek-fm.akacast.akamaistream.net/7/86/19963/v1/auth.akacast.akamaistream.net/kpek-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a446.l1996332445.c19963.n.lq.akamaistream.net:554/D/446/19963/v0001/reflector:32445.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=WILLIAMSPORT-PA&affiliate=wksb-fm&market=WILLIAMSPORT-PA&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WKSB-FM</callletters> 
+                <call_letters>WKSB-FM</call_letters> 
+                <description><![CDATA[Central PA’s Best of 80s, 90s & Today]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/11/default/wksb_logo_1_1320758822.png</logo_url> 
+                <name><![CDATA[102.7 KISS FM]]></name> 
+                <stationid>1845</stationid> 
+                <station_id>1845</station_id> 
+                <station_url>www.wksb.com</station_url> 
+                <stream_url_v2>http://wksb-fm.akacast.akamaistream.net/7/249/29792/v1/auth.akacast.akamaistream.net/wksb-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SPOKANE-WA&affiliate=kcda-fm&market=SPOKANE-WA&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KCDA-FM</callletters> 
+                <call_letters>KCDA-FM</call_letters> 
+                <description><![CDATA[Familiar new favorites!]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/764/2010/11/default/IHR_kcda_1290554678.png</logo_url> 
+                <name><![CDATA[1031 KCDA]]></name> 
+                <stationid>764</stationid> 
+                <station_id>764</station_id> 
+                <station_url>www.1031kcda.com</station_url> 
+                <stream_url_v2>http://kcda-fm.akacast.akamaistream.net/7/255/29885/v1/auth.akacast.akamaistream.net/kcda-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LOSANGELES-CA&affiliate=kbig-fm&market=LOSANGELES-CA&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KBIG-FM</callletters> 
+                <call_letters>KBIG-FM</call_letters> 
+                <description><![CDATA[more variety from the 90's til now: LA]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/3889/2010/11/default/IHR_kbig_1290554672.png</logo_url> 
+                <name><![CDATA[104.3 MYfm]]></name> 
+                <stationid>3889</stationid> 
+                <station_id>3889</station_id> 
+                <station_url>www.1043myfm.com</station_url> 
+                <stream_url_v2>http://kbig-fm.akacast.akamaistream.net/7/244/19770/v1/auth.akacast.akamaistream.net/kbig-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1963.l1977059962.c19770.n.lq.akamaistream.net:554/D/1963/19770/v0001/reflector:59962.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ROANOKE-VA&affiliate=wsff-fm&market=ROANOKE-VA&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WSFF-FM</callletters> 
+                <call_letters>WSFF-FM</call_letters> 
+                <description><![CDATA[Virginia's Random Radio]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/08/default/wsff_logo_0_1314718271.png</logo_url> 
+                <name><![CDATA[106.1 101.7 STEVE FM]]></name> 
+                <stationid>1890</stationid> 
+                <station_id>1890</station_id> 
+                <station_url>www.1061stevefm.com</station_url> 
+                <stream_url_v2>http://wsff-fm.akacast.akamaistream.net/7/942/28752/v1/auth.akacast.akamaistream.net/wsff-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=DETROIT-MI&affiliate=wdtw-fm&market=DETROIT-MI&format=ROCKCLASSIC&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WDTW-FM</callletters> 
+                <call_letters>WDTW-FM</call_letters> 
+                <description><![CDATA[The D Rocks Detroit!]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/11/default/wdtw_logo_0_1320408446.png</logo_url> 
+                <name><![CDATA[106.7 The D]]></name> 
+                <stationid>3821</stationid> 
+                <station_id>3821</station_id> 
+                <station_url>www.thedrocks.com</station_url> 
+                <stream_url_v2>http://wdtw-fm.akacast.akamaistream.net/7/108/19923/v1/auth.akacast.akamaistream.net/wdtw-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1135.l1992353134.c19923.n.lq.akamaistream.net:554/D/1135/19923/v0001/reflector:53134.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SARASOTA-FL&affiliate=wltq-fm&market=SARASOTA-FL&format=ACMAINSTREAM&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WLTQ-FM</callletters> 
+                <call_letters>WLTQ-FM</call_letters> 
+                <description><![CDATA[The Suncoast's Home for the Holidays]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/11/default/wltq_santa_logo_1_1320239198.png</logo_url> 
+                <name><![CDATA[92.1 SantaFM]]></name> 
+                <stationid>1872</stationid> 
+                <station_id>1872</station_id> 
+                <station_url>www.921myfm.com</station_url> 
+                <stream_url_v2>http://wltq-fm.akacast.akamaistream.net/7/636/19862/v1/auth.akacast.akamaistream.net/wltq-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=CHATTANOOGA-TN&affiliate=wlnd-fm&market=CHATTANOOGA-TN&format=CLASSICHITS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WLND-FM</callletters> 
+                <call_letters>WLND-FM</call_letters> 
+                <description><![CDATA[We Play Anything: Chattanooga]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/wlnd_logo_1_1315420366.png</logo_url> 
+                <name><![CDATA[98.1 The Lake]]></name> 
+                <stationid>2051</stationid> 
+                <station_id>2051</station_id> 
+                <station_url>www.981thelake.com</station_url> 
+                <stream_url_v2>http://wlnd-fm.akacast.akamaistream.net/7/389/37061/v1/auth.akacast.akamaistream.net/wlnd-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=FRESNO-CA&affiliate=kalz-fm&market=FRESNO-CA&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KALZ-FM</callletters> 
+                <call_letters>KALZ-FM</call_letters> 
+                <description><![CDATA[Central California's Hit Music]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/735/2010/11/default/IHR_kalz_1290554681.png</logo_url> 
+                <name><![CDATA[Alice 96.7]]></name> 
+                <stationid>735</stationid> 
+                <station_id>735</station_id> 
+                <station_url>www.alice967.com</station_url> 
+                <stream_url_v2>http://kalz-fm.akacast.akamaistream.net/7/703/19765/v1/auth.akacast.akamaistream.net/kalz-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SPRINGFIELD-MO&affiliate=ktoz-fm&market=SPRINGFIELD-MO&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KTOZ-FM</callletters> 
+                <call_letters>KTOZ-FM</call_letters> 
+                <description><![CDATA[Springfield's 90s, 2k & Today]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1029/2010/11/default/IHR_ktoz_1290554681.png</logo_url> 
+                <name><![CDATA[Alice 95.5]]></name> 
+                <stationid>1029</stationid> 
+                <station_id>1029</station_id> 
+                <station_url>www.alice955.com</station_url> 
+                <stream_url_v2>http://ktoz-fm.akacast.akamaistream.net/7/878/20805/v1/auth.akacast.akamaistream.net/ktoz-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=FORTSMITH-AR&affiliate=kzbb-fm&market=FORTSMITH-AR&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KZBB-FM</callletters> 
+                <call_letters>KZBB-FM</call_letters> 
+                <description><![CDATA[80's 90's and Today]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1081/2010/11/default/IHR_kzbb_1290554683.png</logo_url> 
+                <name><![CDATA[B-98]]></name> 
+                <stationid>1081</stationid> 
+                <station_id>1081</station_id> 
+                <station_url>www.kzbb.com</station_url> 
+                <stream_url_v2>http://kzbb-fm.akacast.akamaistream.net/7/316/25177/v1/auth.akacast.akamaistream.net/kzbb-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ALLENTOWN-PA&affiliate=waeb-fm&market=ALLENTOWN-PA&format=CHRPOP&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WAEB-FM</callletters> 
+                <call_letters>WAEB-FM</call_letters> 
+                <description><![CDATA[Todays hit music]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://content.clearchannel.com/cc-common/mlib/8169/04/8169_1271262118.png</logo_url> 
+                <name><![CDATA[B104]]></name> 
+                <stationid>1661</stationid> 
+                <station_id>1661</station_id> 
+                <station_url>www.b104.com</station_url> 
+                <stream_url_v2>http://waeb-fm.akacast.akamaistream.net/7/333/25975/v1/auth.akacast.akamaistream.net/waeb-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1577.l4071843576.c40718.n.lq.akamaistream.net:554/D/1577/40718/v0001/reflector:43576.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=DESMOINES-IA&affiliate=kptl-fm&market=DESMOINES-IA&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KPTL-FM</callletters> 
+                <call_letters>KPTL-FM</call_letters> 
+                <description><![CDATA[Des Moines' Modern Music]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/3862/2010/11/default/IHR_kptl_1290554685.png</logo_url> 
+                <name><![CDATA[Capital 1063]]></name> 
+                <stationid>3862</stationid> 
+                <station_id>3862</station_id> 
+                <station_url>www.capital1063.com</station_url> 
+                <stream_url_v2>http://kptl-fm.akacast.akamaistream.net/7/281/30796/v1/auth.akacast.akamaistream.net/kptl-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LOUISVILLE-KY&affiliate=wlgx-fm&market=LOUISVILLE-KY&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WLGX-FM</callletters> 
+                <call_letters>WLGX-FM</call_letters> 
+                <description><![CDATA[Grunge, Hip Hop, Hair Bands and more...]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/3335/2010/11/default/IHR_wlgx_1290554698.png</logo_url> 
+                <name><![CDATA[Gen X Radio 100.5]]></name> 
+                <stationid>3335</stationid> 
+                <station_id>3335</station_id> 
+                <station_url>www.genxlouisville.com</station_url> 
+                <stream_url_v2>http://wlgx-fm.akacast.akamaistream.net/7/691/23675/v1/auth.akacast.akamaistream.net/wlgx-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1128.l2367543127.c23675.n.lq.akamaistream.net:554/D/1128/23675/v0001/reflector:43127.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=FAIRBANKS-AK&affiliate=kakq-fm&market=FAIRBANKS-AK&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KAKQ-FM</callletters> 
+                <call_letters>KAKQ-FM</call_letters> 
+                <description><![CDATA[Best of the 90s and Now]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/734/2010/11/default/IHR_kakq_1290554699.png</logo_url> 
+                <name><![CDATA[Magic 101.1]]></name> 
+                <stationid>734</stationid> 
+                <station_id>734</station_id> 
+                <station_url>www.101magic.com</station_url> 
+                <stream_url_v2>http://kakq-fm.akacast.akamaistream.net/7/688/33404/v1/auth.akacast.akamaistream.net/kakq-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=TAMPA-FL&affiliate=wmtx-fm&market=TAMPA-FL&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WMTX-FM</callletters> 
+                <call_letters>WMTX-FM</call_letters> 
+                <description><![CDATA[Tampa Bay's Best Music Variety]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/wmtx_logo_1_1315500038.png</logo_url> 
+                <name><![CDATA[Mix 100.7]]></name> 
+                <stationid>1905</stationid> 
+                <station_id>1905</station_id> 
+                <station_url>www.tampabaysmix.com</station_url> 
+                <stream_url_v2>http://wmtx-fm.akacast.akamaistream.net/7/137/19871/v1/auth.akacast.akamaistream.net/wmtx-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1609.l1987123608.c19871.n.lq.akamaistream.net:554/D/1609/19871/v0001/reflector:23608.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=DALLAS-TX&affiliate=kdmx-fm&market=DALLAS-TX&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KDMX-FM</callletters> 
+                <call_letters>KDMX-FM</call_letters> 
+                <description><![CDATA[DFW's Best Mix]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/782/2010/11/default/IHR_kdmx_1290554700.png</logo_url> 
+                <name><![CDATA[MIX 102.9]]></name> 
+                <stationid>782</stationid> 
+                <station_id>782</station_id> 
+                <station_url>www.mix1029.com</station_url> 
+                <stream_url_v2>http://kdmx-fm.akacast.akamaistream.net/7/203/20089/v1/auth.akacast.akamaistream.net/kdmx-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=DAYTON-OH&affiliate=wmmx-fm&market=DAYTON-OH&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WMMX-FM</callletters> 
+                <call_letters>WMMX-FM</call_letters> 
+                <description><![CDATA[Dayton's Variety Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1898/2010/11/default/IHR_wmmx_1290554701.png</logo_url> 
+                <name><![CDATA[MIX 107.7]]></name> 
+                <stationid>1898</stationid> 
+                <station_id>1898</station_id> 
+                <station_url>www.mix1077.com</station_url> 
+                <stream_url_v2>http://wmmx-fm.akacast.akamaistream.net/7/533/20022/v1/auth.akacast.akamaistream.net/wmmx-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1882.l2002233881.c20022.n.lq.akamaistream.net:554/D/1882/20022/v0001/reflector:33881.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SPRINGFIELD-MA&affiliate=whyn-fm&market=SPRINGFIELD-MA&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WHYN-FM</callletters> 
+                <call_letters>WHYN-FM</call_letters> 
+                <description><![CDATA[The Best Mix Of The 80s, 90s & Now]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://content.clearchannel.com/cc-common/mlib/8169/02/8169_1267134114.png</logo_url> 
+                <name><![CDATA[MIX 93.1]]></name> 
+                <stationid>1795</stationid> 
+                <station_id>1795</station_id> 
+                <station_url>www.mix931.com</station_url> 
+                <stream_url_v2>http://whyn-fm.akacast.akamaistream.net/7/546/19918/v1/auth.akacast.akamaistream.net/whyn-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=LEXINGTON-KY&affiliate=wmxl-fm&market=LEXINGTON-KY&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WMXL-FM</callletters> 
+                <call_letters>WMXL-FM</call_letters> 
+                <description><![CDATA[More Music, More Variety]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1912/2010/11/default/IHR_wmxl_1290554700.png</logo_url> 
+                <name><![CDATA[Mix 94.5]]></name> 
+                <stationid>1912</stationid> 
+                <station_id>1912</station_id> 
+                <station_url>www.mymix945.com</station_url> 
+                <stream_url_v2>http://wmxl-fm.akacast.akamaistream.net/7/563/40714/v1/auth.akacast.akamaistream.net/wmxl-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a554.l4071432553.c40714.n.lq.akamaistream.net:554/D/554/40714/v0001/reflector:32553.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=CEDARRAPIDS-IOWACITY-IA&affiliate=wmt-fm&market=CEDARRAPIDS-IOWACITY-IA&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WMT-FM</callletters> 
+                <call_letters>WMT-FM</call_letters> 
+                <description><![CDATA[Iowa's Mix of 90's 2K & Today]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/05/default/wmt_mobile_logo_0_1304691464.png</logo_url> 
+                <name><![CDATA[Mix 96.5]]></name> 
+                <stationid>1904</stationid> 
+                <station_id>1904</station_id> 
+                <station_url>www.mix965.com</station_url> 
+                <stream_url_v2>http://wmt-fm.akacast.akamaistream.net/7/699/31303/v1/auth.akacast.akamaistream.net/wmt-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=PHOENIX-AZ&affiliate=kmxp-fm&market=PHOENIX-AZ&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KMXP-FM</callletters> 
+                <call_letters>KMXP-FM</call_letters> 
+                <description><![CDATA[80s, 90s & Today: Phoenix]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/932/2010/11/default/IHR_kmxp_1290554700.png</logo_url> 
+                <name><![CDATA[Mix 96.9]]></name> 
+                <stationid>932</stationid> 
+                <station_id>932</station_id> 
+                <station_url>www.mix969.com</station_url> 
+                <stream_url_v2>http://kmxp-fm.akacast.akamaistream.net/7/174/19753/v1/auth.akacast.akamaistream.net/kmxp-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a233.l1975352232.c19753.n.lq.akamaistream.net:554/D/233/19753/v0001/reflector:52232.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=DEFIANCE-OH&affiliate=wdfm-fm&market=DEFIANCE-OH&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WDFM-FM</callletters> 
+                <call_letters>WDFM-FM</call_letters> 
+                <description><![CDATA[Today's Variety]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1724/2010/11/default/IHR_wdfm_1290554700.png</logo_url> 
+                <name><![CDATA[Mix 98.1]]></name> 
+                <stationid>1724</stationid> 
+                <station_id>1724</station_id> 
+                <station_url>www.981mix.com</station_url> 
+                <stream_url_v2>http://wdfm-fm.akacast.akamaistream.net/7/476/29325/v1/auth.akacast.akamaistream.net/wdfm-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=TALLAHASSEE-FL&affiliate=wgmy-fm&market=TALLAHASSEE-FL&format=CHRPOP&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WGMY-FM</callletters> 
+                <call_letters>WGMY-FM</call_letters> 
+                <description><![CDATA[Tallahassee's Hit Music Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/wgmy_logo_1_1316544155.png</logo_url> 
+                <name><![CDATA[107.1 Hit Music Now]]></name> 
+                <stationid>2041</stationid> 
+                <station_id>2041</station_id> 
+                <station_url>www.1071hitmusicnow.com</station_url> 
+                <stream_url_v2>http://wgmy-fm.akacast.akamaistream.net/7/507/20800/v1/auth.akacast.akamaistream.net/wgmy-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=COLORADOSPRINGS-CO&affiliate=kvuu-fm&market=COLORADOSPRINGS-CO&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KVUU-FM</callletters> 
+                <call_letters>KVUU-FM</call_letters> 
+                <description><![CDATA[My Music and Johnjay and Rich]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/06/default/kvuu_mobile_logo_1_1307560837.png</logo_url> 
+                <name><![CDATA[My 99.9]]></name> 
+                <stationid>1052</stationid> 
+                <station_id>1052</station_id> 
+                <station_url>www.my999radio.com</station_url> 
+                <stream_url_v2>http://kvuu-fm.akacast.akamaistream.net/7/339/19808/v1/auth.akacast.akamaistream.net/kvuu-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SANFRANCISCO-CA&affiliate=kioi-fm&market=SANFRANCISCO-CA&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KIOI-FM</callletters> 
+                <call_letters>KIOI-FM</call_letters> 
+                <description><![CDATA[My Music, San Francisco]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/846/2010/11/default/IHR_kioi_1290554747.png</logo_url> 
+                <name><![CDATA[STAR 101.3]]></name> 
+                <stationid>846</stationid> 
+                <station_id>846</station_id> 
+                <station_url>www.1013.com</station_url> 
+                <stream_url_v2>http://kioi-fm.akacast.akamaistream.net/7/91/19795/v1/auth.akacast.akamaistream.net/kioi-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a904.l1979552903.c19795.n.lq.akamaistream.net:554/D/904/19795/v0001/reflector:52903.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=ASHEVILLE-NC&affiliate=wqnq-fm&market=ASHEVILLE-NC&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WQNQ-FM</callletters> 
+                <call_letters>WQNQ-FM</call_letters> 
+                <description><![CDATA[Asheville's Hit Music Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/09/default/wqnq_logo_1_1316780444.png</logo_url> 
+                <name><![CDATA[Star 104.3]]></name> 
+                <stationid>3236</stationid> 
+                <station_id>3236</station_id> 
+                <station_url>www.star1043.com</station_url> 
+                <stream_url_v2>http://wqnq-fm.akacast.akamaistream.net/7/805/19989/v1/auth.akacast.akamaistream.net/wqnq-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=BINGHAMTON-NY&affiliate=wmrv-fm&market=BINGHAMTON-NY&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WMRV-FM</callletters> 
+                <call_letters>WMRV-FM</call_letters> 
+                <description><![CDATA[Real Music Variety Star 105 7]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1901/2010/11/default/IHR_wmrv_1290554747.png</logo_url> 
+                <name><![CDATA[Star 105 7 WMRV]]></name> 
+                <stationid>1901</stationid> 
+                <station_id>1901</station_id> 
+                <station_url>www.binghamtonstar.com</station_url> 
+                <stream_url_v2>http://wmrv-fm.akacast.akamaistream.net/7/255/30788/v1/auth.akacast.akamaistream.net/wmrv-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=POUGHKEEPSIE-NY&affiliate=wbwz-fm&market=POUGHKEEPSIE-NY&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WBWZ-FM</callletters> 
+                <call_letters>WBWZ-FM</call_letters> 
+                <description><![CDATA[The Hudson Valley's Best Variety]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1699/2010/11/default/IHR_wbwz_1290554747.png</logo_url> 
+                <name><![CDATA[STAR 93.3]]></name> 
+                <stationid>1699</stationid> 
+                <station_id>1699</station_id> 
+                <station_url>www.star933fm.com</station_url> 
+                <stream_url_v2>http://wbwz-fm.akacast.akamaistream.net/7/771/26230/v1/auth.akacast.akamaistream.net/wbwz-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=SANDIEGO-CA&affiliate=kmyi-fm&market=SANDIEGO-CA&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KMYI-FM</callletters> 
+                <call_letters>KMYI-FM</call_letters> 
+                <description><![CDATA[San Diego's Variety Station]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/2135/2011/10/default/kmyi_site_logo_1_1319045647.png</logo_url> 
+                <name><![CDATA[Star 94.1]]></name> 
+                <stationid>3372</stationid> 
+                <station_id>3372</station_id> 
+                <station_url>www.star941fm.com</station_url> 
+                <stream_url_v2>http://kmyi-fm.akacast.akamaistream.net/7/419/19788/v1/auth.akacast.akamaistream.net/kmyi-fm</stream_url_v2> 
+                <stream_url_rtsp>rtsp://a1588.l1978843587.c19788.n.lq.akamaistream.net:554/D/1588/19788/v0001/reflector:43587.sdp</stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=HARTFORD-CT&affiliate=whcn-fm&market=HARTFORD-CT&format=CLASSICHITS&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>WHCN-FM</callletters> 
+                <call_letters>WHCN-FM</call_letters> 
+                <description><![CDATA[Music Variety for Adults]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/1781/2010/11/default/IHR_whcn_1290554751.png</logo_url> 
+                <name><![CDATA[The River 105.9]]></name> 
+                <stationid>1781</stationid> 
+                <station_id>1781</station_id> 
+                <station_url>www.theriver1059.com</station_url> 
+                <stream_url_v2>http://whcn-fm.akacast.akamaistream.net/7/450/19818/v1/auth.akacast.akamaistream.net/whcn-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station><station favorite="false"> 
+                <ads_gateway_dart_url_v2><![CDATA[http://dart.clearchannel.com/html.ng/site=TULSA-OK&affiliate=ktgx-fm&market=TULSA-OK&format=ACHOTMODERN&pagepos=5009&content1=null&content2=]]></ads_gateway_dart_url_v2> 
+                <callletters>KTGX-FM</callletters> 
+                <call_letters>KTGX-FM</call_letters> 
+                <description><![CDATA[Grunge, Hip Hop, Hair Bands, and More]]></description> 
+                <is_talk>0</is_talk> 
+                <logo_url>http://img.ccrd.clearchannel.com/media/mlib/966/2010/11/default/IHR_ktgx_1290554751.png</logo_url> 
+                <name><![CDATA[Tulsa's Gen X Radio 106.1]]></name> 
+                <stationid>966</stationid> 
+                <station_id>966</station_id> 
+                <station_url>www.genxtulsa.com</station_url> 
+                <stream_url_v2>http://ktgx-fm.akacast.akamaistream.net/7/731/20046/v1/auth.akacast.akamaistream.net/ktgx-fm</stream_url_v2> 
+                <stream_url_rtsp></stream_url_rtsp> 
+        </station></stations>

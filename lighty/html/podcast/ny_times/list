@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<categories>
+  <category name="News" id="1">
+    <items>
+      <item>
+        <id>0</id>
+        <name>NPR: Car Talk</name>
+        <description>America's funniest auto mechanics take calls from weary car owners all over the country, and crack wise while they diagnose Dodges and dismiss Diahatsus.  You don't have to know anything about cars to love this one hour weekly laugh fest.</description>
+        <url>http://www.npr.org/rss/podcast.php?id=510208</url>
+      </item>
+      <item>
+        <id>1</id>
+        <name>NPR: Alt.Latino Podcast</name>
+        <description>A voyage across the world in search of the best new Rock en Español and Latin Alternative music releases</description>
+        <url>http://www.npr.org/rss/podcast.php?id=128227577</url>
+      </item>
+      <item>
+        <id>2</id>
+        <name>NPR: Wait Wait... Don't Tell Me!</name>
+        <description>NPR's weekly current events quiz. Have a laugh and test your news knowledge while figuring out what's real and what we've made up.</description>
+        <url>http://www.npr.org/rss/podcast.php?id=35</url>
+      </item>
+      <item>
+        <id>3</id>
+        <name>NPR: Culturetopia Podcast</name>
+        <description>Arts, culture, media and fun from NPR's Neda Ulaby, Monkey See blogger Linda Holmes and a rotating cast from National Public Radio.</description>
+        <url>http://www.npr.org/rss/podcast.php?id=510282</url>
+      </item>
+      <item>
+        <id>4</id>
+        <name>NPR: It's All Politics</name>
+        <description>It's All Politics features Senior Washington Editor Ron Elving and Political Editor Ken Rudin. They dissect the latest news from inside the beltway, along with other political stories from around the country</description>
+        <url>http://www.npr.org/rss/podcast.php?id=510068</url>
+      </item>
+      <item>
+        <id>5</id>
+        <name>NPR: Playback</name>
+        <description>25 years ago. Don't really remember what happened? Or maybe you weren't even around then. Each month, NPR Playback combs the NPR radio archives to connect past with present.</description>
+        <url>http://www.npr.org/rss/podcast.php?id=510092</url>
+      </item>
+      <item>
+        <id>6</id>
+        <name>NPR: Planet Money</name>
+        <description>Money makes the world go around, faster and faster every day. On NPR's Planet Money, you'll meet high rollers, brainy economists and regular folks -- all trying to make sense of our rapidly changing global economy.</description>
+        <url>http://www.npr.org/rss/podcast.php?id=510289</url>
+      </item>
+      <item>
+        <id>7</id>
+        <name>NPR: Snap Judgment</name>
+        <description>Snap Judgment is the smoking-hot new show from NPR. Winner of the Public Radio Talent Quest, Glynn Washington delivers a raw, musical brand of storytelling, daring listeners to see the world through the eyes of another. </description>
+        <url>http://www.npr.org/rss/podcast.php?id=510294</url>
+      </item>
+      <item>
+        <id>8</id>
+        <name>NPR: All Songs Considered</name>
+        <description>Host Bob Boilen spins new music from emerging bands and musical icons.</description>
+        <url>http://www.npr.org/rss/podcast.php?id=510019</url>
+      </item>
+      <item>
+        <id>9</id>
+        <name>NPR: Live Concerts</name>
+        <description>Hear full concerts from Andrew Bird, St. Vincent, Wilco, Bon Iver, Alabama Shakes, Beirut and many more. </description>
+        <url>http://www.npr.org/rss/podcast.php?id=510253</url>
+      </item>
+      <item>
+        <id>10</id>
+        <name>NPR: Tiny Desk Concerts</name>
+        <description>Tiny Desk Concerts from NPR's All Songs Considered features your favorite musicians performing at Bob Boilen's desk in the NPR Music office. </description>
+        <url>http://www.npr.org/rss/podcast.php?id=510292</url>
+      </item>
+      <item>
+        <id>11</id>
+        <name>NPR: TED Radio Hour</name>
+        <description>The TED Radio Hour Podcast is a journey through fascinating ideas: astonishing inventions, fresh approaches to old problems, new ways to think and create. </description>
+        <url>http://www.npr.org/rss/podcast.php?id=510298</url>
+      </item>
+      <item>
+        <id>12</id>
+        <name>BBC: News Hour</name>
+        <description>Global news and analysis from the BBC World Service, twice a day, every day of the year.</description>
+        <url>http://downloads.bbc.co.uk/podcasts/worldservice/newshour/rss.xml</url>
+      </item>
+    </items>
+  </category>
+  <category name="Sports" id="3">
+    <items>
+    </items>
+  </category>
+</categories>

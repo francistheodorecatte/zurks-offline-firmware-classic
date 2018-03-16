@@ -1,0 +1,118 @@
+#!/bin/sh
+# $Id: flashplayer_watchdog 50912 2010-06-14 20:23:48Z scross $
+#
+# flashplayer_watchdog - cron job to check for hung flashplayer
+# modifications: added chumbalarmd watchdog - ken
+#
+# Ken Steele
+# Copyright (c) Chumby Industries, 2007-2009
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+
+HAS_RUNONCE=0
+
+run_script_once()
+{
+	touch /tmp/run_script_once.busy
+	logger "$0: running $1"
+	rm -f /tmp/run_script_once.$$
+	mv $1 /tmp/run_script_once.$$
+	sh /tmp/run_script_once.$$ > $1.out 2>&1
+	logger "$0: script $1 terminated status $? output in $1.out"
+	sleep 1
+	rm -f /tmp/run_script_once.*
+	HAS_RUNONCE=0
+}
+
+TIMEOUT=30
+CURRTIME=`date +%s`
+
+# If run_script_once is busy, exit now.
+# We have no timeout provisions for /tmp/flashplayer_notrunning_once
+[ -e /tmp/run_script_once.busy ] && exit 0
+
+if [ -e /tmp/chumbalarmd_started ]; then
+    if [ -e /tmp/chumbalarmd_heartbeat ]; then
+        DMSTIME=`stat -t /tmp/chumbalarmd_heartbeat |awk '{print $14}'`
+	    TIMEDIFF=`expr $CURRTIME - $DMSTIME`
+	    echo $TIMEDIFF;
+	    if [ $TIMEDIFF -gt $TIMEOUT ]; then
+            logger -s "$0: chumbalarmd timed out (${TIMEDIFF}s), restarting.."
+            killall -9 chumbalarmd
+            /bin/chumbalarmd
+	    fi
+	fi
+fi
+
+# Check for script to run once if flashplayer is not running
+[ -x /tmp/flashplayer_notrunning_once ] && HAS_RUNONCE=1
+
+CURRTIME=`date +%s`
+if [ -e /tmp/flashplayer_started ]; then
+
+	# Check to see if metadb exists, and if it needs to be restarted.
+	if [ -e /usr/bin/metadb ]; then
+	    if ! ps | grep -v grep | grep -q metadb; then
+		    /usr/bin/metadb --daemon &
+		fi
+	fi
+
+	if [ -e /tmp/movieheartbeat ]; then
+    	MOVIETIME=`stat -t /tmp/movieheartbeat |awk '{print $14}'`
+	    TIMEDIFF=`expr $CURRTIME - $MOVIETIME`
+	    echo $TIMEDIFF;
+	    if [ $TIMEDIFF -gt $TIMEOUT ]; then
+            logger -s "$0: movie timed out (${TIMEDIFF}s), restarting.."
+            # Stop start_control_panel script and flashplayer but leave flashplayer_started alone
+            /usr/chumby/scripts/stop_control_panel --keepalive
+
+            # clear the sensor drivers in case they got locked
+            echo 1 >/proc/sys/sense1/clear
+            echo 1 >/proc/sys/sense2/clear
+            sleep 2
+
+	    [ ${HAS_RUNONCE} = 1 ] && run_script_once /tmp/flashplayer_notrunning_once
+
+            /usr/chumby/scripts/start_control_panel &
+            exit
+	    fi
+	fi
+
+	if [ -e /tmp/flashheartbeat ]; then
+	    MOVIETIME=`stat -t /tmp/flashheartbeat |awk '{print $14}'`
+	    TIMEDIFF=`expr $CURRTIME - $MOVIETIME`
+		echo $TIMEDIFF
+	    if [ $TIMEDIFF -gt $TIMEOUT ]; then
+            logger -s "$0: flashplayer timed out (${TIMEDIFF}s), restarting.."
+            /usr/chumby/scripts/stop_control_panel --keepalive
+
+            # clear the sensor drivers in case they got locked
+            echo 1 >/proc/sys/sense1/clear
+            echo 1 >/proc/sys/sense2/clear
+            sleep 2
+
+	    [ ${HAS_RUNONCE} = 1 ] && run_script_once /tmp/flashplayer_notrunning_once
+
+            /usr/chumby/scripts/start_control_panel &
+            exit
+	    fi
+	fi
+elif [ ${HAS_RUNONCE} = 1 ]
+then
+	# Flashplayer not running but check for pid anyway
+	PIDLIST="$(pidof chumbyflashplayer.x)"
+	/usr/chumby/scripts/flashplayer_is_running || run_script_once /tmp/flashplayer_notrunning_once
+fi

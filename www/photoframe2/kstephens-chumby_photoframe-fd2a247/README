@@ -1,0 +1,39 @@
+Chumby PhotoFrame Widget and USB image.
+
+http://github.com/kstephens/chumby_photoframe/tree/master
+
+===========================
+
+photoframe - Source for PhotoFrame Chumby Widget,
+  based on http://www.discarded-ideas.org/chumby/photoframe by Wansti,
+  modified by Kurt Stephens (http://kurtstephens.com).
+  
+photoframe_usb - Source for creating a USB image file.
+  Includes lighttpd and Ruby binaries.
+  Supports uploading of new images at http://ip.of.your.chumby/image/upload.cgi.
+
+photoframe_usb.tar.gz - Basic USB image.
+  Includes lighttpd binaries.
+
+===========================
+
+To install USB image:
+
+  On /media/MYUSBDRIVE for the Photoframe widget using http://localhost/image setting:
+
+> make install-usb usb=/media/MYUSBDRIVE
+
+  Or 
+
+* Untar photoframe_usb.tar.gz into the root directory of your USB drive.
+* Follow directions in photoframe_usb/README to add new files.
+
+
+===========================
+
+To build:
+
+> make prereqs
+> make
+
+

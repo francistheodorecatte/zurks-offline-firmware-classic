@@ -1,0 +1,3 @@
+<MusicSources>
+  <Music player="http://music.chumby.com/pandora/sm_pandoraPlayer.swf" can_pause="true" panel="http://music.chumby.com/pandora/sm_pandoraPanel800x600.swf" can_next="true" alarm_panel="" label="Pandora Radio" can_prev="false" can_alarm="false" can_resume="true" id="pandora" ver="210" position="0"/>
+</MusicSources>

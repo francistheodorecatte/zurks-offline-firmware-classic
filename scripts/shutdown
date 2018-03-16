@@ -1,0 +1,52 @@
+#!/bin/sh
+# $Id: shutdown 16438 2009-08-29 01:31:07Z henry $
+# /usr/chumby/scripts/shutdown - Chumby-specific shutdown
+
+HALT=1
+REBOOT=0
+WHEN=now
+
+for OPT in $*
+do
+  case ${OPT} in
+   --halt|-h)	HALT=1;	;;
+   --reboot|-r)	REBOOT=1;	;;
+   now)		WHEN=${OPT}	;;
+   *)		echo "Unrecognized option ${OPT}"; exit 1; ;;
+  esac
+done
+
+ACTION="shutting down"
+[ "${REBOOT}" = "1" ] && ACTION="rebooting"
+
+echo "System is ${ACTION} ${WHEN}"
+# FIXME parse when+n etc.
+
+cd /
+
+# If run from within flashplayer, we need to make sure the reboot happens
+# Create a script for execution by watchdog script
+echo "#!/bin/sh
+$0 $*" > /tmp/flashplayer_notrunning_once
+chmod 755 /tmp/flashplayer_notrunning_once
+logger -s "Created /tmp/flashplayer_notrunning_once script"
+# This is suicide if flashplayer started us - try to detach it so stop_control_panel doesn't die with us
+stop_control_panel >/tmp/stop_cp.out 2>&1 < /dev/null &
+switch_fb.sh 0
+
+killall crond
+killall headphone_mgr
+umount /mnt/storage
+
+sync; sync;
+logger -s "${ACTION} via cpi.sh"
+sync
+if [ ${REBOOT} = 1 ]
+then
+  cpi.sh -s -a 6
+else
+  cpi.sh -s
+fi
+
+echo "cpi.sh -s failed - use reset switch to power down"
+
