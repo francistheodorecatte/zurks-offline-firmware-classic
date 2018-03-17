@@ -1,5 +1,5 @@
 # Zurk's Offline Firmware 
-#### version 34 . 0
+#### version 34.0
 
 
 ## License
