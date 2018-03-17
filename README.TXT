@@ -18,13 +18,13 @@ Which Firmware ?
 
 This is Zurk's Offline Firmware v34, backported to the Chumby Classic. 
 
-!!NOTE: Please install the SSL fix firmware before usage-- see ssl-fix-update for more info!!
+!!NOTE: Please install the SSL fix firmware before usage-- see ssl-fix-update.txt for more info!!
 
 
 Usage
 -----
 
-Copy to a blank USB thumbdrive (FAT32 formatted, 512 MB or greater, root folder, make sure you keep directory structure) - power off your activated, networked, functional chumby - insert thumbdrive - power on. Wait for the voice prompts (3-5 min) and when it reboots remove the USB thumbdrive. The first boot after install will take a while (1-2 min), the next ones are much faster. If upgrading with an on board firmware already on the Chumby the procedure is the same. The loader will detect the earlier install and upgrade it automatically. 
+Copy to a blank USB thumbdrive (FAT32 formatted, 2GB or greater, root folder, make sure you keep directory structure) - power off your activated, networked, functional chumby - insert thumbdrive - power on. Wait for the voice prompts (3-5 min) and when it reboots remove the USB thumbdrive. The first boot after install will take a while (1-2 min), the next ones are much faster. If upgrading with an on board firmware already on the Chumby the procedure is the same. The loader will detect the earlier install and upgrade it automatically. 
 You will need to change the control panel time to your correct location after bootup. Also change the brightness and sound to your preference. 
 Ensure your chumby is activated, on the network and fully operational with the latest firmware (v1.0.7) prior to using the offline firmware. 
 Although you do not need to activate your chumby and can run this offline firmware completely without a network, for a first time installation both network and activated chumby are recommended to make life simple. For operating in network-less environments please delete the file autoreboot.on from the chumby storage root. 
