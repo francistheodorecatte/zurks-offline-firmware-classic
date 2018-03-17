@@ -1,3 +1,4 @@
+cp -a /psp/ts_settings /mnt/usb/psp
 mount /mnt/usb/psp -o bind /psp
 rm -f /mnt/usb/foistrun
 sync
