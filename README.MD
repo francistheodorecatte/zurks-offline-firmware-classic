@@ -14,7 +14,7 @@ Copyright (C) 2012 Free Software Foundation, Inc. All rights reserved.
 
 This is Zurk's Offline Firmware v34, backported to the Chumby Classic. 
 
-!!NOTE: Please install the SSL fix firmware before usage-- see ssl-fix-update.txt for more info!!
+**NOTE: Please install the SSL fix firmware before usage-- see ssl-fix-update.txt for more info!**
 
 
 ## Usage
