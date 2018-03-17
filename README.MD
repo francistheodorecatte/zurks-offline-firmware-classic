@@ -19,13 +19,13 @@ This is Zurk's Offline Firmware v34, backported to the Chumby Classic.
 
 ## Usage
 
-⋅⋅* Copy to a blank USB thumbdrive (FAT32 formatted, 2GB or greater, root folder, make sure you keep directory structure) - power off your activated, networked, functional chumby - insert thumbdrive - power on. Wait for the voice prompts (3-5 min) and when it reboots remove the USB thumbdrive. The first boot after install will take a while (1-2 min without swapfile.on, up to !half an hour! with swapfile.on), the next ones are much faster. If upgrading with an on board firmware already on the Chumby the procedure is the same. The loader will detect the earlier install and upgrade it automatically. 
+* Copy to a blank USB thumbdrive (FAT32 formatted, 2GB or greater, root folder, make sure you keep directory structure) - power off your activated, networked, functional chumby - insert thumbdrive - power on. Wait for the voice prompts (3-5 min) and when it reboots remove the USB thumbdrive. The first boot after install will take a while (1-2 min without swapfile.on, up to !half an hour! with swapfile.on), the next ones are much faster. If upgrading with an on board firmware already on the Chumby the procedure is the same. The loader will detect the earlier install and upgrade it automatically. 
 
-⋅⋅* You will need to change the control panel time to your correct location after bootup. Also change the brightness and sound to your preference. 
+* You will need to change the control panel time to your correct location after bootup. Also change the brightness and sound to your preference. 
 
-⋅⋅* Ensure your chumby is activated, on the network and fully operational with the latest firmware (v1.0.7) prior to using the offline firmware. 
+* Ensure your chumby is activated, on the network and fully operational with the latest firmware (v1.0.7) prior to using the offline firmware. 
 
-⋅⋅* Although you do not need to activate your chumby and can run this offline firmware completely without a network, for a first time installation both network and activated chumby are recommended to make life simple. For operating in network-less environments please delete the file autoreboot.on from the chumby storage root. 
+* Although you do not need to activate your chumby and can run this offline firmware completely without a network, for a first time installation both network and activated chumby are recommended to make life simple. For operating in network-less environments please delete the file autoreboot.on from the chumby storage root. 
 
 
 ## USB disk problems
@@ -93,73 +93,73 @@ Only obsolete guides are currently available. Documentation will be included as 
 
 ## Changelog
 
-⋅⋅* v34- Added default channel setting on boot in Widget Editor. 
+* v34- Added default channel setting on boot in Widget Editor. 
 
-⋅⋅* v33- Added voice prompt to detect reboot state. Graphical interface on firmware loader if voice prompts non functional. 
+* v33- Added voice prompt to detect reboot state. Graphical interface on firmware loader if voice prompts non functional. 
 
-⋅⋅* v32- Added Intercom channel. Replace text to speech subsystem with new system using lower memory footprint. Added signature verification checking to detect corrupt images. Modified loader with disk compression support. 
+* v32- Added Intercom channel. Replace text to speech subsystem with new system using lower memory footprint. Added signature verification checking to detect corrupt images. Modified loader with disk compression support. 
 
-⋅⋅* v31- Bugfix for time sync patch which caused audio device disconnections on sync. Enhanced rdate connectivity in hosts to NIST. 
+* v31- Bugfix for time sync patch which caused audio device disconnections on sync. Enhanced rdate connectivity in hosts to NIST. 
 
-⋅⋅* v30- Added time sync patch (modified) based on patch posted in the forums by Stan. 
+* v30- Added time sync patch (modified) based on patch posted in the forums by Stan. 
 
-⋅⋅* v29- Added reliability patch to fix c8 original chumby firmware script issue for reboots. added night mode to lessen reboot frequency.
+* v29- Added reliability patch to fix c8 original chumby firmware script issue for reboots. added night mode to lessen reboot frequency.
 
-⋅⋅* v28- Added more of Philip Van Baren's widget parameters mod to widget editor. Added selective network checking to crontab to hopefully remove network disconnections. Added framework for BBC feeds to be virtualized in the future.   
+* v28- Added more of Philip Van Baren's widget parameters mod to widget editor. Added selective network checking to crontab to hopefully remove network disconnections. Added framework for BBC feeds to be virtualized in the future.   
 
-⋅⋅* v27- Added Philip Van Baren's widget parameters mod to widget editor. Added timezone input on index page.  
+* v27- Added Philip Van Baren's widget parameters mod to widget editor. Added timezone input on index page.  
 
-⋅⋅* v26- World clock. Improved network handling. Save Chumby channel based on the promo video. 
+* v26- World clock. Improved network handling. Save Chumby channel based on the promo video. 
 
-⋅⋅* v25- Better network handling. Removed bonjour (can be enabled by deleting bonjour.off) to save CPU/memory. 
+* v25- Better network handling. Removed bonjour (can be enabled by deleting bonjour.off) to save CPU/memory. 
 
-⋅⋅* v24- Less aggressive reboot strategy for net failures. Better memory handling for C1s. 
+* v24- Less aggressive reboot strategy for net failures. Better memory handling for C1s. 
 
-⋅⋅* v23- Added web based file manager to Chumote! panel. Added per widget timeouts on web control panel. Improved loader system. Reduction in RAM usage on c1/i35. Further fix for rare long term chumby kernel bug. Added GOES West Satellite feed. 
+* v23- Added web based file manager to Chumote! panel. Added per widget timeouts on web control panel. Improved loader system. Reduction in RAM usage on c1/i35. Further fix for rare long term chumby kernel bug. Added GOES West Satellite feed. 
 
-⋅⋅* v22- Chumby embedded infrastructure. Fix for DLNA by M.Heigl. Minor weather animation improvements. Infrastructure improvements for potential future widget drag and drop support. Weather editing support. Alarm infrastructure support for online alarm editing. Podcast editing via the web.
+* v22- Chumby embedded infrastructure. Fix for DLNA by M.Heigl. Minor weather animation improvements. Infrastructure improvements for potential future widget drag and drop support. Weather editing support. Alarm infrastructure support for online alarm editing. Podcast editing via the web.
 
-⋅⋅* v21- Minor search engine fix for c1. Added PNG animation support for replacing GIF animation support which has transparency problems (black background) with certain animated GIFs. 
+* v21- Minor search engine fix for c1. Added PNG animation support for replacing GIF animation support which has transparency problems (black background) with certain animated GIFs. 
 
-⋅⋅* v20- Added working BBC World Vintage Edition as a temporary replacement to broken reuters news (reuters spotlight API failed). Thumbnail/profile cleanup. Lightboxes for web control panel. Chumby widgetcache bugfix for cached animated gifs.
+* v20- Added working BBC World Vintage Edition as a temporary replacement to broken reuters news (reuters spotlight API failed). Thumbnail/profile cleanup. Lightboxes for web control panel. Chumby widgetcache bugfix for cached animated gifs.
 
-⋅⋅* v19- Tom Higgins Chumote (alpha) integration, dannysland podcasts. Shoutcast search engine. Cleanup of music for stub server integration. Doppler radar/animated GIF support. Remove broken LOLCats :( - replace with Flickr stream. 
+* v19- Tom Higgins Chumote (alpha) integration, dannysland podcasts. Shoutcast search engine. Cleanup of music for stub server integration. Doppler radar/animated GIF support. Remove broken LOLCats :( - replace with Flickr stream. 
 
-⋅⋅* v18- Preliminary fix for long term crash bug in all chumbies. Python, PHP & Perl cgi support added to built-in web server. 
+* v18- Preliminary fix for long term crash bug in all chumbies. Python, PHP & Perl cgi support added to built-in web server. 
 
-⋅⋅* v17- DLNA / UPnP Support & Perl 5.10. Random shuffler, egg timer. Zen Garden theme for the web control panel. 
+* v17- DLNA / UPnP Support & Perl 5.10. Random shuffler, egg timer. Zen Garden theme for the web control panel. 
 
-⋅⋅* v16- Cleanup, small music bugfix. 
+* v16- Cleanup, small music bugfix. 
 
-⋅⋅* v15- Added multiple profile infrastructure with two profiles. Can support any number of profiles. 
+* v15- Added multiple profile infrastructure with two profiles. Can support any number of profiles. 
 
-⋅⋅* v14- Removed all chumby music infrastructure, restored NYT PodCasts, CBS PodCasts, fixed broken blueocty links.
+* v14- Removed all chumby music infrastructure, restored NYT PodCasts, CBS PodCasts, fixed broken blueocty links.
 
-⋅⋅* v13- Added a selection of docs and customization guide to the docs folder.
+* v13- Added a selection of docs and customization guide to the docs folder.
 
-⋅⋅* v12- Bugfix for chumbies with broken network hardware.  
+* v12- Bugfix for chumbies with broken network hardware.  
 
-⋅⋅* v11- Added periodic event recorder i.e. blackbox in case of hangs, dmesg script, better memory data, LOLcats. 
+* v11- Added periodic event recorder i.e. blackbox in case of hangs, dmesg script, better memory data, LOLcats. 
 
-⋅⋅* v10- Patched chumby1 fw to include the chumby classic and improved network detection updates, fixed english calendar, extra network checks/failsafes
+* v10- Patched chumby1 fw to include the chumby classic and improved network detection updates, fixed english calendar, extra network checks/failsafes
 
-⋅⋅* v9 - added messaging API, now display a message on your chumby simply by going to http://ip.of.chumby/cgi-bin/message.sh?whatever
+* v9 - added messaging API, now display a message on your chumby simply by going to http://ip.of.chumby/cgi-bin/message.sh?whatever
 
-⋅⋅* v8 - more weather api tweaks, replace c1 german cal with eng
+* v8 - more weather api tweaks, replace c1 german cal with eng
 
-⋅⋅* v7 - fix images, java, speech engine, weather api (edit psp/zwapi.sh with your city and country code)
+* v7 - fix images, java, speech engine, weather api (edit psp/zwapi.sh with your city and country code)
 
-⋅⋅* v6 - added rapidfire, long term cleanup, clock overlay on c1
+* v6 - added rapidfire, long term cleanup, clock overlay on c1
 
-⋅⋅* v5 - removed http cache, installed adblock
+* v5 - removed http cache, installed adblock
 
-⋅⋅* v4 - add stuff 
+* v4 - add stuff 
 
-⋅⋅* v3 - corrected ntp drift on c8
+* v3 - corrected ntp drift on c8
 
-⋅⋅* v2 - corrected sound
+* v2 - corrected sound
 
-⋅⋅* v1 - init release
+* v1 - init release
 
 
 ###### Zurk's Offline Firmware
