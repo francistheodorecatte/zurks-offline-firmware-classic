@@ -1,7 +1,0 @@
-    <parameter value="[type Function]" name="childrenOfType"/>
-    <parameter value="" name="undefined"/>
-    <parameter value="16" name="config_tfsize"/>
-    <parameter value="5000" name="config_delay"/>
-    <parameter value="http://chumby.com/cgi-bin/msghdr.sh" name="config_url"/>
-    <parameter value="[type Function]" name="firstChildOfType"/>
-

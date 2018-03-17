@@ -1,4 +1,0 @@
-<parameter value="http://radblast-mi.wunderground.com/cgi-bin/radar/WUNIDS_map?station=ATX&amp;brand=wui&amp;num=1&amp;delay=15&amp;type=N0R&amp;frame=0&amp;scale=0.250&amp;noclutter=0&amp;t=1278308259&amp;lat=0&amp;lon=0&amp;label=you&amp;showstorms=0&amp;map.x=400&amp;map.y=240&amp;centerx=428&amp;centery=672&amp;transx=28&amp;transy=432&amp;showlabels=1&amp;severe=1&amp;rainsnow=1&amp;lightning=1&amp;smooth=0" name="url"/>
-<parameter value="60" name="reloadSec"/>
-<parameter value="NO" name="hideLoading"/>
-

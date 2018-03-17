@@ -1,4 +1,0 @@
-   <parameter value="yes" name="config_display"/>
-    <parameter value="8000" name="config_delay"/>
-    <parameter value="http://localhost/photos" name="config_url"/>
-
