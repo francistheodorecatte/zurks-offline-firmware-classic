@@ -89,6 +89,7 @@ Only obsolete guides are currently available. Documentation will be included as 
 
 
 ## Changelog
+
 v34- Added default channel setting on boot in Widget Editor. 
 v33- Added voice prompt to detect reboot state. Graphical interface on firmware loader if voice prompts non functional. 
 v32- Added Intercom channel. Replace text to speech subsystem with new system using lower memory footprint. Added signature verification checking to detect corrupt images. Modified loader with disk compression support. 
@@ -124,4 +125,5 @@ v3 - corrected ntp drift on c8
 v2 - corrected sound
 v1 - init release
 -
+
 ###### Zurk's Offline Firmware
