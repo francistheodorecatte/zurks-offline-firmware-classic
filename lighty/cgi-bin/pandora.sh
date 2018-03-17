@@ -7,6 +7,6 @@ echo "</head></html>"
 echo "<body>"
 echo "<pre>"                                                                    
 echo "Pandora enabled"
-cp /mnt/usb/psp/hosts.pandora /mnt/usb/psp/hosts
+cp /psp/hosts.pandora /psp/hosts
 echo "</pre>"
 echo "</body></html>"

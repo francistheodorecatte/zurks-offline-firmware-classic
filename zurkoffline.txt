@@ -1,2 +1,2 @@
-Edit profiles in xml directory to modify parameters for weather widgets.
+ensure you modify the clock timezone on first boot.
 

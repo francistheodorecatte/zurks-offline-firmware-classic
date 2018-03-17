@@ -1,0 +1,12 @@
+<widget_parameter>
+  <name>reloadSec</name>
+  <value>5</value>
+</widget_parameter>
+<widget_parameter>
+  <name>url</name>
+  <value>http://intercom/jpg/image.jpg</value>
+</widget_parameter>
+<widget_parameter>
+  <name>hideLoading</name>
+  <value>NO</value>
+</widget_parameter>

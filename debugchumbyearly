@@ -1,3 +1,10 @@
-mount /mnt/usb/psp -o bind /psp
-nice -n -20 /usr/sbin/httpd -h /mnt/usb/www -c /psp/httpd.conf
-
+stuff=`/usr/chumby/scripts/chumby_version -s`
+if [ -f /mnt/usb/foistrun ]; then
+if [ "$stuff" = "1.0.7" ]; then
+cp -prf /mnt/usb/psp/* /psp
+fi
+ln -s /mnt/usb/psp.bak/usr /psp/usr
+rm -f /mnt/usb/foistrun
+sync
+fi
+/usr/sbin/httpd -h /mnt/usb/www -c /psp/httpd.conf

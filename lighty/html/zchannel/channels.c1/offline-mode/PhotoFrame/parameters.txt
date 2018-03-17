@@ -1,0 +1,12 @@
+<widget_parameter>
+  <name>config_display</name>
+  <value>yes</value>
+</widget_parameter>
+<widget_parameter>
+  <name>config_delay</name>
+  <value>6000</value>
+</widget_parameter>
+<widget_parameter>
+  <name>config_url</name>
+  <value>http://localhost/photos</value>
+</widget_parameter>

@@ -1,0 +1,13 @@
+<widget_parameter>
+  <name>zip</name>
+  <value>ZZ</value>
+</widget_parameter>
+<widget_parameter>
+  <name>myID</name>
+  <value>Temperature</value>
+</widget_parameter>
+<widget_parameter>
+  <name>banner</name>
+  <value>Zurk's ChumbyFW</value>
+</widget_parameter>
+

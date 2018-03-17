@@ -27,7 +27,7 @@ function repeat() {
 	document.chumote.fb.src = "/cgi-bin/fb.sh?"+Math.floor(Math.random()*9999999+1);
 	document.chumote.fb1.src = "/cgi-bin/fb1.sh?"+Math.floor(Math.random()*9999999+1);
 document.chumote.date.value=new Date();
-setTimeout('repeat()',4000);
+if(document.chumote.refr.checked){}else{setTimeout('repeat()',10000);}
 }
 //]]>
 </script>
@@ -63,7 +63,7 @@ setTimeout('repeat()',4000);
 			<p class="p2"><span><A class="iframe2" href="/cgi-bin/license.sh">LICENSE</A> - License terms and conditions. </span></p>
 			<p class="p2"><span><A class="iframe2" href="/server-status">Server status</A> - Server status and information page. </span></p>
 			<p class="p3"><span><A class="iframe2" href="/dlna">DLNA</A> - DLNA Server / UPnP Infrastructure control panel.</span></p>
-			<p class="p4"><span><A class="iframe2" href="http://sourceforge.net/projects/zurk/forums/forum/12064">Forums</A> - Chat with other users and find help on sourceforge.net forums.</span></p>
+			<p class="p4"><span><A class="iframe2" href="http://sourceforge.net/p/zurk/discussion/12064/">Forums</A> - Chat with other users and find help on sourceforge.net forums.</span></p>
 		</div>
 	</div>
 <table border="0" width="100%">
@@ -77,25 +77,34 @@ setTimeout('repeat()',4000);
 			<p class="p4"><span><A class="iframe2" href="/cgi-bin/speak.pl">Speak</A> - Say the time</span></p>
 			<p class="p5"><span><A class="iframe2" href="/cgi-bin/dmesg.sh">DMesg</A> - Show the boot log</span></p>
 			<p class="p6"><span><A class="iframe2" href="/cgi-bin/blackbox.sh">Blackbox data recorder</A> - In case of an emergency check this log</span></p>
-			<p class="p7"><span><A class="iframe2" href="/cgi-bin/sync.sh">Sync</A> - Run a sync command on the Chumby to write data to the usb stick</span></p>
+			<p class="p7"><span><A class="iframe2" href="/cgi-bin/sync.sh">Sync</A> - Run a sync command on the Chumby to write data to the filesystem</span></p>
 			<p class="p8"><span><A class="iframe2" href="/cgi-bin/logs.sh">Web Log</A> - Check the Chumby web server logs</span></p>
 			<p class="p9"><span><A class="iframe2" href="/cgi-bin/dlna.sh">DLNA Check</A> - Has DLNA been started yet ? </span></p>
-			<h3><span>Music infrastructure</span></h3>
-			<p class="p11"><span><BR><A class="iframe2" href="/cgi-bin/pandora.sh">Switch to Chumby.com music infrastructure</A></span></p>
-			<p class="p12"><span><A class="iframe2" href="/cgi-bin/pandora-offline.sh">Switch to Offline music infrastructure</A></span></p>
+			<br><h3><span>System Infrastructure Control</span></h3>
+			<p class="p10"><span><BR><A class="iframe2" href="/cgi-bin/widget.sh?1=1">Multi-Channel Widget Editor (Chumby One)</A></span></p>
+			<p class="p11"><span><A class="iframe2" href="/cgi-bin/widget.sh?8=8">Multi-Channel Widget Editor (Chumby Eight)</A></span></p>
+			<p class="p12"><span><A class="iframe2" href="/cgi-bin/weathereditor.php">Weather Data Editor</A></span></p>
+			<p class="p13"><span><A class="iframe2" href="/cgi-bin/podcastcbs.php">CBS Podcast Editor</A></span></p>
+			<p class="p14"><span><A class="iframe2" href="/cgi-bin/podcastnyt.php">NYT Podcast Editor</A></span></p>
+			<p class="p15"><span><A class="iframe2" href="/cgi-bin/alarm-web/alarms.pl">Alarm Control Panel</A></span></p>
+			<p class="p16"><span><A class="iframe2" href="/cgi-bin/widget_refresh.sh">Refresh Channel List</A></span></p>
 		</div>
 </td><td width="50%">
 <form name="chumote">
 		<div id="participation">
-			<h3><span> Chumote! &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" size="88" name="date" disabled style="background-color: transparent;border-style: solid;border-width: 0px 0px 1px 0px;border-color: darkblue"></span></h3>
+			<h3><span> &nbsp;&nbsp;&nbsp; Chumote! &nbsp;&nbsp; <input type="checkbox" name="refr" value="refr"> &nbsp;&nbsp;<input type="text" size="80" name="date" disabled style="background-color: transparent;border-style: solid;border-width: 0px 0px 1px 0px;border-color: darkblue"></span></h3>
 			<p class="p1"><span> <img style="padding:8px;border:solid;border-color: #dddddd #aaaaaa #aaaaaa #dddddd;border-width: 1px 2px 2px 1px;background-color:white;" id="fb" src="/cgi-bin/fb.sh" alt="Chumby" width="320" height="200"><img style="padding:8px;border:solid;border-color: #dddddd #aaaaaa #aaaaaa #dddddd;border-width: 1px 2px 2px 1px;background-color:white;" id="fb1" src="/cgi-bin/fb1.sh" alt="Chumby" width="320" height="200"> </span></p>
 			<p class="p2"><span> <button type="button" onclick="document.location.href='/cgi-bin/zmote_on.sh';"> Nightmode On </button> &nbsp;&nbsp;&nbsp;&nbsp; <button type="button" onclick="document.location.href='/cgi-bin/zmote_off.sh';"> Nightmode Off </button> </span></p>
 			<p class="p3"><span> <input type="text" name="playurl" value="http://podcast.cbc.ca/mp3/hourlynews.mp3"> <button type="button" onclick="document.location.href='/cgi-bin/zmote_play.sh?'+document.chumote.playurl.value;"> Play URL </button> &nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="playloop" value="/mnt/usb/music/hal.mp3"> <button type="button" onclick="document.location.href='/cgi-bin/zmote_playloop.sh?'+document.chumote.playloop.value;"> Play Loop </button> </span></p>
-			<p class="p4"><span> SSH Server - <a class="iframe2" href="/cgi-bin/custom/ssh.sh">Enable</A> &nbsp;&nbsp;&nbsp;&nbsp; <a class="iframe2" href="/cgi-bin/custom/sshoff.sh">Disable</A> </span></p>
+			<p class="p4"><span> SSH Server - <a class="iframe2" href="/cgi-bin/custom/ssh.sh">Enable</A> &nbsp;&nbsp;&nbsp;&nbsp; <a class="iframe2" href="/cgi-bin/custom/sshoff.sh">Disable</A> &nbsp;&nbsp;&nbsp;&nbsp; <A class="iframe2" href="/ssh.html">Web based SSH Client</A> </span></p>
 			<p class="p5"><span> (Note: Small command subset due to limited Chumby 8 support for flashplayer commands) </span></p>
 			<p class="p6"><span> (Post reboot) Volume Control <button type="button" onclick="if(document.chumote.vol.value<100){document.chumote.vol.value++;}">Vol +</button> / <button type="button" onclick="if(document.chumote.vol.value>0){document.chumote.vol.value--;}">Vol -</button> - <input type="text" name="vol" value="20" size="5"> <button type="button" onclick="document.location.href='/cgi-bin/custom/setvol.sh?'+document.chumote.vol.value;">SET</button></span></p>
 			<p class="p7"><span> (Post reboot) Daylight modes   <button type="button" onclick="if(document.chumote.day.value<100){document.chumote.day.value++;}">Bright +</button> / <button type="button" onclick="if(document.chumote.day.value>0){document.chumote.day.value--;}">Bright -</button> - <input type="text" name="day" value="20" size="5"> <button type="button" onclick="document.location.href='/cgi-bin/custom/setday.sh?'+document.chumote.day.value;">SET</button></span></p>
 			<p class="p8"><span> (Post reboot) Nighttime mode <button type="button" onclick="if(document.chumote.night.value<100){document.chumote.night.value++;}">Bright +</button> / <button type="button" onclick="if(document.chumote.night.value>0){document.chumote.night.value--;}">Bright -</button> - <input type="text" name="night" value="20" size="5"> <button type="button" onclick="document.location.href='/cgi-bin/custom/setnight.sh?'+document.chumote.night.value;">SET</button></span></p>
+			<p class="p9"><span> <a class="iframe2" href="/cgi-bin/filemanager">File Manager</A> &nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="tzone" value="GMT" size="10"> <button type="button" onclick="document.location.href='/cgi-bin/worldclock.sh?ID=&Clock=World001-blue&Place=undefined&DateFormat=undefined&Random=657&TimeZone='+document.chumote.tzone.value;"> TimeZone </button>  </span></p>
+			<br><h3><span>Music infrastructure</span></h3>
+			<p class="p10"><span><BR><A class="iframe2" href="/cgi-bin/pandora.sh">Switch to Chumby.com music infrastructure</A></span></p>
+			<p class="p11"><span><A class="iframe2" href="/cgi-bin/pandora-offline.sh">Switch to Offline music infrastructure</A></span></p>
 		</div>
 </form>
 </td>  </tr>

@@ -116,15 +116,15 @@ function show_items(itemsobj)
    $("#browser-in").append("<td><div id='home-button' width=20px class='player-button ui-state-default ui-corner-all' onClick=\"browse_devices()\"><span class='ui-icon ui-icon-home'></div>");   
    $("#browser-in").append("<td><div id='up-button' width=20px class='player-button ui-state-default ui-corner-all' onClick=\"browse_uplevel('" + itemsobj.device + "'," + maxcount + ")\"><span class='ui-icon ui-icon-circle-arrow-n'></div>");
    if (parseInt(itemsobj.index) > 0){
-      $("#browser-in").append("<td><div id='up-button' width=20px class='player-button ui-state-default ui-corner-all' onClick=\"browse_upnp('" + itemsobj.device + "'," + itemsobj.object + "," + maxcount + "," + (parseInt(itemsobj.index) - maxcount) + ")\"><span class='ui-icon ui-icon-circle-arrow-w'></div>");
+      $("#browser-in").append("<td><div id='up-button' width=20px class='player-button ui-state-default ui-corner-all' onClick=\"browse_upnp('" + itemsobj.device + "','" + itemsobj.object + "'," + maxcount + "," + (parseInt(itemsobj.index) - maxcount) + ")\"><span class='ui-icon ui-icon-circle-arrow-w'></div>");
    }
    if (itemsobj.items.length == maxcount){
-      $("#browser-in").append("<td><div id='up-button' width=20px class='player-button ui-state-default ui-corner-all' onClick=\"browse_upnp('" + itemsobj.device + "'," + itemsobj.object + "," + maxcount + "," + (parseInt(itemsobj.index) + maxcount) + ")\"><span class='ui-icon ui-icon-circle-arrow-e'></div>");
+      $("#browser-in").append("<td><div id='up-button' width=20px class='player-button ui-state-default ui-corner-all' onClick=\"browse_upnp('" + itemsobj.device + "','" + itemsobj.object + "'," + maxcount + "," + (parseInt(itemsobj.index) + maxcount) + ")\"><span class='ui-icon ui-icon-circle-arrow-e'></div>");
    }
    $("#browser-in").append("</table>");
    for(var i in itemsobj.items){
       if (itemsobj.items[i].type == "container"){
-         $("#browser-in").append("<div class='browse-container ui-corner-all' onClick=\"browse_upnp('" + itemsobj.device + "'," + itemsobj.items[i].id + "," + maxcount + ",0)\">" + itemsobj.items[i].title + "</div>");
+         $("#browser-in").append("<div class='browse-container ui-corner-all' onClick=\"browse_upnp('" + itemsobj.device + "','" + itemsobj.items[i].id + "'," + maxcount + ",0)\">" + itemsobj.items[i].title + "</div>");
       }
       else{
          var o_name = encodeURIComponent(itemsobj.items[i].title);

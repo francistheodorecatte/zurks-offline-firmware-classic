@@ -1,13 +1,18 @@
-http://intercom/mjpg/video.mjpg
 <html><head><title>Sentinel4</title><style type="text/css">iframe#frm {background-color: white;}</style>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><meta http-equiv="pragma" content="no-cache"/></head>
-<body bgcolor="#000000" text="#FFFFFF"  alink='#00FF00' vlink='#00FF00' link='#00FF00'> 
+<script type="text/javascript">
+t = null;
+function closeMe(){
+t = setTimeout("location.href='http://google.com'",300000);
+}
+</script>
+<body bgcolor="#000000" text="#FFFFFF"  alink='#00FF00' vlink='#00FF00' link='#00FF00' onload="closeMe();self.focus()"> 
 <table width="100%" border="1" cellspacing="0" cellpadding="0"><tr>
 <td>
 <IMG id='cam0' SRC="http://intercom/mjpg/video.mjpg">
-<IMG id='cam4' SRC="http://cam:cam@cam4/cgi/mjpg/mjpg.cgi">   
-<IMG id='cam5' SRC="http://cam:cam@cam5/cgi/mjpg/mjpg.cgi">
 <IMG id='cam1' SRC="http://cam:cam@cam1/video/mjpg.cgi">   
+<IMG id='cam5' SRC="http://cam:cam@cam5/cgi/mjpg/mjpg.cgi">
+<IMG id='cam4' SRC="http://cam:cam@cam4/video/mjpg.cgi">   
 <IMG id='cam3' SRC="http://cam:cam@cam3/video/mjpg.cgi"> 
 <IMG id='cam2' SRC="http://cam:cam@cam2/video/mjpg.cgi"> 
 </td></tr></table><BR>

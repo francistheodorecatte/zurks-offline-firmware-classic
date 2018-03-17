@@ -1,0 +1,1 @@
+<parameter value="http://news.google.com/?output=rss" name="_chumby_param_rssurl"/>

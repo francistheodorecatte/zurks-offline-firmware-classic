@@ -5,6 +5,6 @@
 #
 echo "HTTP/1.1 200 ok"
 echo "Content-type:  text/html"
-echo "${QUERY_STRING}" > /mnt/usb/psp/daymode_brightness
+echo "${QUERY_STRING}" > /psp/daymode_brightness
 echo ""
 echo "Brightness set to ${QUERY_STRING}"

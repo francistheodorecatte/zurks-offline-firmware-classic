@@ -1,0 +1,46 @@
+#!/bin/sh      
+
+ID=`echo "$QUERY_STRING" | awk -F= '{print $2}' | awk -F'&' '{print $1}' | sed -e 's/%2C//g' |  sed -e 's/%20//g'`
+echo "Content-type: text/html"                                                  
+echo ""
+echo "<html><head>"
+echo "<title>Chumby Multi-Channel Widget Editor</title>"
+echo "<script type=\"text/javascript\" src=\"/webtoolkit.base64.js\"></script>"
+echo "</head>"
+echo "<body onload=\"document.spark.params.value=Base64.decode(document.spark.params.value);\">"
+echo "<h4>Zurk's Multi Channel Widget Editor</h4><form name=\"spark\">"
+base=`dirname $ID`
+widget=`basename $ID`
+echo "Editing Chumby Widget : <A HREF=\"widget_edit.sh?name=$base\">$base</A>/$widget<BR>"
+zap=`realpath $ID/thumbnail.jpg`
+txx=`cat $ID/timeout`
+tpath=`echo $zap | sed -e 's/\/mnt\/storage\/zurk\/lighty\/html\//\//g'`
+echo "<img src=$tpath/thumbnail.jpg> <br> <br>"
+echo " Enter a replacement thumbnail filename (e.g. if you insert a usb stick the path will be /mnt/usb/mythumb.jpg) &nbsp; <input type=\"text\" name=\"thumbnail\" value=\"mythumb.jpg\"></input> &nbsp;&nbsp;"
+echo " <button type=\"button\" onclick=\"window.location.href='/cgi-bin/widget_exec.sh?name=cp%20'+document.spark.thumbnail.value+'%20$ID/thumbnail.jpg'\">Replace Thumbnail</button>&nbsp;&nbsp; <BR><BR>"
+echo " Enter a replacement swf filename (e.g. if you insert a usb stick the path will be /mnt/usb/mymovie.swf) &nbsp; <input type=\"text\" name=\"movie\" value=\"mymovie.swf\"></input> &nbsp;&nbsp;"
+echo " <button type=\"button\" onclick=\"window.location.href='/cgi-bin/widget_exec.sh?name=cp%20'+document.spark.movie.value+'%20$ID/movie.swf'\">Replace SWF Movie</button>&nbsp;&nbsp; <BR><BR>"
+echo " Enter a replacement template filename (e.g. if you insert a usb stick the path will be /mnt/usb/mytemplate.swf) &nbsp; <input type=\"text\" name=\"template\" value=\"mytemplate.swf\"></input> &nbsp;&nbsp;"
+echo " <button type=\"button\" onclick=\"window.location.href='/cgi-bin/widget_exec.sh?name=cp%20'+document.spark.template.value+'%20$ID/template.swf'\">Replace Template</button>&nbsp;&nbsp; <BR><BR>"
+echo " Enter a timeout value in seconds (e.g. 180) &nbsp; <input type=\"text\" name=\"timp\" value=\"$txx\"></input> &nbsp;&nbsp;"
+echo " <button type=\"button\" onclick=\"window.location.href='/cgi-bin/widget_exec2.sh?name=echo%20%22'+document.spark.timp.value+'%22%20>%20$ID/timeout'\">Set Timeout</button>&nbsp;&nbsp; <BR><BR>"
+echo "<BR>"
+templex=`echo "cp -f $ID/movie.swf /mnt/usb/lighty/html/zchannel/parameters/movie.swf"`
+$templex
+echo "<iframe id=\"yyy\" src=\"/zchannel/parameters/movie.swf\" width=\"400\" height=\"300\" frameborder=\"0\" scrolling=\"no\"></iframe>"
+if [ -f "$ID/template.swf" ]; then
+templex=`echo "cp -f $ID/template.swf /mnt/usb/lighty/html/zchannel/parameters/template.swf"`
+$templex
+templex=`echo "cp -f $ID/parameters.txt /mnt/usb/lighty/html/zchannel/parameters/parameters.txt"`
+$templex
+echo "<iframe id=\"yyy\" src=\"/zchannel/parameters/template.swf\" width=\"400\" height=\"300\" frameborder=\"0\" scrolling=\"yes\"></iframe>"
+echo "<button type=\"button\" name=\"zappy\" onclick=\"window.location.href='/cgi-bin/widget_exec_filt.sh?name=mv%20/mnt/usb/lighty/html/zchannel/parameters/parameters.txt%20$ID/parameters.txt';\">Confirm Replace</button>&nbsp;&nbsp; <BR><BR>OR<BR>"
+fi
+echo "<H4>Parameters</H4>"
+echo "<textarea name=\"params\" rows=\"40\" cols=\"80\">"
+cat "$ID/parameters.txt" | /mnt/usb/python/bin/python -m base64 -e
+echo "</textarea><br>"
+echo "<iframe id=\"xxx\" src=\"about:blank\" width=\"300\" height=\"100\" frameborder=\"0\" scrolling=\"yes\" onload=\"document.spark.zap.disabled=false;\"></iframe><BR>Click replace and then confirm to publish the parameters to the widgets. &nbsp;&nbsp;"
+echo " <button type=\"button\" onclick=\"document.spark.zap.disabled=true;document.getElementById('xxx').src='/cgi-bin/widget_decode64.sh?name='+Base64.encode(document.spark.params.value);\">Replace Parameters</button>&nbsp;&nbsp; "
+echo " <button type=\"button\" name=\"zap\" onclick=\"window.location.href='/cgi-bin/widget_exec.sh?name=mv%20/tmp/decode.txt%20$ID/parameters.txt';\" disabled>Confirm Replace</button>&nbsp;&nbsp; <BR><BR>"
+echo "</form></body></html>"

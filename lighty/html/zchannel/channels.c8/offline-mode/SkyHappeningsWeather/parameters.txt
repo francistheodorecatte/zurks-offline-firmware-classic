@@ -1,0 +1,4 @@
+   <parameter value="ZZ" name="zip"/>
+    <parameter value="Zurk's ChumbyFW" name="banner"/>
+    <parameter value="Temperature" name="myID"/>
+

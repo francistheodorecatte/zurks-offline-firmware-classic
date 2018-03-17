@@ -1,0 +1,20 @@
+<widget_parameter>
+  <name>chlang</name>
+  <value>eng</value>
+</widget_parameter>
+<widget_parameter>
+  <name>chloc</name>
+  <value>Pitt Meadows, BC</value>
+</widget_parameter>
+<widget_parameter>
+  <name>chzip</name>
+  <value>V3Y 1A1</value>
+</widget_parameter>
+<widget_parameter>
+  <name>chunits</name>
+  <value>0</value>
+</widget_parameter>
+<widget_parameter>
+  <name>chint</name>
+  <value>5</value>
+</widget_parameter>

@@ -1,0 +1,4 @@
+<widget_parameter>
+  <name>banner</name>
+  <value>Zurk's ChumbyFW</value>
+</widget_parameter>

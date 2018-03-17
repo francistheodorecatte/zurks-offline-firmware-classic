@@ -3,6 +3,7 @@ import java.lang.*;
 
 class zwapi {
     public static void main(String[] args) {
+int debug=0;
 try {if (args.length > 0) {
 String weather=args[0];
 String destination=args[1];
@@ -15,38 +16,65 @@ BufferedReader br = new BufferedReader(new InputStreamReader(in));
   while ((strLine = br.readLine()) != null)   {  weatherhtml=weatherhtml+(strLine);  }
   in.close();
 
-    StringBuffer returnMessage = new StringBuffer(weatherhtml);
-    int startPosition = weatherhtml.indexOf("<"); // encountered the first closing braces
-    int endPosition = weatherhtml.indexOf(">"); // encountered the first closing braces
-    while( startPosition != -1 ) {
-      returnMessage.delete( startPosition, endPosition+1 ); // remove the tag
-      startPosition = (returnMessage.toString()).indexOf("<"); // look for the next closing brace
-      endPosition = (returnMessage.toString()).indexOf(">"); // look for the next closing brace
-    }
+if(debug==1)System.out.println("start");
 
+/*    StringBuffer returnMessage = new StringBuffer(weatherhtml);
+    int startPosition = 0; // encountered the first closing braces
+    int endPosition = 0; // encountered the first closing braces
+      startPosition = returnMessage.indexOf("<",0); // look for the next closing brace
+      endPosition = returnMessage.indexOf(">",0); // look for the next closing brace
+    while( (startPosition != -1) && (endPosition != 0)) {
+	if(debug==1)System.out.println(" x "+startPosition+" "+endPosition);
+      returnMessage.delete( startPosition, endPosition ); // remove the tag
+      startPosition = (returnMessage).indexOf("<",0); // look for the next closing brace
+      endPosition = (returnMessage).indexOf(">",0); // look for the next closing brace
+    }
+*/
 String tokens[];
-String sparky;
-weatherhtml=(returnMessage.toString());
+String sparky=new String();
+
+weatherhtml.replaceAll("\\<.*?>","");
+
+
+if(debug==1)System.out.println(weatherhtml);
 
 tokens = weatherhtml.split("Conditions");
-sparky=tokens[1];
+if(tokens.length>1){
+sparky=tokens[1];}
+
+if(debug==1)System.out.println(sparky);
+
 tokens = sparky.split("Visibility");
 sparky=tokens[0];
+
+if(debug==1)System.out.println(sparky);
 
 weatherhtml=(weatherhtml).replaceAll(" ", "");
 weatherhtml=(weatherhtml).replaceAll("&deg;", "");
 
+if(debug==1)System.out.println(weatherhtml);
+
 tokens = weatherhtml.split("Temperature");
-weatherhtml=tokens[1];
+if(tokens.length>1){
+weatherhtml=tokens[1];}
+
+if(debug==1)System.out.println(weatherhtml);
 
 tokens = weatherhtml.split("F");
-String f=tokens[0];
+String f=tokens[0].replaceAll("\\<.*?>","");
+
+if(debug==1)System.out.println(f);
 
 tokens = weatherhtml.split("Conditions");
-weatherhtml=tokens[1];
+if(tokens.length>1){
+weatherhtml=tokens[1];}
+
+if(debug==1)System.out.println(weatherhtml);
 
 tokens = weatherhtml.split("Visibility");
 weatherhtml=tokens[0];
+
+if(debug==1)System.out.println(weatherhtml+" end");
 
 int code=0;
 

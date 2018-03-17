@@ -1,0 +1,57 @@
+Chumby speaks!
+
+Unzip this archive to the root of a usb drive, insert into chumby and reboot. 
+You'll notice that it stays at the chumby logo for a minute or two - don't 
+worry, this is where the files are copied across to the chumby. Once the chumby 
+is fully booted you can remove the usb stick and it will not be needed again as 
+all necessary files are copied to the chumby. 
+
+(I assume this will only work on  the chumby one due to lack of storage space 
+on the classic, although you could probably change the paths in the cgi script 
+and leave the flite executables on the usb drive) 
+
+Now add the talking clock widget to a channel, and when you touch the screen 
+your chumby will say the time aloud!
+
+More info:
+
+Speech is provided by the flite_time program, see http://cmuflite.org/ for more 
+info on flite. flite_time can only say the time, but I also included the full 
+kal16 flite voice so chumby can say anything. flite 1.4 was cross-compiled in 
+scratchbox with a minimum of changes to makefiles to get it to link correctly 
+against alsa-lib. 
+
+Make your widgets talk:
+
+This package installs a cgi script to allow chumby flash widgets to access 
+flite. This means that once it has been installed, any widget can talk!
+
+To access flite in your flash widget, first you must get a crossdomain policy 
+file from the cgi script:
+
+System.security.loadPolicyFile(
+    "http://127.0.0.1/cgi-bin/custom/speak?action=policy");
+    
+Now your widget should have permission to call one of the two available actions 
+in the cgi script. To speak the time (in a fuzzy way with high quality limited 
+domain voice) use the 'time' action:
+
+var speak : LoadVars;
+speak = new LoadVars();
+speak.load("http://127.0.0.1/cgi-bin/custom/speak?action=time&time=09:23")
+
+The time MUST be in the format HH:MM (make sure you zero pad hours and minutes 
+eg. 09:02) and in 24h format. See face.as in the TalkingClock source for a full 
+example.
+
+To speak any words you like, use the 'say' action:
+ 
+speak.load("http://127.0.0.1/cgi-bin/custom/speak?action=say&words=hello%2c%20world.")
+
+Be sure to use % encoding for spaces and any other weird characters.
+
+You can test these URLS by typing them into a browser, but replacing 127.0.0.1 
+with the real IP of your chumby.
+
+Have fun!
+

@@ -1,0 +1,4 @@
+<widget_parameter>
+  <name>banner</name>
+  <value>IBCPITTM3</value>
+</widget_parameter>

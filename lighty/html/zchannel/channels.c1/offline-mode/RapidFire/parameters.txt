@@ -1,0 +1,9 @@
+<widget_parameter>
+  <name>units</name>
+  <value>both</value>
+</widget_parameter>
+<widget_parameter>
+  <name>station</name>
+  <value>IBCPITTM3</value>
+</widget_parameter>
+

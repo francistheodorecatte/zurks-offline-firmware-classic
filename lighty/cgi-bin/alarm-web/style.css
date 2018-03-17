@@ -1,0 +1,32 @@
+table {
+    border:         1px solid black;
+    width:          100%;
+    margin:         0px;
+    padding:        0px;
+}
+
+td {
+    margin:         0px;
+    padding:        0px;
+    background:     #EEE;
+}
+
+caption {
+    font-size:      24px;
+    padding-top:    12px;
+    font-family:    arial, sans-serif;
+}
+
+th {
+    font:           16px bold;
+    font-family:    sans-serif;
+    text-align:     left;
+    background:     #DEF;
+
+    margin:         0px;
+    padding:        0px;
+}
+
+body {
+    background:     white;
+}

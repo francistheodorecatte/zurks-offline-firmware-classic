@@ -1,0 +1,5 @@
+<widget_parameter>
+  <name>_chumby_param_rssurl</name>
+  <value>http://chumby.com/zurksofw/rss.xml</value>
+</widget_parameter>
+

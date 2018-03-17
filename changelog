@@ -1,7 +1,7 @@
 Zurk's Offline Firmware 
 
 
-  v 21 . 0
+  v 34 . 0
 
 
 License
@@ -16,17 +16,65 @@ Copyright (C) 2012 Free Software Foundation, Inc. All rights reserved.
 Which Firmware ?
 ----------------
 
-For the chumby classic : 
-http://sourceforge.net/projects/zurk/files/zurk_chumby_classic.zip/download 
+The Chumby One or Infocast 3.5 :
+http://sourceforge.net/projects/zurk/files/zurk_chumby_one.zip/download
+The Chumby Eight or Infocast 8 :
+http://sourceforge.net/projects/zurk/files/zurk_chumby8_infocast.zip/download
+
+THE CHUMBY CLASSIC IS NO LONGER SUPPORTED. Please download the last firmware (v21) for the classic from here :
+http://sourceforge.net/projects/zurk/files/zurk_chumby_classic.zip/download
 
 
 Usage
 -----
 
-Unzip to a blank USB thumbdrive (FAT32 formatted, 512MB or greater, root folder, make sure you keep directory structure) - power off your activated, networked, functional chumby - insert thumbdrive - power on.
+Unzip to a blank USB thumbdrive (FAT32 formatted, 512 MB or greater, root folder, make sure you keep directory structure) - power off your activated, networked, functional chumby - insert thumbdrive - power on. Wait for the voice prompts (3-5 min) and when it reboots remove the USB thumbdrive. The first boot after install will take a while (1-2 min), the next ones are much faster. If upgrading with an on board firmware already on the Chumby the procedure is the same. The loader will detect the earlier install and upgrade it automatically. 
 You will need to change the control panel time to your correct location after bootup. Also change the brightness and sound to your preference. 
-Ensure your chumby is activated, on the network and fully operational with the latest firmware (classic - v1.7.1 or c1/i3.5 - v1.0.7 or c8/i8 - v1.8.2) prior to using the offline firmware. 
-Although you do not need to activate your chumby and can run this offline firmware completely without a network, for a first time installation both network and activated chumby are recommended to make life simple. For operating in network-less environments please delete the file autoreboot.on from the usb disk root. 
+Ensure your chumby is activated, on the network and fully operational with the latest firmware (c1/i3.5 - v1.0.7 or c8/i8 - v1.8.2) prior to using the offline firmware. 
+Although you do not need to activate your chumby and can run this offline firmware completely without a network, for a first time installation both network and activated chumby are recommended to make life simple. For operating in network-less environments please delete the file autoreboot.on from the chumby storage root. 
+NOTE: The screen may not update while the firmware is installing. This is normal. 10-15 min is the average time for the firmware to load into your chumby. Do not unplug it during firmware loading.
+
+
+Factory fresh Chumby
+--------------------
+
+If your chumby is NOT on the latest factory firmware the offline firmware will not load. 
+In order to get your chumby to the latest firmware follow the procedure below :
+chumby One / Insignia Infocast 3.5
+
+This firmware is for the white plastic chumby devices, with blue trim, HW version 3.x, and Insignia Infocast 3.5", HW version 7.x. The current version of the firmware is 1.0.7.
+
+1) Get a USB flash drive, make sure it is FAT32 formatted.
+2) Download this file onto the flash drive root folder (do NOT unpack it):
+http://files.chumby.com/resources/chumbyone/1-0-7/update.tgz
+3) Put the flash drive into the back of your device.
+4) Reboot the device, while touching the screen to get the device into "special options mode".
+5) Press the "Install updates" button.
+6) Press the "Install from USB flash drive".
+7) Click confirm.
+
+The device should start updating - DO NOT unplug the the device while this is happening!
+
+chumby Eight / Insignia Infocast 8
+
+This firmware is for the 8" plastic chumby devices and black Insignia Infocast 8". The current version of the firmware is 1.8.2.
+
+1) Get a USB flash drive, make sure it is FAT32 formatted.
+2) Download this file onto the flash drive root folder (do NOT unpack it):
+http://files.chumby.com/resources/chumby8/1-8-2/update.zip
+3) Put the flash drive into the back of your device.
+4) Reboot the device, while touching the screen to get the device into "special options mode".
+5) Press the "Install updates" button.
+6) Press the "Install from USB flash drive".
+7) Click confirm.
+
+The device should start updating - DO NOT unplug the the device while this is happening! After this is complete follow the procedure outlined above for loading the offline firmware on your fresh chumby. 
+
+
+USB disk problems
+-----------------
+
+The installation checks the files on the USB disk before installing to your chumby. If the files have issues such as data corruption etc the install will stop. Please replace the USB disk and try a new one or reformat the USB disk and retry it.
 
 
 Help
@@ -42,7 +90,7 @@ Feel free to discuss any topics as required. The chumby forums may provide more 
 Chumote!
 --------
 
-The Chumote! infrastructure has been provided in a very limited way with this release. Simply point your web browser to your chumby's ip address and you should see the new infrastructure pop up. You can now see the contents of the chumby screen and set a few parameters as well as start ssh. For insecure networks ensure you set a ssh password with "passwd root" once you ssh into the chumby. 
+The Chumote! infrastructure has been expanded with this release. Simply point your web browser to your chumby's ip address and you should see the new infrastructure pop up. You can now see the contents of the chumby screen and set a few parameters as well as start ssh. For insecure networks ensure you set a ssh password with "passwd root" once you ssh into the chumby. 
 
 
 Music 
@@ -62,25 +110,9 @@ DLNA can be used with any UPnP or DLNA music server or device. An open source cr
 Customization - Widgets/Weather
 -------------------------------
 
-You can customize the widgets or add more widgets by reading the FAQ/forums to get the correct weather for your location. Weather support is for the entire planet using wunderground and accuweather. 
-Complete remote control command set is available at http://ip.address.of.your.chumby/
-
-Profiles for the Infocast 3.5 / Chumby One / Chumby Classic are located in : /lighty/html/xml/profiles/profiles0 (or profiles1 for next channel)
-You must type the following command on the chumby after you edit profiles on there directly : sync
-
-Profiles for the Infocast 8 / Chumby Eight are located in : /lighty/html/xapis/profile/show/0 (or 1 for next channel)
-You must type the following command on the chumby after you edit profiles on there directly : sync
-
-You must edit the following file to set correct weather for your region : /psp/zwapi.sh and the profile file as noted above
-You must type the following command on the chumby after you edit the weather zwapi.sh file or profiles on there directly : sync
-Special note : For widgets which use a zipcode of ZZ, leave the zipcode field alone and modify zwapi.sh to set the correct location. Do NOT modify the zipcode of ZZ. 
-For widgets which load weather directly (i.e. not relying on the built in weather the firmware provides -- such as the WUnderground graph widget or Accuweather) you have to edit the widget parameters with the name of your city/zipcode in the widget profiles as well. 
+Customize widgets and weather by selecting the appropriate link for Multi Channel Widget Editor or Weather Editor from the link on the chumby web control panel. Ensure you click the reload channel link on the control panel to see your changes on the chumby. 
 
 Weather updates are hourly. Wait up to 1 hour before assuming something has gone wrong with your changes. 
-
-Delete the file autoreboot.on to stop automatic rebooting of the chumby on loss of network and to switch to pure offline mode.
-
-If you edit these files on a PC you must eject the usb disk properly through an eject command or equivalent after saving changes. Use the web based control panel to sync by clicking the sync link instead of a command line sync if you are unfamiliar with it. 
 
 
 Customization - Music
@@ -89,9 +121,15 @@ Customization - Music
 Firmwares now have a common music infrastructure built-in. You can customize the music by editing the folder : lighty/html/chumcast/list
 and create the corresponding xshow file with a list of your music. This will modify the blueocty radio
 
-You can customize the podcasts by editing the lighty/html/podcast folder.
-
 You must type the following command on the chumby after you edit music on there directly : sync
+
+You can customize the podcasts by selecting the corresponding Podcast Editor on the menu of the chumby web based control panel.
+
+
+Networkless mode
+----------------
+
+Want to run your chumby without a network ? Network-less mode is for you. Delete the file autoreboot.on from /mnt/usb and your chumby will work without a network. Note that this procedure is irreversible unless you reinstall the software on the chumby using a usb disk. Until that happens the chumby will not connect to any network.
 
 
 Note 
@@ -103,12 +141,24 @@ Once you have changed any settings to your liking, prior to putting the chumby i
 Guide
 -----
 
-An offline firmware guide has been included in this package. Please see docs/ChumbyWidgetGuide.pdf by amigafin. 
-New versions will be available at : http://sourceforge.net/projects/chumby/files/
+Only obsolete guides are currently available. Documentation will be included as volunteers write it for the new embedded infrastructure. 
 
 
 Changelog
 ---------
+v34- Added default channel setting on boot in Widget Editor. 
+v33- Added voice prompt to detect reboot state. Graphical interface on firmware loader if voice prompts non functional. 
+v32- Added Intercom channel. Replace text to speech subsystem with new system using lower memory footprint. Added signature verification checking to detect corrupt images. Modified loader with disk compression support. 
+v31- Bugfix for time sync patch which caused audio device disconnections on sync. Enhanced rdate connectivity in hosts to NIST. 
+v30- Added time sync patch (modified) based on patch posted in the forums by Stan. 
+v29- Added reliability patch to fix c8 original chumby firmware script issue for reboots. added night mode to lessen reboot frequency.
+v28- Added more of Philip Van Baren's widget parameters mod to widget editor. Added selective network checking to crontab to hopefully remove network disconnections. Added framework for BBC feeds to be virtualized in the future.   
+v27- Added Philip Van Baren's widget parameters mod to widget editor. Added timezone input on index page.  
+v26- World clock. Improved network handling. Save Chumby channel based on the promo video. 
+v25- Better network handling. Removed bonjour (can be enabled by deleting bonjour.off) to save CPU/memory. 
+v24- Less aggressive reboot strategy for net failures. Better memory handling for C1s. 
+v23- Added web based file manager to Chumote! panel. Added per widget timeouts on web control panel. Improved loader system. Reduction in RAM usage on c1/i35. Further fix for rare long term chumby kernel bug. Added GOES West Satellite feed. 
+v22- Chumby embedded infrastructure. Fix for DLNA by M.Heigl. Minor weather animation improvements. Infrastructure improvements for potential future widget drag and drop support. Weather editing support. Alarm infrastructure support for online alarm editing. Podcast editing via the web.
 v21- Minor search engine fix for c1. Added PNG animation support for replacing GIF animation support which has transparency problems (black background) with certain animated GIFs. 
 v20- Added working BBC World Vintage Edition as a temporary replacement to broken reuters news (reuters spotlight API failed). Thumbnail/profile cleanup. Lightboxes for web control panel. Chumby widgetcache bugfix for cached animated gifs.
 v19- Tom Higgins Chumote (alpha) integration, dannysland podcasts. Shoutcast search engine. Cleanup of music for stub server integration. Doppler radar/animated GIF support. Remove broken LOLCats :( - replace with Flickr stream. 

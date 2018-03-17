@@ -1,0 +1,1131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" dir="ltr">
+<head>
+<title>Chumby tricks - ChumbyWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.2" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="ChumbyWiki (en)" />
+<link rel="alternate" type="application/atom+xml" title="ChumbyWiki Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/index.php/$1",
+wgScriptPath="",
+wgScriptExtension=".php",
+wgScript="/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.chumby.com",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="Chumby_tricks",
+wgTitle="Chumby tricks",
+wgAction="view",
+wgArticleId=1286,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="en",
+wgContentLanguage="en",
+wgBreakFrames=false,
+wgCurRevisionId=3467,
+wgVersion="1.16.2",
+wgEnableAPI=false,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="Main Page",
+wgFormattedNamespaces={"-2": "Media", "-1": "Special", "0": "", "1": "Talk", "2": "User", "3": "User talk", "4": "ChumbyWiki", "5": "ChumbyWiki talk", "6": "File", "7": "File talk", "8": "MediaWiki", "9": "MediaWiki talk", "10": "Template", "11": "Template talk", "12": "Help", "13": "Help talk", "14": "Category", "15": "Category talk"},
+wgNamespaceIds={"media": -2, "special": -1, "": 0, "talk": 1, "user": 2, "user_talk": 3, "chumbywiki": 4, "chumbywiki_talk": 5, "file": 6, "file_talk": 7, "mediawiki": 8, "mediawiki_talk": 9, "template": 10, "template_talk": 11, "help": 12, "help_talk": 13, "category": 14, "category_talk": 15, "image": 6, "image_talk": 7},
+wgSiteName="ChumbyWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/skins/common/wikibits.js?270"></script>
+<script src="/skins/common/ajax.js?270"></script>
+<script src="/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-Chumby_tricks skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">Chumby tricks</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">From ChumbyWiki</h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>
+		<!-- start content -->
+<p><b>NOTE - this page is for Ironforge/Falconwing and Silvermoon production chumby devices - for Foo/Katamari alpha prototypes, please see <a href="/index.php/Chumby_Tricks_for_Foo/Katamari" title="Chumby Tricks for Foo/Katamari">Chumby Tricks for Foo/Katamari</a></b>
+</p><p><b>NOTE - the bulk of these tips and tricks are unofficial hacks and are not officially supported by the company.  Use them at your own risk!</b>
+</p><p>Many of these tips and tricks require creating a text file for a script - the chumby, being a Linux-based device, requires that these scripts have UNIX-style line endings (in particular, linefeeds).  For Linux users, this is easy - just use your favorite editor.  For Macintosh users, the standard TextEdit application will do nicely if you use it in plain text mode.  For Windows, we recommend <a href="http://www.editpadpro.com/" class="external text" rel="nofollow">EditPad Pro</a>.
+</p><p>The chumby also has a lightweight version of <a href="http://en.wikipedia.org/wiki/Vi" class="external text" rel="nofollow">vi</a> built in.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Hidden_screen_in_Control_Panel"><span class="tocnumber">1</span> <span class="toctext">Hidden screen in Control Panel</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Open_a_secure_shell_.28SSH.29_console_on_the_chumby"><span class="tocnumber">2</span> <span class="toctext">Open a secure shell (SSH) console on the chumby</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Enabling_a_password_for_SSH_-_the_easy_way"><span class="tocnumber">2.1</span> <span class="toctext">Enabling a password for SSH - the easy way</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Enabling_a_password_for_SSH_-_the_hard_way"><span class="tocnumber">2.2</span> <span class="toctext">Enabling a password for SSH - the hard way</span></a>
+<ul>
+<li class="toclevel-3 tocsection-5"><a href="#...on_Ironforge"><span class="tocnumber">2.2.1</span> <span class="toctext">...on Ironforge</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#...on_Falconwing_and_Infocast_3.5"><span class="tocnumber">2.2.2</span> <span class="toctext">...on Falconwing and Infocast 3.5</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Music_customizations"><span class="tocnumber">3</span> <span class="toctext">Music customizations</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#Streaming_from_an_mp3_server_.28shoutcast_.2F_icecast_.2F_etc..29"><span class="tocnumber">3.1</span> <span class="toctext">Streaming from an mp3 server (shoutcast / icecast / etc.)</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Streaming_music_from_SlimServer_to_chumby"><span class="tocnumber">3.2</span> <span class="toctext">Streaming music from SlimServer to chumby</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Streaming_music_from_Nicecast"><span class="tocnumber">3.3</span> <span class="toctext">Streaming music from Nicecast</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Streaming_music_from_GNUMP3d"><span class="tocnumber">3.4</span> <span class="toctext">Streaming music from GNUMP3d</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Streaming_XM_Satellite_Radio"><span class="tocnumber">3.5</span> <span class="toctext">Streaming XM Satellite Radio</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Streaming_SIRIUS_Satellite_Radio"><span class="tocnumber">3.6</span> <span class="toctext">Streaming SIRIUS Satellite Radio</span></a>
+<ul>
+<li class="toclevel-3 tocsection-14"><a href="#Install_uSirius"><span class="tocnumber">3.6.1</span> <span class="toctext">Install uSirius</span></a></li>
+<li class="toclevel-3 tocsection-15"><a href="#Install_TVersity"><span class="tocnumber">3.6.2</span> <span class="toctext">Install TVersity</span></a></li>
+<li class="toclevel-3 tocsection-16"><a href="#Install_XAMPP"><span class="tocnumber">3.6.3</span> <span class="toctext">Install XAMPP</span></a></li>
+<li class="toclevel-3 tocsection-17"><a href="#Downloading_the_PHP_Script"><span class="tocnumber">3.6.4</span> <span class="toctext">Downloading the PHP Script</span></a></li>
+<li class="toclevel-3 tocsection-18"><a href="#Set_up_in_the_Chumby"><span class="tocnumber">3.6.5</span> <span class="toctext">Set up in the Chumby</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-19"><a href="#Changing_the_order_of_music_sources"><span class="tocnumber">3.7</span> <span class="toctext">Changing the order of music sources</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-20"><a href="#Built_in_web_server"><span class="tocnumber">4</span> <span class="toctext">Built in web server</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#Alarm_customizations"><span class="tocnumber">5</span> <span class="toctext">Alarm customizations</span></a>
+<ul>
+<li class="toclevel-2 tocsection-22"><a href="#Custom_alarm_sounds"><span class="tocnumber">5.1</span> <span class="toctext">Custom alarm sounds</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#Custom_alarm_actions"><span class="tocnumber">5.2</span> <span class="toctext">Custom alarm actions</span></a></li>
+<li class="toclevel-2 tocsection-24"><a href="#Custom_alarm_ring_screen"><span class="tocnumber">5.3</span> <span class="toctext">Custom alarm ring screen</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-25"><a href="#Boot_up.2C_default_screen.2C_control_panel_customizations"><span class="tocnumber">6</span> <span class="toctext">Boot up, default screen, control panel customizations</span></a>
+<ul>
+<li class="toclevel-2 tocsection-26"><a href="#Customizing_the_opening_animation"><span class="tocnumber">6.1</span> <span class="toctext">Customizing the opening animation</span></a></li>
+<li class="toclevel-2 tocsection-27"><a href="#Your_own_splash_screens"><span class="tocnumber">6.2</span> <span class="toctext">Your own splash screens</span></a>
+<ul>
+<li class="toclevel-3 tocsection-28"><a href="#Bootloader_Screens"><span class="tocnumber">6.2.1</span> <span class="toctext">Bootloader Screens</span></a></li>
+<li class="toclevel-3 tocsection-29"><a href="#Kernel_Screen"><span class="tocnumber">6.2.2</span> <span class="toctext">Kernel Screen</span></a></li>
+<li class="toclevel-3 tocsection-30"><a href="#Init_Script_Screen"><span class="tocnumber">6.2.3</span> <span class="toctext">Init Script Screen</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-31"><a href="#Using_a_custom_Control_Panel"><span class="tocnumber">6.3</span> <span class="toctext">Using a custom Control Panel</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-32"><a href="#Scheduled_tasks.2C_auto-execution_of_tasks"><span class="tocnumber">7</span> <span class="toctext">Scheduled tasks, auto-execution of tasks</span></a>
+<ul>
+<li class="toclevel-2 tocsection-33"><a href="#Launching_sshd_at_startup"><span class="tocnumber">7.1</span> <span class="toctext">Launching sshd at startup</span></a></li>
+<li class="toclevel-2 tocsection-34"><a href="#Entering_Night_Mode_Automatically"><span class="tocnumber">7.2</span> <span class="toctext">Entering Night Mode Automatically</span></a></li>
+<li class="toclevel-2 tocsection-35"><a href="#Run_processes_on_start-up"><span class="tocnumber">7.3</span> <span class="toctext">Run processes on start-up</span></a></li>
+<li class="toclevel-2 tocsection-36"><a href="#Running_something_at_boot_without_debugchumby_.28IronForge_Chumby_Classic_ONLY.29"><span class="tocnumber">7.4</span> <span class="toctext">Running something at boot without debugchumby (IronForge Chumby Classic ONLY)</span></a></li>
+<li class="toclevel-2 tocsection-37"><a href="#Run_processes_on_Log_In"><span class="tocnumber">7.5</span> <span class="toctext">Run processes on Log In</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-38"><a href="#Make_your_chumby_click_when_you_touch_the_screen"><span class="tocnumber">8</span> <span class="toctext">Make your chumby click when you touch the screen</span></a></li>
+<li class="toclevel-1 tocsection-39"><a href="#Mount_NFS_partitions"><span class="tocnumber">9</span> <span class="toctext">Mount NFS partitions</span></a></li>
+<li class="toclevel-1 tocsection-40"><a href="#Screwed_up_your_touchscreen_calibration.3F"><span class="tocnumber">10</span> <span class="toctext">Screwed up your touchscreen calibration?</span></a></li>
+<li class="toclevel-1 tocsection-41"><a href="#Use_wired_Ethernet"><span class="tocnumber">11</span> <span class="toctext">Use wired Ethernet</span></a></li>
+<li class="toclevel-1 tocsection-42"><a href="#Use_wifi_protected_by_a_capture_page"><span class="tocnumber">12</span> <span class="toctext">Use wifi protected by a capture page</span></a></li>
+<li class="toclevel-1 tocsection-43"><a href="#Mixing_local_widgets_into_a_channel"><span class="tocnumber">13</span> <span class="toctext">Mixing local widgets into a channel</span></a></li>
+<li class="toclevel-1 tocsection-44"><a href="#Initiating_a_channel_change"><span class="tocnumber">14</span> <span class="toctext">Initiating a channel change</span></a></li>
+<li class="toclevel-1 tocsection-45"><a href="#Using_a_browser_to_see_what.27s_on_your_chumby"><span class="tocnumber">15</span> <span class="toctext">Using a browser to see what's on your chumby</span></a>
+<ul>
+<li class="toclevel-2 tocsection-46"><a href="#Starting_via_the_command_line"><span class="tocnumber">15.1</span> <span class="toctext">Starting via the command line</span></a></li>
+<li class="toclevel-2 tocsection-47"><a href="#Starting_via_the_control_panel"><span class="tocnumber">15.2</span> <span class="toctext">Starting via the control panel</span></a></li>
+<li class="toclevel-2 tocsection-48"><a href="#Accessing_the_contents_of_the_frame_buffers"><span class="tocnumber">15.3</span> <span class="toctext">Accessing the contents of the frame buffers</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-49"><a href="#Configure_your_chumby_to_connect_wirelessly_through_a_Macintosh_laptop"><span class="tocnumber">16</span> <span class="toctext">Configure your chumby to connect wirelessly through a Macintosh laptop</span></a>
+<ul>
+<li class="toclevel-2 tocsection-50"><a href="#MacOS_X_Settings"><span class="tocnumber">16.1</span> <span class="toctext">MacOS X Settings</span></a></li>
+<li class="toclevel-2 tocsection-51"><a href="#chumby_settings"><span class="tocnumber">16.2</span> <span class="toctext">chumby settings</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-52"><a href="#Adding_a_Virtual_Chumby_to_a_Facebook_Profile"><span class="tocnumber">17</span> <span class="toctext">Adding a Virtual Chumby to a Facebook Profile</span></a></li>
+<li class="toclevel-1 tocsection-53"><a href="#Adding_a_Virtual_Chumby_to_an_iGoogle_page"><span class="tocnumber">18</span> <span class="toctext">Adding a Virtual Chumby to an iGoogle page</span></a></li>
+<li class="toclevel-1 tocsection-54"><a href="#Clock_overlay"><span class="tocnumber">19</span> <span class="toctext">Clock overlay</span></a></li>
+<li class="toclevel-1 tocsection-55"><a href="#Sending_events_to_the_Control_Panel"><span class="tocnumber">20</span> <span class="toctext">Sending events to the Control Panel</span></a></li>
+<li class="toclevel-1 tocsection-56"><a href="#Setting_up_an_adhoc_wifi_network"><span class="tocnumber">21</span> <span class="toctext">Setting up an adhoc wifi network</span></a></li>
+<li class="toclevel-1 tocsection-57"><a href="#Enabling_and_disabling_the_wireless_connection"><span class="tocnumber">22</span> <span class="toctext">Enabling and disabling the wireless connection</span></a></li>
+<li class="toclevel-1 tocsection-58"><a href="#Using_Chumby_with_Arduino"><span class="tocnumber">23</span> <span class="toctext">Using Chumby with Arduino</span></a></li>
+<li class="toclevel-1 tocsection-59"><a href="#Other.2C_more_complicated_customizations"><span class="tocnumber">24</span> <span class="toctext">Other, more complicated customizations</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
+<h1> <span class="mw-headline" id="Hidden_screen_in_Control_Panel">Hidden screen in Control Panel</span></h1>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" />
+</p>
+<ol><li> Open the Control Panel, select "Settings", then "Chumby Info"
+</li><li> Tap the small "pi" symbol in the upper right corner
+</li><li> You'll see buttons to perform the following actions:
+<dl><dt> SSHD&nbsp;</dt><dd> launches the builtin Secure Shell Daemon
+</dd><dt> FILES&nbsp;</dt><dd> opens up a simple file system browser
+</dd><dt> REBOOT&nbsp;</dt><dd> reboots the chumby device
+</dd><dt> FB CGI&nbsp;</dt><dd> Enable frame buffer access (/dev/fb content) via cgi
+</dd><dt> OFF&nbsp;</dt><dd> turns the chumby off 
+</dd></dl>
+</li></ol>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/infocast_small.jpg" alt="infocast_small.jpg" />
+</p>
+<ol><li> Open the Control Panel
+</li><li> Tap the "Insignia" logo in the upper left
+</li><li> Tap the "pi" symbol in the upper right of the gray area
+</li><li> You'll see buttons to perform the following actions:
+<dl><dt> SSHD&nbsp;</dt><dd> launches the builtin Secure Shell Daemon
+</dd><dt> QUIT&nbsp;</dt><dd> quits the Flash Player
+</dd><dt> REBOOT&nbsp;</dt><dd> reboots the chumby device
+</dd><dt> FBCGI&nbsp;</dt><dd> enables frame buffer access (/dev/fb content) via cgi
+</dd><dt> XHAIRS&nbsp;</dt><dd> toggles on/off a small crosshairs cursor
+</dd><dt> OFF&nbsp;</dt><dd> turns the chumby off
+</dd><dt> REPAIR SAFE MODE&nbsp;</dt><dd> allows recovery of the Special Options mode from USB
+</dd><dt> DEL PHOTO CACHE&nbsp;</dt><dd> clears the internal cache of photos
+</dd><dt> DEL THUMB CACHE&nbsp;</dt><dd> clears the internal cache of photo thumbnails
+</dd><dt> DEL STORED PHOTOS&nbsp;</dt><dd> clears the photos stored internally
+</dd><dt> DEL STORED VIDEOS&nbsp;</dt><dd> clears the videos stored internally
+</dd></dl>
+</li></ol>
+<h1> <span class="mw-headline" id="Open_a_secure_shell_.28SSH.29_console_on_the_chumby">Open a secure shell (SSH) console on the chumby</span></h1>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast_small.jpg" alt="infocast_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p>
+<ul><li> Start <code>sshd</code> using the <a href="/index.php/Chumby_tricks#Hidden_screen_in_Control_Panel" title="Chumby tricks">hidden Control Panel screen</a>
+</li><li> Using an SSH client (Windows users can use <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/" class="external text" rel="nofollow">PuTTY</a>, Mac/Linux users can use <code>ssh</code> from a terminal window), log in as the user <b>root</b> with no password. e.g. <div style="background-color:#ddffdd; color:#000000; padding:.05em .5em; margin:.5em; border:1px solid #99cc99; border-left:10px solid #99cc99; font-size: 125%;white-space:pre; font-family:monospace; width: 50%;">ssh 192.168.1.100 -l root</div>
+</li><li> Note: the IP is visible from the Chumby Info screen as well as the hidden Control Panel screen
+</li><li> You should get a big ASCII chumby logo
+</li></ul>
+<h2> <span class="mw-headline" id="Enabling_a_password_for_SSH_-_the_easy_way">Enabling a password for SSH - the easy way</span></h2>
+<p>In software version 1.0.7 (at least) the passwd command is built-in.  So setting a password should be as easy as mounting the root filesystem read/write (per notes below) and typing
+</p>
+<div style="background-color:#ddffdd; color:#000000; padding:.05em .5em; margin:.5em; border:1px solid #99cc99; border-left:10px solid #99cc99; font-size: 125%;white-space:pre; font-family:monospace; width: 50%;">passwd root</div>
+<p>It should be noted that there is another account called "default" which also has no password.
+</p>
+<h2> <span class="mw-headline" id="Enabling_a_password_for_SSH_-_the_hard_way">Enabling a password for SSH - the hard way</span></h2>
+<p>Instructions for <b>enabling password SSH</b> differ depending on your Chumby model, but for each you will need to connect to your Chumby via SSH.
+</p>
+<h3> <span class="mw-headline" id="...on_Ironforge"> ...on Ironforge </span></h3>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" />
+</p><p>The contents of /etc is about 170K, so if you want to waste that much space on your /psp jffs2 partition, you can get password protected SSH on your chumby without even using an external USB script using these instructions:
+</p><p>Make a directory on /psp to hold /etc and copy the original contents of /etc to your directory:
+</p>
+ <div style="background-color:#ddffdd; color:#000000; padding:.05em .5em; margin:.5em; border:1px solid #99cc99; border-left:10px solid #99cc99; font-size: 125%;white-space:pre; font-family:monospace; width: 50%;">mkdir /psp/etc</div>
+ <div style="background-color:#ddffdd; color:#000000; padding:.05em .5em; margin:.5em; border:1px solid #99cc99; border-left:10px solid #99cc99; font-size: 125%;white-space:pre; font-family:monospace; width: 50%;">cp -rd /etc/* /psp/etc</div>
+<p>Generate an md5 hash of a password.  The easiest way to do this is use openssl:
+</p>
+ <div style="background-color:#ddffdd; color:#000000; padding:.05em .5em; margin:.5em; border:1px solid #99cc99; border-left:10px solid #99cc99; font-size: 125%;white-space:pre; font-family:monospace; width: 50%;">openssl passwd -1</div>
+<p>The -1 (one) argument indicates that the MD5 based BSD password algorithm 1 should be used.  It will look like this:
+</p>
+<pre>Password:
+Veriying - Password:
+&lt;DISPLAYED_HASH&gt;
+</pre>
+<p>Note: Chumby expects the hash in the form: $1$abcdefgh$morehash, where $1$abcdefgh$ is the seed. This is the MD5 based BSD password algorithm 1 that is used in the chumby shadow file.
+</p><p>Edit the /etc/shadow file and add a password hash to the "root" line.  Here is a sample before and after:
+</p>
+<table border="1">
+<tr>
+<th>before
+</th><th>after
+</th></tr>
+<tr>
+<td>root::10933:0:99999:7:::
+</td><td>root:&lt;HASH_GOES_HERE&gt;:10933:0:99999:7:::
+</td></tr></table>
+<p>Then simply mount your new writable /etc directory over the old /etc directory:
+</p>
+ <div style="background-color:#ddffdd; color:#000000; padding:.05em .5em; margin:.5em; border:1px solid #99cc99; border-left:10px solid #99cc99; font-size: 125%;white-space:pre; font-family:monospace; width: 50%;">mount -t loop -o bind /psp/etc /etc</div>
+<p>Note: When chumby performs a software update, it will update /etc, but may not update /psp/etc. If you experience frequent software update messages, despite having successfully updated, then you may need to update your /psp/etc.  To do this, backup your shadow file, copy the /etc to /psp/etc as explained above, then copy your shadow file back to /psp/etc
+</p><p><br />
+</p>
+<h3> <span class="mw-headline" id="...on_Falconwing_and_Infocast_3.5"> ...on Falconwing and Infocast 3.5 </span></h3>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p><p>Generate an md5 hash of a password.  The easiest way to do this is use openssl:
+</p>
+ <div style="background-color:#ddffdd; color:#000000; padding:.05em .5em; margin:.5em; border:1px solid #99cc99; border-left:10px solid #99cc99; font-size: 125%;white-space:pre; font-family:monospace; width: 50%;">openssl passwd -1</div>
+<p>The -1 (one) argument indicates that the MD5 based BSD password algorithm 1 should be used.  It will look like this:
+</p>
+<pre>Password:
+Veriying - Password:
+&lt;DISPLAYED_HASH&gt;
+</pre>
+<p>Note: Chumby expects the hash in the form: $1$abcdefgh$morehash, where $1$abcdefgh$ is the seed. This is the MD5 based BSD password algorithm 1 that is used in the chumby shadow file.
+</p><p>SSH to your chumby and mount your root filesystem as read-write:
+</p>
+ <div style="background-color:#ddffdd; color:#000000; padding:.05em .5em; margin:.5em; border:1px solid #99cc99; border-left:10px solid #99cc99; font-size: 125%;white-space:pre; font-family:monospace; width: 50%;">mount -o remount,rw /</div>
+<p>Edit the /etc/shadow file with your favorite editor and add a password hash to the "root" line.  Here is a sample before and after:
+</p>
+<table border="1">
+<tr>
+<th>before</th><th>after
+</th></tr>
+<tr>
+<td>root::10933:0:99999:7:::</td><td>root:&lt;HASH_GOES_HERE&gt;:10933:0:99999:7:::
+</td></tr>
+</table>
+<p>Re-mount your root filesystem as read-only:
+</p>
+ <div style="background-color:#ddffdd; color:#000000; padding:.05em .5em; margin:.5em; border:1px solid #99cc99; border-left:10px solid #99cc99; font-size: 125%;white-space:pre; font-family:monospace; width: 50%;">mount -o remount,ro /</div>
+<p>That's it!
+</p><p><b>Note</b>: When chumby performs a software update, it will probably over-write your custom "/etc/shadow" file.
+</p>
+<h1> <span class="mw-headline" id="Music_customizations"> Music customizations </span></h1>
+<h2> <span class="mw-headline" id="Streaming_from_an_mp3_server_.28shoutcast_.2F_icecast_.2F_etc..29">Streaming from an mp3 server (shoutcast / icecast / etc.)</span></h2>
+<p><b>NOTE: this functionality is now available in the Control Panel, under Music-&gt;My Streams</b>
+</p>
+<ol><li> Connect to your Chumby via SSH as mentioned above.
+</li><li> In your command line, enter <code>btplay <a href="http://internet.radio.station.url:port/stream.mp3" class="external free" rel="nofollow">http://internet.radio.station.url:port/stream.mp3</a> </code> and press return. Be sure to replace the address with the complete address of the internet radio station.
+</li><li> Enjoy the streaming music.
+</li></ol>
+<ul><li> <b>To stop playback</b> press <code>ctrl+C</code>.
+</li><li> <b>To adjust volume</b> run <code>chumby_set_volume <b>100</b></code> where the 100 can be 0-100.
+</li><li> <b>Stream pitch too high?</b> try <code> btplay --output=alsa:plug:dmixer <a href="http://internet.radio.station.url:port/stream.mp3" class="external free" rel="nofollow">http://internet.radio.station.url:port/stream.mp3</a> </code>
+</li></ul>
+<h2> <span class="mw-headline" id="Streaming_music_from_SlimServer_to_chumby">Streaming music from SlimServer to chumby</span></h2>
+<p><b>(NOTE - except for installing SlimServer on your computer, the following steps are not longer required for Control Panel 2.6.70 or later - SlimServer is now available as a music option from the "Music" button)</b>
+</p><p>Stream music from your computer to your chumby using SlimServer!
+</p>
+<ul><li> Download and install SlimServer <code><a href="http://www.slimdevices.com/su_downloads.html" class="external free" rel="nofollow">http://www.slimdevices.com/su_downloads.html</a></code> on your computer.
+</li><li> Use a Unix-style line-end compatible(linefeeds rather than carriage return line breaks) text editor (TextEdit for Mac, EditPad Pro for Windows) to create a file called "<a href="/index.php/Debugchumby" title="Debugchumby">debugchumby</a>" (no extension).
+</li><li> Insert the following code into the file, making sure the line break is Unix-style (in EditPad Pro use "Convert" &gt; "To Unix LF")
+</li></ul>
+<pre>  #!/bin/sh
+  btplay <a href="http://ip.of.your.server:9000/stream.mp3" class="external free" rel="nofollow">http://ip.of.your.server:9000/stream.mp3</a> &amp;
+</pre>
+<ul><li> Verify the IP address is the IP address of the computer that SlimServer is running on.
+</li><li> Save the file to a USB flash drive, insert into your chumby, and reboot.
+</li><li> Play your music via the SlimServer web interface, and music should play through the chumby's speakers.
+</li><li> Enjoy!
+</li></ul>
+<p>Here is a step-by-step guide for setting up Live 365 to stream to the Chumby:
+</p><p>First steps before you ever go near the Chumby:
+</p>
+<ul><li>Download and Install Slimserver
+</li><li>After installing, start Slimserver (On Mac OS X you'll do this from your Mac System Preferences)
+</li><li>Wait a moment or two and then click the "Web Access" button on the preference panel. It will fire up your browser and take you to the setting panel (displayed in your web browser).
+</li><li>I did very little here. I went to the Live 365 screen and input my Live 365 ID and password. Though you do very little here, you will need to come back to this Slimserver controls screen later.
+</li></ul>
+<p><b>To find the IP address of your Mac:</b>
+I found the easiest and most reliable way to do this was going back to system preferences, and clicking on "Sharing." On the Sharing screen I clicked "Web Sharing" it displayed my machine's IP address. I then unchecked it, because I really did not want to do this. I only used it to find my IP address.
+</p><p>On the Chumby:
+</p>
+<ul><li>Go to control panel
+</li><li>Go to Music
+</li><li>Go to My Streams
+</li><li>Set up a new stream
+</li><li>Enter the URL: <a href="http://the-IP-address-you-wrote-down-for-your-machine:9000/stream.mp3" class="external free" rel="nofollow">http://the-IP-address-you-wrote-down-for-your-machine:9000/stream.mp3</a>
+</li><li>The type of stream is an mp3
+</li></ul>
+<p>On your Mac:
+</p>
+<ul><li>Go back to the Slimserver screen on your browser (or via the system preference panel in system preferences for Slimserver click the "Web Access" button again
+</li><li>Go to the Live365 (or whatever the source of music is). Click your preset station. Click "play"
+</li></ul>
+<h2> <span class="mw-headline" id="Streaming_music_from_Nicecast">Streaming music from Nicecast</span></h2>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p><p><a href="http://rogueamoeba.com/nicecast/" class="external text" rel="nofollow">Nicecast</a> is a music broadcast system for the Apple Macintosh published by <a href="http://rogueamoeba.com/" class="external text" rel="nofollow">Rogue Amoeba</a>.  To stream music from that program to your chumby, try the following steps:
+</p>
+<ul><li> Start the Nicecast application on your host machine
+</li><li> Start broadcasting - if you're serving your iTunes music, be sure to select some music and hit "play" in iTunes
+</li><li> Open the "Nicecast Server" window from the "Window" menu.
+</li><li> Note the "Address" (four numbers separated by periods) and "Port number" (probably 8000) fields
+</li><li> On the chumby, select "Music", then "My Music Streams".
+</li><li> Hit the "New" button.
+</li><li> Tap the "URL" text block(should say "http://")
+</li><li> Enter the string <a href="http://address:port" class="external text" rel="nofollow">http://address:port number</a> substituting the address and port number from step 4 above, then press the enter key on the lower right
+</li><li> Set the name of the stream to "Nicecast", if you like
+</li><li> Tap "DONE"
+</li><li> Select the item in the list of streams, then hit the play button.
+</li></ul>
+<p>You should get the music - if not, you may have to open and forward a port in your firewall corresponding to the port in step 4 (you'll need to find out how to do this for your router).  If you know the LAN IP address of your computer (probably something like 192.168.1.100), you can also use that for the address instead of opening a port.
+</p>
+<h2> <span class="mw-headline" id="Streaming_music_from_GNUMP3d">Streaming music from GNUMP3d</span></h2>
+<p>See <a href="/index.php/GNUMP3d" title="GNUMP3d">GNUMP3d</a>.
+</p>
+<h2> <span class="mw-headline" id="Streaming_XM_Satellite_Radio">Streaming XM Satellite Radio</span></h2>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p><p>To stream XM Radio to your chumby, you will need a couple pieces of software: <a href="http://www.millardsoftware.com/uxm/" class="external text" rel="nofollow">uXM</a> &amp; <a href="http://tversity.com/home/" class="external text" rel="nofollow">TVersity</a>.  TVersity is media streaming software that can play audio/video from an RSS feed.  uXM will be necessary to get xml feed for TVersity.  This solution is for Windows.  Special thanks to Chumby Forum member SlvrEagle23 for coming up with a solution to stream Sirius to the chumby, which made streaming XM possible.  Hopefully, we'll see SlvrEagle23's solution on here soon.  In the meantime for you Sirius folks, you might be able to do the same thing with <a href="http://www.millardsoftware.com/content/usirius-10-release-candidate-7/" class="external text" rel="nofollow">uSirius</a>.
+</p><p><b>TVersity</b>
+</p>
+<ul><li>Download and install TVersity (it installs as a service on your machine)
+</li><li>It should start running as a service after you install it, if not select Advanced-&gt;Start Sharing
+</li><li>Go to the Settings Tab and under the General settings, set the "Media Playback Device" to "MP3 Audio Device" and Click Save at the bottom of the screen.
+</li><li>Next, select the Media Library Settings and change the "Media Library Refresh" to 0 hours so that it will not automatically refresh.  Click Save at the bottom of the screen.  This is important or TVersity will generate new channel URLs which would need to be edited n the Chumby.
+</li><li>Click Transcoder.  Set the radio button to "Always".  Leave the other settings as is and click Save.
+</li><li>Click Internet Feeds and enter "0" for "Maximum number of items to show per feed:" Click Save.
+</li></ul>
+<p><b>uXM</b>
+</p>
+<ul><li>Download and install uXM.  It should start after it installs.  It will give you an error that it could not start because it's missing login information.
+</li><li>Click Settings...Enter your XM Subscription login information and click OK.
+</li><li>Click Start
+</li><li>Click URLs
+</li><li>Select the "Feeds" Tab.  The "-All Categories-" Category didn't work for me, but each of the individual categories did.  Select one of the categories, for example Decades.  It will generate a URL.  Copy this URL.
+</li><li>Go to TVersity and click the "Sharing" Tab.
+</li><li>Click the green + button to "Add Podcast/RSS Feed-&gt;Add Audio Podcast/Feed...
+</li><li>Paste the URL into the Audio Feed field.  Give it a title (in this example "XM Decades")
+</li><li>Select the Advanced button and make sure the Transcode is set to Always"  Click Submit
+</li></ul>
+<p><i>OK, we're almost ready to enter the information into My Streams on the Chumby.  We just need to get the channel URL.</i>
+</p>
+<ul><li>Use firefox or other RSS Reader.  In firefox go to the TVersity server (<a href="http://ip-of-computer-running-tversity:41952/lib/" class="external free" rel="nofollow">http://ip-of-computer-running-tversity:41952/lib/</a>)  The port 41952 is the default port for TVersity (you may need to allow it in your firewall).
+</li><li>Click the "Audio(x)" link then "Internet Audio(x)" then "Audio Feeds (x)"
+</li><li>Your presented with the XM feeds you setup in TVersity.  Select one of the feeds (Decades).
+</li><li>Copy the link location (the URL) of the channel you want (XM 8 - The 80s)
+</li><li>You could enter this URL into the My Streams of your chumby, but it's over 200 characters.  So generate a <a href="http://tinyurl.com/" class="external text" rel="nofollow">TinyURL</a>.
+</li><li>Go to your chumby and access the My Streams feature.
+</li><li>Enter your stream's name and the tinyurl generated.  Select MP3 for type and click submit.
+</li><li>Push play and you should be hearing XM streamed to your Chumby.
+</li><li>Repeat for your other streams.
+</li></ul>
+<h2> <span class="mw-headline" id="Streaming_SIRIUS_Satellite_Radio">Streaming SIRIUS Satellite Radio</span></h2>
+<p>With a little clever work, it is possible to add SIRIUS Satellite Radio streams to your Chumby's "My Streams" list. Like any other streams, they can then be played in the background at any time, set as the audio for alarms, and more. This solution was originally submitted to <a href="http://forum.chumby.com/viewtopic.php?pid=14403#p14403" class="external text" rel="nofollow">this forum thread</a>.
+</p><p>Here's the software you'll need to make it work:
+</p>
+<ul><li><a href="http://www.millardsoftware.com/usirius/" class="external text" rel="nofollow">uSirius</a> (for generating audio streams from Sirius)
+</li><li><a href="http://tversity.com/home/" class="external text" rel="nofollow">TVersity</a> (for converting the streams into streaming MP3s)
+</li><li><a href="http://www.apachefriends.org/en/xampp-windows.html" class="external text" rel="nofollow">XAMPP for Windows</a> (for creating easy station URLs for Chumby to use)
+</li></ul>
+<p>Currently, this solution is only supported on computers running Windows XP/Vista and sitting on the same network as the Chumby. If your Chumby is connecting across the Internet to the host computer, be advised that some ISPs and/or firewalls may interfere with this process.
+</p><p><b>Note:</b> An alternative solution has been posted above for XM users. While this hasn't been tested for SIRIUS subscribers yet, it may remove the need to install XAMPP and set up the PHP script. Additionally, the developer of uSirius is working to integrate a large portion of this process into the software itself, after which these instructions will be updated.
+</p>
+<h3> <span class="mw-headline" id="Install_uSirius"> Install uSirius </span></h3>
+<ul><li>Download and install uSirius from the link above.
+</li><li>Provide uSirius with any configuration options necessary. Currently, you will only need to enter your sirius.com username and password. For most users, you will not need to change any other options.
+</li><li>If uSirius doesn't start automatically, click "Start" on the main window to start it. You will see a message like "Listening at xxx.xxx.xxx.xxx on port 19080." Take note of the numbers where the "x"es are in that message. This is the IP address of your computer, which you will use later.
+</li><li>Set uSirius to start up on your computer automatically when you log in. Usually, this means clicking and dragging the uSirius icon into the "Startup" folder on the start menu, though this could be different for your computer, and there are other ways of accomplishing this.
+</li></ul>
+<h3> <span class="mw-headline" id="Install_TVersity"> Install TVersity </span></h3>
+<ul><li>Download and install TVersity from the link above.
+</li><li>TVersity should automatically start its sharing service. If not, click the "Advanced" menu, then click "Start Sharing".
+</li><li>Click the "Settings" tab at the top of the TVersity window. The very first option on the page will be "Media Playback Device". From the list of drop-down options, select "MP3 Audio Device". This will force TVersity to change the way it streams audio to the Chumby, avoiding some of the more pesky issues with playback. Scroll down and click "Save".
+</li><li>Still inside the "Settings" tab, click the "Transcode" button on the left to bring up the transcoding options. In the "When to Transcode?" section, choose "Always". Scroll down and click "Save".
+</li></ul>
+<h3> <span class="mw-headline" id="Install_XAMPP"> Install XAMPP </span></h3>
+<ul><li>Download and install XAMPP from the link above.
+</li><li>When asked for a location to install XAMPP, leave the default location (C:\xampp) if at all possible. If you change this location, modify the instructions accordingly.
+</li><li>You will be asked which applications you would like to start as a service. Check the "Apache" box, and leave the others (MySQL, etc.) unchecked.
+</li><li>From the same computer, check to make sure this page works: <a href="http://localhost/" class="external free" rel="nofollow">http://localhost/</a> - if not, XAMPP messed up somewhere. Make sure Apache is started and working.
+</li></ul>
+<h3> <span class="mw-headline" id="Downloading_the_PHP_Script"> Downloading the PHP Script </span></h3>
+<ul><li>The PHP script depends on the Zend Framework to read the RSS feed provided by uSirius. Download  <a href="http://framework.zend.com/download" class="external text" rel="nofollow">the Zend Framework</a>, unzip it somewhere temporarily, and open the folder where it was extracted. Inside the main "ZendFramework" folder, you will find a folder named "library". Open it, and click and drag the "Zend" folder inside it over to C:\xampp\htdocs.
+</li><li>Download this PHP file (check some random unreferenced forum thread) and save it as music.php in C:\xampp\htdocs. Open it with a text editor like Notepad, and change the $my_ip line to the IP address of your computer, which you noted above as the one uSirius was listening on. Save the file.
+</li></ul>
+<h3> <span class="mw-headline" id="Set_up_in_the_Chumby"> Set up in the Chumby </span></h3>
+<ul><li>Go to the Control Panel of your Chumby, and click "Music" to open the music menu. From the location options, choose "My Streams".
+</li><li>To add a new SIRIUS station, click "New".
+</li><li>For the URL, enter: <a href="http://your-computers-ip/music.php?s=xx" class="external free" rel="nofollow">http://your-computers-ip/music.php?s=xx</a> (where "your-computers-ip" is the IP address you wrote down a few steps back, and "xx" is the SIRIUS station number you want to hear, i.e. 1 for Sirius Hits 1 or 36 for The Beat).
+</li><li>Give the stream a title that corresponds to the station, i.e. "Sirius Hits 1". For stream type, select "PLS". Save the stream.
+</li><li>Repeat the steps above for each new SIRIUS station.
+</li></ul>
+<h2> <span class="mw-headline" id="Changing_the_order_of_music_sources">Changing the order of music sources</span></h2>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p><p>Starting with Control Panel 2.8.36, it is possible to reorder the music source list.  To do this, one creates a file called "/psp/music_order", which contains a list of music source selectors, one per line for the order in which the sources are to be listed.  Any sources not listed will be appended to the end of the list in the original order.  You will need to reboot or restart the Control Panel for the changes to take effect. The selectors are:
+</p>
+<ul><li> <b>pandora</b> - Pandora
+</li><li> <b>shoutcast</b> - SHOUTcast
+</li><li> <b>mediafly</b> - Mediafly Podcasts
+</li><li> <b>iheartradio</b> - iheartradio
+</li><li> <b>nytpodcasts</b> - New York Times Podcasts
+</li><li> <b>chumbcast</b> - blue octy radio
+</li><li> <b>sleepcast</b> - Sleep Sounds
+</li><li> <b>cbspodcasts</b> - CBS Podcasts
+</li><li> <b>internode</b> - Internode Radio
+</li><li> <b>noaa</b> - NOAA Radio by Wunderground
+</li><li> <b>ipod</b> - iPod
+</li><li> <b>directurl</b> - My Streams
+</li><li> <b>fmradio</b> - FM Radio
+</li><li> <b>slimserver</b> - Squeezebox Server
+</li><li> <b>mp3files</b> - My Music Files
+</li></ul>
+<p>For instance, to move My Streams, Pandora, and blue octy radio to the top of the list, you'd make the file "/psp/music_order" with the contents:
+</p>
+<pre>directurl
+pandora
+chumbcast
+</pre>
+<h1> <span class="mw-headline" id="Built_in_web_server">Built in web server</span></h1>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast_small.jpg" alt="infocast_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p><p>On startup, the chumby launches a small HTTP server on port 80 (note for Infocast only - this is not on by default and must be started from a debugchumby script), which displays wireless statistics information - to view this page, get the IP of the chumby from the Settings-&gt;Chumby Info screen in the Control Panel, and type <code><a href="http://ip.of.the.chumby/" class="external free" rel="nofollow">http://ip.of.the.chumby/</a></code> into a browser.
+You can see the network statistics from <code><a href="http://ip.of.the.chumby/cgi-bin/wifi" class="external free" rel="nofollow">http://ip.of.the.chumby/cgi-bin/wifi</a></code> and you can see memory statistics from <code><a href="http://ip.of.the.chumby/cgi-bin/memstats" class="external free" rel="nofollow">http://ip.of.the.chumby/cgi-bin/memstats</a></code>. 
+</p><p>You can add CGI scripts to this webserver:
+</p>
+<ul><li> Open a console on the chumby using SSH
+</li><li> create a directory at <code>/psp/cgi-bin</code>
+</li><li> add your CGI scripts there
+</li><li> Make sure CGI scripts have execute permissions (chmod +x <i>script_Name</i>)
+</li></ul>
+<p>You can now access those scripts using the URL <code><a href="http://ip.of.the.chumby/cgi-bin/custom/name_of_your_script" class="external free" rel="nofollow">http://ip.of.the.chumby/cgi-bin/custom/name_of_your_script</a></code>
+</p><p>For a more complete web server, see <a href="/index.php/Chumby_as_a_web_server" title="Chumby as a web server">Chumby as a web server</a>.
+</p>
+<h1> <span class="mw-headline" id="Alarm_customizations">Alarm customizations</span></h1>
+<h2> <span class="mw-headline" id="Custom_alarm_sounds">Custom alarm sounds</span></h2>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p><p>If you don't like the sound of the builtin alarms, you can override them with your own MP3 audio files
+</p>
+<ul><li> Get a USB flash drive, and copy your MP3 file to the top level
+</li><li> To override alarm 1, rename the file <code>alarm1.mp3</code>
+</li><li> To override alarm 2, rename the file <code>alarm2.mp3</code>
+</li><li> ...or to override both, rename the file <code>alarm.mp3</code> - the individual files will override this one.
+</li><li> Plug the USB flash drive and boot your chumby - when an alarm goes off, it will use your files instead of the built in sounds
+</li></ul>
+<p>Starting with Control Panel 2.6, you can also set different alarms sounds for each day of the week - name your alarm MP3 files as <code>alarmmon.mp3</code>, <code>alarmtue.mp3</code>, etc.
+</p>
+<h2> <span class="mw-headline" id="Custom_alarm_actions">Custom alarm actions</span></h2>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p><p>When an alarm fires off, the Control Panel will look for script <code>/mnt/usb/post_alarm_action_N</code> where N is a one-based index of the alarm.  If not present, looks for <code>/mnt/usb/post_alarm_action</code>.  If either present, it will be executed when the corresponding alarm is stopped by the user.
+</p>
+<h2> <span class="mw-headline" id="Custom_alarm_ring_screen">Custom alarm ring screen</span></h2>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p><p>When an alarm rings with the dismissal screen active, the users is presented a screen with the current time, and two buttons for stopping and snoozing the alarm.
+</p><p>Starting with Control Panel 2.8.19, Control Panel supports a "pluggable" alarm ring screen.  This is, of course, done in Flash.  The Control Panel is looking for the presence of and will load the file "/mnt/usb/alarmring.swf".  Upon launch, the movie will have an object on its main timeline called "_chumby_alarm" which has four function properties, "snoozeAlarm()", "stopAlarm()", "stopAlarmWithMusic()", and "resetBackupAlarm()".
+</p><p>These functions are called with no parameters.  The functions stopAlarm() and snoozeAlarm() reproduce the functionality of the two standard buttons.  The other two functions are not used by the current screen - stopAlarmWithMusic() is that same as stopAlarm(), except that any music used for the alarm sound (such as streaming Internet radio) is left playing, and resetBackupAlarm() will reschedule the backup alarm for the next alarm rather than the current one.
+</p><p>In the simplest case, a movie would have two buttons, "snoozeButton" and "stopButton", and the handlers for these buttons would probably be something like:
+</p>
+<pre>
+this.snoozeButton.onRelease = function() {
+    this._parent._chumby_alarm.snoozeAlarm();
+}
+
+this.stopButton.onRelease = function() {
+    this._parent._chumby_alarm.stopAlarm();
+}
+</pre>
+<p>There is example code to crib from here: <a href="http://files.chumby.com/widgetexamples/alarmring.fla" class="external text" rel="nofollow">FLA</a> <a href="http://files.chumby.com/widgetexamples/alarmring.swf" class="external text" rel="nofollow">SWF</a>
+</p>
+<h1> <span class="mw-headline" id="Boot_up.2C_default_screen.2C_control_panel_customizations"> Boot up, default screen, control panel customizations </span></h1>
+<h2> <span class="mw-headline" id="Customizing_the_opening_animation">Customizing the opening animation</span></h2>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast_small.jpg" alt="infocast_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p><p>If you'd like to replace the little chumby animation that happens when you start up, do the following:
+</p>
+<ul><li> Make your Flash animation that you want to run, be sure it calls <code>fscommand("quit")</code> at the end
+</li><li> Put it on a USB flash drive, and call it "opening.swf"
+</li><li> Plug it into the back of your chumby and reboot!
+</li></ul>
+<h2> <span class="mw-headline" id="Your_own_splash_screens"> Your own splash screens </span></h2>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p><p>During a normal boot, before the opening animation, the chumby displays a series of four images on the screen.  The first two are displayed by the bootloader and are fairly easy to modify.  The third is displayed by the kernel (and normally identical to the bootloader's 2nd image) and requires recompiling the kernel.  The final is displayed by the init script (/etc/init.d/rcS) and is easy to modify on a Chumby One, but maybe not on a Classic.
+</p><p><b>WARNING</b>: These all involve modifying parts of your Chumby that aren't really intended to be modified.  Do all of this at your own risk.
+</p>
+<h3> <span class="mw-headline" id="Bootloader_Screens"> Bootloader Screens </span></h3>
+<p>The bootloader's two normal splashscreens are stored in named sections in the configuration block.  To replace the first one with the image splash.png which you've placed in /mnt/storage or /mnt/usb do this:
+</p>
+<pre>
+cd /mnt/storage or /mnt/usb
+stop_control_panel
+config_util --cmd=getblock --block=img1 &gt; img1.bin.bak
+imgtool --mode=draw splash1.png
+dd if=/dev/fb0 of=splash.bin bs=640 count=240
+config_util --cmd=putblock --block=img1 &lt; splash.bin 
+</pre>
+<p>to restore:
+</p>
+<pre>
+config_util --cmd=putblock --block=img1 &lt; img1.bin.bak 
+</pre>
+<p>Note that I stop the control panel to prevent it from drawing anything to the frame buffer since we're using the frame buffer to convert the image.  Another option is to switch to and STAY the default clock widget, which only redraws once a minute.  The last four commands:
+</p>
+<ol><li> back up the existing splash screen
+</li><li> draw your new image onto the screen, converting it into the right format in the process
+</li><li> pull the converted image out of the frame buffer
+</li><li> save the converted image into to config block
+</li></ol>
+<p>For the second screen, do the same process but replace all the "img1"s with "img2"
+</p>
+<h3> <span class="mw-headline" id="Kernel_Screen"> Kernel Screen </span></h3>
+<p>This one is a pain and requires <a href="/index.php/Hacking_Linux_for_chumby" title="Hacking Linux for chumby">building an entire new kernel</a>.  I won't cover that part, but if you already are building a kernel, you can change the splash screen it displays by:
+</p>
+<ol><li> convert the image to the framebuffer format using steps <tt>imgtool</tt> and <tt>dd</tt> as above and copy splash.bin into your linux source directory
+</li><li> in the linux source directory, do <tt>scripts/bin2c &lt;splash.bin &gt;splash.c</tt>
+</li><li> back up include/chumby_boot_logo_2.h somewhere
+</li><li> replace the very long string in <tt>include/chumby_boot_logo_2.h</tt> with the body of splash.c
+</li></ol>
+<p>Compile, install and reboot and you should now have a new 3rd splash screen.
+</p>
+<h3> <span class="mw-headline" id="Init_Script_Screen"> Init Script Screen </span></h3>
+<p>This is the easiest of all on a Chumby One.  Dunno about a Classic, never worked with one. 
+</p>
+<ol><li> compress your image to a 320x240 baseline (non-progressive) JPEG
+</li><li> get it onto the chumby (referred to below as /mnt/storage/splash.jpg)
+</li><li> ssh to the chumby
+</li><li> test that your image can be displayed with <tt>imgtool --mode=draw /mnt/storage/splash.jpg</tt>
+</li><li> remount the root partition as read/write: <tt>mount -o remount,rw /</tt>
+</li><li> back up current splash screen <tt>cp /bitmap/320x240/chumby_logo.bin.jpg /mnt/storage/chumby_logo.bin.jpg</tt>
+</li><li> copy your new image on top of the current one: <tt>cp /mnt/storage/splash.jpg /bitmap/320x240/chumby_logo.bin.jpg</tt>
+</li><li> <tt>reboot</tt> to see changes and get the root partition back read-only
+</li></ol>
+<h2> <span class="mw-headline" id="Using_a_custom_Control_Panel">Using a custom Control Panel</span></h2>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast_small.jpg" alt="infocast_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p><p>So, you're so ambitious, you created you *own* Control Panel! Congratulations!  Here's how to use it:
+</p>
+<ul><li> Put it on USB flash drive, and call it <code>controlpanel.swf</code>
+</li><li> Plug it into the back of your chumby and reboot!
+</li></ul>
+<p>If you have an older software release you can do something similar with a USB dongle, with the file <code><a href="/index.php/Debugchumby" title="Debugchumby">debugchumby</a></code> containing:
+</p>
+<pre>#!/bin/sh
+chumbyflashplayer.x -i /mnt/usb/controlpanel.swf
+</pre>
+<p>To keep the watchdog timer from restarting the Control Panel, you'll need to write a "1" to the file "/tmp/movieheartbeat" every 15 seconds:
+</p>
+<pre>
+_putFile = _global.ASnative(5,51);                
+_putFile(&quot;/tmp/movieheartbeat&quot;,&quot;1&quot;);
+</pre>
+<h1> <span class="mw-headline" id="Scheduled_tasks.2C_auto-execution_of_tasks"> Scheduled tasks, auto-execution of tasks </span></h1>
+<h2> <span class="mw-headline" id="Launching_sshd_at_startup"> Launching sshd at startup </span></h2>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast_small.jpg" alt="infocast_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p><p><b>WARNING - doing this will reduce the level of security on your chumby, and may allow unauthorized access</b>
+</p>
+<ul><li> Open up a console on the chumby
+</li><li> At the console, type: <code>touch /psp/start_sshd</code>
+</li><li> Now <code>sshd</code> will be started whenever the chumby successfully connects to a network!
+</li><li> To stop this behavior in the future, type: <code>rm /psp/start_sshd</code>
+</li></ul>
+<p>If you don't want to happen all the time, you can do this instead from a USB flash drive:
+</p>
+<ul><li> On the USB flash drive, create an empty file called <code>start_sshd</code>.
+</li><li> Plug it into the back of your chumby and reboot!
+</li></ul>
+<h2> <span class="mw-headline" id="Entering_Night_Mode_Automatically">Entering Night Mode Automatically</span></h2>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p><p>ssh root@my.chumby.ip.address
+</p><p>Create /psp/nightmode.sh with these lines
+</p>
+<pre>#!/bin/sh
+echo '&lt;event type="NightMode" value="on" comment=""/&gt;' &gt; /tmp/flashplayer.event
+/usr/bin/chumbyflashplayer.x -F1
+</pre>
+<p>Make /psp/nightmode.sh executable with 
+</p>
+<pre>chmod 755 /psp/nightmode.sh</pre>
+<p>Then add this to root's crontab with 'crontab -e'
+</p>
+<pre>0 21 * * * /psp/nightmode.sh</pre>
+<p>At 21:00 (9:00PM), your display should enter night mode.
+</p><p><b>Note:</b> If you are in the control panel and playing music, then triggering nightmode will not work, it will show the sleep timer screen so you can set a timer on when the music should turn off. (as if you pressed the nightmode button in the control panel)
+</p><p><b>Additional Note:</b> You can make Chumby enter Night Mode automatically without resorting to this trick, at least as of firmware 1.0.7.  You can create a custom alarm that has no sound, but has an action set to enter Night Mode.  Be aware that if you have any other alarms (possibly silent) that trigger after that, the Chumby will come out of night mode.
+</p><p><b>Crontab Note:</b> crontab is broken in the November, 2010 update with incorrect path and file permissions. The simplest fix is to edit with 'crontab -c /psp/crontabs -e'. You may also need to change the ownership of /psp/crontabs/root from chumby:chumby to root:root; do this with 'chown root:root /psp/crontabs/root'. For more details see <a href="http://forum.chumby.com/viewtopic.php?id=5673" class="external free" rel="nofollow">http://forum.chumby.com/viewtopic.php?id=5673</a>
+</p>
+<h2> <span class="mw-headline" id="Run_processes_on_start-up">Run processes on start-up</span></h2>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast_small.jpg" alt="infocast_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p>
+<ul><li> The easiest and safest way to do this is to use a USB drive: create a file called <code><a href="/index.php/Debugchumby" title="Debugchumby">debugchumby</a></code> and put shell script commands in there. This will run on start-up.
+</li><li> <i>userhook0</i>, <i>userhook1</i>, <i>userhook2</i> can also be used to run custom commands on start-up
+<ul><li> these files can be placed either on USB drive (/usb/ root) or Internal Storage (/psp/rfs1/)
+</li><li> See: <a href="/index.php/Chumby_Rootdisk_-_RFS1_(analyzed)" title="Chumby Rootdisk - RFS1 (analyzed)">Chumby Rootdisk - RFS1 (analyzed)</a> for exact boot script timing call points
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id="Running_something_at_boot_without_debugchumby_.28IronForge_Chumby_Classic_ONLY.29">Running something at boot without debugchumby (IronForge Chumby Classic ONLY)</span></h2>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" />
+<i><b>NOTE: You can really screw up the boot procedure with this trick, please only do so if you're familiar with linux and editing linux shell scripts</b></i>
+</p><p>In the /etc/init.d/rcS script which is run at boot, there is a line that looks for /psp/rfs1/rcS and runs it, but then quits.  The fact that it quits is the reason you can screw something up here.  If you don't run the rest of the things that /etc/init.d/rcS usually does after looking for this file, you will have only completed a small portion of the chumby boot sequence.
+</p><p>To do this trick, edit a file /psp/rfs1/rcS and paste in the contents of rcS from it's invocation of /psp/rfs1/rcS on.  On a 565 Ironforge one, the first lines you need to copy is:
+</p>
+<pre>echo "Starting udevd as daemon"
+/sbin/udevd --daemon
+</pre>
+<p>Make sure this newly created file starts with a she-bang for the interpreter:
+</p>
+<pre>#!/bin/sh
+</pre>
+<p>Also make sure it is executable:
+</p>
+<pre>chmod a+x /psp/rfs1/rcS
+</pre>
+<p>Then, you can edit the rest of this file and insert your own commands.
+</p><p>If you do manage to screw up your system with this, you can recover it by creating a debugchumby script that does:
+</p>
+<pre>#!/bin/sh
+rm /psp/rfs1/rcS
+</pre>
+<p>...and booting into "special options" mode, aka "rfs2". Booting into special options mode is done by powering down your chumby and powering it up again while pressing a finger to the touch screen.  
+</p><p>This will remove the script, which is only run when in normal mode, aka "rfs1".  You should then be able to reboot into normal mode.
+</p><p><i><b>NOTE:</b></i> Not much trickery is needed with a Chumby One since the rootfs can be mounted read-write and edited live.
+</p>
+<h2> <span class="mw-headline" id="Run_processes_on_Log_In">Run processes on Log In </span></h2>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast_small.jpg" alt="infocast_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p>
+<ul><li> If you want to run commands as soon as you log in, you can edit your /psp/.profile file.
+</li><li> You should probably first make a backup copy of the original: <code>cp /psp/.profile /psp/.profile.orig</code>
+</li><li> Next, edit /psp/.profile using the vi editor (I believe this is the only text editor installed on the chumby): <code>vi /psp/.profile</code>
+</li><li> Add whatever commands (try the chumby click echo command).
+</li><li> After rebooting, these commands should run upon logging into the console.
+</li></ul>
+<h1> <span class="mw-headline" id="Make_your_chumby_click_when_you_touch_the_screen">Make your chumby click when you touch the screen</span></h1>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" />
+</p><p><b>NOTE: This feature has been added to the Control Panel on the Settings-&gt;Volume screen</b>
+</p><p>You can have the chumby give you some simple audio feedback when you touch the screen
+</p>
+<ul><li> Open up a console on the chumby
+</li><li> Type <code>echo 1 &gt; /proc/chumby/touchscreen/touchclick</code>
+</li><li> To turn it off, type <code>echo 0 &gt; /proc/chumby/touchscreen/touchclick</code>
+</li></ul>
+<h1> <span class="mw-headline" id="Mount_NFS_partitions">Mount NFS partitions</span></h1>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast_small.jpg" alt="infocast_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p><p>In order to NFS mount a remote filesystem from chumby, do the following:
+</p>
+<pre>
+# mount -t nfs -o nolock 192.168.1.115:/root/chumby /mnt/nfs
+</pre>
+<p>Example:
+</p>
+<pre>mount -t nfs -o nolock 192.168.1.101:/root /mnt/nfs</pre>
+<h1> <span class="mw-headline" id="Screwed_up_your_touchscreen_calibration.3F">Screwed up your touchscreen calibration?</span></h1>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> 
+If you messed up your touchscreen calibration to the point that you can't even restore it through the Special Options mode, create a file called 'ts_settings' on a USB dongle with the contents:
+</p>
+<pre>136,3768,3835,-3540
+</pre>
+<p>...put the dongle in one of the USB ports in back of your chumby and reboot.  This restores the calibration to factory settings, which is at least good enough to let you navigate the Control Panel to the calibration section.
+</p>
+<h1> <span class="mw-headline" id="Use_wired_Ethernet">Use wired Ethernet</span></h1>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> 
+</p><p><i><b>NOTE: Ethernet support is built into firmware version 1.7 and later</b></i>
+</p><p><b>There are two known-to-work USB-to-Ethernet adapters, the Linksys USB200M and a Trendnet TU-ET100C. Both configurations are shown here.</b>
+</p>
+<ul><li> create a <b><a href="/index.php/Debugchumby" title="Debugchumby">debugchumby</a></b> file with the following contents, depending on your USB adapter:
+</li></ul>
+<p><b>Linksys USB200M</b> - This has only been tested with the <a href="http://www.amazon.com/Linksys-USB200M-EtherFast-Network-Adapter/dp/B000085ZKV" class="external text" rel="nofollow">Linksys USB200M</a> USB Ethernet adapter, though it *may* work with others.  Also note that this example only describes how to connect using DHCP.
+</p>
+<pre>
+#!/bin/sh
+insmod /drivers/usbnet.ko
+insmod /drivers/asix.ko
+udhcpc -t 5 -n -p /var/run/udhcpc.eth0.pid -i eth0
+ifconfig rausb0 inet 127.0.0.1
+/usr/chumby/scripts/sync_time.sh
+</pre>
+<p><b>Trendnet TU-ET100C</b> - The following is tested and known to work with a <a href="http://www.amazon.com/gp/product/B0000CDZ82" class="external text" rel="nofollow">Trendnet USB 1.1 10/100 USB dongle, model TU-ET100C</a>, H/W:C3.2 for a minimal get-it-going <a href="/index.php/Debugchumby" title="Debugchumby">debugchumby</a> file. (add more options like sync_time as necessary).  The Chumby's OS/Kernel already has the necessary drivers installed and enabled for this device.
+</p>
+<pre>
+#!/bin/sh
+/sbin/udhcpc
+ifconfig rausb0 127.0.0.1
+</pre>
+<ul><li> copy the <b><a href="/index.php/Debugchumby" title="Debugchumby">debugchumby</a></b> script to a USB drive
+</li><li> insert the USB Ethernet adapter (Linksys USB200M or Trendnet ET100C) into a chumby USB port
+</li><li> insert the USB drive into the other chumby USB port
+</li><li> power on your chumby
+</li></ul>
+<p>[Note than on the Chumby One, the Trendnet TU-ET100C is discovered by /sbin/udhcpc as "eth0"]
+</p><p><b>AirLink101 ASOHOUSB</b> - The 
+<a href="http://www.airlink101.com/products/asohousb.php" class="external text" rel="nofollow">AirLink101 USB 2.0 USB dongle, model ASOHOUSB</a> works well with the drivers that are already installed in the Chumby's OS/Kernel. To use, follow the same set up instructions as listed above for the Trendnet usb adapter.
+</p><p><b>Kensington K33929EU USB Mini Dock with Ethernet</b> <a href="http://eu.kensington.com/kensington/en/gb/p/553/K33929EU/usb+mini+dock+with+ethernet.aspx" class="external autonumber" rel="nofollow">[1]</a> works perfectly with my chumby one. I didn't use any of the methods above, I just configured a new connection using the control panel.
+</p><p>I'd previously borrowed a friend's unbranded version (physically identical except that the colours of the plastics were reversed). In both cases the Ethernet chipset is reported as "ASIX AX88772".
+</p><p><b>Rocketfish RF-GWII008</b> - The <a href="http://www.rocketfishproducts.com/products/gaming/RF-GWII008.html" class="external text" rel="nofollow">Rocketfish LAN Adapter for Nintendo Wii</a> uses the ASIX AX88772 chipset and can be configured simply by adding a new network connection from the control panel. Rocketfish is an internal Best Buy brand and the adapter can be found at most Best Buy stores.
+</p><p><b>Edimax EU-4207</b> - I did order the <a href="http://www.edimax.com/en/produce_detail.php?pd_id=295" class="external text" rel="nofollow">Edimax LAN Adapter for Nintendo Wii</a> at a German online <a href="http://technikdirekt.de/main/de/computer/netzwerk/lan/pci-karten/334138/-/article-edimax-eu-4207.html" class="external text" rel="nofollow">shop</a>. Just plug it in and configure a wired Ethernet connection via control panel. After a reboot everything does work fine without doing any configuration stuff via SSH.
+</p>
+<h1> <span class="mw-headline" id="Use_wifi_protected_by_a_capture_page">Use wifi protected by a capture page</span></h1>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p><p>Many corporate guest wifi networks, mall hotspots, etc. have a capture page-style wifi login; the wifi is unprotected via WPA or WEP, but requires a form to be filled out (email address often), and a "I agree" or "Login" style button to be pressed to send in the form. Here's how I got one of these to work. 
+</p><p><b>Note:</b> there is no one-size-fits-all solution here. Different pages have different parameters, and different wifi networks have different ESSIDs. Everything has to be customized...but you can make it work with a little effort.
+</p><p>Prerequisites: two things. 
+</p><p>1. You need to know the ESSID (the name) of the wifi network you'll be connecting to. You can determine this with a wifi-enabled PC, or with the chumby itself.
+2. You need to review the HTML of the login form (probably with a laptop), and determine what to POST to it. HTML knowledge helps alot here. You'll be looking for the <b>&lt;form&gt;</b> element of the page, to determine where the form gets sent, and what fields are required. 
+</p><p><b>Note:</b> Sometimes required fields are hidden, so you can't rely on just looking at the rendered page...you need to review the HTML directly. The form values get added to the curl call in the script below in the format -d "fieldname=fieldvalue"
+</p>
+<ul><li> create a <b>debugchumby</b> file. Here's one that worked for me, and I'll comment below
+</li></ul>
+<pre>
+#!/bin/sh
+# bind to wifi network...replace &quot;mysid&quot; with the ESSID
+iwconfig rausb0 essid &quot;mysid&quot;
+# DHCP config; should be pretty standard
+udhcpc -t 5 -n -p /var/run/udhcpc.rausb0.pid -i rausb0
+# this outputs your IP address from the dhcp connect...you may need it (I did)
+IP=`ifconfig rausb0 | perl -n -e 'if (m/inet addr:([\d\.]+)/g) { print $1 }'`;
+fbwrite &quot;$IP&quot;
+# post to capture login page. this has to be customized per form (I needed the ip addy from above for the source field)
+# the -k is for the insecure https connection; you can remove if the post is to http:// rather than https://
+OP=`curl -k -d &quot;_FORM_SUBMIT=1&quot; -d &quot;which_form=guest&quot; -d &quot;bs_email=email@foo.bar&quot; -d &quot;source=10.12.44.66&quot; https://10.34.23.27/login.pl`;
+## if you need further debugging, uncomment the next line
+##fbwrite &quot;$OP&quot;
+</pre>
+<ul><li> copy the <b>debugchumby</b> script to a USB drive
+</li><li> insert the USB drive into one of the chumby's USB port
+</li><li> power on your chumby
+</li></ul>
+<p><b>Alternate Method</b>
+</p>
+<ul><li>Find your Chumby's MAC address, and use your computer to spoof it (search Google for instructions for your OS) and then register. Then switch the PC back to the original MAC and your Chumby should logon successfully.
+</li><li>macchanger is a program to do this that exists as a package for ubuntu and other distributions
+</li></ul>
+<h1> <span class="mw-headline" id="Mixing_local_widgets_into_a_channel">Mixing local widgets into a channel</span></h1>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p><p>When the chumby loads a channel from the server, it also checks for a file called <b>profile.xml</b> on the USB device mounted at <b>/mnt/usb</b>.  That file should contain XML that is merged into the XML coming from the server to create the full channel.  An example:
+</p>
+<pre>&lt;profile&gt;
+  &lt;widget_instances&gt;
+    &lt;widget_instance id="1"&gt;
+      &lt;name&gt;My Widget&lt;/name&gt;
+      &lt;widget&gt;
+        &lt;name&gt;My Widget&lt;/name&gt;
+        &lt;description&gt;This is my widget&lt;/description&gt;
+        &lt;version&gt;1.0&lt;/version&gt;
+        &lt;mode time="30" mode="timeout"/&gt;
+        &lt;access sendable="false" deleteable="false" access="private" virtualable="false"/&gt;
+        &lt;user username="myusername"/&gt;
+        &lt;thumbnail href="file:////mnt/usb/mythumbnail.jpg" contenttype="image/jpeg"/&gt;
+        &lt;movie href="file:////mnt/usb/mywidget.swf" contenttype="application/x-shockwave-flash"/&gt;
+      &lt;/widget&gt;
+      &lt;access access="private"/&gt;
+      &lt;mode time="30" mode="timeout"/&gt;
+      &lt;widget_parameters&gt;
+        &lt;widget_parameter&gt;
+          &lt;name&gt;zipcode&lt;/name&gt;
+          &lt;value&gt;90210&lt;/value&gt;
+        &lt;/widget_parameter&gt;
+        &lt;widget_parameter&gt;
+          &lt;name&gt;phonenumber&lt;/name&gt;
+          &lt;value&gt;867-5309&lt;/value&gt;
+        &lt;/widget_parameter&gt;
+      &lt;/widget_parameters&gt;
+    &lt;/widget_instance&gt;
+  &lt;/widget_instances&gt;
+&lt;/profile&gt;
+</pre>
+<p>Replace the fields for <b>name</b>, <b>description</b>, <b>thumbnail href</b>, and <b>movie href</b> as appropriate.  Note that the <b>href</b> fields can be full URLs to external servers that have appropriate crossdomain security, and that the widgets will have the security sandbox corresponding to those sites, not <b>*.chumby.com</b>. You can have multiple <b>widget_instance</b> nodes, however, you should have different values for <b>id</b> for each one.
+</p>
+<h1> <span class="mw-headline" id="Initiating_a_channel_change">Initiating a channel change</span></h1>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p><p>Between widgets, the Control Panel monitors the existence of <code>/tmp/change_profile</code> - if present, will attempt to change channels to the channel name in the file.  The file is then deleted.  This allows external scripts to initiate a channel change.
+</p><p>You can also <a href="#Sending_events_to_the_Control_Panel">send a Control Panel event</a>
+</p>
+<h1> <span class="mw-headline" id="Using_a_browser_to_see_what.27s_on_your_chumby">Using a browser to see what's on your chumby</span></h1>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast_small.jpg" alt="infocast_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p><p>The ability to capture the contents of the two frame buffers over HTTP is built into firmware versions 1.6.0 and later.
+</p><p>This ability can be started via either the command line (ssh), or the control panel.
+</p>
+<h2> <span class="mw-headline" id="Starting_via_the_command_line"> Starting via the command line </span></h2>
+<pre>/usr/chumby/scripts/fb_cgi.sh
+</pre>
+<h2> <span class="mw-headline" id="Starting_via_the_control_panel"> Starting via the control panel </span></h2>
+<ol><li> Open the Control Panel, then hit "Settings", then "Chumby Info"
+</li><li> press the "pi" button in the upper left
+</li><li> press the "FBCGI" button - this enables the CGI script to capture images
+</li></ol>
+<h2> <span class="mw-headline" id="Accessing_the_contents_of_the_frame_buffers"> Accessing the contents of the frame buffers </span></h2>
+<p>Using the IP of the chumby as shown on the "pi" or "Chumby Info" screen, type one the following URLs into a browser on the same network:
+</p><p>For the "widget" (primary) framebuffer:
+</p>
+<pre><a href="http://ip.of.this.chumby/cgi-bin/custom/fb0" class="external free" rel="nofollow">http://ip.of.this.chumby/cgi-bin/custom/fb0</a>
+</pre>
+<p>For the "Control Panel" (overlay) framebuffer:
+</p>
+<pre><a href="http://ip.of.this.chumby/cgi-bin/custom/fb1" class="external free" rel="nofollow">http://ip.of.this.chumby/cgi-bin/custom/fb1</a>
+</pre>
+<p>The chumby will respond with a JPEG image.  If the chumby is playing widgets, there isn't much to seen in fb1 - it's only Really Useful if you're in the Control Panel itself.
+</p>
+<h1> <span class="mw-headline" id="Configure_your_chumby_to_connect_wirelessly_through_a_Macintosh_laptop">Configure your chumby to connect wirelessly through a Macintosh laptop</span></h1>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast_small.jpg" alt="infocast_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p>
+<h3> <span class="mw-headline" id="MacOS_X_Settings">MacOS X Settings</span></h3>
+<ul><li> Connect your laptop to the internet via wired Ethernet
+</li><li> Open <b>System Preferences</b>
+</li><li> Click <b>Sharing</b>
+</li><li> Click the <b>Internet</b> tab
+</li><li> In the <b>Share your connection from:</b> drop-down list, choose <b>Built-in Ethernet</b>
+</li><li> Under <b>To computers using:</b>, choose Airport
+</li><li> Click <b>Airport Options</b>
+</li><li> Enter a <b>Network Name</b> (e.g. chumby)
+</li><li> Optionally enable WEP encryption by selecting the <b>Enable encryption (using WEP)</b> checkbox and entering a 40bit (5 char) or 128bit (13 char) WEP password.
+</li></ul>
+<p><b>Note:</b> If you enter a WEP password, chumby will need the HEX equivalent of the key.  ( e.g. If you enter AAAAA for the password, the WEP HEX key will be 4141414141 )
+</p>
+<ul><li> Click <b>Start</b>
+</li></ul>
+<h3> <span class="mw-headline" id="chumby_settings">chumby settings</span></h3>
+<ul><li> Open the Control Panel
+</li><li> Click <b>Settings</b>
+</li><li> Click <b>Network</b> 
+</li><li> Select <b>create a new connection</b> and click OK
+</li><li> Select the wireless connection that you had previously created (e.g. chumby) and click OK
+</li><li> If you had previously chosen to enable WEP encryption, enter your WEP key (e.g. 4141414141) and click OK, otherwise go to the next step
+</li><li> Select <b>Manual</b> and click OK
+</li><li> Enter <b>10.0.2.10</b> for the IP and click OK
+</li><li> Enter <b>255.255.255.0</b> for the netmask and click OK
+</li><li> Enter <b>10.0.2.1</b> for the network gateway and click OK
+</li><li> Enter <b>10.0.2.1</b> for the primary DNS and click OK
+</li><li> Enter <b>10.0.2.1</b> for the secondary DNS and click OK
+</li><li> Click OK on the Confirm settings screen
+</li></ul>
+<h1> <span class="mw-headline" id="Adding_a_Virtual_Chumby_to_a_Facebook_Profile">Adding a Virtual Chumby to a Facebook Profile</span></h1>
+<ul><li> Copy the embedded code for a small Virtual Chumby into your computer's clipboard.
+</li><li> Log into your Facebook profile and search for the application "Flash Embed."  Add it to your Facebook profile.
+</li><li> Within the Flash Embed application, click the link "Add a new animation to your profile."
+</li><li> Select the option "Import a Flash 'embed' code," and paste the code from your clipboard into the box.  Click the "Add Animation" button to confirm.
+</li><li> Change the first field labeled Title from "Imported Flash animation" to a heading of your choosing.  Something that instructs the viewer to click the image is recommended.  You need to do this because when anyone lands on your Facebook profile, the flash animation of your Virtual Chumby does not begin until it is clicked on.
+</li><li> Change the second field labeled URL from "Could not determine URL!" to &quot;http://www.chumby.com/virtualchumby2.swf&quot;.
+</li><li> Fill in the Image URL field with a reference to a picture that approximates the actual Virtual Chumby.  The URL &quot;http://store.chumby.com/images/products/latte_front.jpg&quot; or similar is recommended.
+</li><li> Click the "Save Changes" button to confirm.
+</li></ul>
+<h1> <span class="mw-headline" id="Adding_a_Virtual_Chumby_to_an_iGoogle_page">Adding a Virtual Chumby to an iGoogle page</span></h1>
+<p>Add the HTML/Javascript Google Gadget, 
+</p><p><a href="http://www.google.com/ig/directory?hl=e" class="external free" rel="nofollow">http://www.google.com/ig/directory?hl=e</a> … htmljs.xml 
+</p><p>to your Google page and paste in your Virtual Chumby Code; voila, Virtual Chumby a la Google!
+</p><p>FWIW, the gadget lets you mail the gadget to contacts; you can include your configuration of the gadget, so that the recipient(s) will see the same content that you see, e.g.:
+</p><p><a href="http://www.google.com/ig/adde?hl=en&amp;moduleurl=http://chw2054.googlecode.com/svn/trunk/htmljs/htmljs.xml&amp;source=imag&amp;up_title=Chumby&amp;up_editMode=text" class="external free" rel="nofollow">http://www.google.com/ig/adde?hl=en&amp;moduleurl=http://chw2054.googlecode.com/svn/trunk/htmljs/htmljs.xml&amp;source=imag&amp;up_title=Chumby&amp;up_editMode=text</a> 
+</p><p>Which is one of my VC's&nbsp;:)  Note that this is not the code that you entered in the Gadget.
+</p>
+<h1> <span class="mw-headline" id="Clock_overlay">Clock overlay</span></h1>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p><p>The chumby supports clock overlay when in widget mode - to enable this, create a file "/psp/clockoverlay.xml", of the form:
+</p>
+<pre>&lt;overlay format='%A%n%H:%M:%S' x='10' y='10' width='300' height='100' textsize='32'/&gt;
+</pre>
+<p>This puts the overlay in large font in the upper left.  You can also use the following which instead will place the clock in much smaller font in the bottom right:
+</p>
+<pre> &lt;overlay format='%A&nbsp;%H:%M:%S' x='185' y='220' width='135' height='24' textsize='16'/&gt;
+</pre>
+<p>The "format" attribute uses selectors closely matching the POSIX function <a href="http://opengroup.org/onlinepubs/007908775/xsh/strftime.html" class="external text" rel="nofollow">strftime()</a> (the default is "%x&nbsp;%r"):
+</p>
+<pre>
+%a - short day name, ie &quot;Mon&quot;, &quot;Tue&quot;, etc
+%A - long day name, ie &quot;Monday&quot;, Tuesday&quot;, etc
+%b - short month name, ie. &quot;Jan&quot;, &quot;Feb&quot;, etc
+%B - long month name, ie. &quot;January&quot;, &quot;February&quot;, etc
+%C - century, ie, &quot;19&quot;, &quot;20&quot;, etc
+%d - day of month, with leading zero fill
+%D -&nbsp;%m/%d/%y
+%e - day of month, with leading space fill
+%F -&nbsp;%y-%m-%d
+%g - full year modulo 100
+%G - full year
+%h -&nbsp;%b
+%H - 24 hours with leading zero fill
+%I - 12 hours with leading zero fill
+%j - zero-based day within year, with leading zero fill
+%k - 24 hours with leading space fill
+%l - 12 hours with leading space fill
+%m - numeric month, with leading zero fill
+%M - minutes within hour, with leading zero fill
+%n - insert linefeed
+%p - AM/PM
+%P - am/pm
+%r -&nbsp;%I:%M:%S&nbsp;%p
+%R -&nbsp;%H:%M
+%s - seconds from epoch
+%S - seconds within minute
+%t - insert tab
+%T -&nbsp;%H:%M:%S
+%u - numeric day of week (1 through 7)
+%w - numeric day of week (0 through 6)
+%x -&nbsp;%m/%d/%y
+%X -&nbsp;%H:%M:%S
+%y - year modulo 100 with leading zero fill
+%Y - full year
+%z - time zone offset in minutes
+%% - insert&nbsp;%
+</pre>
+<h1> <span class="mw-headline" id="Sending_events_to_the_Control_Panel">Sending events to the Control Panel</span></h1>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p><p>The Control Panel, starting from version 2.7, supports external events to perform some common useful actions.  To send an event, a small fragment of XML is placed in the file "/tmp/flashplayer.event", and the Flash Player is signaled with the command "chumbyflashplayer.x -F1".  Note that this particular XML parser is incomplete - you *must* use double quotes to surround the attribute values, and you must include the "comment" attribute even with an empty value.
+</p><p>Supported events (as at Control Panel 2.8.20):
+</p>
+<pre>
+&lt;event type=&quot;WidgetPlayer&quot; value=&quot;nextWidget&quot; comment=&quot;&quot;/&gt; // switch to the next widget
+&lt;event type=&quot;WidgetPlayer&quot; value=&quot;prevWidget&quot; comment=&quot;&quot;/&gt; // switch to the previous widget
+&lt;event type=&quot;WidgetPlayer&quot; value=&quot;reload&quot; comment=&quot;&quot;/&gt; // reload the current channel
+&lt;event type=&quot;WidgetPlayer&quot; value=&quot;setChannel&quot; comment=&quot;Default&quot;/&gt; // switch to the named channel
+&lt;event type=&quot;WidgetPlayer&quot; value=&quot;setWidget&quot; comment=&quot;Surfline Surf Report&quot; /&gt; // name of widget instance, fall back to widget name, skipped if widget not present
+&lt;event type=&quot;WidgetPlayer&quot; value=&quot;shuffle&quot; comment=&quot;&quot;/&gt; // shuffles the current channel
+
+&lt;event type=&quot;UserPlayer&quot; value=&quot;play&quot; comment=&quot;http://path.to.stream&quot;/&gt; // play the URL
+&lt;event type=&quot;UserPlayer&quot; value=&quot;playLoop&quot; comment=&quot;/path/to/file&quot;/&gt; // play the file 100,000 times
+
+&lt;event type=&quot;MusicPlayer&quot; value=&quot;stop&quot; comment=&quot;&quot;/&gt; // stop the current music
+&lt;event type=&quot;MusicPlayer&quot; value=&quot;setVolume&quot; comment=&quot;100&quot;/&gt; // set the system volume, 0..100, music must be playing for this to work
+&lt;event type=&quot;MusicPlayer&quot; value=&quot;setMute&quot; comment=&quot;on&quot;/&gt; // // set the system mute, &quot;on&quot; = muted, &quot;off&quot; = no muted, music must be playing for this to work
+&lt;event type=&quot;MusicPlayer&quot; value=&quot;setBalance&quot; comment=&quot;0&quot;/&gt; // set the system balance, -100..100, music must be playing for this to work
+
+&lt;event type=&quot;AlarmPlayer&quot; value=&quot;on&quot; comment=&quot;1&quot;/&gt; // enable alarm by index
+&lt;event type=&quot;AlarmPlayer&quot; value=&quot;off&quot; comment=&quot;1&quot;/&gt; // disable alarm by index
+&lt;event type=&quot;AlarmPlayer&quot; value=&quot;ring&quot; comment=&quot;1&quot;/&gt; // ring alarm by index
+&lt;event type=&quot;AlarmPlayer&quot; value=&quot;snooze&quot; comment=&quot;&quot;/&gt; // snooze the currently ringing alarm
+&lt;event type=&quot;AlarmPlayer&quot; value=&quot;stop&quot; comment=&quot;&quot;/&gt; // stop the currently ringing alarm
+&lt;event type=&quot;AlarmPlayer&quot; value=&quot;reload&quot; comment=&quot;/psp/alarms&quot;/&gt; // reload the alarms file (added in CP 2.8.9)
+
+&lt;event type=&quot;NightMode&quot; value=&quot;on&quot; comment=&quot;&quot;/&gt; // enter night mode
+&lt;event type=&quot;NightMode&quot; value=&quot;off&quot; comment=&quot;&quot;/&gt; // exit night mode
+&lt;event type=&quot;NightMode&quot; value=&quot;dark&quot; comment=&quot;&quot;/&gt; // turn off the display (added in CP 2.8.20)
+&lt;event type=&quot;NightMode&quot; value=&quot;dim&quot; comment=&quot;&quot;/&gt; // turn the display to dim (added in CP 2.8.20)
+
+&lt;event type=&quot;ScreenManager&quot; value=&quot;bright&quot; comment=&quot;&quot;/&gt; // set screen to full brightness
+&lt;event type=&quot;ScreenManager&quot; value=&quot;dim&quot; comment=&quot;&quot;/&gt; // set screen to dim
+&lt;event type=&quot;ScreenManager&quot; value=&quot;off&quot; comment=&quot;&quot;/&gt; // set screen to off
+
+&lt;event type=&quot;FMRadio&quot; value=&quot;play&quot; comment=&quot;105.3&quot;/&gt; // play the specified station (added in CP 2.8.72)
+&lt;event type=&quot;FMRadio&quot; value=&quot;stop&quot; comment=&quot;&quot;/&gt; // stop playing the radio (added in CP 2.8.72)
+&lt;event type=&quot;FMRadio&quot; value=&quot;preset&quot; comment=&quot;1&quot;/&gt; // play the specified preset station, numbered 0 through 3 (added in CP 2.8.72)
+&lt;event type=&quot;FMRadio&quot; value=&quot;scan&quot; comment=&quot;up&quot;/&gt; // scan to the next strong station &quot;up&quot; or &quot;down&quot; (added in CP 2.8.72)
+&lt;event type=&quot;FMRadio&quot; value=&quot;tune&quot; comment=&quot;105.3&quot;/&gt; // increment (&quot;up&quot;) or decrement (&quot;down&quot;) the frequency by the local step (added in CP 2.8.72)
+</pre>
+<p>A typical use of this mechanism is by external scripts that may want the Control Panel to do things based on some external stimulus.  For instance, one could create a simple CGI for the built-in web server to control the device over the Internet.
+</p><p>The list of the user's channels is written to the file "/tmp/channel_name" - entries in this file can be used with the WidgetPlayer.setChannel event.
+</p>
+<h1> <span class="mw-headline" id="Setting_up_an_adhoc_wifi_network">Setting up an adhoc wifi network</span></h1>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p><p>Copy the following code into a file called <b>debugchumby</b> and place it on a USB storage drive, insert it into your chumby and boot it up.  Be sure to replace <b>werd</b> with the ssid of your AdHoc network.  Note that the script will endlessly attempt to connect to the network until it succeeds.
+</p>
+<pre>
+#!/bin/sh
+
+ssid=&quot;werd&quot;
+
+connect()
+{
+    echo &quot;scanning for access points&quot;
+    /usr/chumby/scripts/ap_scan
+    echo &quot;attempting to connect to $ssid&quot;
+    iwpriv rausb0 set NetworkType=Adhoc
+    iwpriv rausb0 set TxRate=6
+    iwpriv rausb0 set AdhocOfdm=2
+    iwpriv rausb0 set AuthMode=OPEN
+    iwpriv rausb0 set SSID=&quot;$ssid&quot;
+    iwpriv rausb0 set EncrypType=NONE
+    iwpriv rausb0 set SSID=&quot;$ssid&quot;
+    sleep 10
+}
+
+connect
+while [ `iwconfig rausb0|grep ESSID|awk -F: '{print $2}'`&nbsp;!= \&quot;$ssid\&quot; ]; do
+    connect
+done
+
+udhcpc -t 5 -n -p /var/run/udhcpc.rausb0.pid -i rausb0
+# if you dont have a dhcp server running, comment the udhcpc line above and uncomment the following one
+# ifconfig rausb0 10.10.10.2
+
+</pre>
+<h1> <span class="mw-headline" id="Enabling_and_disabling_the_wireless_connection">Enabling and disabling the wireless connection</span></h1>
+<p><img src="http://files.chumby.com/wikiimages/deviceimages/ironforge_small.jpg" alt="ironforge_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/falconwing_small.jpg" alt="falconwing_small.jpg" /> <img src="http://files.chumby.com/wikiimages/deviceimages/infocast3.5_small.jpg" alt="infocast3.5_small.jpg" /> 
+</p><p>The interface network connection can be disabled and enabled via the following commands:
+</p><p>Disable:
+</p>
+<div style="background-color:#ddffdd; color:#000000; padding:.05em .5em; margin:.5em; border:1px solid #99cc99; border-left:10px solid #99cc99; font-size: 125%;white-space:pre; font-family:monospace; width: 50%;">/sbin/ifconfig rausb0 down</div>
+<p>Enable:
+</p>
+<div style="background-color:#ddffdd; color:#000000; padding:.05em .5em; margin:.5em; border:1px solid #99cc99; border-left:10px solid #99cc99; font-size: 125%;white-space:pre; font-family:monospace; width: 50%;">/sbin/ifconfig rausb0 up</div>
+<p>Note: not sure if these physically power down the wireless card
+</p>
+<h1> <span class="mw-headline" id="Using_Chumby_with_Arduino">Using Chumby with Arduino</span></h1>
+<p>There's a howto located at <a href="https://boconnor.is-a-geek.com/pmwiki/index.php?n=Geek.Chumby" class="external free" rel="nofollow">https://boconnor.is-a-geek.com/pmwiki/index.php?n=Geek.Chumby</a> for setting up a Chumby with Arduino and using it to build a simple plant moisture sensor.  There was a talk about this project given at the March 09 Dorkbot socal  and a video is available at <a href="http://blog.makezine.com/archive/2009/03/creating_a_plant_sensor_system_with.html" class="external free" rel="nofollow">http://blog.makezine.com/archive/2009/03/creating_a_plant_sensor_system_with.html</a>.
+</p>
+<h1> <span class="mw-headline" id="Other.2C_more_complicated_customizations"> Other, more complicated customizations </span></h1>
+<ul><li> <a href="/index.php/VolumeChangeWithAccelerometer" title="VolumeChangeWithAccelerometer">Changing the volume using the accelerometer</a>
+</li><li> <a href="/index.php/Connect_through_3G" title="Connect through 3G">Connect through a 3G USB modem (and share it via wifi)</a>
+</li><li> <a href="/index.php/Web_Browser" title="Web Browser">Web Browser</a>
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 1032/1000000
+Post-expand include size: 9144/2097152 bytes
+Template argument size: 1167/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key chumby_wiki:pcache:idhash:1286-0!1!0!!en!2!edit=0 and timestamp 20120506185847 -->
+<div class="printfooter">
+Retrieved from "<a href="http://wiki.chumby.com/index.php/Chumby_tricks">http://wiki.chumby.com/index.php/Chumby_tricks</a>"</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/index.php/Chumby_tricks" title="View the content page [c]" accesskey="c">Page</a></li>
+				 <li id="ca-talk"><a href="/index.php/Talk:Chumby_tricks" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
+				 <li id="ca-viewsource"><a href="/index.php?title=Chumby_tricks&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></li>
+				 <li id="ca-history"><a href="/index.php?title=Chumby_tricks&amp;action=history" title="Past revisions of this page [h]" accesskey="h">History</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Chumby_tricks" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/images/chumby_logo.gif);" href="/index.php/Main_Page" title="Visit the main page"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>Navigation</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/index.php/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+				<li id="n-portal"><a href="/index.php/ChumbyWiki:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+				<li id="n-currentevents"><a href="/index.php/ChumbyWiki:Current_events" title="Find background information on current events">Current events</a></li>
+				<li id="n-recentchanges"><a href="/index.php/Special:RecentChanges" title="The list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+				<li id="n-randompage"><a href="/index.php/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+				<li id="n-help"><a href="/index.php/Help:Contents" title="The place to find out">Help</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/index.php" id="searchform">
+				<input type='hidden' name="title" value="Special:Search"/>
+				<input id="searchInput" title="Search ChumbyWiki" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Go" title="Go to a page with this exact name if exists" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Search" title="Search the pages for this text" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/index.php/Special:WhatLinksHere/Chumby_tricks" title="List of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="/index.php/Special:RecentChangesLinked/Chumby_tricks" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/index.php/Special:SpecialPages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+				<li id="t-print"><a href="/index.php?title=Chumby_tricks&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				<li id="t-permalink"><a href="/index.php?title=Chumby_tricks&amp;oldid=3467" title="Permanent link to this revision of the page">Permanent link</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> This page was last modified on 8 February 2012, at 07:39.</li>
+		<li id="viewcount">This page has been accessed 151,640 times.</li>
+		<li id="privacy"><a href="/index.php/ChumbyWiki:Privacy_policy" title="ChumbyWiki:Privacy policy">Privacy policy</a></li>
+		<li id="about"><a href="/index.php/ChumbyWiki:About" title="ChumbyWiki:About">About ChumbyWiki</a></li>
+		<li id="disclaimer"><a href="/index.php/ChumbyWiki:General_disclaimer" title="ChumbyWiki:General disclaimer">Disclaimers</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-2716638-12");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script><!-- Served in 0.344 secs. --></body></html>

@@ -17,8 +17,8 @@ if (length($hour) == 1) {$hour = "0$hour";}
 if (length($min)  == 1) {$min = "0$min";}
 # http://frame/cgi-bin/speak.pl?action=say&words=hello
 # http://frame/cgi-bin/speak.pl?action=time&time=09:00
-#    my $rc = system("echo /mnt/usb/TalkingChumby/flite_time \"${hour}:${min}\" ");
-    my $rc = system("/mnt/usb/TalkingChumby/flite_time \"${hour}:${min}\" ");
+#    my $rc = system("echo /mnt/storage\zurk/TalkingChumby/time.sh \"${hour}:${min}\" ");
+    my $rc = system("/mnt/usb/TalkingChumby/time.sh \"${hour}:${min}\" ");
 
     print "content-type:text\/html\r\n\r\n";
     print "done=true\r\n\r\n";
@@ -27,14 +27,14 @@ if (length($min)  == 1) {$min = "0$min";}
 
 
 if ($in{'action'} eq "time") { #say the time HH:MM 
-    my $rc = system("/mnt/usb/TalkingChumby/flite_time $in{'time'}");
+    my $rc = system("/mnt/usb/TalkingChumby/time.sh $in{'time'}");
 
     print "content-type:text\/html\r\n\r\n";   
     print "done=true\r\n\r\n";
 }
 
 if ($in{'action'} eq "say") { #say the words 
-    my $rc = system("/mnt/usb/TalkingChumby/flite_cmu_us_kal16 -t \"$in{'words'}\"");
+    my $rc = system("/mnt/usb/TalkingChumby/say.sh \"$in{'words'}\"");
 
     print "content-type:text\/html\r\n\r\n";   
     print "done=true\r\n\r\n";

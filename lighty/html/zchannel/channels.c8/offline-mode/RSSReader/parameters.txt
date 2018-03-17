@@ -1,0 +1,2 @@
+  <parameter value="http://chumby.com/zurksofw/rss.xml" name="_chumby_param_rssurl"/>
+

@@ -1,0 +1,4 @@
+   <parameter value="http://intercom/jpg/image.jpg" name="url"/>
+    <parameter value="5" name="reloadSec"/>
+    <parameter value="NO" name="hideLoading"/>
+

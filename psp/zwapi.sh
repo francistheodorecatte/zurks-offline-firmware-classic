@@ -68,7 +68,7 @@ curl --silent --output /tmp/0.png "https://radar.weather.gov/ridge/lite/N0R/ATX_
 curl --silent --output /tmp/1.png "https://radar.weather.gov/ridge/lite/N0R/ATX_6.png"
 curl --silent --output /tmp/2.png "https://radar.weather.gov/ridge/lite/N0R/ATX_5.png"
 curl --silent --output /tmp/3.png "https://radar.weather.gov/ridge/lite/N0R/ATX_4.png"
-curl --silent --output /tmp/4.png "http://radar.weather.gov/ridge/lite/N0R/ATX_3.png"
+curl --silent --output /tmp/4.png "https://radar.weather.gov/ridge/lite/N0R/ATX_3.png"
 curl --silent --output /tmp/5.png "https://radar.weather.gov/ridge/lite/N0R/ATX_2.png"
 curl --silent --output /tmp/6.png "https://radar.weather.gov/ridge/lite/N0R/ATX_1.png"
 curl --silent --output /tmp/7.png "https://radar.weather.gov/ridge/lite/N0R/ATX_0.png"
@@ -89,7 +89,7 @@ rm -f /mnt/storage/widgetcache/*
 sync
 /mnt/usb/java/bin/java -cp /psp zwapi /tmp/zwapi.html /mnt/usb/lighty/html/zurksofw/weather_items
 rm -f /tmp/zwapi.html
-/bin/sh /mnt/usb/swftools/dopng.sh
+/bin/sh /mnt/usb/swftools/c1dopng.sh
 date >/mnt/usb/orangebox.txt
 uptime >>/mnt/usb/orangebox.txt
 free >>/mnt/usb/orangebox.txt

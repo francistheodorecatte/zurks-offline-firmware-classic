@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:yt="http://gdata.youtube.com/schemas/2007" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Headline News</title>
+      <description>Pipes Output</description>
+      <link>http://pipes.yahooapis.com/pipes/pipe.info?_id=a2418a30223e41727a00a021aeabcca6</link>
+      <atom:link rel="next" href="http://pipes.yahooapis.com/pipes/pipe.run?_id=a2418a30223e41727a00a021aeabcca6&amp;_render=rss&amp;page=2"/>
+      <pubDate>Fri, 19 Jul 2013 18:21:42 +0000</pubDate>
+      <generator>http://pipes.yahooapis.com/pipes/</generator>
+      <item>
+         <title>Broke Detroit to rebound 'stronger'</title>
+         <link>http://www.bbc.co.uk/news/world-us-canada-23381043#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>
+         <description>Michigan Governor Rick Snyder says Detroit may have hit rock bottom with its bankruptcy filing, but the move will reverse decades of decline.</description>
+         <guid isPermaLink="false">http://www.bbc.co.uk/news/world-us-canada-23381043</guid>
+         <pubDate>Fri, 19 Jul 2013 16:42:57 +0000</pubDate>
+         <media:thumbnail height="49" url="http://news.bbcimg.co.uk/media/images/68847000/jpg/_68847783_018686855.jpg" width="66"/>
+         <media:thumbnail height="81" url="http://news.bbcimg.co.uk/media/images/68847000/jpg/_68847784_018686855.jpg" width="144"/>
+      </item>
+      <item>
+         <title>'Trayvon could have been me' - Obama</title>
+         <link>http://www.bbc.co.uk/news/world-us-canada-23382880#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>
+         <description>US President Barack Obama says &quot;Trayvon Martin could have been me, 35 years ago&quot;, in his first comments on the case since last week's verdict.</description>
+         <guid isPermaLink="false">http://www.bbc.co.uk/news/world-us-canada-23382880</guid>
+         <pubDate>Fri, 19 Jul 2013 18:03:43 +0000</pubDate>
+         <media:thumbnail height="49" url="http://news.bbcimg.co.uk/media/images/68850000/jpg/_68850931_bn-144x81.jpg" width="66"/>
+         <media:thumbnail height="80" url="http://news.bbcimg.co.uk/media/images/68850000/jpg/_68850932_bn-144x81.jpg" width="144"/>
+      </item>
+      <item>
+         <title>World Cup ticket costs revealed</title>
+         <link>http://www.bbc.co.uk/news/business-23377890#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>
+         <description>Ticket prices for international fans attending the football World Cup in Brazil will start at $90 (£59, 69 euros) for initial group matches.</description>
+         <guid isPermaLink="false">http://www.bbc.co.uk/news/business-23377890</guid>
+         <pubDate>Fri, 19 Jul 2013 15:08:15 +0000</pubDate>
+         <media:thumbnail height="49" url="http://news.bbcimg.co.uk/media/images/68845000/jpg/_68845880_hy3k7dwa.jpg" width="66"/>
+         <media:thumbnail height="81" url="http://news.bbcimg.co.uk/media/images/68845000/jpg/_68845881_hy3k7dwa.jpg" width="144"/>
+      </item>
+      <item>
+         <title>Berlusconi aides guilty in sex trial</title>
+         <link>http://www.bbc.co.uk/news/world-europe-23382873#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>
+         <description>Three associates of former Italian PM Silvio Berlusconi are found guilty of procuring prostitutes for his controversial &quot;bunga bunga&quot; parties.</description>
+         <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-23382873</guid>
+         <pubDate>Fri, 19 Jul 2013 16:10:17 +0000</pubDate>
+         <media:thumbnail height="49" url="http://news.bbcimg.co.uk/media/images/68848000/gif/_68848926_aides.gif" width="66"/>
+         <media:thumbnail height="81" url="http://news.bbcimg.co.uk/media/images/68848000/gif/_68848927_aides.gif" width="144"/>
+      </item>
+      <item>
+         <title>Australia to block boat people - PM</title>
+         <link>http://www.bbc.co.uk/news/world-asia-23358329#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>
+         <description>People arriving by boat to seek asylum will no longer be resettled in Australia but will go to Papua New Guinea, PM Kevin Rudd announces.</description>
+         <guid isPermaLink="false">http://www.bbc.co.uk/news/world-asia-23358329</guid>
+         <pubDate>Fri, 19 Jul 2013 11:53:17 +0000</pubDate>
+         <media:thumbnail height="49" url="http://news.bbcimg.co.uk/media/images/68833000/jpg/_68833114_68775402.jpg" width="66"/>
+         <media:thumbnail height="81" url="http://news.bbcimg.co.uk/media/images/68833000/jpg/_68833319_68775402.jpg" width="144"/>
+      </item>
+      <item>
+         <title>Politician sought over poisoning</title>
+         <link>http://www.bbc.co.uk/news/world-asia-23372313#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>
+         <description>Pakistani police are seeking the arrest of a politician in connection with the fatal poisoning of 22 people from a rival branch of his family.</description>
+         <guid isPermaLink="false">http://www.bbc.co.uk/news/world-asia-23372313</guid>
+         <pubDate>Fri, 19 Jul 2013 14:26:24 +0000</pubDate>
+         <media:thumbnail height="49" url="http://news.bbcimg.co.uk/media/images/68844000/gif/_68844844_pakistan_multan_01_12.gif" width="66"/>
+         <media:thumbnail height="81" url="http://news.bbcimg.co.uk/media/images/68844000/gif/_68844845_pakistan_multan_01_12.gif" width="144"/>
+      </item>
+      <item>
+         <title>Pioneering stem cell trial approved</title>
+         <link>http://www.bbc.co.uk/news/health-23374622#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>
+         <description>The first trial of stem cells produced from a patient's own body has been approved by the Japanese government.</description>
+         <guid isPermaLink="false">http://www.bbc.co.uk/news/health-23374622</guid>
+         <pubDate>Fri, 19 Jul 2013 10:28:20 +0000</pubDate>
+         <media:thumbnail height="49" url="http://news.bbcimg.co.uk/media/images/68836000/jpg/_68836863_haematopoietic_stem_cells%2C_sem-spl.jpg" width="66"/>
+         <media:thumbnail height="81" url="http://news.bbcimg.co.uk/media/images/68836000/jpg/_68836864_haematopoietic_stem_cells%2C_sem-spl.jpg" width="144"/>
+      </item>
+      <item>
+         <title>Kremlin critic Navalny freed on bail</title>
+         <link>http://www.bbc.co.uk/news/world-europe-23370623#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>
+         <description>Kremlin critic Alexei Navalny is freed from jail pending an appeal, a day after he was given a five-year jail sentence for embezzlement.</description>
+         <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-23370623</guid>
+         <pubDate>Fri, 19 Jul 2013 15:55:07 +0000</pubDate>
+         <media:thumbnail height="49" url="http://news.bbcimg.co.uk/media/images/68834000/jpg/_68834388_68833533.jpg" width="66"/>
+         <media:thumbnail height="81" url="http://news.bbcimg.co.uk/media/images/68834000/jpg/_68834389_68833533.jpg" width="144"/>
+      </item>
+      <item>
+         <title>Boston suspect capture photos leaked</title>
+         <link>http://www.bbc.co.uk/news/world-us-canada-23370205#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>
+         <description>A US police photographer leaks images of the Boston Marathon suspect during his capture in anger at a much-criticised magazine cover.</description>
+         <guid isPermaLink="false">http://www.bbc.co.uk/news/world-us-canada-23370205</guid>
+         <pubDate>Fri, 19 Jul 2013 09:49:05 +0000</pubDate>
+         <media:thumbnail height="49" url="http://news.bbcimg.co.uk/media/images/68839000/jpg/_68839994_68836831.jpg" width="66"/>
+         <media:thumbnail height="81" url="http://news.bbcimg.co.uk/media/images/68840000/jpg/_68840305_68836831.jpg" width="144"/>
+      </item>
+      <item>
+         <title>Kerry to meet Palestinian president</title>
+         <link>http://www.bbc.co.uk/news/world-middle-east-23377422#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>
+         <description>US Secretary of State John Kerry is to meet Palestinian President Mahmoud Abbas in Ramallah to try to revive peace talks with Israel.</description>
+         <guid isPermaLink="false">http://www.bbc.co.uk/news/world-middle-east-23377422</guid>
+         <pubDate>Fri, 19 Jul 2013 11:45:03 +0000</pubDate>
+         <media:thumbnail height="49" url="http://news.bbcimg.co.uk/media/images/68839000/jpg/_68839163_018681349.jpg" width="66"/>
+         <media:thumbnail height="81" url="http://news.bbcimg.co.uk/media/images/68839000/jpg/_68839164_018681349.jpg" width="144"/>
+      </item>
+   </channel>
+</rss>
+<!-- fe3.pipes.ch1.yahoo.com compressed/chunked Fri Jul 19 18:21:42 UTC 2013 -->

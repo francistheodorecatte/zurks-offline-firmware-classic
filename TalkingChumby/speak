@@ -20,7 +20,7 @@ if ($in{'action'} eq "time") { #say the time HH:MM
 }
 
 if ($in{'action'} eq "say") { #say the words 
-    my $rc = system("/psp/usr/bin/flite_cmu_us_kal16 -t \"$in{'words'}\"");
+    my $rc = system("/psp/usr/bin/flite_cmu_us_kal -t \"$in{'words'}\"");
 
     print "content-type:text\/html\r\n\r\n";   
     print "done=true\r\n\r\n";

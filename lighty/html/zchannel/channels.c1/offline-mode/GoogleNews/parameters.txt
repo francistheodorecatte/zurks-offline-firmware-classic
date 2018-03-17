@@ -1,0 +1,5 @@
+<widget_parameter>
+  <name>_chumby_param_rssurl</name>
+  <value>http://news.google.com/?output=rss</value>
+</widget_parameter>
+

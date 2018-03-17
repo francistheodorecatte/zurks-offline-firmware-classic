@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Fixing AP handover on the Gumstix Verdex + wifi module</title>
+<meta name="description" content="I was using my Gumstix Verdex to control an iRobot Create with the ever handy Element Sticky board when I encountered a serious problem.   The Marvell 88W8385 (the wireless module used by the Verdex) has no such support in its driver/hardware for handovers between APs.  So I used wpa_supplicant and a custom script to simulate this behaviour in software."/>
+<meta name="robots" content="index,follow"/>
+<link rel="pingback" href="http://www.snowbotic.com/xmlrpc.php"/>
+<link rel="alternate" type="application/rss+xml" title="Snowbotic &raquo; Feed" href="http://www.snowbotic.com/feed"/>
+<link rel="alternate" type="application/rss+xml" title="Snowbotic &raquo; Comments Feed" href="http://www.snowbotic.com/comments/feed"/>
+<link rel="alternate" type="application/rss+xml" title="Snowbotic &raquo; Fixing AP handover on the Gumstix Verdex + wifi module Comments Feed" href="http://www.snowbotic.com/archives/20/feed"/>
+<link rel='stylesheet' id='thematic_style-css' href='http://www.snowbotic.com/wp-content/themes/snowbotic/style.css?ver=3.5.1' type='text/css' media='all'/>
+<script type='text/javascript' src='http://www.snowbotic.com/wp-includes/js/jquery/jquery.js,qver=1.8.3.pagespeed.jm.1SksPi3j41.js'></script>
+<script type='text/javascript' src='http://www.snowbotic.com/wp-content/themes/thematic/library/scripts/superfish.js,qver=3.5.1.pagespeed.ce.Cv9AjeoqDe.js'></script>
+<script type='text/javascript'>//<![CDATA[
+(function(a){a.fn.supersubs=function(b){var c=a.extend({},a.fn.supersubs.defaults,b);return this.each(function(){var d=a(this);var e=a.meta?a.extend({},c,d.data()):c;var f=a('<li id="menu-fontsize">&#8212;</li>').css({padding:0,position:"absolute",top:"-999em",width:"auto"}).appendTo(d).width();a("#menu-fontsize").remove();$ULs=d.find("ul");$ULs.each(function(l){var k=$ULs.eq(l);var j=k.children();var g=j.children("a");var m=j.css("white-space","nowrap").css("float");var h=k.add(j).add(g).css({"float":"none",width:"auto"}).end().end()[0].clientWidth/f;h+=e.extraWidth;if(h>e.maxWidth){h=e.maxWidth}else{if(h<e.minWidth){h=e.minWidth}}h+="em";k.css("width",h);j.css({"float":m,width:"100%","white-space":"normal"}).each(function(){var n=a(">ul",this);var i=n.css("left")!==undefined?"left":"right";n.css(i,h)})})})};a.fn.supersubs.defaults={minWidth:9,maxWidth:25,extraWidth:0}})(jQuery);
+//]]></script>
+<script type='text/javascript'>//<![CDATA[
+jQuery.noConflict();jQuery(document).ready(function(){jQuery("ul.sf-menu").supersubs({minWidth:12,maxWidth:27,extraWidth:1}).superfish({delay:400,animation:{opacity:'show',height:'show'},speed:'fast',autoArrows:false,dropShadows:false});});
+//]]></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.snowbotic.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.snowbotic.com/wp-includes/wlwmanifest.xml"/>
+<link rel='prev' title='ARToolkit Plus recipe for Gumstix Verdex' href='http://www.snowbotic.com/archives/13'/>
+<link rel='next' title='Removing packages + dependencies from Synaptic in Ubuntu' href='http://www.snowbotic.com/archives/26'/>
+<link rel='canonical' href='http://www.snowbotic.com/archives/20'/>
+<link rel='shortlink' href='http://www.snowbotic.com/?p=20'/>
+<script type="text/javascript" src="http://use.typekit.com/gtw7lrk.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body class="single single-post postid-20 single-format-standard windows firefox ff19">
+<div id="wrapper" class="hfeed">
+<div id="header">
+<div id="branding">
+<div id="blog-title"><span><a href="http://www.snowbotic.com/" title="Snowbotic" rel="home">Snowbotic</a></span></div>
+<div id="blog-description">Robotics. Life. Stuff.</div>
+</div><!--  #branding -->
+<div id="access">
+<div class="skip-link"><a href="#content" title="Skip navigation to the content">Skip to content</a></div><!-- .skip-link -->
+<form id="searchform" method="get" action="http://www.snowbotic.com/">
+<div>
+<input id="s" name="s" type="text" value="To search, type and hit enter" onfocus="if (this.value == 'To search, type and hit enter') {this.value = '';}" onblur="if (this.value == '') {this.value = 'To search, type and hit enter';}" size="32" tabindex="1"/>
+<input id="searchsubmit" name="searchsubmit" type="submit" value="Search" tabindex="2"/>
+</div>
+</form>
+<div class="menu">
+<ul class="sf-menu">
+<li class="page_item page-item-37"><a href="http://www.snowbotic.com/">Home</a></li>
+<li class="page_item page-item-48"><a href="http://www.snowbotic.com/projects">Projects</a></li>
+<li class="page_item page-item-38 current_page_parent"><a href="http://www.snowbotic.com/blog">Blog</a></li>
+<li class="page_item page-item-2"><a href="http://www.snowbotic.com/about">About Me</a></li>
+</ul>
+</div><!-- menu -->
+</div><!-- #access -->
+</div><!-- #header-->
+<div id="main">
+<div id="container">
+<div id="content">
+<div id="nav-above" class="navigation">
+<div class="nav-previous"><a href="http://www.snowbotic.com/archives/13" rel="prev"><span class="meta-nav">&laquo;</span> ARToolkit Plus recipe for Gumstix Verdex</a></div>
+<div class="nav-next"><a href="http://www.snowbotic.com/archives/26" rel="next">Removing packages + dependencies from Synaptic in Ubuntu <span class="meta-nav">&raquo;</span></a></div>
+</div>
+<div id="post-20" class="post-20 post type-post status-publish format-standard hentry category-hardware-hacking"><div class="entry-meta"><span class="meta-prep meta-prep-entry-date">Published: </span><span class="entry-date"><abbr class="published" title="2009-09-20T19:15:00-0400">2009-09-20</abbr></span> <span class="comments-link"><a href="http://www.snowbotic.com/archives/20#comments" title="Comment on Fixing AP handover on the Gumstix Verdex + wifi module">Leave a comment</a></span></div><!-- .entry-meta -->
+<h1 class="entry-title">Fixing AP handover on the Gumstix Verdex + wifi module</h1>
+<div class="entry-content">
+<p>I was using my Gumstix Verdex to control an iRobot Create with the ever handy <a href="http://www.acroname.com/robotics/parts/I24-10601.html">Element Sticky board</a> when I encountered a serious problem.  The network setup around here has a ton of access points with the same SSID.  When you move throughout the network, most sane wireless hardware does what is called a &#8220;handover.&#8221;  The wireless adapter detects that the signal to the current access point is weak, and then scans and reassociates with a stronger AP.  The process isn&#8217;t always seamless, but it <em>happens</em>.  Apparently, the Marvell 88W8385 (the wireless module used by the Verdex) has no such support in its driver/hardware.  So as the Create trundles along, the wifi signal just keeps getting weaker, until it starts dropping out.  As another wonderful feature of the driver, when the wifi signal has dropped out, the module <strong>refuses</strong> to execute any commands.  That&#8217;s right, you can&#8217;t even <em>ifdown wlan0</em> to reset/reassociate the stupid thing.  If you try, you get a helpful: <em>NETDEV WATCHDOG: wlan0: transmit timed out</em>.</p>
+<p>What&#8217;s a roboticist to do?  Well, obviously, create a software hack that <em>forces</em> the gumstix to reassociate when its signal strength to the current AP gets low!</p>
+<p><span id="more-20"></span> At first, this seemed to be a little tricky, as it is kind of a pain to deal with the parsing minutia necessary to figure out which access point is the best.  Luckily, Gumstix/OpenEmbedded has a solution, in the form of wpa_supplicant.  This little daemon is designed to allow connections to WPA-enabled networks, which is not useful, except for a nifty little hidden feature: it automatically re-associates with the best AP if the hardware &#8220;happens&#8221; to do a scan.  Well, we can force that using <em>iwlist wlan0 scan</em>!</p>
+<p>So, the solution is twofold:</p>
+<ol>
+<li>Write a background script that measures RSSI and runs <em>iwlist </em>when signal gets weak.</li>
+<li>Configure wlan0 to use wpa_supplicant on the Verdex.</li>
+</ol>
+<p>The first part isn&#8217;t too bad.  We need to write a script that loops, checking the RSSI of the current AP, and starts scanning <em>only</em> when the RSSI gets low.  Using copious amounts of text hackery, I wrote the following script to do exactly that:</p>
+<pre><code>
+#!/bin/sh
+
+echo STARTING SCAN-O-MATIC
+while [ 1 ]
+do
+	RSSI=`iwconfig wlan0 | grep Signal | awk '{print $4}' | cut -d ":" -f 2`
+	if [  ${RSSI} -lt "-60" ]
+	then
+		iwlist wlan0 scan &gt; /dev/null
+		sleep 5
+	else
+		sleep 2
+	fi
+done
+</code></pre>
+<p>For convenience later on, I saved this script as <em>/etc/wpa_supplicant/scan.sh</em>.  With that done, the next step isn&#8217;t too tricky either.  wpa_supplicant ships with the gumstix-basic-image, so as long as you are using that, you probably already have wpa_supplicant.  To get it to run with wireless (wlan0), you just have to change a couple of config settings.  Create the file <em>/etc/wpa_supplicant.conf</em>.  This file will contain the configurations for the networks you want wpa_supplicant to try to join.  Since I only have one network, mine looks like this:</p>
+<pre><code>
+ap_scan=1
+fast_reauth=1
+network={
+	ssid="FOOBAR"
+	key_mgmt=NONE
+}
+</code></pre>
+<p>If you have weirder settings, just look up the docs for wpa_supplicant. Note the <em>ap_scan=1</em>. I think that is important for ensuring that wpa_supplicant will reassociate networks when you scan. Next, we just have to tell the Gumstix that we want to use this stuff when we activate wlan0. So, we put the following into <em>/etc/network/interfaces</em>:</p>
+<pre><code>
+auto wlan0
+iface wlan0 inet dhcp
+      pre-up wpa_supplicant -Dmarvell -iwlan0 -c/etc/wpa_supplicant.conf -Bw
+      up /etc/wpa_supplicant/scan.sh &amp;
+      down ps | grep scan.sh | grep -v grep | xargs kill `awk '{print $1}'`
+      down killall wpa_supplicant
+</code></pre>
+<p>This should look very similar to the WPA example that gumstix provides. However, you can see that we also start our scanning script in the background, and kill it when the interface goes down. Make sure you comment out any other iface block for wlan0, as having multiple definitions will screw things up.</p>
+<p>Now, just reup the interface and voila, wpa_supplicant will come up and associate to the best access point. If the RSSI drops below our threshold (-60dB in the above), then our scan script will run, and wpa_supplicant will use the results to associate to a better access point. It seems to work fine for running around pretty dense wireless network areas, with about a 3 second delay every time it actually tries to switch networks. So have fun and let your robots run free!</p>
+</div><!-- .entry-content -->
+<div class="entry-utility">
+<span class="cat-links">This entry was posted in <a href="http://www.snowbotic.com/archives/category/projects/hardware-hacking" title="View all posts in Hardware Hacking" rel="category tag">Hardware Hacking</a></span>. </div><!-- .entry-utility -->
+</div><!-- #post -->
+<div class="list-header"></div><!-- list-header -->
+<div class="list-footer"></div><!-- list-footer -->
+<div id="nav-below" class="navigation">
+<div class="nav-previous"><a href="http://www.snowbotic.com/archives/13" rel="prev"><span class="meta-nav">&laquo;</span> ARToolkit Plus recipe for Gumstix Verdex</a></div>
+<div class="nav-next"><a href="http://www.snowbotic.com/archives/26" rel="next">Removing packages + dependencies from Synaptic in Ubuntu <span class="meta-nav">&raquo;</span></a></div>
+</div>
+<div id="comments">
+<div id="respond">
+<h3>Post a Comment</h3>
+<div id="cancel-comment-reply"><a rel="nofollow" id="cancel-comment-reply-link" href="/archives/20#respond" style="display:none;">Click here to cancel reply.</a></div>
+<div class="formcontainer">
+<form id="commentform" action="http://www.snowbotic.com/wp-comments-post.php" method="post">
+<p id="comment-notes">Your email is <em>never</em> published nor shared. Required fields are marked <span class="required">*</span></p>
+<div id="form-section-author" class="form-section">
+<div class="form-label"><label for="author">Name</label> <span class="required">*</span></div>
+<div class="form-input"><input id="author" name="author" type="text" value="" size="30" maxlength="20" tabindex="3"/></div>
+</div><!-- #form-section-author .form-section -->
+<div id="form-section-email" class="form-section">
+<div class="form-label"><label for="email">Email</label> <span class="required">*</span></div>
+<div class="form-input"><input id="email" name="email" type="text" value="" size="30" maxlength="50" tabindex="4"/></div>
+</div><!-- #form-section-email .form-section -->
+<div id="form-section-url" class="form-section">
+<div class="form-label"><label for="url">Website</label></div>
+<div class="form-input"><input id="url" name="url" type="text" value="" size="30" maxlength="50" tabindex="5"/></div>
+</div><!-- #form-section-url .form-section -->
+<div id="form-section-comment" class="form-section">
+<div class="form-label"><label for="comment">Comment</label></div>
+<div class="form-textarea"><textarea id="comment" name="comment" cols="45" rows="8" tabindex="6"></textarea></div>
+</div><!-- #form-section-comment .form-section -->
+<div id="form-allowed-tags" class="form-section">
+<p><span>You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes:</span> <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></p>
+</div>
+<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="4675f144f4"/></p>
+<div class="form-submit"><input id="submit" name="submit" type="submit" value="Post Comment" tabindex="7"/><input type="hidden" name="comment_post_ID" value="20"/></div>
+<input type='hidden' name='comment_post_ID' value='20' id='comment_post_ID'/>
+<input type='hidden' name='comment_parent' id='comment_parent' value='0'/>
+</form><!-- #commentform -->
+</div><!-- .formcontainer -->
+</div><!-- #respond -->
+</div><!-- #comments -->
+</div><!-- #content -->
+</div><!-- #container -->
+<div id="primary" class="aside main-aside">
+<ul class="xoxo">
+<li id="recent-posts-5" class="widgetcontainer widget_recent_entries">	<h3 class="widgettitle">Recent Posts</h3>
+<ul>
+<li>
+<a href="http://www.snowbotic.com/archives/97" title="Fixing Mac OS X framework errors">Fixing Mac OS X framework errors</a>
+</li>
+<li>
+<a href="http://www.snowbotic.com/archives/88" title="Fixing linking errors caused by MacPorts&#8217; incompatible binaries">Fixing linking errors caused by MacPorts&#8217; incompatible binaries</a>
+</li>
+<li>
+<a href="http://www.snowbotic.com/archives/68" title="Enabling infrastructure wifi on the ARDrone with DHCP">Enabling infrastructure wifi on the ARDrone with DHCP</a>
+</li>
+<li>
+<a href="http://www.snowbotic.com/archives/61" title="Fixing an SQLite version mismatch between Subversion and PHP5">Fixing an SQLite version mismatch between Subversion and PHP5</a>
+</li>
+<li>
+<a href="http://www.snowbotic.com/archives/51" title="Making a cheap electrical wire caddy">Making a cheap electrical wire caddy</a>
+</li>
+</ul>
+</li><li id="tag_cloud-4" class="widgetcontainer widget_tag_cloud"><h3 class="widgettitle">Tags</h3>
+<div class="tagcloud"><a href='http://www.snowbotic.com/archives/tag/ar-drone' class='tag-link-14' title='1 topic' style='font-size: 8pt;'>AR Drone</a>
+<a href='http://www.snowbotic.com/archives/tag/artoolkit' class='tag-link-5' title='1 topic' style='font-size: 8pt;'>ARToolkit</a>
+<a href='http://www.snowbotic.com/archives/tag/bitbake' class='tag-link-6' title='1 topic' style='font-size: 8pt;'>bitbake</a>
+<a href='http://www.snowbotic.com/archives/tag/busybox' class='tag-link-19' title='1 topic' style='font-size: 8pt;'>busybox</a>
+<a href='http://www.snowbotic.com/archives/tag/dhcp' class='tag-link-20' title='1 topic' style='font-size: 8pt;'>dhcp</a>
+<a href='http://www.snowbotic.com/archives/tag/electronics' class='tag-link-12' title='1 topic' style='font-size: 8pt;'>Electronics</a>
+<a href='http://www.snowbotic.com/archives/tag/gumstix' class='tag-link-7' title='1 topic' style='font-size: 8pt;'>gumstix</a>
+<a href='http://www.snowbotic.com/archives/tag/hardware-hacking' class='tag-link-3' title='2 topics' style='font-size: 22pt;'>Hardware Hacking</a>
+<a href='http://www.snowbotic.com/archives/tag/mac' class='tag-link-28' title='1 topic' style='font-size: 8pt;'>Mac</a>
+<a href='http://www.snowbotic.com/archives/tag/macports' class='tag-link-25' title='1 topic' style='font-size: 8pt;'>MacPorts</a>
+<a href='http://www.snowbotic.com/archives/tag/openembedded' class='tag-link-8' title='1 topic' style='font-size: 8pt;'>openembedded</a>
+<a href='http://www.snowbotic.com/archives/tag/os-x' class='tag-link-27' title='1 topic' style='font-size: 8pt;'>OS X</a>
+<a href='http://www.snowbotic.com/archives/tag/tools' class='tag-link-13' title='1 topic' style='font-size: 8pt;'>tools</a>
+<a href='http://www.snowbotic.com/archives/tag/ubuntu' class='tag-link-9' title='2 topics' style='font-size: 22pt;'>ubuntu</a>
+<a href='http://www.snowbotic.com/archives/tag/wifi' class='tag-link-18' title='1 topic' style='font-size: 8pt;'>wifi</a></div>
+</li><li id="categories-3" class="widgetcontainer widget_categories"><h3 class="widgettitle">Categories</h3>
+<ul>
+<li class="cat-item cat-item-12"><a href="http://www.snowbotic.com/archives/category/electronics" title="View all posts filed under Electronics">Electronics</a>
+</li>
+<li class="cat-item cat-item-3"><a href="http://www.snowbotic.com/archives/category/projects/hardware-hacking" title="View all posts filed under Hardware Hacking">Hardware Hacking</a>
+</li>
+<li class="cat-item cat-item-4"><a href="http://www.snowbotic.com/archives/category/projects/linux" title="View all posts filed under Linux">Linux</a>
+</li>
+<li class="cat-item cat-item-24"><a href="http://www.snowbotic.com/archives/category/projects/plinth" title="View all posts filed under Plinth">Plinth</a>
+</li>
+<li class="cat-item cat-item-11"><a href="http://www.snowbotic.com/archives/category/projects" title="View all posts filed under Projects">Projects</a>
+</li>
+<li class="cat-item cat-item-26"><a href="http://www.snowbotic.com/archives/category/software" title="View all posts filed under Software">Software</a>
+</li>
+<li class="cat-item cat-item-1"><a href="http://www.snowbotic.com/archives/category/uncategorized" title="View all posts filed under Uncategorized">Uncategorized</a>
+</li>
+</ul>
+</li><li id="meta-3" class="widgetcontainer widget_meta"><h3 class="widgettitle">Meta</h3>
+<ul>
+<li><a href="http://www.snowbotic.com/wp-login.php">Log in</a></li>
+</ul>
+</li>
+</ul>
+</div><!-- #primary .aside -->
+</div><!-- #main -->
+<div id="footer">
+<div class="copyright">
+Copyright &copy; 2013	<a href="http://www.snowbotic.com">Snowbotic</a>. All Rights Reserved.
+</div><!-- copyright -->
+<div id="siteinfo">
+Powered by <a class="wp-link" href="http://WordPress.org/" title="WordPress" rel="generator">WordPress</a>. Built on the <a class="theme-link" href="http://thematictheme.com" title="Thematic Theme Framework" rel="home">Thematic Theme Framework</a>.
+</div><!-- #siteinfo -->
+</div><!-- #footer -->
+</div><!-- #wrapper .hfeed -->
+<script type='text/javascript'>//<![CDATA[
+(function(a){a.fn.hoverIntent=function(k,j){var l={sensitivity:7,interval:100,timeout:0};l=a.extend(l,j?{over:k,out:j}:k);var n,m,h,d;var e=function(f){n=f.pageX;m=f.pageY};var c=function(g,f){f.hoverIntent_t=clearTimeout(f.hoverIntent_t);if((Math.abs(h-n)+Math.abs(d-m))<l.sensitivity){a(f).unbind("mousemove",e);f.hoverIntent_s=1;return l.over.apply(f,[g])}else{h=n;d=m;f.hoverIntent_t=setTimeout(function(){c(g,f)},l.interval)}};var i=function(g,f){f.hoverIntent_t=clearTimeout(f.hoverIntent_t);f.hoverIntent_s=0;return l.out.apply(f,[g])};var b=function(o){var g=jQuery.extend({},o);var f=this;if(f.hoverIntent_t){f.hoverIntent_t=clearTimeout(f.hoverIntent_t)}if(o.type=="mouseenter"){h=g.pageX;d=g.pageY;a(f).bind("mousemove",e);if(f.hoverIntent_s!=1){f.hoverIntent_t=setTimeout(function(){c(g,f)},l.interval)}}else{a(f).unbind("mousemove",e);if(f.hoverIntent_s==1){f.hoverIntent_t=setTimeout(function(){i(g,f)},l.timeout)}}};return this.bind("mouseenter",b).bind("mouseleave",b)}})(jQuery);
+//]]></script>
+</body>
+</html>
+<!-- Dynamic page generated in 0.588 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2013-03-31 00:21:46 -->
+<!-- super cache -->

@@ -6,10 +6,10 @@ echo "<title>Chumby Web Logs</title>"
 echo "</head></html>"
 echo "<body>"
 echo "<h4> Web Logs </h4>"
+cat /psp/zurk
 echo "<pre>"
-cat /mnt/usb/tmp/error.log
+cat /tmp/zerror.log
 echo "</PRE><BR><HR><BR><PRE>"
-cat /mnt/usb/tmp/access.log
+cat /tmp/zaccess.log
 echo "</pre>"
 echo "</body></html>"
-

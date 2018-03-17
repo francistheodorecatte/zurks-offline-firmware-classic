@@ -1,0 +1,25 @@
+<widget_parameter>
+  <name>childrenOfType</name>
+  <value>[type Function]</value>
+</widget_parameter>
+<widget_parameter>
+  <name>undefined</name>
+  <value></value>
+</widget_parameter>
+<widget_parameter>
+  <name>config_tfsize</name>
+  <value>16</value>
+</widget_parameter>
+<widget_parameter>
+  <name>config_delay</name>
+  <value>5000</value>
+</widget_parameter>
+<widget_parameter>
+  <name>config_url</name>
+  <value>http://chumby.com/cgi-bin/msghdr.sh</value>
+</widget_parameter>
+<widget_parameter>
+  <name>firstChildOfType</name>
+  <value>[type Function]</value>
+</widget_parameter>
+

@@ -1,0 +1,3 @@
+mount -o remount,rw /
+sync
+mount -o remount,ro /
