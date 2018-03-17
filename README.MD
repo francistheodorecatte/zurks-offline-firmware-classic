@@ -1,9 +1,8 @@
 # Zurk's Offline Firmware 
-## v 34 . 0
+#### version 34 . 0
 
 
 ## License
-## -------
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
@@ -12,7 +11,6 @@ Copyright (C) 2012 Free Software Foundation, Inc. All rights reserved.
 
 
 ## Which Firmware ?
-## ----------------
 
 This is Zurk's Offline Firmware v34, backported to the Chumby Classic. 
 
@@ -20,7 +18,6 @@ This is Zurk's Offline Firmware v34, backported to the Chumby Classic.
 
 
 ## Usage
-## -----
 
 ⋅⋅* Copy to a blank USB thumbdrive (FAT32 formatted, 2GB or greater, root folder, make sure you keep directory structure) - power off your activated, networked, functional chumby - insert thumbdrive - power on. Wait for the voice prompts (3-5 min) and when it reboots remove the USB thumbdrive. The first boot after install will take a while (1-2 min without swapfile.on, up to !half an hour! with swapfile.on), the next ones are much faster. If upgrading with an on board firmware already on the Chumby the procedure is the same. The loader will detect the earlier install and upgrade it automatically. 
 ⋅⋅* You will need to change the control panel time to your correct location after bootup. Also change the brightness and sound to your preference. 
@@ -29,13 +26,11 @@ This is Zurk's Offline Firmware v34, backported to the Chumby Classic.
 
 
 ## USB disk problems
-## -----------------
 
 The installation checks the files on the USB disk before installing to your chumby. If the files have issues such as data corruption etc the install will stop. Please replace the USB disk and try a new one or reformat the USB disk and retry it.
 
 
 ## Help
-## ----
 
 Forums are available at : 
 
@@ -45,19 +40,16 @@ Feel free to discuss any topics as required. The chumby forums may provide more 
 
 
 ## Chumote!
-## --------
 
 The Chumote! infrastructure has been expanded with this release. Simply point your web browser to your chumby's ip address and you should see the new infrastructure pop up. You can now see the contents of the chumby screen and set a few parameters as well as start ssh. For insecure networks ensure you set a ssh password with "passwd root" once you ssh into the chumby. 
 
 
 ## Music 
-## -----
 
 Note that chumby music infrastructure has been **REMOVED** from the offline firmware including PANDORA. You may restore chumby infrastructure and PANDORA by completing the following procedure : After booting the chumby using the offline firmware use a web browser ( firefox/chrome/IE/safari etc ) and go to http://ip.address.of.your.chumby (You can find the IP Address in the control panel -> Settings -> Device info under ip: - The 192.168.xxx.xxx is your chumby ip address ). Your chumby is automatically converted into a webserver with a web-based control and information page loaded when you boot up the offline firmware. You will see a webpage with links. Simply click the link to select chumby.com online infrastructure and pandora will be enabled. You can also disable it and run off the offline firmware provided music infrastructure by selecting the second link. You cannot run the offline firmware music infrastructure at the same time as the chumby provided music infrastructure. 
 
 
-##DLNA / UPnP Infrastructure
-## --------------------------
+## DLNA / UPnP Infrastructure
 
 The file dlna.on must be deleted to disable DLNA support. By default it is enabled and can be controlled from the web control panel. Use a javascript enabled web browser to browse http://ip.address.of.chumby/dlna to access the DLNA / UPnP control panel.
 Note that on first boot DLNA will NOT be available until approximately 1 hour has passed. You can check the status of DLNA by using the web control panel. 
@@ -65,7 +57,6 @@ DLNA can be used with any UPnP or DLNA music server or device. An open source cr
 
 
 ## Customization - Widgets/Weather
-## -------------------------------
 
 Customize widgets and weather by selecting the appropriate link for Multi Channel Widget Editor or Weather Editor from the link on the chumby web control panel. Ensure you click the reload channel link on the control panel to see your changes on the chumby. 
 
@@ -73,7 +64,6 @@ Weather updates are hourly. Wait up to 1 hour before assuming something has gone
 
 
 ## Customization - Music
-## ---------------------
 
 Firmwares now have a common music infrastructure built-in. You can customize the music by editing the folder : lighty/html/chumcast/list
 and create the corresponding xshow file with a list of your music. This will modify the blueocty radio
@@ -84,25 +74,21 @@ You can customize the podcasts by selecting the corresponding Podcast Editor on 
 
 
 ## Networkless mode
-## ----------------
 
 Want to run your chumby without a network ? Network-less mode is for you. Delete the file autoreboot.on from /mnt/usb and your chumby will work without a network. Note that this procedure is irreversible unless you reinstall the software on the chumby using a usb disk. Until that happens the chumby will not connect to any network.
 
 
-## Note 
-## ----
+## Note
 
 Once you have changed any settings to your liking, prior to putting the chumby into actual use, ensure you sync and reboot it at least once.
 
 
 ## Guide
-## -----
 
 Only obsolete guides are currently available. Documentation will be included as volunteers write it for the new embedded infrastructure. 
 
 
 ## Changelog
-## ---------
 v34- Added default channel setting on boot in Widget Editor. 
 v33- Added voice prompt to detect reboot state. Graphical interface on firmware loader if voice prompts non functional. 
 v32- Added Intercom channel. Replace text to speech subsystem with new system using lower memory footprint. Added signature verification checking to detect corrupt images. Modified loader with disk compression support. 
@@ -138,4 +124,4 @@ v3 - corrected ntp drift on c8
 v2 - corrected sound
 v1 - init release
 -
-### Zurk's Offline Firmware
+###### Zurk's Offline Firmware
