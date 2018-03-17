@@ -29,12 +29,7 @@ sync
 else
 /mnt/usb/TalkingChumby/say.sh "Error the storage disk is read only"
 fi
-if [ -f /mnt/usb/clearsshpwd.on ]; then
-mount -oremount,rw /
-echo root: | /usr/sbin/chpasswd
-mount -oremount,ro /
-rm -f /mnt/usb/clearsshpwd.on
-else
+
 sync
 fi
 if [ -f /mnt/usb/dlna.on ]; then
