@@ -40,13 +40,14 @@ else
 	sync
 fi
 if [ -f /mnt/usb/swapfile.on ]; then
-	rm -f /mnt/usb.swap
-	rm -f /mnt/usb/swapfile.on
-	/mnt/usb/TalkingChumby/say.sh "Building the 512 MegaByte swapfile"
-	dd if=/dev/zero of=/mnt/usb/.swap bs=1 count=0 seek=512M
-	/mnt/usb/TalkingChumby/say.sh "Making the swapfile"
-	mkswap /mnt/usb/.swap
-	/mnt/usb/TalkingChumby/say.sh "Swapfile built O K"
+	if ! [ -f /mnt/usb/.swap ]; then
+		rm -f /mnt/usb/swapfile.on
+		/mnt/usb/TalkingChumby/say.sh "Building the 512 MegaByte swapfile"
+		dd if=/dev/zero of=/mnt/usb/.swap bs=1 count=0 seek=512M
+		/mnt/usb/TalkingChumby/say.sh "Making the swapfile"
+		mkswap /mnt/usb/.swap
+		/mnt/usb/TalkingChumby/say.sh "Swapfile built O K"
+	fi
 else
 	sync
 fi
