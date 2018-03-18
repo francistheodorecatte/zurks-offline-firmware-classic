@@ -23,7 +23,7 @@ This is Zurk's Offline Firmware v34, backported to the Chumby Classic.
 
 * You will need to change the control panel time to your correct location after bootup. Also change the brightness and sound to your preference. 
 
-* Ensure your chumby is activated, on the network and fully operational with the latest firmware (v1.0.7) prior to using the offline firmware. 
+* Ensure your chumby is activated, on the network and fully operational with the included firmware (update.zip) prior to using this offline firmware. 
 
 * Although you do not need to activate your chumby and can run this offline firmware completely without a network, for a first time installation both network and activated chumby are recommended to make life simple. For operating in network-less environments please delete the file autoreboot.on from the chumby storage root. 
 

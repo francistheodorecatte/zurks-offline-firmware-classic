@@ -1,11 +1,12 @@
+#!/bin/sh
 if [ -f /mnt/usb/foistrun ]; then
 	cp -a /psp/ts_settings /mnt/usb/psp
 	cp -a /psp/timezone /mnt/usb/psp
 	cp -a /psp/timezone_city /mnt/usb/psp
 	cp -a /psp/clock_format /mnt/usb/psp
 	cp -a /psp/network_config /mnt/usb/psp
+	rm -f /mnt/usb/foistrun
 fi
 mount /mnt/usb/psp -o bind /psp
-rm -f /mnt/usb/foistrun
 sync
 nice -n -20 /usr/sbin/httpd -h /mnt/usb/www -c /psp/httpd.conf

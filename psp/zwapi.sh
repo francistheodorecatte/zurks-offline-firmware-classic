@@ -110,9 +110,8 @@ if [ ! -e /tmp/zwapi.lock ]; then
 		sync
 		/usr/chumby/scripts/reboot_normal.sh
 	fi
-fi
-rm -f /mnt/storage/widgetcache/*
-rm -f /tmp/zwapi.lock
+	rm -f /mnt/storage/widgetcache/*
+	rm -f /tmp/zwapi.lock
 else
 	echo locked >>/mnt/usb/orangebox.txt
 fi
