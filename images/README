@@ -1,0 +1,8 @@
+NOTE:
+disk images are compressed with gzip.
+
+on linux uncompress with gunzip like so:
+gunzip chumby_test.img.gz
+
+on linux compress using pigz like so:
+GZIP_OPT=-9 pigz chumby_test.img
