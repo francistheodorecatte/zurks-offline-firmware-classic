@@ -24,6 +24,7 @@ else
 	sync
 	/mnt/usb/TalkingChumby/say.sh "Welcome to Zurk's Chumby Offline Firmware v 34 in networkless mode"
 fi
+touch /mnt/usb/tmp/write.ok
 if [ -f /mnt/usb/tmp/write.ok ]; then
 	sync
 else
